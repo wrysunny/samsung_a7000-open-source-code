@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<resources>
+
+    <style name="InCallTouchToggleButtonNoFrame">
+        <item name="android:gravity">center_horizontal</item>
+        <item name="android:layout_width">1dip</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:layout_height">45dip</item>
+        <item name="android:layout_marginTop">0dip</item>
+        <item name="android:layout_marginBottom">0dip</item>
+        <item name="android:layout_marginLeft">6dip</item>
+        <item name="android:layout_marginRight">7dip</item>
+        <item name="android:paddingTop">7dip</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:textStyle">normal</item>
+        <item name="android:shadowDx">-1</item>
+        <item name="android:shadowDy">-1</item>
+        <item name="android:shadowRadius">0.3</item>
+        <!-- item name="android:shadowColor">@touchwiz:color/twcolor002</item -->
+    </style>
+
+    <!-- Player Seekbar -->
+    <style name="player_seekbar">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:gravity">center</item>
+        <item name="android:thumbOffset">@dimen/play_seekbar_thumb_offset</item>
+        <item name="android:progressBackgroundTint">@color/progressbarbg_tint_color</item>
+        <item name="android:progressTint">@color/progressbar_tint_color</item>
+        <item name="android:secondaryProgressTint">@color/secondaryprogressbar_tint_color</item>
+        <item name="android:thumbTint">@color/progressthumb_tint_color</item>
+    </style>
+
+    <!-- No indicator -->
+    <style name="Theme.HybridRadio.Default" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:actionModeCloseButtonStyle">@style/ActionbarIconDisable</item>
+        <item name="android:actionBarStyle">@style/HybridRadioActionBar</item>
+        <item name="android:actionModeStyle">@style/HybridRadioActionMode</item>
+        <item name="android:actionMenuTextColor">@color/actionbar_menu_text_color</item>
+        <item name="colorControlActivated">?android:colorControlActivated</item>
+        <item name="editTextStyle">@style/EditTextSamsungStyle</item>
+    <!--item name="android:icon">@android:color/transparent</item-->
+    </style>
+
+    <!-- No indicator, No actionBar -->
+    <style name="Theme.HybridRadio.Default.NoActionBar" parent="@android:style/Theme.DeviceDefault.Light">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="colorControlActivated">?android:colorControlActivated</item>
+        <item name="editTextStyle">@style/EditTextSamsungStyle</item>
+    </style>
+
+        <!-- No indicator, No actionBar -->
+    <style name="Theme.HybridRadio.Default.MainActivity" parent="@style/Theme.HybridRadio.Default">
+       <item name="android:actionBarStyle">@style/HybridRadioActionBar_MAINACTIVITY</item>
+    </style>
+
+    <style name="Theme.HybridRadio.Settings" parent="@style/Theme.HybridRadio.Default">
+        <!--item name="android:dividerHeight">0.5dp</item-->
+        <item name="android:maxHeight">51dp</item>
+    </style>
+
+    <style name="Dialog" parent="touchwiz:style/TwAlertDialog">
+        <item name="android:windowBackground">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+    </style>
+
+    <style name="Frequency">
+        <item name="android:textSize">85dp</item>
+        <item name="android:gravity">right</item>
+        <item name="android:textColor">@color/channel_frequency_text</item>
+    </style>
+
+    <style name="ActionbarIconDisable" parent="@android:style/Widget.DeviceDefault.ActionButton.CloseMode">
+        <item name="android:visibility">gone</item>
+    </style>
+
+    <style name="HybridRadioActionBar" parent="@android:style/Widget.DeviceDefault.Light.ActionBar">
+        <item name="android:contentInsetStart">0dp</item>
+        <item name="android:contentInsetEnd">0dp</item>
+        <item name="android:background">@color/actionbar_bg_color</item>
+        <item name="android:elevation">1dp</item>
+        <item name="android:titleTextStyle">@style/ActionBarTitleText</item>
+        <item name="android:homeAsUpIndicator">@drawable/actionbar_ic_ab_back</item>
+    </style>
+
+    <style name="HybridRadioActionBar_MAINACTIVITY" parent="@style/HybridRadioActionBar">
+        <item name="android:titleTextStyle">@style/ActionBarTitleText_MAINACTIVITY</item>
+    </style>
+
+    <style name="HybridRadioActionMode" parent="@android:style/Widget.DeviceDefault.ActionMode">
+        <item name="android:background">@color/actionbar_bg_color</item>
+        <item name="android:elevation">1dp</item>
+    </style>
+
+    <style name="ActionBarTitleText" parent="@android:style/TextAppearance.DeviceDefault.Widget.ActionBar.Title">
+       <item name="android:textColor">@color/actionbar_title_text_color</item>
+    </style>
+
+    <style name="ActionBarTitleText_MAINACTIVITY" parent="@style/ActionBarTitleText">
+       <item name="android:textColor">@android:color/transparent</item>
+    </style>
+
+    <style name="EditTextSamsungStyle" parent="Widget.AppCompat.EditText"></style>
+</resources>

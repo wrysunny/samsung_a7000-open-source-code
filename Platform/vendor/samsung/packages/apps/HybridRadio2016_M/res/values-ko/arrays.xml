@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><resources>	<string-array name="barge_in_commands">        <item>다음</item> <!-- Next -->        <item>이전</item> <!-- Previous -->        <item>중지</item> <!-- Pause -->        <item>재생</item> <!-- Play -->        <item>소리 크게</item> <!-- Volume Up -->        <item>소리 작게</item> <!-- Volume Down -->    </string-array></resources>

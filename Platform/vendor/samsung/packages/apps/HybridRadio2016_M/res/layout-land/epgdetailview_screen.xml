@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/pager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" />
+
+    <LinearLayout
+        android:id="@+id/card_list_bottom_button"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/epg_bottom_layout_height"
+        android:background="@drawable/hybrid_radio_list_view_bg_01"
+        android:gravity="center_vertical" >
+
+        <ImageView
+            android:id="@+id/prev_time"
+            android:layout_width="@dimen/epg_bottom_btn_width"
+            android:layout_height="@dimen/epg_bottom_btn_height"
+            android:layout_marginLeft="@dimen/epg_bottom_btn_side_margin"
+            android:clickable="true"
+            android:contentDescription="@string/tts_previous_button"
+            android:focusable="true"
+            android:gravity="center_vertical"
+            android:src="@drawable/epg_left_arrow" />
+
+        <TextView
+            android:id="@+id/current_time"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:shadowDy="-1"
+            android:textColor="@color/black"
+            android:textSize="@dimen/epg_playtime_text_size"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/next_time"
+            android:layout_width="@dimen/epg_bottom_btn_width"
+            android:layout_height="@dimen/epg_bottom_btn_height"
+            android:layout_marginRight="@dimen/epg_bottom_btn_side_margin"
+            android:clickable="true"
+            android:contentDescription="@string/tts_Next_button"
+            android:focusable="true"
+            android:gravity="center"
+            android:src="@drawable/epg_right_arrow" />
+    </LinearLayout>
+
+</LinearLayout>

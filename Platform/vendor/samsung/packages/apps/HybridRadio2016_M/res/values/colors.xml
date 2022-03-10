@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        Copyright (C) 2007 The Android Open Source Project Licensed under the
+        Apache License, Version 2.0 (the "License"); you may not use this file
+        except in compliance with the License. You may obtain a copy of the
+        License at http://www.apache.org/licenses/LICENSE-2.0 Unless required
+        by applicable law or agreed to in writing, software distributed under
+        the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+        CONDITIONS OF ANY KIND, either express or implied. See the License for
+        the specific language governing permissions and limitations under the
+        License.
+-->
+
+<resources>
+
+    <color name="main_bg_color">#fafafa</color>
+    <color name="tw_color002">#ff000000</color>
+    <color name="color1">#ffffffff</color>
+    <color name="color4">#ff6b6f72</color>
+    <color name="color6">#ff3386a6</color>
+
+    <!-- TOUCHWIZFRAMEWORKEND -->
+    <color name="white">#fffafafa</color>
+    <color name="twtransparent">#00000000</color>
+
+    <!-- NEW -->
+    <color name="rec_text_recording">#cc0b0b</color>
+    <color name="rec_text_pause">#b2b2b2</color>
+    <color name="rec_time">#252525</color>
+    <color name="channel_frequency_text">#000000</color>
+    <color name="channel_name_text">#838688</color>
+    <color name="channel_frequency_text_playing">@color/tab_selected</color>
+    <color name="widget_freq_name_text_shadow">#7F000000</color>
+    <color name="widget_favorite_text_shadow">#74000000</color>
+    <color name="widget_text_freq_focus">#0bbfe6</color>
+    <color name="widget_text_freq_normal">#fafafa</color>
+    <color name="widget_text_freq_normal_50">#7ffafafa</color>
+    <color name="widget_sub_text_freq_normal">#4abfef</color>
+    <color name="widget_bg_black">#26000000</color>
+    <color name="widget_bg_white_12">#1fb6b6b6</color>
+    <color name="no_item">#499ebd</color>
+    <color name="black">#ff000000</color>
+    <color name="black_75">#00333d</color>
+
+    <!-- EPG Detail View -->
+    <color name="epg_detail_blue_text">#4fbfff</color>
+
+    <!-- player pannel -->
+    <color name="player_play_time_color">#ffffff</color>
+    <color name="player_full_time_color">#ffffff</color>
+    <color name="center_default_ripple_color">#33000000</color>
+
+    <!-- Recorded file list view -->
+    <color name="frequency_display_view_bg_off">#3386a6</color>
+    <color name="recodings_controller_bg">@color/frequency_display_view_bg_off</color>
+    <color name="recodings_controller_play_time">#f5f5f5</color>
+    <color name="recodings_controller_full_time">#f5f5f5</color>
+    <color name="listview_top_item_color">#000000</color>
+    <color name="listview_bottom_item_color">#86898b</color>
+    <color name="listview_item_highlighted_color">#0bbfe6</color>
+
+    <!-- Quick Panel Color -->
+    <color name="quick_radio_btn_bg_normal">#8ca4b8</color>
+    <color name="quick_radio_recording_btn_bg_normal">#ed6b4d</color>
+    <color name="quick_radio_ripple_color">#26000000</color>
+    <color name="quick_panel_title_color">#252525</color>
+    <color name="quick_panel_text_color">#435463</color>
+
+    <color name="dialog_body_text">#545454</color>
+
+    <!-- actionbar  -->
+    <color name="actionbar_bg_color">#f6f6f6</color>
+    <color name="tw_color_back_material_toolbar">#8a8a8a</color>
+    <color name="actionbar_menu_text_color">#8a8a8a</color>
+    <color name="actionbar_title_text_color">#8a8a8a</color>
+
+    <!-- Progress bar color -->
+    <color name="progressbarbg_tint_color">#50f5f5f5</color>
+    <color name="progressbar_tint_color">#f5f5f5</color>
+    <color name="secondaryprogressbar_tint_color">#50b4bcc0</color>
+    <color name="progressthumb_tint_color">#f5f5f5</color>
+
+    <!-- favourite stations color -->
+    <color name="favorite_text_normal_frequency_color">@color/tab_unselected</color>
+    <color name="favorite_text_playing_frequency_color">@color/tab_selected</color>
+
+    <!-- Amoled tint color -->
+    <color name="white_tint_color">#fafafa</color>
+    <color name="play_pause_tint_color">#ffffff</color>
+
+    <!-- need dark color -->
+    <color name="need_dark_bg">#444444</color>
+    <color name="need_dark_bg_50">#7f444444</color>
+    <color name="need_dark_select_bg">#0bbfe6</color>
+
+    <!-- Tab color -->
+    <color name="tab_selected">#48b2e5</color>
+    <color name="tab_unselected">#8a8a8a</color>
+    <color name="tab_layout_bg_color">#fafafa</color>
+
+    <!-- Button text color -->
+    <color name="scan_text_color">#48b2e5</color>
+
+    <!-- Divider color -->
+    <color name="bottom_line_color">#d6d6d6</color>
+    <color name="list_divider_color">#cecece</color>
+
+    <!-- Vis Screen -->
+    <color name="vis_text_color">#000000</color>
+</resources>

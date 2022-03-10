@@ -1,0 +1,816 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/controller"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_controller_height"
+        android:orientation="horizontal"
+        android:weightSum="343">
+
+        <FrameLayout 
+            android:layout_width="0dp"
+            android:layout_weight="8"
+            android:layout_height="match_parent"/>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="250"
+            android:layout_height="match_parent"
+            android:layoutDirection="ltr"
+            android:orientation="vertical">
+
+            <LinearLayout 
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34" >
+
+                    <ImageView
+                        android:id="@+id/ic_arrow_left"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:layout_marginTop="@dimen/widget_ic_arrow_power_margintop"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:layout_gravity="center_horizontal"
+                        android:clickable="true"
+                        android:scaleType="fitStart"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/widget_arrow_btn_prev" />
+                </FrameLayout>
+
+                <LinearLayout
+                    android:id="@+id/layout_frequency"
+                    android:layout_width="0dp"
+                    android:layout_weight="182"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="@dimen/widget_layout_frequency_marginbottom"
+                    android:layout_marginTop="@dimen/widget_txt_frequency_margintop"
+                    android:gravity="center_horizontal"
+                    android:layoutDirection="ltr" >
+
+                    <TextView
+                        android:id="@+id/txt_frequency"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginEnd="@dimen/widget_txt_frequency_marginright"
+                        android:gravity="center_vertical"
+                        android:singleLine="true"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:shadowColor="#80000000"
+                        android:shadowDy="1"
+                        android:textSize="@dimen/widget_txt_frequency_textsize"
+                        android:fontFamily="samsung-neo-num3T"/>
+
+                    <RelativeLayout
+                        android:id="@+id/layout_fav"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:paddingTop="1dp"
+                        android:orientation="vertical">
+
+
+                        <ImageView
+                            android:id="@+id/widget_star"
+                            android:layout_width="28dp"
+                            android:layout_height="28dp"
+                            android:scaleType="fitStart"
+                            android:background="?android:attr/selectableItemBackgroundBorderless"
+                            android:layout_alignParentTop="true"
+                            android:layout_marginBottom="@dimen/widget_widget_star_marginBottom"
+                            android:src="@drawable/radio_favorite_btn_normal"
+                            android:visibility="visible"/>
+
+                        <TextView
+                            android:id="@+id/txt_mhz"
+                            android:layout_width="wrap_content"
+                            android:layout_height="23dp"
+                            android:layout_below="@+id/widget_star"
+                            android:layout_centerHorizontal="true"
+                            android:gravity="center"
+                            android:text="@string/mhz"
+                            android:textColor="@color/widget_text_freq_normal"
+                            android:shadowColor="#80000000"
+                            android:shadowDy="1"
+                            android:textSize="@dimen/widget_txt_mhz_textsize"
+                            android:includeFontPadding="false"
+                            android:fontFamily="sec-roboto-light"/>
+                    </RelativeLayout>
+                </LinearLayout>
+                <FrameLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="34" >
+                    <ImageView
+                        android:id="@+id/ic_arrow_right"
+                        android:layout_width="34dp"
+                        android:layout_height="34dp"
+                        android:layout_marginTop="@dimen/widget_ic_arrow_power_margintop"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:layout_gravity="center_horizontal"
+                        android:clickable="true"
+                        android:scaleType="fitStart"
+                        android:adjustViewBounds="true"
+                        android:src="@drawable/widget_arrow_btn_next" />
+                </FrameLayout>
+            </LinearLayout>
+            <RelativeLayout
+                android:id="@+id/txt_below_frequency_layout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:paddingStart="@dimen/widget_txt_turn_on_paddingleft"
+                android:paddingEnd="@dimen/widget_txt_turn_on_paddingright">
+
+                <TextView
+                    android:id="@+id/txt_turn_on"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_horizontal"
+                    android:textColor="@color/widget_text_freq_normal_50"
+                    android:textSize="@dimen/widget_txt_turn_on_textsize"
+                    android:singleLine="true"
+                    android:visibility="gone" />
+
+                <LinearLayout
+                    android:id="@+id/txt_freq_name_layout"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="horizontal" >
+
+                    <TextView
+                        android:id="@+id/txt_freq_name"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:singleLine="true"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:shadowColor="#80000000"
+                        android:shadowDy="1"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_txt_freq_name_textsize" />
+
+                    <TextView
+                        android:id="@+id/txt_freq_divider"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginStart="@dimen/widget_txt_freq_divider_marginleft"
+                        android:layout_marginEnd="@dimen/widget_txt_freq_divider_marginright"
+                        android:textSize="@dimen/widget_txt_freq_name_textsize"
+                        android:text="@string/widget_text_frequency_divider"
+                        android:shadowColor="#80000000"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:fontFamily="sec-roboto-light"
+                        android:visibility="gone" />
+
+                    <TextView
+                        android:id="@+id/txt_freq_rt"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:ellipsize="marquee"
+                        android:marqueeRepeatLimit="marquee_forever"
+                        android:selectAllOnFocus="true"
+                        android:singleLine="true"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:shadowColor="#80000000"
+                        android:shadowDy="1"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_txt_freq_rt_textsize" />
+                </LinearLayout>
+            </RelativeLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="85"
+            android:orientation="horizontal">
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="21" />
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="34" >
+                <ImageView
+                    android:id="@+id/ic_power_off"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/widget_ic_arrow_power_margintop"
+                    android:clickable="true"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitStart"
+                    android:adjustViewBounds="true"
+                    android:src="@drawable/widget_power_off_btn"
+                    android:visibility="visible" />
+
+                <ImageView
+                    android:id="@+id/ic_power_on"
+                    android:layout_width="34dp"
+                    android:layout_height="34dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="@dimen/widget_ic_arrow_power_margintop"
+                    android:clickable="true"
+                    android:scaleType="fitStart"
+                    android:adjustViewBounds="true"
+                    android:background="@android:color/transparent"
+                    android:src="@drawable/widget_power_on_btn"
+                    android:visibility="gone" />
+            </FrameLayout>
+            <FrameLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="30" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/widget_span1"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".33"
+            android:minHeight="@dimen/widget_favorite_list_height"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <FrameLayout
+                android:id="@+id/widget_fav01"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/widget_fav01_add"
+                    android:layout_width="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_height="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/radio_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav01_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:background="?android:attr/selectableItemBackgroundBorderless">
+
+                    <TextView
+                        android:id="@+id/widget_fav01_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="@dimen/widget_favorite_freqmhz_textsize"
+                        android:fontFamily="sec-roboto-light"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/widget_fav01_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_favorite_freqname_textsize" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/widget_fav02"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/widget_fav02_add"
+                    android:layout_width="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_height="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/radio_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav02_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:background="?android:attr/selectableItemBackgroundBorderless">
+
+                    <TextView
+                        android:id="@+id/widget_fav02_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="@dimen/widget_favorite_freqmhz_textsize"
+                        android:fontFamily="sec-roboto-light"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/widget_fav02_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_favorite_freqname_textsize" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/widget_fav03"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/widget_fav03_add"
+                    android:layout_width="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_height="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/radio_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav03_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:background="?android:attr/selectableItemBackgroundBorderless" >
+
+                    <TextView
+                        android:id="@+id/widget_fav03_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="@dimen/widget_favorite_freqmhz_textsize"
+                        android:fontFamily="sec-roboto-light"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/widget_fav03_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_favorite_freqname_textsize" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/widget_fav04"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/widget_fav04_add"
+                    android:layout_width="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_height="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/radio_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav04_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:background="?android:attr/selectableItemBackgroundBorderless" >
+
+                    <TextView
+                        android:id="@+id/widget_fav04_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="@dimen/widget_favorite_freqmhz_textsize"
+                        android:fontFamily="sec-roboto-light"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/widget_fav04_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_favorite_freqname_textsize" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget_span2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".33"
+            android:minHeight="@dimen/widget_favorite_list_height"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <FrameLayout
+                android:id="@+id/widget_fav05"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/widget_fav05_add"
+                    android:layout_width="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_height="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/radio_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav05_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:background="?android:attr/selectableItemBackgroundBorderless" >
+
+                    <TextView
+                        android:id="@+id/widget_fav05_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="@dimen/widget_favorite_freqmhz_textsize"
+                        android:fontFamily="sec-roboto-light"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/widget_fav05_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_favorite_freqname_textsize" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/widget_fav06"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/widget_fav06_add"
+                    android:layout_width="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_height="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/radio_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav06_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:background="?android:attr/selectableItemBackgroundBorderless">
+
+                    <TextView
+                        android:id="@+id/widget_fav06_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="@dimen/widget_favorite_freqmhz_textsize"
+                        android:fontFamily="sec-roboto-light"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/widget_fav06_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_favorite_freqname_textsize" />
+                </LinearLayout>
+             </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/widget_fav07"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/widget_fav07_add"
+                    android:layout_width="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_height="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/radio_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav07_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:background="?android:attr/selectableItemBackgroundBorderless" >
+
+                    <TextView
+                        android:id="@+id/widget_fav07_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="@dimen/widget_favorite_freqmhz_textsize"
+                        android:fontFamily="sec-roboto-light"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/widget_fav07_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_favorite_freqname_textsize" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/widget_fav08"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/widget_fav08_add"
+                    android:layout_width="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_height="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/radio_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav08_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:background="?android:attr/selectableItemBackgroundBorderless" >
+
+                    <TextView
+                        android:id="@+id/widget_fav08_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="@dimen/widget_favorite_freqmhz_textsize"
+                        android:fontFamily="sec-roboto-light"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/widget_fav08_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_favorite_freqname_textsize" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/widget_span3"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".33"
+            android:minHeight="@dimen/widget_favorite_list_height"
+            android:baselineAligned="false"
+            android:orientation="horizontal"
+            android:visibility="gone" >
+
+            <FrameLayout
+                android:id="@+id/widget_fav09"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/widget_fav09_add"
+                    android:layout_width="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_height="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/radio_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav09_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:background="?android:attr/selectableItemBackgroundBorderless" >
+
+                    <TextView
+                        android:id="@+id/widget_fav09_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="@dimen/widget_favorite_freqmhz_textsize"
+                        android:fontFamily="sec-roboto-light"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/widget_fav09_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_favorite_freqname_textsize" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/widget_fav10"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/widget_fav10_add"
+                    android:layout_width="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_height="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/radio_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav10_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:background="?android:attr/selectableItemBackgroundBorderless" >
+
+                    <TextView
+                        android:id="@+id/widget_fav10_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="@dimen/widget_favorite_freqmhz_textsize"
+                        android:fontFamily="sec-roboto-light"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/widget_fav10_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_favorite_freqname_textsize" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/widget_fav11"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/widget_fav11_add"
+                    android:layout_width="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_height="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/radio_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav11_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:background="?android:attr/selectableItemBackgroundBorderless" >
+
+                    <TextView
+                        android:id="@+id/widget_fav11_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="@dimen/widget_favorite_freqmhz_textsize"
+                        android:fontFamily="sec-roboto-light"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/widget_fav11_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_favorite_freqname_textsize" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <FrameLayout
+                android:id="@+id/widget_fav12"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1" >
+
+                <ImageView
+                    android:id="@+id/widget_fav12_add"
+                    android:layout_width="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_height="@dimen/widget_favorite_radio_icon_size"
+                    android:layout_gravity="center"
+                    android:scaleType="fitCenter"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/radio_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav12_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical"
+                    android:background="?android:attr/selectableItemBackgroundBorderless" >
+
+                    <TextView
+                        android:id="@+id/widget_fav12_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="@dimen/widget_favorite_freqmhz_textsize"
+                        android:fontFamily="sec-roboto-light"
+                        android:textStyle="normal" />
+
+                    <TextView
+                        android:id="@+id/widget_fav12_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:fontFamily="sec-roboto-light"
+                        android:textSize="@dimen/widget_favorite_freqname_textsize" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

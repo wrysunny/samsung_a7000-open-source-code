@@ -1,0 +1,275 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+*/
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IDS_FM_POP_UNABLE_TO_TURN_ON_FM_RADIO -->
+    <string name="toast_fm_not_played">לא ניתן להפעיל רדיו FM</string>
+    <!-- IDS_FM_POP_EARPHONE_REMOVED_RADIO_TURNED_OFF -->
+    <string name="headset_disconnect">האוזנייה הוסרה. הרדיו יכובה</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_RENAME -->
+    <string name="toast_tap_to_rename">הקש על התדר כדי לשנות את השם</string>
+    <!-- IDS_FM_POP_INVALID_FREQUENCY -->
+    <string name="toast_channel_invalid">תדר לא חוקי</string>
+    <!-- IDS_FM_POP_TUNING_TO_P1SDP2SD_MHZ_ING -->
+    <string name="toast_tune">מכוון ל-%1$d.%2$d MHz...</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_REMOVE -->
+    <string name="toast_tap_to_remove">הקש על התדר כדי להסיר</string>
+    <!-- IDS_FM_POP_BUSY_TUNING_IN_ING -->
+    <string name="toast_busy_tunning">לא פנוי. עסוק בכוונון...</string>
+    <!-- IDS_FM_POP_NO_FAVOURITE_STATIONS_SAVED -->
+    <string name="toast_no_fav_channel">לא נשמרו תחנות מועדפות</string>
+    <!-- IDS_FM_POP_ALREADY_SCANNING_ING -->
+    <string name="toast_already_scan">כבר סורק...</string>
+    <!-- IDS_IM_POP_UNABLE_TO_RENAME -->
+    <string name="toast_rename_error">לא ניתן לשנות שם</string>
+    <!-- IDS_FM_POP_FREQUENCY_PDPD_MHZ_IS_NOW_PLAYING -->
+    <string name="toast_already_playing">מנגן כעת %1$d.%2$d MHz תדר</string>
+    <!-- IDS_WIFI_POP_PROFILECONNECTION_CANCELLING -->
+    <string name="dialog_cancel_scan">מבטל...</string>
+    <!-- IDS_AV_POP_SCANNING_ING -->
+    <string name="dialog_scan">סורק...</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_MINUTES -->
+    <string name="alarm_text1">רדיו FM יכבה לאחר %d דקות</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_1_HOUR -->
+    <string name="alarm_text2">רדיו FM יכבה לאחר שעה אחת</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_HOURS -->
+    <string name="alarm_text3">רדיו FM יכבה לאחר %d שעות</string>
+    <!-- IDS_FM_POP_STATION_ALREADY_EXISTS_ADD_ANOTHER_STATION -->
+    <string name="toast_already_added">התחנה כבר קיימת. הוסף תחנה אחרת</string>
+    <!-- IDS_FM_POP_P1SDP2SD_MHZ_STATION_FOUND_TOTAL_NUMBER_OF_STATIONS_FOUND_C_P3SD -->
+    <string name="dialog_channel_found">נמצאה תחנת ‎%1$d.%2$d MHz. מספר התחנות שנמצאו: %3$d</string>
+    <!-- IDS_FM_POP_P1SDP2SD_MHZ_STATION_FOUND_TOTAL_NUMBER_OF_STATIONS_FOUND_C_1 -->
+    <string name="dialog_channel_one_found">נמצאה תחנת ‎%1$d.%2$d MHz. מספר התחנות שנמצאו: 1</string>
+    <!-- IDS_FM_POP_PS_MHZ_STATION_FOUND_TOTAL_NUMBER_OF_STATIONS_FOUND_C_PD -->
+    <string name="dialog_channel_found_south_region">נמצאה תחנת %1$s MHz. מספר התחנות שנמצאו: %2$d</string>
+    <!-- IDS_FM_POP_PS_MHZ_STATION_FOUND_TOTAL_NUMBER_OF_STATIONS_FOUND_C_1 -->
+    <string name="dialog_channel_one_found_south_region">נמצאה תחנת %s MHz. מספר התחנות שנמצאו: 1</string>
+    <!-- IDS_FM_POP_PD_STATIONS_FOUND_WHILE_SCANNING -->
+    <string name="toast_channel_found">נמצאו %d תחנות במהלך הסריקה</string>
+    <!-- IDS_FM_POP_1_STATION_FOUND_WHILE_SCANNING -->
+    <string name="toast_one_channel_found">נמצאה תחנה 1 במהלך הסריקה</string>
+    <!-- IDS_FM_POP_TURN_FM_RADIO_ON -->
+    <string name="toast_on_alert">הפעל רדיו FM</string>
+    <!-- IDS_COM_BODY_FM_RADIO_T_MAINMENU -->
+    <string name="app_name">רדיו FM</string>
+    <!-- IDS_MSGF_BODY_CBS_ALL_CHANNELS -->
+    <string name="channels">כל הערוצים</string>
+    <!-- IDS_CHATON_SK_RECORD -->
+    <string name="record">הקלט</string>
+    <!-- IDS_KA_HEADER_SCAN -->
+    <string name="scan">סרוק</string>
+    <!-- IDS_MEDIABR_OPT_REMOVE -->
+    <string name="remove">הסר</string>
+    <!-- IDS_FM_OPT2_GO_TO_RECORDING_FILES -->
+    <string name="recordingfile">עבור להקלטת קבצים</string>
+    <!-- IDS_CHATON_HEADER_SETTINGS -->
+    <string name="settings">הגדרות</string>
+    <!-- IDS_FM_HEADER_STATIONS -->
+    <string name="allchannels">תחנות</string>
+    <!-- IDS_LP_SK3_OK -->
+    <string name="ok">אישור</string>
+    <!-- IDS_KC_OPT_CANCEL -->
+    <string name="cancel">ביטול</string>
+    <!-- IDS_SIDL_BODY_EUROPE_BBC -->
+    <string name="europe_region">Europe</string>
+    <!-- IDS_FM_BODY_USA -->
+    <string name="usa_region">ארצות הברית</string>
+    <!-- IDS_FM_BODY_SOUTHEAST_ASIA -->
+    <string name="southeast_asia_region">דרום מזרח אסיה</string>
+    <!-- IDS_CHATON_SK3_RENAME -->
+    <string name="rename">שנה שם</string>
+    <!-- IDS_CHATON_HEADER_ENTER_NAME -->
+    <string name="rename_text">הזן שם</string>
+    <!-- IDS_KA_BUTTON_DONE -->
+    <string name="done">סיום</string>
+    <!-- IDS_FM_OPT_REPLACE -->
+    <string name="replace">החלף</string>
+    <!-- IDS_FM_BODY_MHZ -->
+    <string name="mhz">MHz</string>
+    <!-- IDS_JAVA_BODY_PIM_CONTACT_REGION -->
+    <string name="setting_region">אזור</string>
+    <!-- IDS_FM_BODY_SETTING_BACKGROUND_PLAYING_ABB -->
+    <string name="setting_backgroud_playing">הפעלה ברקע</string>
+    <!-- IDS_FM_BODY_SHOW_STATIONID_ABB -->
+    <string name="setting_sationid">הצג מזהה תחנה</string>
+    <!-- IDS_FM_BODY_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af">תדר חלופי</string>
+    <!-- IDS_FM_BODY_FM_AUTO_OFF -->
+    <string name="setting_autooff">אוטומטי FM כיבוי רדיו</string>
+    <!-- IDS_FM_BODY_FM_RADIO_WILL_PLAY_IN_BACKGROUND_AFTER_CLOSING_APPLICATION -->
+    <string name="setting_bgplaying_summary">רדיו FM יפעל ברקע לאחר סגירת היישום</string>
+    <!-- IDS_FM_BODY_STATION_INFORMATION_WILL_BE_SHOWN -->
+    <string name="setting_stationid_summary">יוצגו פרטי תחנה</string>
+    <!-- IDS_FM_BODY_TURN_ON_OFF_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af_summary">הפעל/כבה תדר חלופי</string>
+    <!-- IDS_FM_BODY_FM_RADIO_AUTO_ON_OFF -->
+    <string name="setting_autooff_summary">רדיו FM אוטומטי פועל/כבוי</string>
+    <!-- IDS_WGT_HEADER_SELECT_REGIONS -->
+    <string name="setting_setregion">בחר אזורים</string>
+    <!-- IDS_SIDL_BODY_EUROPE_BBC -->
+    <string name="setting_europe">Europe</string>
+    <!-- IDS_WCL_BODY_JAPAN -->
+    <string name="setting_japan">יפן</string>
+    <!-- IDS_PRAY_OPT_USA_M_COUNTRYNAME -->
+    <string name="setting_usa">ארצות הברית</string>
+    <!-- IDS_MSGF_BODY_OFF_M_DISABLE -->
+    <string name="setting_off">כבוי</string>
+    <!-- IDS_MUSIC_OPT_AFTER_15_MIN_ABB -->
+    <string name="setting_15min">לאחר 15 דקות</string>
+    <!-- IDS_FM_BODY_FMRADIOAUTOONOFF_AFTER_30_MINS -->
+    <string name="setting_30min">לאחר 30 דק\'</string>
+    <!-- IDS_TDMB_BODY_AFTER_1_HOUR -->
+    <string name="setting_hour">לאחר שעה</string>
+    <!-- IDS_TDMB_BODY_AFTER_2_HOURS -->
+    <string name="setting_2hour">לאחר שעתיים</string>
+    <!-- IDS_MT_BUTTON_SAVE -->
+    <string name="save">שמור</string>
+    <!-- IDS_MSGF_BODY_NO_CHANNELS -->
+    <string name="toast_channel_empty">אין ערוצים</string>
+    <!-- IDS_COACH_POP_EARPHONE_NOT_CONNECTED -->
+    <string name="toast_earphone_not_connected">אוזנייה לא מחוברת</string>
+    <!-- IDS_FM_OPT_AUTO_SCAN -->
+    <string name="dialog_autoscan">סריקה אוטומטית</string>
+    <!-- IDS_FM_POP_STARTING_AUTO_SCAN_ING -->
+    <string name="toast_initial_access">מתחיל בסריקה אוטומטית...</string>
+    <!-- IDS_FM_HEADER_SCAN_RESULT -->
+    <string name="scan_result">תוצאת סריקה</string>
+    <!-- IDS_CHATON_SK3_RENAME -->
+    <string name="rename_channel">שנה שם</string>
+    <!-- IDS_KA_HEADER_ALERT -->
+    <string name="alert">התראה</string>
+    <!-- IDS_CHATON_BODY_FAVOURITES -->
+    <string name="fav_channel">מועדפים</string>
+    <!-- IDS_MSGF_BODY_CBS_ALL_CHANNELS -->
+    <string name="menu_refersh_all">כל הערוצים</string>
+    <!-- IDS_FM_OPT_RETAINING_FAVOURITES -->
+    <string name="menu_refresh">מועדפים על שמור</string>
+    <!-- IDS_FM_DROP_30 -->
+    <string name="number_30">30</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_1 -->
+    <string name="number_1">1</string>
+    <!-- IDS_CCD_BODY_TIMERDIGIT_2 -->
+    <string name="number_2">2</string>
+    <!-- IDS_FM_POP_AUTO_FM_RADIO_OFF_PD_MIN_PASSED -->
+    <string name="alrm_15_min_past">רדיו FM אוטומטי כבוי. עברו %d דקות</string>
+    <!-- IDS_FM_POP_AUTO_FM_RADIO_OFF_PD_MIN_PASSED -->
+    <string name="alrm_30_min_past">רדיו FM אוטומטי כבוי. עברו %d דקות</string>
+    <!-- IDS_FM_POP_AUTO_FM_RADIO_OFF_1_HOUR_PASSED -->
+    <string name="alrm_1_hr_past">רדיו FM אוטומטי כבוי. עברה שעה</string>
+    <!-- IDS_FM_POP_AUTO_FM_RADIO_OFF_PD_HOUR_PASSED -->
+    <string name="alrm_2_hrs_past">רדיו FM אוטומטי כבוי. עברו %d שעות</string>
+    <!-- IDS_FM_SK3_SCAN_FOR_STATIONS -->
+    <string name="scan_channels">סרוק אחר תחנות</string>
+    <!-- IDS_CAST_MBODY_SELECT_ALL -->
+    <string name="selectall">בחר הכל</string>
+    <!-- IDS_VVM_POP_SELECT_AT_LEAST_ONE_ITEM -->
+    <string name="no_channel_selected">בחר לפחות פריט אחד</string>
+    <!-- IDS_FM_POP_UNABLE_TO_USE_FM_RADIO_WHEN_OFFLINE_PROFILE_ACTIVATE -->
+    <string name="toast_airplane_mode">לא ניתן להשתמש ברדיו FM כאשר פרופיל \'לא מקוון\' בשימוש</string>
+    <!-- IDS_ST_BODY_INSTALL_VOICE_DATA_REQUIRED_FOR_SPEECH_SYNTHESIS -->
+    <string name="dialog_tts_confirm">התקן נתוני קול הדרושים עבור הפקת דיבור</string>
+    <!-- IDS_FM_BODY_MODE_SPEAKER -->
+    <string name="speaker">רמקול</string>
+    <!-- IDS_FM_POP_AF_SWITCHING -->
+    <string name="af_switching">מעבר AF</string>
+    <!-- IDS_FM_POP_AF_SWITCHING_IS_IN_PROGRESS_PRESS_BACK_TO_CANCEL -->
+    <string name="af_switching_msg">מעבר AF מתבצע כעת. לחץ על הקודם לביטול</string>
+    <!-- IDS_COM_POP_UNABLE_TO_LAUNCH_APPLICATION_LOW_BATTERY -->
+    <string name="toast_battery_low">לא ניתן להפעיל את היישום. הסוללה חלשה</string>
+    <!-- IDS_FM_POP_AF_NOT_FOUND -->
+    <string name="toast_af_fail">AF לא נמצא</string>
+    <!-- IDS_ST_BODY_PS_DISABLED -->
+    <string name="toast_disabled">%s כבוי</string>
+    <!-- IDS_RDJ_POP_NO_CHANNELS_FOUND -->
+    <string name="toast_no_channel_found">לא נמצאו ערוצים</string>
+    <!-- IDS_CCD_POP_UNAVAILABLE_IN_TV_OUT_MODE -->
+    <string name="toast_unavailable_in_tvout_mode">לא זמין במצב יציאת טלוויזיה</string>
+    <!-- IDS_COM_POP_MESSAGETONE_MUTE -->
+    <string name="mute">השתק</string>
+    <!-- IDS_FB_POP_SEARCHING_ING_FACEBOOK -->
+    <string name="seeking">מחפש...</string>
+    <!-- IDS_COM_MBODY_VIA_EARPHONES -->
+    <string name="via_earphone">באמצעות אוזניות</string>
+    <!-- IDS_FM_IOPT3_VIA_SPEAKER -->
+    <string name="via_speaker">דרך רמקול</string>
+    <!-- IDS_COM_MBODY_NORMAL_FREQUENCY -->
+    <string name="normal_frequency">תדר רגיל</string>
+    <!-- IDS_MH_BUTTON_TAG -->
+    <string name="tag">סקירה</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="stop">עצור</string>
+    <!-- IDS_VR_POP_RECORDING_TMO_US -->
+    <string name="recording">מקליט...</string>
+    <!-- IDS_TDMB_POP_RECORDING_STOPPED_MEMORY_FULL -->
+    <string name="memory_full">הקלטה הופסקה. הזיכרון מלא</string>
+    <!-- IDS_CAM_BODY_CANCEL_RECORDING_Q -->
+    <string name="cancel_recording">לבטל הקלטה?</string>
+    <!-- IDS_FM_BODY_CHANGE_FREQUENCY -->
+    <string name="change_frequency">שנה תדר</string>
+    <!-- IDS_FM_BODY_ENTER_FREQUENCY -->
+    <string name="enter_frequency">הזן תדר</string>
+    <!-- IDS_FM_POP_SAVED_IN_PS_GO_TO_MY_FILES_TO_PLAY -->
+    <string name="saved_go_to_myfiles">נשמר ב-%s. עבור אל ’הקבצים שלי’ כדי להפעיל</string>
+    <string name="dont_show_again">אל תציג שוב</string>
+    <!-- IDS_FM_POP_MAXIMUM_NUMBER_OF_FAVOURITE_STATIONS_H12_REACHED_REMOVE_SOME_FAVOURITE_STATIONS -->
+    <string name="toast_max_favorite">הגעת למספר המרבי של תחנות מועדפות (12). הסר כמה תחנות מועדפות</string>
+    <!-- IDS_MUSIC_POP_LOUD_MUSIC_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_TO_IT_FOR_A_LONG_TIME -->
+    <string name="audio_shock_warning">מוסיקה חזקה עלולה לפגוע בשמיעה אם מאזינים לה למשך זמן רב</string>
+    <!-- IDS_VCALL_POP_FILE_ERROR -->
+    <string name="recording_error">שגיאת קובץ</string>
+    <!-- IDS_CHATON_SK_RECORD -->
+    <string name="desc_record">הקלט</string>
+    <!-- IDS_FM_BODY_VOLUME -->
+    <string name="desc_volume">עוצמת קול</string>
+    <!-- IDS_COACH_BODY_POWER -->
+    <string name="desc_power">סוללה</string>
+    <!-- IDS_DVBH_OPT_PREVIOUS_CHANNEL -->
+    <string name="desc_prev">ערוץ קודם</string>
+    <!-- IDS_FM_BODY_NEXT_STATION -->
+    <string name="desc_next">התחנה הבאה</string>
+    <!-- IDS_FM_POP_VOLUME_CONTROL_NOT_AVAILABLE_WHILE_RECORDING -->
+    <string name="recording_volume_control">בקרת עוצמת הקול אינה זמינה בעת הקלטה</string>
+    <!-- IDS_MS_OPT_START -->
+    <string name="test_start">התחל</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="test_stop">עצור</string>
+    <!-- IDS_NFC_ITAB_TAGS -->
+    <string name="tags">תגיות</string>
+    <!-- IDS_KA_BODY_NOW_PLAYING -->
+    <string name="tags_now_playing">פועל כעת</string>
+    <!-- IDS_KA_BODY_TITLE -->
+    <string name="tags_music_title">כותרת</string>
+    <!-- IDS_CHATON_BUTTON2_ALBUM -->
+    <string name="tags_music_album">אלבום</string>
+    <!-- IDS_KA_BODY_ARTIST -->
+    <string name="tags_music_artist">אמן</string>
+    <!-- IDS_MH_BODY_INFORMATION -->
+    <string name="tags_information">מידע</string>
+    <!-- IDS_KA_BODY_URL -->
+    <string name="tags_information_url">כתובת URL</string>
+    <!-- IDS_CAM_BODY_PROGRAMME -->
+    <string name="tags_programme">תוכנית</string>
+    <!-- IDS_SIDL_SK3_HOME_URL -->
+    <string name="tags_programme_homepage">דף הבית</string>
+    <!-- IDS_VDOE_HEADER_STUDIO -->
+    <string name="tags_interact_studio">Studio</string>
+    <!-- IDS_KA_BODY_OTHER -->
+    <string name="tags_interact_other">אחר</string>
+    <!-- IDS_MSGC_BODY_TEXTSTYLE_ALIGNMENTCENTER -->
+    <string name="tags_interact_centre">מרכז</string>
+</resources>

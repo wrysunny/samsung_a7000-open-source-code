@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- frequency bar -->
+    <dimen name="station_favorite_divider_height">1px</dimen>
+</resources>

@@ -1,0 +1,9 @@
+<merge xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/widget_horizontal_line_height"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/fm_bottom_horizontal_line" />
+
+</merge>

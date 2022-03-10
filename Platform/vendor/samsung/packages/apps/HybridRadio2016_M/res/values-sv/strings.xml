@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+**
+** Created with XMLCompiler2
+*/ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IDS_FM_POP_UNABLE_TO_TURN_ON_PS -->
+    <string name="toast_fm_not_played">Det går inte att slå på %s.</string>
+    <!-- IDS_FM_POP_EARPHONE_REMOVED_RADIO_TURNED_OFF -->
+    <string name="headset_disconnect">Hörsnäcka borttagen. Radion stängs av.</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_RENAME -->
+    <string name="toast_tap_to_rename">Tryck på frekvensen för att byta namn.</string>
+    <!-- IDS_FM_POP_INVALID_FREQUENCY -->
+    <string name="toast_channel_invalid">Ogiltig frekvens.</string>
+    <!-- IDS_FM_POP_TUNING_TO_P1SDP2SD_MHZ_ING -->
+    <string name="toast_tune">Ställer in %1$d.%2$d MHz\u2026</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_REMOVE -->
+    <string name="toast_tap_to_remove">Tryck på frekvensen för att ta bort.</string>
+    <!-- IDS_FM_POP_BUSY_TUNING_IN_ING -->
+    <string name="toast_busy_tunning">Upptagen. Ställer in\u2026</string>
+    <!-- IDS_FM_POP_ALREADY_SCANNING_ING -->
+    <string name="toast_already_scan">Skannar redan\u2026</string>
+    <!-- IDS_IM_POP_UNABLE_TO_RENAME -->
+    <string name="toast_rename_error">Kan inte byta namn.</string>
+    <!-- IDS_WIFI_POP_PROFILECONNECTION_CANCELLING -->
+    <string name="dialog_cancel_scan">Avbryter\u2026</string>
+    <!-- IDS_AV_POP_SCANNING_ING -->
+    <string name="dialog_scan">Skannar\u2026</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_MINUTES -->
+    <string name="alarm_text1">FM-radio stängs av efter %d minuter.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_1_HOUR -->
+    <string name="alarm_text2">FM-radio stängs av efter 1 timme.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_HOURS -->
+    <string name="alarm_text3">FM-radio stängs av efter %d timmar.</string>
+    <!-- IDS_FM_POP_STATION_ALREADY_EXISTS_ADD_ANOTHER_STATION -->
+    <string name="toast_already_added">Den här stationen finns redan. Lägg till en annan station.</string>
+    <!-- IDS_FM_POP_P1SDP2SD_MHZ_STATION_FOUND_TOTAL_NUMBER_OF_STATIONS_FOUND_C_P3SD -->
+    <string name="dialog_channel_found">Stationen %1$d.%2$d MHz hittades. Totalt antal hittade stationer: %3$d.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found">En station hittades på %1$s MHz. 1 station har hittats totalt.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_P2SD_STATIONS_HAVE_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_found_south_region">En station hittades på %1$s MHz. %2$d stationer har hittats totalt.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found_south_region">En station hittades på %1$s MHz. 1 station har hittats totalt.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_FOUND_WHILE_SCANNING -->
+    <string name="toast_channel_found">%d stationer hittades vid sökning.</string>
+    <!-- IDS_FM_POP_1_STATION_FOUND_WHILE_SCANNING -->
+    <string name="toast_one_channel_found">1 station hittades vid sökning.</string>
+    <!-- IDS_FM_POP_TURN_FM_RADIO_ON -->
+    <string name="toast_on_alert">Slå på¨FM-radio.</string>
+    <!-- IDS_RADIO_BODY_RADIO_M_APPLIACTION_NAME -->
+    <string name="app_name">Radio</string>
+    <!-- IDS_LA_HEADER_ALL_CHANNELS -->
+    <string name="channels">All channels</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="record">Spela in</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="scan">Skanna</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="more">Mer</string>
+    <!-- IDS_MEDIABR_OPT_REMOVE -->
+    <string name="remove">Ta bort</string>
+    <!-- IDS_FM_OPT_SETTINGS -->
+    <string name="settings">Inställningar</string>
+    <!-- IDS_FM_HEADER_STATIONS -->
+    <string name="allchannels">Stationer</string>
+    <!-- IDS_COM_OPT_INFORMATION -->
+    <string name="information">Information</string>
+    <!-- IDS_LP_SK3_OK -->
+    <string name="ok">OK</string>
+    <!-- IDS_KC_OPT_CANCEL -->
+    <string name="cancel">Avbryt</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename">Byt namn</string>
+    <!-- IDS_BR_HEADER_ENTER_NAME -->
+    <string name="rename_text">Ange namn</string>
+    <!-- IDS_KA_BUTTON_DONE -->
+    <string name="done">Klar</string>
+    <!-- IDS_FM_OPT_REPLACE -->
+    <string name="replace">Ersätt</string>
+    <!-- IDS_FM_BODY_MHZ -->
+    <string name="mhz">MHz</string>
+    <!-- IDS_FM_BODY_SETTINGS_RADIO_TEXT -->
+    <string name="setting_sationid">Radiotext</string>
+    <!-- IDS_FM_BODY_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af">Alternativ frekvens</string>
+    <!-- IDS_FM_MBODY_AUTO_OFF -->
+    <string name="setting_autooff">Auto av</string>
+    <!-- IDS_FM_BODY_STATION_INFORMATION_WILL_BE_SHOWN -->
+    <string name="setting_stationid_summary">Stationsinformation visas.</string>
+    <!-- IDS_FM_BODY_TURN_ON_OFF_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af_summary">Slå på/av alternativ frekvens.</string>
+    <!-- IDS_FM_OPT_NEVER -->
+    <string name="setting_never">Aldrig</string>
+    <!-- IDS_FM_BODY_AFTER_15_MINS_ABB -->
+    <string name="setting_15min">Efter 15 min</string>
+    <!-- IDS_FM_BODY_ST_AFTER_30_MIN -->
+    <string name="setting_30min">Efter 30 min</string>
+    <!-- IDS_TDMB_BODY_AFTER_1_HOUR -->
+    <string name="setting_hour">Efter 1 timme</string>
+    <!-- IDS_TDMB_BODY_AFTER_2_HOURS -->
+    <string name="setting_2hour">Efter 2 timmar</string>
+    <!-- IDS_MT_BUTTON_SAVE -->
+    <string name="save">Spara</string>
+    <!-- IDS_FM_BODY_NO_STATIONS -->
+    <string name="toast_channel_empty">Inga stationer</string>
+    <!-- IDS_FM_NPBODY_NO_FAVOURITE_STATIONS_ABB -->
+    <string name="toast_favourite_empty">Inga favoritstationer</string>
+    <!-- IDS_FM_TPOP_EARPHONES_NOT_CONNECTED_EARPHONES_FUNCTION_AS_RADIO_AERIAL_CONNECT_EARPHONES -->
+    <string name="toast_earphone_not_connected">Hörlurarna är inte anslutna. Hörlurarna fungerar som radioantenn. Anslut hörlurarna.</string>
+    <!-- IDS_FM_OPT_AUTO_SCAN -->
+    <string name="dialog_autoscan">Automatisk genomsökning</string>
+    <!-- IDS_FM_POP_STARTING_AUTO_SCAN_ING -->
+    <string name="toast_initial_access">Startar autosökning\u2026</string>
+    <!-- IDS_FM_HEADER_SCAN_RESULT -->
+    <string name="scan_result">Sökresultat</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename_channel">Byt namn</string>
+    <!-- IDS_KA_HEADER_ALERT -->
+    <string name="alert">Varning</string>
+    <!-- IDS_PB_OPT_FAVOURITES -->
+    <string name="fav_channel">Favoriter</string>
+    <!-- IDS_FM_OPT_ALL_STATIONS -->
+    <string name="menu_refersh_all">Alla stationer</string>
+    <!-- IDS_FM_OPT_RETAINING_FAVOURITES -->
+    <string name="menu_refresh">Behåller favoriter</string>
+    <!-- IDS_FM_DROP_30 -->
+    <string name="number_30">30</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_1 -->
+    <string name="number_1">1</string>
+    <!-- IDS_CCD_BODY_TIMERDIGIT_2 -->
+    <string name="number_2">2</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_15_min_past">Radio stängdes av automatiskt. Det har gått %d minuter.</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_30_min_past">Radio stängdes av automatiskt. Det har gått %d minuter.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_1_HOUR_HAS_PASSED -->
+    <string name="alrm_1_hr_past">%s stängdes av automatiskt. Det har gått 1 timme.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_PD_HOURS_HAVE_PASSED -->
+    <string name="alrm_2_hrs_past">%1$s stängdes av automatiskt. Det har gått %2$d timmar.</string>
+    <!-- IDS_FM_SK3_SCAN_FOR_STATIONS -->
+    <string name="scan_channels">Sök stationer</string>
+    <!-- IDS_CAST_MBODY_SELECT_ALL -->
+    <string name="selectall">Välj alla</string>
+    <!-- IDS_VIDEO_HEADER_PD_SELECTED -->
+    <string name="selected_item">%d valda</string>
+    <!-- IDS_VVM_POP_SELECT_AT_LEAST_ONE_ITEM -->
+    <string name="no_channel_selected">Välj minst ett objekt.</string>
+    <!-- IDS_FM_POP_UNABLE_TO_USE_PS_IN_FLIGHT_MODE -->
+    <string name="toast_airplane_mode">Det går inte att använda %s i flygläget.</string>
+    <!-- IDS_ST_BODY_INSTALL_VOICE_DATA_REQUIRED_FOR_SPEECH_SYNTHESIS -->
+    <string name="dialog_tts_confirm">Installera röstdata som krävs för talsyntes.</string>
+    <string name="RSSI">Set Seek RSSI (long)</string>
+    <string name="SNR">Set Seek SNR(long)</string>
+    <string name="CNT">Set Seek CNT (int)</string>
+    <string name="AF_Threshold">Set AF Threshold (int)</string>
+    <string name="AF_Valid_Threshold">Set AF Valid Threshold (int)</string>
+    <string name="Current_Threshold">Get Current Threshold (int)</string>
+    <!-- IDS_FM_BODY_MODE_SPEAKER -->
+    <string name="speaker">Högtalare</string>
+    <!-- IDS_FM_POP_AF_SWITCHING -->
+    <string name="af_switching">AF-växling</string>
+    <!-- IDS_FM_POP_AF_SWITCHING_IS_IN_PROGRESS_PRESS_BACK_TO_CANCEL -->
+    <string name="af_switching_msg">AF-växling pågår. Tryck på Bakåt för att avbryta.</string>
+    <!-- IDS_COM_POP_UNABLE_TO_LAUNCH_APPLICATION_LOW_BATTERY -->
+    <string name="toast_battery_low">Det går inte att starta programmet. Låg batterinivå.</string>
+    <string name="toast_af_success">AF växlade och hittade %1$d.%2$d MHz-frekvens</string>
+    <!-- IDS_FM_POP_AF_NOT_FOUND -->
+    <string name="toast_af_fail">Kunde inte hitta AF.</string>
+    <!-- IDS_ST_BODY_PS_DISABLED -->
+    <string name="toast_disabled">%s har avaktiverats.</string>
+    <!-- IDS_FM_POP_NO_STATIONS_FOUND -->
+    <string name="toast_no_channel_found">Inga stationer hittades.</string>
+    <!-- IDS_CCD_POP_UNAVAILABLE_IN_TV_OUT_MODE -->
+    <string name="toast_unavailable_in_tvout_mode">Otillgänglig i TV-out-läge.</string>
+    <!-- IDS_COM_POP_MESSAGETONE_MUTE -->
+    <string name="mute">Ljud av</string>
+    <!-- IDS_COM_POP_SEARCHING -->
+    <string name="seeking">Söker\u2026</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_EARPHONES_ABB -->
+    <string name="via_earphone">Spela via hörlurar</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_SPEAKER_ABB -->
+    <string name="via_speaker">Spela upp m. högtalare</string>
+    <!-- IDS_COM_MBODY_NORMAL_FREQUENCY -->
+    <string name="normal_frequency">Normal frekvens</string>
+    <!-- IDS_COM_BODY_END -->
+    <string name="end">Avsluta</string>
+    <!-- IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED -->
+    <string name="toast_maximum_file_name">Högsta antal tecken (%d) har uppnåtts.</string>
+    <!-- IDS_FM_BODY_TURN_ON_THE_PS -->
+    <string name="turn_on_radio">Slå på %s.</string>
+    <!-- IDS_PB_BODY_ENTERTEL -->
+    <string name="enter_number">Ange nummer.</string>
+    <!-- IDS_NFC_BUTTON_TAG -->
+    <string name="tag">Tagg</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="stop">Stopp</string>
+    <!-- IDS_FM_BODY_RECORDING_M_RECORDING_VOICE -->
+    <string name="recording">Inspelning</string>
+    <!-- IDS_DAV_BODY_MEMORY_FULL -->
+    <string name="memory_full">Minnet fullt.</string>
+    <!-- IDS_VR_POP_CANCEL_RECORDING_Q -->
+    <string name="cancel_recording">Avbryt inspelning?</string>
+    <!-- IDS_FM_HEADER_CHANGE_FREQUENCY -->
+    <string name="change_frequency">Byt frekvens</string>
+    <!-- IDS_FM_BODY_ENTER_FREQUENCY -->
+    <string name="enter_frequency">Ange frekvens.</string>
+    <!-- IDS_FM_POP_SAVED_IN_PS_GO_TO_RECORDED_FILES_TO_PLAY_PLAY_NOW_Q -->
+    <string name="saved_go_to_myfiles">Sparades i %s. Gå till Inspelade filer för att spela upp. Spela upp nu?</string>
+    <!-- IDS_FM_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="dont_show_again">Visa inte igen</string>
+    <string name="toast_max_favorite">Högsta antal favoritstationer (12) har uppnåtts. Ta bort några favoritstationer</string>
+    <!-- IDS_MUSIC_POP_LOUD_MUSIC_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_TO_IT_FOR_A_LONG_TIME -->
+    <string name="audio_shock_warning">Hög musik kan skada din hörsel om du lyssnar på hög volym för länge.</string>
+    <!-- IDS_IV_POP_RECORDING_ERROR -->
+    <string name="recording_error">Inspelningsfel</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="desc_record">Spela in</string>
+    <!-- IDS_FM_BODY_VOLUME -->
+    <string name="desc_volume">Volym</string>
+    <!-- IDS_FM_OPT_POWER -->
+    <string name="desc_power">Ström</string>
+    <!-- IDS_FM_BODY_PREVIOUS_STATION -->
+    <string name="desc_prev">Föregående station</string>
+    <!-- IDS_FM_BODY_NEXT_STATION -->
+    <string name="desc_next">Nästa station</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_1_T_TTS -->
+    <string name="desc_fav1">Favoritstation 1,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_2_T_TTS -->
+    <string name="desc_fav2">Favoritstation 2,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_3_T_TTS -->
+    <string name="desc_fav3">Favoritstation 3,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_4_T_TTS -->
+    <string name="desc_fav4">Favoritstation 4,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_5_T_TTS -->
+    <string name="desc_fav5">Favoritstation 5,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_6_T_TTS -->
+    <string name="desc_fav6">Favoritstation 6,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_7_T_TTS -->
+    <string name="desc_fav7">Favoritstation 7,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_8_T_TTS -->
+    <string name="desc_fav8">Favoritstation 8,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_9_T_TTS -->
+    <string name="desc_fav9">Favoritstation 9,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_10_T_TTS -->
+    <string name="desc_fav10">Favoritstation 10,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_11_T_TTS -->
+    <string name="desc_fav11">Favoritstation 11,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_12_T_TTS -->
+    <string name="desc_fav12">Favoritstation 12,</string>
+    <!-- IDS_ACCS_OPT_PS_TAB_OPT_TTS -->
+    <string name="desc_tab">%s, flik</string>
+    <!-- IDS_NFC_HEADER_ADD_FAVOURITE -->
+    <string name="desc_add_favorite">Lägg till favorit</string>
+    <!-- IDS_FM_POP_REMOVE_FAVOURITES_Q -->
+    <string name="desc_rem_favorite">Ta bort favoriter?</string>
+    <!-- IDS_FM_HEADER_MENU -->
+    <string name="desc_menu">Meny</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="desc_stop">Stopp</string>
+    <!-- IDS_MSGC_SK_RESUME_LITE -->
+    <string name="desc_resume">Fortsätt</string>
+    <!-- IDS_MK_SK3_PAUSE -->
+    <string name="desc_pause">Paus</string>
+    <!-- IDS_CALL_BUTTON_CANCEL -->
+    <string name="desc_cancel">Avbryt</string>
+    <!-- IDS_FM_BODY_FREQUENCY -->
+    <string name="desc_frequency">Frekvens</string>
+    <!-- IDS_RADIO_BODY_FREQUENCY_CONTROL_SLIDER_TTS -->
+    <string name="desc_frequency_slider">Skjutreglage för frekvenskontroll</string>
+    <!-- IDS_COM_BUTTON_CLOSE -->
+    <string name="desc_close">Stäng</string>
+    <!-- IDS_COM_BODY_HOUR -->
+    <string name="desc_hour">Timme</string>
+    <!-- IDS_CLD_OPT_HOURS -->
+    <string name="desc_hours">Timmar</string>
+    <!-- IDS_COM_BODY_MINUTE -->
+    <string name="desc_minute">Minut</string>
+    <!-- IDS_COM_BODY_MINUTES -->
+    <string name="desc_minutes">Minuter</string>
+    <!-- IDS_ST_POP_SECOND -->
+    <string name="desc_second">Sekund</string>
+    <!-- IDS_COM_BODY_SECONDS -->
+    <string name="desc_seconds">Sekunder</string>
+    <!-- IDS_GP_SHEADER_FAVOURITE_STATIONS -->
+    <string name="desc_fav_station">FAVORITSTATIONER</string>
+    <!-- IDS_FM_BODY_VIEW_VISUAL_INFORMATION -->
+    <string name="desc_switch_btn_view_information">Visa visuell information.</string>
+    <!-- IDS_FM_OPT_RESUME_TTS -->
+    <string name="desc_resume_extended">Fortsätt</string>
+    <!-- IDS_FM_OPT_MORE_OPTIONS -->
+    <string name="desc_more">Fler alternativ</string>
+    <!-- WDS_TTS_TBBODY_DOUBLE_TAP_TO_SELECT_ALL -->
+    <string name="desc_double_tap_to_select_all">Dubbeltryck för att markera alla.</string>
+    <!-- IDS_BR_BODY_DOUBLE_TAP_TO_DESELECT_T_TTS -->
+    <string name="desc_double_tap_to_deselect_all">Dubbeltryck för att avmarkera.</string>
+    <!-- IDS_FM_POP_NOTHINGSELECTED -->
+    <string name="desc_nothing_selected">Inget markerat.</string>
+    <!-- IDS_COM_BODY_PD_SELECTED -->
+    <string name="desc_n_selected">%d valda</string>
+    <!-- IDS_COM_BUTTON_NOT_CHECKED -->
+    <string name="desc_not_ticked_t_tts">Inte mark.</string>
+    <!-- IDS_VPL_BODY_TICK_BOX -->
+    <string name="desc_tick_box_t_tts">Kryssruta</string>
+    <!-- IDS_COM_BODY_FAVOURITE -->
+    <string name="desc_favorite_button">Favoriter</string>
+    <!-- IDS_COM_BODY_SELECTED -->
+    <string name="desc_selected">Markerade</string>
+    <!-- IDS_ACCS_BODY_NOT_SELECTED_T_TTS -->
+    <string name="desc_not_selected">Ej vald</string>
+    <!-- IDS_HEALTH_TBBODY_PS_ADDED_TO_FAVOURITES -->
+    <string name="desc_frequency_added_to_favourites">%s har lagts till i Favoriter.</string>
+    <!-- IDS_HEALTH_TBBODY_PS_REMOVED_FROM_FAVOURITES -->
+    <string name="desc_frequency_removed_from_favourites">%s har tagits bort från Favoriter.</string>
+    <!-- IDS_FM_POP_VOLUME_CONTROL_NOT_AVAILABLE_WHILE_RECORDING -->
+    <string name="recording_volume_control">Volymkontroll kan inte användas under inspelning.</string>
+    <string name="deleted">Raderad.</string>
+    <!-- IDS_MS_OPT_START -->
+    <string name="test_start">Start</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="test_stop">Stopp</string>
+    <!-- IDS_KA_BODY_TITLE -->
+    <string name="tags_music_title">Rubrik</string>
+    <!-- IDS_MUSIC_BUTTON2_ALBUM -->
+    <string name="tags_music_album">Album</string>
+    <!-- IDS_KA_BODY_ARTIST -->
+    <string name="tags_music_artist">Artist</string>
+    <!-- IDS_FM_BODY_BAND_M_MUSIC -->
+    <string name="tags_music_band">Band</string>
+    <!-- IDS_KA_BODY_URL -->
+    <string name="tags_information_url">URL</string>
+    <!-- IDS_SIDL_SK3_HOME_URL -->
+    <string name="tags_programme_homepage">Startsi.</string>
+    <!-- IDS_FM_BODY_HOTLINE -->
+    <string name="tags_interact_hotline">Hotline</string>
+    <!-- IDS_VDOE_HEADER_STUDIO -->
+    <string name="tags_interact_studio">Studio</string>
+    <!-- IDS_KA_BODY_OTHER -->
+    <string name="tags_interact_other">Annat</string>
+    <!-- IDS_MSGC_BODY_TEXTSTYLE_ALIGNMENTCENTER -->
+    <string name="tags_interact_centre">Centrerad</string>
+    <!-- IDS_FM_POP_UNABLE_TO_SCAN_WHILE_RECORDING_M_AUDIO -->
+    <string name="toast_unable_scan">Det går inte att skanna under inspelning.</string>
+    <!-- IDS_FM_BODY_STATION_NAME -->
+    <string name="dialog_station_name">Stationens namn</string>
+    <!-- IDS_FM_SK_DELETE -->
+    <string name="delete">Ta bort</string>
+    <string name="select">Välj</string>
+    <!-- IDS_KC_MBODY_STORAGE -->
+    <string name="setting_storage">Lagring</string>
+    <!-- IDS_MS_HEADER_MY_FILES -->
+    <string name="setting_myfiles">Mina filer</string>
+    <!-- IDS_MK_MBODY_MEMORY_CARD -->
+    <string name="setting_memory_card">Minneskort</string>
+    <!-- IDS_ST_BODY_DEVICE -->
+    <string name="setting_phone">Enhet</string>
+    <!-- IDS_FM_BODY_EARPHONE_SETTINGS -->
+    <string name="setting_sound_settings">Hörlursinställningar</string>
+    <!-- IDS_MUSIC_BODY_STEREO -->
+    <string name="setting_stereo">Stereo</string>
+    <!-- IDS_MP_BODY_MONO_M_SOUND_TYPE -->
+    <string name="setting_mono">Mono</string>
+    <!-- IDS_FM_BODY_TAP_SCAN_AT_THE_TOP_OF_THE_SCREEN_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations_tap_button_to_scan">Tryck på knappen Sök överst på skärmen för att söka efter stationer.</string>
+    <!-- IDS_FM_TPOP_PS_SAVED -->
+    <string name="toast_saved">%s har sparats.</string>
+    <!-- IDS_COM_BODY_SELECT_ALL -->
+    <string name="select_all">Välj alla</string>
+    <!-- IDS_IME_HEADER_DESELECT_ALL -->
+    <string name="deselect_all">Avmarkera alla</string>
+    <!-- IDS_FM_OPT_ALL -->
+    <string name="select_checkbox_all">Alla</string>
+    <!-- IDS_MSG_MBODY_SELECT_CHANNELS -->
+    <string name="select_channels">Välj kanaler</string>
+    <!-- IDS_FM_HEADER_SELECT_RECORDINGS_ABB -->
+    <string name="select_recordings">Välj inspelningar</string>
+    <!-- IDS_VR_HEADER_RECORDED_FILES -->
+    <string name="recorded_files">Inspelade filer</string>
+    <!-- IDS_VR_HEADER_RECORDINGS_M_VOICE_ABB -->
+    <string name="recordings">Inspelningar</string>
+    <!-- IDS_FM_BODY_AFTER_YOU_RECORD_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files_guide">När du har spelat in radio kommer inspelade filer att visas.</string>
+    <!-- IDS_VR_BODY_NO_RECORDED_FILES -->
+    <string name="no_recorded_files_msg">Inga inspelade filer</string>
+    <!-- IDS_FM_BODY_NO_RECORDED_FILES_N_AFTER_RECORDING_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files">Inga inspelade filer.\nNär du har spelat in radio kommer inspelade filer att visas.</string>
+    <!-- IDS_MK_BODY_PROCESSING_ING -->
+    <string name="dialog_processing">Bearbetar\u2026</string>
+    <!-- IDS_TASK_POP_UP_TO_PD_CHARACTERS_AVAILABLE -->
+    <string name="toast_up_to_n_characters">Upp till %d tillgängliga tecken.</string>
+    <!-- IDS_MUSIC_POP_INVALID_CHARACTER -->
+    <string name="toast_invalid_character">Ogiltigt tecken.</string>
+    <!-- IDS_IV_BODY_NEW_FILE_NAME -->
+    <string name="dialog_new_file_name">Nytt filnamn</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILE_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_file_deleted">Vald inspelad fil kommer att tas bort.</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILES_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_files_deleted">Valda inspelade filer kommer att tas bort.</string>
+    <!-- IDS_MH_POP_FILE_DOES_NOT_EXIST -->
+    <string name="file_does_not_exist">Filen finns inte.</string>
+    <!-- IDS_FM_POP_ALREADY_EXISTS -->
+    <string name="toast_already_exist">Finns redan.</string>
+    <!-- IDS_BR_POP_RENAME_EMPTY -->
+    <string name="toast_name_empty">Namnet är tomt.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_EARPHONES -->
+    <string name="sound_path_earphone_mode">Radio spelas upp i hörlurarna.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_SPEAKER -->
+    <string name="sound_path_speaker_mode">Radio spelas upp i högtalarna.</string>
+    <!-- IDS_FM_POP_NOW_LISTENING_VIA_BT_HEADSET -->
+    <string name="sound_path_bt_headset_mode">Lyssnar med BT-headset.</string>
+    <!-- IDS_ST_BODY_YOU_CAN_CONTROL_THE_RADIO_WITH_VOICE_COMMANDS_LIKE_NEXT_PREVIOUS_STOP_AND_PLAY -->
+    <string name="notification_barge_in">Du kan styra radion med röstkommandon som Nästa, Föregående, Stopp och Spela upp.</string>
+    <!-- IDS_VC_BODY_YOU_CAN_CONTROL_THE_FM_RADIO_WITH_THE_VOICE_COMMANDS_PS_PS_PS_PS_PS_AND_PS -->
+    <string name="notification_barge_in_args">Du kan styra FM-radion med röstkommandon som %1$s, %2$s, %3$s, %4$s, %5$s och %6$s.</string>
+    <!-- IDS_VR_POP_RECORDING_WILL_BE_CANCELLED_AND_FILE_WILL_NOT_BE_SAVED -->
+    <string name="recording_will_be_cancelled">Inspelningen kommer att avbrytas och filen sparas inte.</string>
+    <!-- IDS_FM_POP_UNABLE_TO_PLAY_RADIO_DURING_CALL -->
+    <string name="unable_to_play_radio_during_call">Det går inte att spela radio under samtal.</string>
+    <!-- IDS_FM_BODY_THIS_ITEM_WILL_BE_DELETED -->
+    <string name="dialog_one_item_deleted">Det här objektet kommer att raderas.</string>
+    <!-- IDS_FM_BODY_PD_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_items_deleted">%d objekt raderas.</string>
+    <!-- IDS_FM_BODY_ALL_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_all_items_deleted">Alla objekt tas bort.</string>
+    <!-- IDS_RADIO_POP_1_STATION_WILL_BE_DELETED -->
+    <string name="dialog_one_station_will_be_deleted">1 station tas bort.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_stations_will_be_deleted">%d stationer tas bort.</string>
+    <!-- IDS_VR_POP_1_RECORDING_WILL_BE_DELETED -->
+    <string name="dialog_one_recording_will_be_deleted">1 inspelning tas bort.</string>
+    <!-- IDS_VR_POP_PD_RECORDINGS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_recordings_will_be_deleted">%d inspelningar kommer att tas bort.</string>
+    <!-- IDS_FM_BODY_TURNING_ON_ING -->
+    <string name="turning_on">Slår på\u2026</string>
+    <!-- IDS_COM_POP_NOT_ENOUGH_MEMORY_RECORDING_WILL_STOP_IN_PD_SECONDS -->
+    <string name="not_enough_memory_recording_will_stop">Inte tillräckligt med minne. Inspelningen avbryts om %d sekunder.</string>
+    <!-- IDS_ST_BODY_LEDOT_LOW_BATTERY -->
+    <string name="low_batt_msg">Låg batterinivå</string>
+    <!-- IDS_MSG_POP_UNABLE_TO_PLAY_DURING_CALL -->
+    <string name="no_play_during_call">Kan inte spela upp under samtal.</string>
+    <!-- IDS_DTV_POP_UNABLE_TO_DELETE -->
+    <string name="unable_delete">Kan inte radera.</string>
+    <!-- IDS_MUSIC_BODY_PLAYING_ING_ABB -->
+    <string name="playing">Spelar\u2026</string>
+    <!-- IDS_CALL_SK3_PLAY -->
+    <string name="tts_play_button">Starta</string>
+    <!-- IDS_COM_BODY_PREVIOUS -->
+    <string name="tts_previous_button">Åter</string>
+    <!-- IDS_COM_BODY_NEXT -->
+    <string name="tts_Next_button">Nästa</string>
+    <!-- IDS_COM_POP_CONNECT -->
+    <string name="connect">Anslut</string>
+    <!-- IDS_IM_BODY_TOPIC -->
+    <string name="topic">Ämne</string>
+    <!-- IDS_MUSIC_HEADER_SUBSCRIBE -->
+    <string name="subscribe">Abonnera</string>
+    <!-- IDS_MSGF_BODY_NO_TEXT -->
+    <string name="no_text">Ingen text</string>
+    <!-- IDS_KA_BODY_MORE_INFORMATION -->
+    <string name="for_more_info">Mer information</string>
+    <!-- IDS_FM_BUTTON_VIEW_VISUAL_INFO_ABB -->
+    <string name="switch_btn_view_information">Visa visuell info</string>
+    <!-- IDS_FM_BUTTON_VIEW_TUNER -->
+    <string name="switch_btn_view_tuner">Visa tuner</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_VIEW_THIS_INFORMATION_FOR_THIS_STATION -->
+    <string name="switch_btn_disable">Det går inte att visas den här informationen om stationen.</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_LISTEN_TO_THIS_STATION_VIA_INTERNET_RADIO -->
+    <string name="menu_internetradio_disable">Det går inte att lyssna på den här stationen via webbradio.</string>
+    <!-- IDS_FM_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN -->
+    <string name="wifi_warning">Wi-Fi är inte tillgängligt. Att ansluta till mobilnät kan medföra ytterligare avgifter beroende på din betalningsplan.</string>
+    <!-- IDS_POPSYNC_BODY_CONNECT_VIA_MOBILE_NETWORK -->
+    <string name="connect_mobile_network">Anslut via mobilnätverk</string>
+    <!-- IDS_WGT_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="do_not_show_again">Visa inte igen</string>
+    <!-- IDS_COM_POP_SERVER_RESPONSE_ERROR -->
+    <string name="server_response_error">Fel vid serversvar</string>
+    <!-- IDS_SYS_BODY_CODE_GENERATION_VER -->
+    <string name="stms_version">ANDROID_P4_20150420_0216</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_INTERNET_RADIO -->
+    <string name="switch_to_internet_radio">Byt till Internet-radio</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_FM_RADIO -->
+    <string name="switch_to_fm_radio">Byt till FM-radio</string>
+    <!-- IDS_SOCIALMAG_POP_PLEASE_WAIT_ING -->
+    <string name="dialog_popup_wait">Var god vänta\u2026</string>
+    <!-- IDS_FM_BODY_AUTOMATICALLY_SWITCHES_TO_INTERNET_RADIO_MSG -->
+    <string name="auto_switch_to_internet_radio">Växlar automatiskt till Internet-radio om FM-signalen är svag och det inte finns några alternativa frekvenser.</string>
+    <!-- IDS_RADIO_POP_THE_CURRENT_RECORDING_WILL_STOP_M_VOICE -->
+    <string name="record_suspended_continue">Den aktuella inspelningen stoppas.</string>
+    <!-- IDS_FM_BUTTON_LISTEN_NOW -->
+    <string name="listen_to_radio">Lyssna nu</string>
+    <!-- IDS_FM_BODY_NOW_LISTENING_ABB -->
+    <string name="now_listening">Lyssnar nu</string>
+    <!-- IDS_COM_BODY_BUTTON_T_TTS -->
+    <string name="button">Knapp</string>
+    <!-- IDS_FM_BODY_TAP_HERE_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations">Tryck här för att söka efter stationer.</string>
+    <!-- IDS_CALL_BODY_THE_RECORDING_WILL_BE_SAVED_AUTOMATICALLY_WHEN_YOU_ACCEPT_THE_CALL -->
+    <string name="recording_save_during_call">Inspelningen sparas automatiskt när du svarar på samtalet.</string>
+    <!-- IDS_ST_BODY_START -->
+    <string name="test_noise_start">Börja</string>
+    <!-- IDS_COM_BODY_STOP -->
+    <string name="test_noise_stop">Stopp</string>
+    <!-- IDS_BR_POP_READY -->
+    <string name="test_nosise_current_status">Klar.</string>
+    <!-- IDS_FM_BUTTON_EARPHONE -->
+    <string name="test_noise_earphone">Headset</string>
+    <!-- IDS_VOLTE_BUTTON_SPEAKER -->
+    <string name="test_noise_speaker">Högtalare</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="menu_more">Mer</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="menu_scan">Skanna</string>
+    <!-- IDS_FM_OPT_EDIT -->
+    <string name="menu_edit">Redigera</string>
+    <!-- IDS_RADIO_SBODY_CONTENT_HIDDEN -->
+    <string name="content_hidden">Innehåll dolt</string>
+    <!-- IDS_FM_TPOP_UNABLE_TO_RECORD_RADIO_DISABLE_TURN_OFF_ALL_SOUNDS_AND_TRY_AGAIN -->
+    <string name="unable_record_turn_off_all_sound">Det går inte att spela in ljud. Inaktivera Stäng av alla ljud och försök igen.</string>
+</resources>

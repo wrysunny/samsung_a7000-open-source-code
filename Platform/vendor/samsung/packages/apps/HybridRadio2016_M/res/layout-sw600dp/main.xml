@@ -1,0 +1,330 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sandroid="http://schemas.android.com/apk/res/com.sec.android.app.fm"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/main_bg_color"
+    tools:context=".HwTunningActivity" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- Top Layout -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="367dp"
+            android:orientation="vertical"
+            android:paddingEnd="50dp"
+            android:paddingStart="50dp" >
+
+            <!-- Frequency Display view and display -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="225dp"
+                android:layoutDirection="ltr"
+                android:paddingTop="70dp" >
+
+                <LinearLayout
+                    android:id="@+id/frq_bg"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="102dp"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal" >
+
+                        <ImageButton
+                            android:id="@+id/dial_prev"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_marginStart="10dp"
+                            android:layout_marginTop="36dp"
+                            android:background="?android:attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:contentDescription="@string/desc_prev"
+                            android:focusable="true"
+                            android:src="@drawable/arrow_btn_left" />
+
+                        <LinearLayout
+                            android:id="@+id/freq_value_layout"
+                            android:layout_width="wrap_content"
+                            android:layout_height="match_parent"
+                            android:layout_centerHorizontal="true"
+                            android:orientation="horizontal" >
+
+                            <TextView
+                                android:id="@+id/freq_value"
+                                android:layout_width="wrap_content"
+                                android:layout_height="93dp"
+                                android:layout_marginBottom="9dp"
+                                android:background="?android:attr/selectableItemBackground"
+                                android:focusable="true"
+                                android:fontFamily="samsung-neo-num3T"
+                                android:gravity="center_vertical"
+                                android:importantForAccessibility="no"
+                                android:textColor="@color/black"
+                                android:textSize="110dp" />
+
+                            <LinearLayout
+                                android:layout_width="83dp"
+                                android:layout_height="match_parent"
+                                android:orientation="vertical" >
+
+                                <LinearLayout
+                                    android:layout_width="match_parent"
+                                    android:layout_height="50dp"
+                                    android:orientation="horizontal" >
+
+                                    <ImageView
+                                        android:id="@+id/vis_btn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="bottom"
+                                        android:layout_marginStart="14dp"
+                                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                                        android:focusable="true"
+                                        android:src="@drawable/image_btn_info" />
+
+                                    <View
+                                        android:id="@+id/add_fav_btn"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_gravity="bottom"
+                                        android:layout_marginStart="11dp"
+                                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                                        android:focusable="true"
+                                        android:src="@drawable/hybrid_radio_off_star"
+                                        android:visibility="invisible" />
+                                </LinearLayout>
+
+                                <TextView
+                                    android:layout_width="69dp"
+                                    android:layout_height="31dp"
+                                    android:layout_marginStart="14dp"
+                                    android:layout_marginTop="14dp"
+                                    android:fontFamily="sans-serif"
+                                    android:gravity="top|center_horizontal"
+                                    android:importantForAccessibility="no"
+                                    android:includeFontPadding="false"
+                                    android:text="@string/mhz"
+                                    android:textColor="@color/black"
+                                    android:textSize="32dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+
+                        <ImageButton
+                            android:id="@+id/dial_next"
+                            android:layout_width="45dp"
+                            android:layout_height="45dp"
+                            android:layout_alignParentRight="true"
+                            android:layout_marginRight="10dp"
+                            android:layout_marginTop="36dp"
+                            android:background="?android:attr/selectableItemBackgroundBorderless"
+                            android:clickable="true"
+                            android:contentDescription="@string/desc_next"
+                            android:focusable="true"
+                            android:src="@drawable/arrow_btn_right" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:id="@+id/turningtext"
+                        android:layout_width="match_parent"
+                        android:layout_height="31dp"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/seeking"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:textColor="@color/black"
+                            android:textSize="17dp" >
+                        </TextView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/rds_panel"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:visibility="gone" >
+
+                        <TextView
+                            android:id="@+id/ps_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="marquee"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:scrollHorizontally="true"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="17dp" />
+
+                        <TextView
+                            android:id="@+id/rt_text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:ellipsize="marquee"
+                            android:fontFamily="sans-serif"
+                            android:gravity="center"
+                            android:includeFontPadding="false"
+                            android:marqueeRepeatLimit="marquee_forever"
+                            android:scrollHorizontally="true"
+                            android:singleLine="true"
+                            android:textColor="@color/black"
+                            android:textSize="12dp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/recording_time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="31dp"
+                        android:layout_gravity="center_horizontal"
+                        android:orientation="horizontal"
+                        android:visibility="gone" >
+
+                        <ImageView 
+                            android:id="@+id/rec_icon"
+                            android:layout_width="@dimen/stations_recording_icon_width"
+                            android:layout_height="@dimen/stations_recording_icon_height"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginEnd="11dp"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/fmradio_stations_ic_record_resume"/>
+
+                        <TextView
+                            android:id="@+id/rec_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:fontFamily="sans-serif"
+                            android:text="@string/recording"
+                            android:textColor="@color/rec_text_recording"
+                            android:textSize="17dp" />
+
+                        <TextView
+                            android:id="@+id/rec_time"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginStart="13dp"
+                            android:fontFamily="sans-serif-light"
+                            android:textColor="@color/rec_time"
+                            android:textSize="17dp" />
+                    </LinearLayout>
+                </LinearLayout>
+            </RelativeLayout>
+
+            <!-- frequency bar -->
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal" >
+                <!-- frequency Bar View -->
+                <com.sec.android.app.fm.ui.FrequencyDisplayBgView
+                    android:id="@+id/frq_dsp_bg_view"
+                    android:layout_width="@dimen/frequency_background_width"
+                    android:layout_height="@dimen/frequency_background_height"
+                    android:background="@drawable/frequency_off_shadow"
+                    android:scrollbars="none"
+                    sandroid:barImage="@drawable/fmradio_frequency_bar"
+                    sandroid:frequencyBarHeight="@dimen/frequency_bar_height"
+                    sandroid:frequencyBarWidth="@dimen/frequency_bar_width"
+                    sandroid:frequencyMax="@dimen/frequency_max"
+                    sandroid:frequencyMin="@dimen/frequency_min" />
+                <!-- end frequency Bar View -->
+            </FrameLayout>
+            <!-- end frequency bar -->
+        </LinearLayout>
+        <!-- End Top Layout -->
+
+
+        <!-- Bottom Layout -->
+
+        <TabHost
+            android:id="@android:id/tabhost"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:paddingEnd="50dp"
+            android:paddingStart="50dp" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical" >
+
+                <TabWidget
+                    android:id="@android:id/tabs"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fmradio_tab_height"
+                    android:background="@color/tab_layout_bg_color" />
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/fmradio_tab_top_divider_height"
+                    android:background="@color/list_divider_color" />
+
+                <FrameLayout
+                    android:id="@android:id/tabcontent"
+                    android:layout_width="0dp"
+                    android:layout_height="0dp"
+                    android:layout_weight="0" />
+
+                <FrameLayout
+                    android:id="@+id/realtabcontent"
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1" />
+            </LinearLayout>
+        </TabHost>
+        <!-- End Bottom Layout -->
+
+        <View
+            android:id="@+id/bottom_line"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/fmradio_tab_bottom_divider_height"
+            android:background="@drawable/bottom_line_divider" />
+
+        <TextView
+            android:id="@+id/scan_btn"
+            style="?android:attr/actionMenuTextAppearance"
+            android:layout_width="match_parent"
+            android:layout_height="74dp"
+            android:background="?android:attr/selectableItemBackground"
+            android:clickable="true"
+            android:focusable="true"
+            android:gravity="center"
+            android:paddingEnd="12dp"
+            android:paddingStart="12dp"
+            android:text="@string/scan"
+            android:textColor="@color/scan_text_color" />
+    </LinearLayout>
+
+    <!-- VIS Display -->
+
+    <include
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginBottom="64dp"
+        layout="@layout/vis_info_screen" />
+
+    <!-- End VIS Display -->
+
+</FrameLayout>

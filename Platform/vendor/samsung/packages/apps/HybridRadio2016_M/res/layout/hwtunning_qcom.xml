@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/title_cur_channel" />
+
+            <EditText
+                android:id="@+id/cur_channel"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:editable="false"
+                android:focusable="false"
+                android:inputType="numberSigned"
+                android:maxLength="6" />
+        </LinearLayout>
+        <!--
+        not used
+		<LinearLayout android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView android:layout_width="200dp"
+				android:layout_height="wrap_content" android:layout_marginLeft="5dp"
+				android:text="@string/title_cur_rssi" />
+			<EditText android:id="@+id/cur_rssi" 
+				android:layout_width="100dp" android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp" android:layout_marginRight="5dp"
+				android:maxLength="6" android:inputType="numberSigned" />
+		</LinearLayout>	
+		<LinearLayout android:layout_width="match_parent"
+			android:layout_height="wrap_content">
+			<TextView android:layout_width="200dp"
+				android:layout_height="wrap_content" android:layout_marginLeft="5dp"
+				android:text="@string/title_cur_del" />
+			<EditText android:id="@+id/cur_del" 
+				android:layout_width="100dp" android:layout_height="wrap_content"
+				android:layout_marginLeft="10dp" android:layout_marginRight="5dp"
+				android:maxLength="6" android:inputType="numberSigned" />
+		</LinearLayout>
+        -->
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/title_scan_algorithm_type" />
+
+            <Button
+                android:id="@+id/btn_set_type"
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:singleLine="true"
+                android:text="@string/set_type"
+                android:textSize="10dp" />
+
+            <EditText
+                android:id="@+id/scan_algorithm_type"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:inputType="numberSigned"
+                android:maxLength="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/old_scan_algorithm_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/title_on_ch_th" />
+
+                <EditText
+                    android:id="@+id/cur_on_ch_th"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:inputType="numberSigned"
+                    android:maxLength="6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/title_off_ch_th" />
+
+                <EditText
+                    android:id="@+id/cur_off_ch_th"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:inputType="numberSigned"
+                    android:maxLength="6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/title_sinr_th" />
+
+                <EditText
+                    android:id="@+id/cur_sinr_th"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:inputType="numberSigned"
+                    android:maxLength="6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/title_sinr_samples" />
+
+                <EditText
+                    android:id="@+id/cur_sinr_samples"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:inputType="numberSigned"
+                    android:maxLength="6" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/new_scan_algorithm_type"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/title_cf0th12" />
+
+                <EditText
+                    android:id="@+id/cur_cf0th12"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:inputType="numberSigned"
+                    android:maxLength="6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/title_rmssi_first_stage" />
+
+                <EditText
+                    android:id="@+id/cur_rmssi_first_stage"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:inputType="numberSigned"
+                    android:maxLength="6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/title_sinr_first_stage" />
+
+                <EditText
+                    android:id="@+id/cur_sinr_first_stage"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:inputType="numberSigned"
+                    android:maxLength="6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/title_sinr_final_stage" />
+
+                <EditText
+                    android:id="@+id/cur_sinr_final_stage"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:inputType="numberSigned"
+                    android:maxLength="6" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <TextView
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:text="@string/title_sinr_samples_cnt" />
+
+                <EditText
+                    android:id="@+id/cur_sinr_samples_cnt"
+                    android:layout_width="100dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="5dp"
+                    android:editable="false"
+                    android:focusable="false"
+                    android:inputType="numberSigned"
+                    android:maxLength="6" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/title_af_jump_rmssi_threshold" />
+
+            <EditText
+                android:id="@+id/cur_af_jump_rmssi_threshold"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:inputType="numberSigned"
+                android:maxLength="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/title_af_jump_rmssi_samples" />
+
+            <EditText
+                android:id="@+id/cur_af_jump_rmssi_samples"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:inputType="numberSigned"
+                android:maxLength="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/title_good_channel_rmssi_threshold" />
+
+            <EditText
+                android:id="@+id/cur_good_channel_rmssi_threshold"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:inputType="numberSigned"
+                android:maxLength="6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" >
+
+            <TextView
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="5dp"
+                android:text="@string/title_hybrid_search" />
+
+            <EditText
+                android:id="@+id/cur_hybrid_search"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="5dp"
+                android:maxLength="200" />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_renewal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/renewal" />
+
+        <Button
+            android:id="@+id/btn_apply"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/apply" />
+    </LinearLayout>
+
+</ScrollView>

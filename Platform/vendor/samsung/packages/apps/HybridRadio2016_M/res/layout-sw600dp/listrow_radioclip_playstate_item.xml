@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="@dimen/list_player_min_height"
+    android:gravity="center_vertical"
+    android:paddingStart="@dimen/listplayer_margin_start"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/recorded_file_select_item_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/recorded_file_select_item_checkbox_margin_end"
+        android:adjustViewBounds="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:background="@null"
+        android:scaleType="centerInside"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:minHeight="@dimen/list_player_min_height"
+            android:gravity="center_vertical"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:orientation="vertical" >
+
+                <TextView
+                    android:id="@+id/topLabel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:gravity="center_vertical"
+                    android:fontFamily="roboto-regular"
+                    android:textSize="@dimen/toplabel_textsize" />
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="top|start"
+                        android:gravity="top"
+                        android:layout_marginTop="@dimen/list_player_bottom_label_top_margin"
+                        android:orientation="horizontal" >
+
+                        <TextView
+                            android:id="@+id/bottomLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="roboto-regular"
+                            android:layout_gravity="fill_vertical"
+                            android:singleLine="true"
+                            android:textSize="@dimen/bottomlabel_textsize" />
+
+                       <TextView
+                            android:id="@+id/bottomRightLabel"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:fontFamily="roboto-regular"
+                            android:layout_marginStart="@dimen/recorded_file_bottomRightLabel_margin_start"
+                            android:singleLine="true"
+                            android:textSize="@dimen/bottomrightlabel_textsize" />
+                    </LinearLayout>
+            </LinearLayout>
+
+            <ImageView
+                android:id="@+id/imgSpkIcon"
+                android:layout_width="@dimen/imgspkicon_width"
+                android:layout_height="@dimen/imgspkicon_height"
+                android:layout_gravity="center_vertical"
+                android:layout_marginEnd="@dimen/list_player_imgspk_icon_margin_right"
+                android:adjustViewBounds="true"
+                android:scaleType="centerInside"
+                android:src="@anim/now_playing" />
+        </LinearLayout>
+<!--
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/station_favorite_divider_height"
+            android:background="?android:attr/listDivider" />
+-->
+    </LinearLayout>
+</LinearLayout>

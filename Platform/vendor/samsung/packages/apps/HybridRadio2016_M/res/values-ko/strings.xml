@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+**
+** Created with XMLCompiler2
+*/ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IDS_FM_POP_UNABLE_TO_TURN_ON_PS -->
+    <string name="toast_fm_not_played">%s 애플리케이션을 실행할 수 없습니다.</string>
+    <!-- IDS_FM_POP_EARPHONE_REMOVED_RADIO_TURNED_OFF -->
+    <string name="headset_disconnect">이어폰을 분리하였습니다. FM 라디오를 종료합니다.</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_RENAME -->
+    <string name="toast_tap_to_rename">이름을 변경하려면 주파수를 누르세요.</string>
+    <!-- IDS_FM_POP_INVALID_FREQUENCY -->
+    <string name="toast_channel_invalid">바르지 않은 파일입니다.</string>
+    <!-- IDS_FM_POP_TUNING_TO_P1SDP2SD_MHZ_ING -->
+    <string name="toast_tune">%1$d.%2$dMHz로 채널 이동 중\u2026</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_REMOVE -->
+    <string name="toast_tap_to_remove">삭제하려면 주파수를 누르세요.</string>
+    <!-- IDS_FM_POP_BUSY_TUNING_IN_ING -->
+    <string name="toast_busy_tunning">실행 불가. 주파수 검색 중\u2026</string>
+    <!-- IDS_FM_POP_ALREADY_SCANNING_ING -->
+    <string name="toast_already_scan">이미 찾는 중\u2026</string>
+    <!-- IDS_IM_POP_UNABLE_TO_RENAME -->
+    <string name="toast_rename_error">이름을 변경할 수 없습니다.</string>
+    <!-- IDS_WIFI_POP_PROFILECONNECTION_CANCELLING -->
+    <string name="dialog_cancel_scan">취소 중\u2026</string>
+    <!-- IDS_AV_POP_SCANNING_ING -->
+    <string name="dialog_scan">찾는 중\u2026</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_MINUTES -->
+    <string name="alarm_text1">FM 라디오가 %d분 후에 종료됩니다.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_1_HOUR -->
+    <string name="alarm_text2">FM 라디오가 1시간 후에 종료됩니다.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_HOURS -->
+    <string name="alarm_text3">FM 라디오가 %d시간 후에 종료됩니다.</string>
+    <!-- IDS_FM_POP_STATION_ALREADY_EXISTS_ADD_ANOTHER_STATION -->
+    <string name="toast_already_added">동일한 채널이 있습니다. 다른 채널을 추가하세요.</string>
+    <!-- IDS_FM_POP_P1SDP2SD_MHZ_STATION_FOUND_TOTAL_NUMBER_OF_STATIONS_FOUND_C_P3SD -->
+    <string name="dialog_channel_found">%1$d.%2$dMHz 채널을 검색하였습니다. 검색된 총 채널 수: %3$d개</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found">%1$sMHz에서 채널을 찾았습니다. 채널을 총 1개 찾았습니다.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_P2SD_STATIONS_HAVE_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_found_south_region">%1$sMHz에서 채널을 찾았습니다. 채널 %2$d개를 찾았습니다.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found_south_region">%1$sMHz에서 채널을 찾았습니다. 채널을 총 1개 찾았습니다.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_FOUND_WHILE_SCANNING -->
+    <string name="toast_channel_found">검색 중에 채널 %d개를 찾았습니다.</string>
+    <!-- IDS_FM_POP_1_STATION_FOUND_WHILE_SCANNING -->
+    <string name="toast_one_channel_found">채널을 1개 찾았습니다.</string>
+    <!-- IDS_FM_POP_TURN_FM_RADIO_ON -->
+    <string name="toast_on_alert">FM 라디오를 켜세요.</string>
+    <!-- IDS_RADIO_BODY_RADIO_M_APPLIACTION_NAME -->
+    <string name="app_name">라디오</string>
+    <!-- IDS_LA_HEADER_ALL_CHANNELS -->
+    <string name="channels">All channels</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="record">녹음</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="scan">채널 찾기</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="more">더보기</string>
+    <!-- IDS_MEDIABR_OPT_REMOVE -->
+    <string name="remove">삭제</string>
+    <!-- IDS_FM_OPT_SETTINGS -->
+    <string name="settings">설정</string>
+    <!-- IDS_FM_HEADER_STATIONS -->
+    <string name="allchannels">채널</string>
+    <!-- IDS_COM_OPT_INFORMATION -->
+    <string name="information">정보</string>
+    <!-- IDS_LP_SK3_OK -->
+    <string name="ok">확인</string>
+    <!-- IDS_KC_OPT_CANCEL -->
+    <string name="cancel">취소</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename">이름 변경</string>
+    <!-- IDS_BR_HEADER_ENTER_NAME -->
+    <string name="rename_text">이름 입력</string>
+    <!-- IDS_KA_BUTTON_DONE -->
+    <string name="done">완료</string>
+    <!-- IDS_FM_OPT_REPLACE -->
+    <string name="replace">대체</string>
+    <!-- IDS_FM_BODY_MHZ -->
+    <string name="mhz">MHz</string>
+    <!-- IDS_FM_BODY_SETTINGS_RADIO_TEXT -->
+    <string name="setting_sationid">문자 중계</string>
+    <!-- IDS_FM_BODY_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af">대체 주파수</string>
+    <!-- IDS_FM_MBODY_AUTO_OFF -->
+    <string name="setting_autooff">자동 끄기</string>
+    <!-- IDS_FM_BODY_STATION_INFORMATION_WILL_BE_SHOWN -->
+    <string name="setting_stationid_summary">방송국 정보를 표시합니다.</string>
+    <!-- IDS_FM_BODY_TURN_ON_OFF_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af_summary">대체 주파수를 실행/해제합니다.</string>
+    <!-- IDS_FM_OPT_NEVER -->
+    <string name="setting_never">안 함</string>
+    <!-- IDS_FM_BODY_AFTER_15_MINS_ABB -->
+    <string name="setting_15min">15분 후</string>
+    <!-- IDS_FM_BODY_ST_AFTER_30_MIN -->
+    <string name="setting_30min">30분 후</string>
+    <!-- IDS_TDMB_BODY_AFTER_1_HOUR -->
+    <string name="setting_hour">1시간 후</string>
+    <!-- IDS_TDMB_BODY_AFTER_2_HOURS -->
+    <string name="setting_2hour">2시간 후</string>
+    <!-- IDS_MT_BUTTON_SAVE -->
+    <string name="save">저장</string>
+    <!-- IDS_FM_BODY_NO_STATIONS -->
+    <string name="toast_channel_empty">채널 없음</string>
+    <!-- IDS_FM_NPBODY_NO_FAVOURITE_STATIONS_ABB -->
+    <string name="toast_favourite_empty">즐겨듣는 채널이 없습니다</string>
+    <!-- IDS_FM_TPOP_EARPHONES_NOT_CONNECTED_EARPHONES_FUNCTION_AS_RADIO_AERIAL_CONNECT_EARPHONES -->
+    <string name="toast_earphone_not_connected">이어폰이 연결되지 않았습니다. 이어폰은 방송신호를 수신하는 안테나 역할을 합니다. 이어폰을 연결하세요.</string>
+    <!-- IDS_FM_OPT_AUTO_SCAN -->
+    <string name="dialog_autoscan">자동 찾기</string>
+    <!-- IDS_FM_POP_STARTING_AUTO_SCAN_ING -->
+    <string name="toast_initial_access">자동 찾기 시작 중\u2026</string>
+    <!-- IDS_FM_HEADER_SCAN_RESULT -->
+    <string name="scan_result">검색 결과</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename_channel">이름 변경</string>
+    <!-- IDS_KA_HEADER_ALERT -->
+    <string name="alert">알림</string>
+    <!-- IDS_PB_OPT_FAVOURITES -->
+    <string name="fav_channel">즐겨찾기</string>
+    <!-- IDS_FM_OPT_ALL_STATIONS -->
+    <string name="menu_refersh_all">모든 채널</string>
+    <!-- IDS_FM_OPT_RETAINING_FAVOURITES -->
+    <string name="menu_refresh">즐겨찾기 유지</string>
+    <!-- IDS_FM_DROP_30 -->
+    <string name="number_30">30</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_1 -->
+    <string name="number_1">1</string>
+    <!-- IDS_CCD_BODY_TIMERDIGIT_2 -->
+    <string name="number_2">2</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_15_min_past">%d분이 지나 라디오가 자동으로 꺼졌습니다.</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_30_min_past">%d분이 지나 라디오가 자동으로 꺼졌습니다.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_1_HOUR_HAS_PASSED -->
+    <string name="alrm_1_hr_past">1시간이 지나 %s가 자동으로 꺼졌습니다.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_PD_HOURS_HAVE_PASSED -->
+    <string name="alrm_2_hrs_past">%1$d시간이 지나 %2$s가 자동으로 꺼졌습니다.</string>
+    <!-- IDS_FM_SK3_SCAN_FOR_STATIONS -->
+    <string name="scan_channels">채널 찾기</string>
+    <!-- IDS_CAST_MBODY_SELECT_ALL -->
+    <string name="selectall">모두 선택</string>
+    <!-- IDS_VIDEO_HEADER_PD_SELECTED -->
+    <string name="selected_item">%d개 선택</string>
+    <!-- IDS_VVM_POP_SELECT_AT_LEAST_ONE_ITEM -->
+    <string name="no_channel_selected">항목을 최소 1개 이상 선택하세요.</string>
+    <!-- IDS_FM_POP_UNABLE_TO_USE_PS_IN_FLIGHT_MODE -->
+    <string name="toast_airplane_mode">[비행기 탑승 모드] 실행 중에는 %s 앱을 사용할 수 없습니다.</string>
+    <!-- IDS_ST_BODY_INSTALL_VOICE_DATA_REQUIRED_FOR_SPEECH_SYNTHESIS -->
+    <string name="dialog_tts_confirm">음성 합성에 필요한 음성 데이터를 설치합니다.</string>
+    <string name="RSSI">Set Seek RSSI (long)</string>
+    <string name="SNR">Set Seek SNR(long)</string>
+    <string name="CNT">Set Seek CNT (int)</string>
+    <string name="AF_Threshold">Set AF Threshold (int)</string>
+    <string name="AF_Valid_Threshold">Set AF Valid Threshold (int)</string>
+    <string name="Current_Threshold">Get Current Threshold (int)</string>
+    <!-- IDS_FM_BODY_MODE_SPEAKER -->
+    <string name="speaker">스피커</string>
+    <!-- IDS_FM_POP_AF_SWITCHING -->
+    <string name="af_switching">대체 주파수 전환</string>
+    <!-- IDS_FM_POP_AF_SWITCHING_IS_IN_PROGRESS_PRESS_BACK_TO_CANCEL -->
+    <string name="af_switching_msg">대체 주파수로 전환 중입니다. 취소하려면 취소 버튼을 누르세요.</string>
+    <!-- IDS_COM_POP_UNABLE_TO_LAUNCH_APPLICATION_LOW_BATTERY -->
+    <string name="toast_battery_low">배터리가 부족하여 앱을 실행할 수 없습니다.</string>
+    <string name="toast_af_success">%1$d.%2$d MHz 의 대체 주파수를 찾았습니다</string>
+    <!-- IDS_FM_POP_AF_NOT_FOUND -->
+    <string name="toast_af_fail">교체 주파수를 찾을 수 없습니다.</string>
+    <!-- IDS_ST_BODY_PS_DISABLED -->
+    <string name="toast_disabled">%s 사용을 해제하였습니다.</string>
+    <!-- IDS_FM_POP_NO_STATIONS_FOUND -->
+    <string name="toast_no_channel_found">검색된 방송국이 없습니다.</string>
+    <!-- IDS_CCD_POP_UNAVAILABLE_IN_TV_OUT_MODE -->
+    <string name="toast_unavailable_in_tvout_mode">[TV출력 모드]에서는 사용할 수 없습니다.</string>
+    <!-- IDS_COM_POP_MESSAGETONE_MUTE -->
+    <string name="mute">무음</string>
+    <!-- IDS_COM_POP_SEARCHING -->
+    <string name="seeking">검색 중\u2026</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_EARPHONES_ABB -->
+    <string name="via_earphone">이어폰으로 재생</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_SPEAKER_ABB -->
+    <string name="via_speaker">스피커로 재생</string>
+    <!-- IDS_COM_MBODY_NORMAL_FREQUENCY -->
+    <string name="normal_frequency">일반 주파수</string>
+    <!-- IDS_COM_BODY_END -->
+    <string name="end">종료</string>
+    <!-- IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED -->
+    <string name="toast_maximum_file_name">최대 글자 수(%d)에 도달하였습니다.</string>
+    <!-- IDS_FM_BODY_TURN_ON_THE_PS -->
+    <string name="turn_on_radio">%s를 켜세요.</string>
+    <!-- IDS_PB_BODY_ENTERTEL -->
+    <string name="enter_number">숫자를 입력하세요.</string>
+    <!-- IDS_NFC_BUTTON_TAG -->
+    <string name="tag">태그</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="stop">중지</string>
+    <!-- IDS_FM_BODY_RECORDING_M_RECORDING_VOICE -->
+    <string name="recording">녹음 중</string>
+    <!-- IDS_DAV_BODY_MEMORY_FULL -->
+    <string name="memory_full">저장공간을 모두 사용 중입니다.</string>
+    <!-- IDS_VR_POP_CANCEL_RECORDING_Q -->
+    <string name="cancel_recording">녹음을 취소할까요?</string>
+    <!-- IDS_FM_HEADER_CHANGE_FREQUENCY -->
+    <string name="change_frequency">주파수 변경</string>
+    <!-- IDS_FM_BODY_ENTER_FREQUENCY -->
+    <string name="enter_frequency">주파수를 입력하세요.</string>
+    <!-- IDS_FM_POP_SAVED_IN_PS_GO_TO_RECORDED_FILES_TO_PLAY_PLAY_NOW_Q -->
+    <string name="saved_go_to_myfiles">%s에 저장하였습니다. 재생할 녹음 파일로 이동합니다. 지금 재생할까요?</string>
+    <!-- IDS_FM_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="dont_show_again">다시 보지 않기</string>
+    <string name="toast_max_favorite">최대 즐겨듣는 채널 수(12개)를 초과하였습니다. 일부 즐겨듣는 채널을 삭제하세요.</string>
+    <!-- IDS_MUSIC_POP_LOUD_MUSIC_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_TO_IT_FOR_A_LONG_TIME -->
+    <string name="audio_shock_warning">오랫동안 큰 소리로 음악을 들으면 청각이 손상될 수 있습니다.</string>
+    <!-- IDS_IV_POP_RECORDING_ERROR -->
+    <string name="recording_error">녹음 오류</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="desc_record">녹음</string>
+    <!-- IDS_FM_BODY_VOLUME -->
+    <string name="desc_volume">음량</string>
+    <!-- IDS_FM_OPT_POWER -->
+    <string name="desc_power">전원</string>
+    <string name="desc_quick_pannel_power">FM 라디오 끄기,켜기</string>
+    <!-- IDS_FM_BODY_PREVIOUS_STATION -->
+    <string name="desc_prev">이전 채널</string>
+    <!-- IDS_FM_BODY_NEXT_STATION -->
+    <string name="desc_next">다음 채널</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_1_T_TTS -->
+    <string name="desc_fav1">즐겨듣는 채널1,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_2_T_TTS -->
+    <string name="desc_fav2">즐겨듣는 채널2,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_3_T_TTS -->
+    <string name="desc_fav3">즐겨듣는 채널3,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_4_T_TTS -->
+    <string name="desc_fav4">즐겨듣는 채널4,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_5_T_TTS -->
+    <string name="desc_fav5">즐겨듣는 채널5,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_6_T_TTS -->
+    <string name="desc_fav6">즐겨듣는 채널6,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_7_T_TTS -->
+    <string name="desc_fav7">즐겨듣는 채널7,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_8_T_TTS -->
+    <string name="desc_fav8">즐겨듣는 채널8,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_9_T_TTS -->
+    <string name="desc_fav9">즐겨듣는 채널9,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_10_T_TTS -->
+    <string name="desc_fav10">즐겨듣는 채널10,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_11_T_TTS -->
+    <string name="desc_fav11">즐겨듣는 채널11,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_12_T_TTS -->
+    <string name="desc_fav12">즐겨듣는 채널12,</string>
+    <string name="desc_button">%s, 버튼</string>
+    <!-- IDS_ACCS_OPT_PS_TAB_OPT_TTS -->
+    <string name="desc_tab">%s, 탭</string>
+    <!-- IDS_NFC_HEADER_ADD_FAVOURITE -->
+    <string name="desc_add_favorite">즐겨찾기 추가</string>
+    <!-- IDS_FM_POP_REMOVE_FAVOURITES_Q -->
+    <string name="desc_rem_favorite">[즐겨찾기]에서 삭제할까요?</string>
+    <string name="desc_favorite">%s, 즐겨듣는 채널</string>
+    <!-- IDS_FM_HEADER_MENU -->
+    <string name="desc_menu">메뉴</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="desc_stop">중지</string>
+    <!-- IDS_MSGC_SK_RESUME_LITE -->
+    <string name="desc_resume">계속</string>
+    <!-- IDS_MK_SK3_PAUSE -->
+    <string name="desc_pause">일시정지</string>
+    <!-- IDS_CALL_BUTTON_CANCEL -->
+    <string name="desc_cancel">취소</string>
+    <!-- IDS_FM_BODY_FREQUENCY -->
+    <string name="desc_frequency">주파수</string>
+    <!-- IDS_RADIO_BODY_FREQUENCY_CONTROL_SLIDER_TTS -->
+    <string name="desc_frequency_slider">주파수 조절 슬라이더</string>
+    <!-- IDS_COM_BUTTON_CLOSE -->
+    <string name="desc_close">닫기</string>
+    <!-- IDS_COM_BODY_HOUR -->
+    <string name="desc_hour">시간</string>
+    <!-- IDS_CLD_OPT_HOURS -->
+    <string name="desc_hours">시간</string>
+    <!-- IDS_COM_BODY_MINUTE -->
+    <string name="desc_minute">분</string>
+    <!-- IDS_COM_BODY_MINUTES -->
+    <string name="desc_minutes">분</string>
+    <!-- IDS_ST_POP_SECOND -->
+    <string name="desc_second">초</string>
+    <!-- IDS_COM_BODY_SECONDS -->
+    <string name="desc_seconds">초</string>
+    <!-- IDS_GP_SHEADER_FAVOURITE_STATIONS -->
+    <string name="desc_fav_station">즐겨듣는 채널</string>
+    <!-- IDS_FM_BODY_VIEW_VISUAL_INFORMATION -->
+    <string name="desc_switch_btn_view_information">영상 정보 보기</string>
+    <!-- IDS_FM_OPT_RESUME_TTS -->
+    <string name="desc_resume_extended">계속</string>
+    <!-- IDS_FM_OPT_MORE_OPTIONS -->
+    <string name="desc_more">옵션 더보기</string>
+    <!-- WDS_TTS_TBBODY_DOUBLE_TAP_TO_SELECT_ALL -->
+    <string name="desc_double_tap_to_select_all">모두 선택하려면 두 번 누르세요.</string>
+    <!-- IDS_BR_BODY_DOUBLE_TAP_TO_DESELECT_T_TTS -->
+    <string name="desc_double_tap_to_deselect_all">선택을 해제하려면 두 번 누르세요.</string>
+    <!-- IDS_FM_POP_NOTHINGSELECTED -->
+    <string name="desc_nothing_selected">선택한 것이 없습니다.</string>
+    <!-- IDS_COM_BODY_PD_SELECTED -->
+    <string name="desc_n_selected">%d개 선택</string>
+    <!-- IDS_COM_BUTTON_NOT_CHECKED -->
+    <string name="desc_not_ticked_t_tts">선택되지 않음</string>
+    <!-- IDS_VPL_BODY_TICK_BOX -->
+    <string name="desc_tick_box_t_tts">체크박스</string>
+    <!-- IDS_COM_BODY_FAVOURITE -->
+    <string name="desc_favorite_button">즐겨찾기</string>
+    <!-- IDS_COM_BODY_SELECTED -->
+    <string name="desc_selected">하나만 선택</string>
+    <!-- IDS_ACCS_BODY_NOT_SELECTED_T_TTS -->
+    <string name="desc_not_selected">선택하지 않았습니다.</string>
+    <!-- IDS_HEALTH_TBBODY_PS_ADDED_TO_FAVOURITES -->
+    <string name="desc_frequency_added_to_favourites">%s 항목을 즐겨찾기에 추가하였습니다.</string>
+    <!-- IDS_HEALTH_TBBODY_PS_REMOVED_FROM_FAVOURITES -->
+    <string name="desc_frequency_removed_from_favourites">%s 항목을 즐겨찾기에서 삭제하였습니다.</string>
+    <!-- IDS_FM_POP_VOLUME_CONTROL_NOT_AVAILABLE_WHILE_RECORDING -->
+    <string name="recording_volume_control">녹음 중에는 음량을 조절할 수 없습니다.</string>
+    <string name="deleted">삭제되었습니다.</string>
+    <string name="record_filename">fmrecord</string>
+    <!-- IDS_MS_OPT_START -->
+    <string name="test_start">시작</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="test_stop">중지</string>
+    <!-- IDS_KA_BODY_TITLE -->
+    <string name="tags_music_title">제목</string>
+    <!-- IDS_MUSIC_BUTTON2_ALBUM -->
+    <string name="tags_music_album">앨범</string>
+    <!-- IDS_KA_BODY_ARTIST -->
+    <string name="tags_music_artist">아티스트</string>
+    <!-- IDS_FM_BODY_BAND_M_MUSIC -->
+    <string name="tags_music_band">밴드</string>
+    <!-- IDS_KA_BODY_URL -->
+    <string name="tags_information_url">URL</string>
+    <!-- IDS_SIDL_SK3_HOME_URL -->
+    <string name="tags_programme_homepage">홈페이지</string>
+    <!-- IDS_FM_BODY_HOTLINE -->
+    <string name="tags_interact_hotline">대표전화번호</string>
+    <!-- IDS_VDOE_HEADER_STUDIO -->
+    <string name="tags_interact_studio">스튜디오</string>
+    <!-- IDS_KA_BODY_OTHER -->
+    <string name="tags_interact_other">기타</string>
+    <!-- IDS_MSGC_BODY_TEXTSTYLE_ALIGNMENTCENTER -->
+    <string name="tags_interact_centre">가운데</string>
+    <!-- IDS_FM_POP_UNABLE_TO_SCAN_WHILE_RECORDING_M_AUDIO -->
+    <string name="toast_unable_scan">녹음 중에는 찾을 수 없습니다.</string>
+    <!-- IDS_FM_BODY_STATION_NAME -->
+    <string name="dialog_station_name">채널 이름</string>
+    <!-- IDS_FM_SK_DELETE -->
+    <string name="delete">삭제</string>
+    <string name="select">선택</string>
+    <!-- IDS_KC_MBODY_STORAGE -->
+    <string name="setting_storage">저장공간</string>
+    <!-- IDS_MS_HEADER_MY_FILES -->
+    <string name="setting_myfiles">내 파일</string>
+    <!-- IDS_MK_MBODY_MEMORY_CARD -->
+    <string name="setting_memory_card">SD 카드</string>
+    <!-- IDS_ST_BODY_DEVICE -->
+    <string name="setting_phone">디바이스</string>
+    <!-- IDS_FM_BODY_EARPHONE_SETTINGS -->
+    <string name="setting_sound_settings">이어폰 설정</string>
+    <!-- IDS_MUSIC_BODY_STEREO -->
+    <string name="setting_stereo">스테레오</string>
+    <!-- IDS_MP_BODY_MONO_M_SOUND_TYPE -->
+    <string name="setting_mono">모노</string>
+    <!-- IDS_FM_BODY_TAP_SCAN_AT_THE_TOP_OF_THE_SCREEN_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations_tap_button_to_scan">채널을 찾으려면 화면 상단의 [찾기]를 누르세요.</string>
+    <!-- IDS_FM_TPOP_PS_SAVED -->
+    <string name="toast_saved">%s 파일을 저장하였습니다.</string>
+    <!-- IDS_COM_BODY_SELECT_ALL -->
+    <string name="select_all">모두 선택</string>
+    <!-- IDS_IME_HEADER_DESELECT_ALL -->
+    <string name="deselect_all">모두 해제</string>
+    <!-- IDS_FM_OPT_ALL -->
+    <string name="select_checkbox_all">전체</string>
+    <!-- IDS_MSG_MBODY_SELECT_CHANNELS -->
+    <string name="select_channels">채널 선택</string>
+    <!-- IDS_FM_HEADER_SELECT_RECORDINGS_ABB -->
+    <string name="select_recordings">녹음 파일 선택</string>
+    <!-- IDS_VR_HEADER_RECORDED_FILES -->
+    <string name="recorded_files">녹음 파일</string>
+    <!-- IDS_VR_HEADER_RECORDINGS_M_VOICE_ABB -->
+    <string name="recordings">녹음 목록</string>
+    <!-- IDS_FM_BODY_AFTER_YOU_RECORD_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files_guide">라디오를 녹음하면 녹음된 파일을 표시합니다.</string>
+    <!-- IDS_VR_BODY_NO_RECORDED_FILES -->
+    <string name="no_recorded_files_msg">녹음된 파일이 없습니다</string>
+    <!-- IDS_FM_BODY_NO_RECORDED_FILES_N_AFTER_RECORDING_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files">녹음된 파일이 없습니다.\n라디오를 녹음하면 녹음된 파일을 표시합니다.</string>
+    <!-- IDS_MK_BODY_PROCESSING_ING -->
+    <string name="dialog_processing">진행 중\u2026</string>
+    <!-- IDS_TASK_POP_UP_TO_PD_CHARACTERS_AVAILABLE -->
+    <string name="toast_up_to_n_characters">글자는 최대 %d자까지 입력할 수 있습니다.</string>
+    <!-- IDS_MUSIC_POP_INVALID_CHARACTER -->
+    <string name="toast_invalid_character">문자가 바르지 않습니다.</string>
+    <!-- IDS_IV_BODY_NEW_FILE_NAME -->
+    <string name="dialog_new_file_name">새 파일 이름</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILE_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_file_deleted">선택한 녹음 파일을 삭제합니다.</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILES_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_files_deleted">선택한 녹음 파일을 삭제합니다.</string>
+    <!-- IDS_MH_POP_FILE_DOES_NOT_EXIST -->
+    <string name="file_does_not_exist">파일이 없습니다.</string>
+    <!-- IDS_FM_POP_ALREADY_EXISTS -->
+    <string name="toast_already_exist">동일한 항목이 있습니다.</string>
+    <!-- IDS_BR_POP_RENAME_EMPTY -->
+    <string name="toast_name_empty">이름이 없습니다.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_EARPHONES -->
+    <string name="sound_path_earphone_mode">이어폰으로 라디오 청취 중입니다.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_SPEAKER -->
+    <string name="sound_path_speaker_mode">스피커로 라디오 청취 중입니다.</string>
+    <!-- IDS_FM_POP_NOW_LISTENING_VIA_BT_HEADSET -->
+    <string name="sound_path_bt_headset_mode">이제 BT 헤드셋으로 청취합니다.</string>
+    <!-- IDS_ST_BODY_YOU_CAN_CONTROL_THE_RADIO_WITH_VOICE_COMMANDS_LIKE_NEXT_PREVIOUS_STOP_AND_PLAY -->
+    <string name="notification_barge_in">‘다음’, ‘이전’, ‘중지’, ‘재생’과 같은 음성 명령으로 라디오를 제어할 수 있습니다.</string>
+    <!-- IDS_VC_BODY_YOU_CAN_CONTROL_THE_FM_RADIO_WITH_THE_VOICE_COMMANDS_PS_PS_PS_PS_PS_AND_PS -->
+    <string name="notification_barge_in_args">%1$s, %2$s, %3$s, %4$s, %5$s, %6$s 등의 음성 명령으로 FM 라디오를 제어할 수 있습니다.</string>
+    <!-- IDS_VR_POP_RECORDING_WILL_BE_CANCELLED_AND_FILE_WILL_NOT_BE_SAVED -->
+    <string name="recording_will_be_cancelled">녹음을 취소하고 파일을 저장하지 않습니다.</string>
+    <!-- IDS_FM_POP_UNABLE_TO_PLAY_RADIO_DURING_CALL -->
+    <string name="unable_to_play_radio_during_call">통화 중에는 라디오를 재생할 수 없습니다.</string>
+    <!-- IDS_FM_BODY_THIS_ITEM_WILL_BE_DELETED -->
+    <string name="dialog_one_item_deleted">항목을 삭제합니다.</string>
+    <!-- IDS_FM_BODY_PD_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_items_deleted">항목 %d개를 삭제합니다.</string>
+    <!-- IDS_FM_BODY_ALL_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_all_items_deleted">항목을 모두 삭제합니다.</string>
+    <!-- IDS_RADIO_POP_1_STATION_WILL_BE_DELETED -->
+    <string name="dialog_one_station_will_be_deleted">채널 1개를 삭제합니다.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_stations_will_be_deleted">채널 %d개를 삭제합니다.</string>
+    <!-- IDS_VR_POP_1_RECORDING_WILL_BE_DELETED -->
+    <string name="dialog_one_recording_will_be_deleted">녹음 파일 1개를 삭제합니다.</string>
+    <!-- IDS_VR_POP_PD_RECORDINGS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_recordings_will_be_deleted">녹음 파일 %d개를 삭제합니다.</string>
+    <!-- IDS_FM_BODY_TURNING_ON_ING -->
+    <string name="turning_on">켜는 중\u2026</string>
+    <!-- IDS_COM_POP_NOT_ENOUGH_MEMORY_RECORDING_WILL_STOP_IN_PD_SECONDS -->
+    <string name="not_enough_memory_recording_will_stop">저장공간이 부족합니다. %d초 후에 녹음을 중지합니다.</string>
+    <!-- IDS_ST_BODY_LEDOT_LOW_BATTERY -->
+    <string name="low_batt_msg">배터리 부족</string>
+    <!-- IDS_MSG_POP_UNABLE_TO_PLAY_DURING_CALL -->
+    <string name="no_play_during_call">통화 중에는 재생할 수 없습니다.</string>
+    <!-- IDS_DTV_POP_UNABLE_TO_DELETE -->
+    <string name="unable_delete">삭제할 수 없습니다.</string>
+    <!-- IDS_MUSIC_BODY_PLAYING_ING_ABB -->
+    <string name="playing">재생 중\u2026</string>
+    <!-- IDS_CALL_SK3_PLAY -->
+    <string name="tts_play_button">재생</string>
+    <!-- IDS_COM_BODY_PREVIOUS -->
+    <string name="tts_previous_button">이전</string>
+    <!-- IDS_COM_BODY_NEXT -->
+    <string name="tts_Next_button">다음</string>
+    <!-- IDS_COM_POP_CONNECT -->
+    <string name="connect">연결</string>
+    <!-- IDS_IM_BODY_TOPIC -->
+    <string name="topic">주제</string>
+    <!-- IDS_MUSIC_HEADER_SUBSCRIBE -->
+    <string name="subscribe">구독</string>
+    <!-- IDS_MSGF_BODY_NO_TEXT -->
+    <string name="no_text">내용이 없습니다.</string>
+    <!-- IDS_KA_BODY_MORE_INFORMATION -->
+    <string name="for_more_info">추가정보</string>
+    <!-- IDS_FM_BUTTON_VIEW_VISUAL_INFO_ABB -->
+    <string name="switch_btn_view_information">영상정보 보기</string>
+    <!-- IDS_FM_BUTTON_VIEW_TUNER -->
+    <string name="switch_btn_view_tuner">튜너 보기</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_VIEW_THIS_INFORMATION_FOR_THIS_STATION -->
+    <string name="switch_btn_disable">이 정보를 볼 수 없는 채널입니다.</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_LISTEN_TO_THIS_STATION_VIA_INTERNET_RADIO -->
+    <string name="menu_internetradio_disable">인터넷 라디오로 들을 수 없는 채널입니다.</string>
+    <!-- IDS_FM_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN -->
+    <string name="wifi_warning">Wi-Fi를 사용할 수 없습니다. 모바일 네트워크에 연결하면 요금제에 따라 추가요금이 부과될 수 있습니다.</string>
+    <!-- IDS_POPSYNC_BODY_CONNECT_VIA_MOBILE_NETWORK -->
+    <string name="connect_mobile_network">모바일 네트워크로 연결</string>
+    <!-- IDS_WGT_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="do_not_show_again">다시 보지 않기</string>
+    <!-- IDS_COM_POP_SERVER_RESPONSE_ERROR -->
+    <string name="server_response_error">서버 응답 오류</string>
+    <!-- IDS_SYS_BODY_CODE_GENERATION_VER -->
+    <string name="stms_version">ANDROID_P4_20150420_0216</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_INTERNET_RADIO -->
+    <string name="switch_to_internet_radio">인터넷 라디오로 전환</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_FM_RADIO -->
+    <string name="switch_to_fm_radio">FM 라디오로 전환</string>
+    <!-- IDS_SOCIALMAG_POP_PLEASE_WAIT_ING -->
+    <string name="dialog_popup_wait">잠시 기다리세요\u2026</string>
+    <!-- IDS_FM_BODY_AUTOMATICALLY_SWITCHES_TO_INTERNET_RADIO_MSG -->
+    <string name="auto_switch_to_internet_radio">FM 라디오 신호가 약하거나 대체 주파수를 찾을 수 없을 때 인터넷 라디오로 자동 전환합니다.</string>
+    <!-- IDS_RADIO_POP_THE_CURRENT_RECORDING_WILL_STOP_M_VOICE -->
+    <string name="record_suspended_continue">현재 녹음을 중지합니다.</string>
+    <!-- IDS_FM_BUTTON_LISTEN_NOW -->
+    <string name="listen_to_radio">지금 듣기</string>
+    <!-- IDS_FM_BODY_NOW_LISTENING_ABB -->
+    <string name="now_listening">청취 중</string>
+    <!-- IDS_COM_BODY_BUTTON_T_TTS -->
+    <string name="button">버튼</string>
+    <!-- IDS_FM_BODY_TAP_HERE_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations">채널을 찾으려면 여기를 누르세요.</string>
+    <!-- IDS_CALL_BODY_THE_RECORDING_WILL_BE_SAVED_AUTOMATICALLY_WHEN_YOU_ACCEPT_THE_CALL -->
+    <string name="recording_save_during_call">전화를 받으면 녹음이 자동 저장됩니다.</string>
+    <!-- IDS_ST_BODY_START -->
+    <string name="test_noise_start">시작</string>
+    <!-- IDS_COM_BODY_STOP -->
+    <string name="test_noise_stop">중지</string>
+    <!-- IDS_BR_POP_READY -->
+    <string name="test_nosise_current_status">준비하였습니다.</string>
+    <!-- IDS_FM_BUTTON_EARPHONE -->
+    <string name="test_noise_earphone">이어폰</string>
+    <!-- IDS_VOLTE_BUTTON_SPEAKER -->
+    <string name="test_noise_speaker">한뼘통화</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="menu_more">더보기</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="menu_scan">채널 찾기</string>
+    <!-- IDS_FM_OPT_EDIT -->
+    <string name="menu_edit">편집</string>
+    <!-- IDS_RADIO_SBODY_CONTENT_HIDDEN -->
+    <string name="content_hidden">내용 숨김</string>
+    <!-- IDS_FM_TPOP_UNABLE_TO_RECORD_RADIO_DISABLE_TURN_OFF_ALL_SOUNDS_AND_TRY_AGAIN -->
+    <string name="unable_record_turn_off_all_sound">라디오를 녹음할 수 없습니다. [모든 소리 끄기]를 해제한 후 다시 시도하세요.</string>
+</resources>

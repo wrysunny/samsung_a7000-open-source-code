@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+**
+** Created with XMLCompiler2
+*/ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IDS_FM_POP_UNABLE_TO_TURN_ON_PS -->
+    <string name="toast_fm_not_played">%sni yoqib bo‘lmaydi.</string>
+    <!-- IDS_FM_POP_EARPHONE_REMOVED_RADIO_TURNED_OFF -->
+    <string name="headset_disconnect">Quloqliklar olib tashlandi. Radio o‘chiriladi.</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_RENAME -->
+    <string name="toast_tap_to_rename">Nomini o‘zgartirish uchun chastotaga teging.</string>
+    <!-- IDS_FM_POP_INVALID_FREQUENCY -->
+    <string name="toast_channel_invalid">Noto‘g‘ri chastota.</string>
+    <!-- IDS_FM_POP_TUNING_TO_P1SDP2SD_MHZ_ING -->
+    <string name="toast_tune">%1$d.%2$d MGsga aylantirish\u2026</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_REMOVE -->
+    <string name="toast_tap_to_remove">Olib tashlash uchun chastotani cherting.</string>
+    <!-- IDS_FM_POP_BUSY_TUNING_IN_ING -->
+    <string name="toast_busy_tunning">Band. Sozlash\u2026</string>
+    <!-- IDS_FM_POP_ALREADY_SCANNING_ING -->
+    <string name="toast_already_scan">Skanerlamoqda\u2026</string>
+    <!-- IDS_IM_POP_UNABLE_TO_RENAME -->
+    <string name="toast_rename_error">Nomini o‘zgartirib bo‘lmaydi.</string>
+    <!-- IDS_WIFI_POP_PROFILECONNECTION_CANCELLING -->
+    <string name="dialog_cancel_scan">Bekor qilinmoqda\u2026</string>
+    <!-- IDS_AV_POP_SCANNING_ING -->
+    <string name="dialog_scan">Ko\'rib chiqilmoqda…</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_MINUTES -->
+    <string name="alarm_text1">%d daqiqadan so‘ng FM radio o‘chiriladi.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_1_HOUR -->
+    <string name="alarm_text2">1 soatdan so‘ng FM radio o‘chiriladi.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_HOURS -->
+    <string name="alarm_text3">%d soatdan so‘ng FM radio o‘chiriladi.</string>
+    <!-- IDS_FM_POP_STATION_ALREADY_EXISTS_ADD_ANOTHER_STATION -->
+    <string name="toast_already_added">Stansiya avvaldan mavjud. Boshqa stansiya qo‘shing.</string>
+    <!-- IDS_FM_POP_P1SDP2SD_MHZ_STATION_FOUND_TOTAL_NUMBER_OF_STATIONS_FOUND_C_P3SD -->
+    <string name="dialog_channel_found">%1$d.%2$d MGs stansiyasi topildi. Topilgan jami stansiyalar soni: %3$d.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found">%1$s MGtsda stansiya topildi. Jami 1 ta stansiya topildi.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_P2SD_STATIONS_HAVE_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_found_south_region">%1$s MHz to‘lqinida aniqdi. Jami %2$d ta kanal aniqlandi.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found_south_region">%1$s MGtsda stansiya topildi. Jami 1 ta stansiya topildi.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_FOUND_WHILE_SCANNING -->
+    <string name="toast_channel_found">Skanerlash davomida %d stansiya topildi.</string>
+    <!-- IDS_FM_POP_1_STATION_FOUND_WHILE_SCANNING -->
+    <string name="toast_one_channel_found">Skanerlash mobaynida 1 stansiya topildi.</string>
+    <!-- IDS_FM_POP_TURN_FM_RADIO_ON -->
+    <string name="toast_on_alert">FM radioni yoqish.</string>
+    <!-- IDS_RADIO_BODY_RADIO_M_APPLIACTION_NAME -->
+    <string name="app_name">Radio</string>
+    <!-- IDS_LA_HEADER_ALL_CHANNELS -->
+    <string name="channels">All channels</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="record">Yoz/olish</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="scan">Qidirish</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="more">Yana</string>
+    <!-- IDS_MEDIABR_OPT_REMOVE -->
+    <string name="remove">Olib tashlash</string>
+    <!-- IDS_FM_OPT_SETTINGS -->
+    <string name="settings">Parametrlar</string>
+    <!-- IDS_FM_HEADER_STATIONS -->
+    <string name="allchannels">Stansiyalar</string>
+    <!-- IDS_COM_OPT_INFORMATION -->
+    <string name="information">Ma’lumot</string>
+    <!-- IDS_LP_SK3_OK -->
+    <string name="ok">OK</string>
+    <!-- IDS_KC_OPT_CANCEL -->
+    <string name="cancel">Bekor qilish</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename">Nom o‘zgartirish</string>
+    <!-- IDS_BR_HEADER_ENTER_NAME -->
+    <string name="rename_text">Nom kiriting</string>
+    <!-- IDS_KA_BUTTON_DONE -->
+    <string name="done">OK</string>
+    <!-- IDS_FM_OPT_REPLACE -->
+    <string name="replace">Almashtirish</string>
+    <!-- IDS_FM_BODY_MHZ -->
+    <string name="mhz">MGts</string>
+    <!-- IDS_FM_BODY_SETTINGS_RADIO_TEXT -->
+    <string name="setting_sationid">Radio matni</string>
+    <!-- IDS_FM_BODY_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af">Muqobil chastota</string>
+    <!-- IDS_FM_MBODY_AUTO_OFF -->
+    <string name="setting_autooff">Avto o‘ch.</string>
+    <!-- IDS_FM_BODY_STATION_INFORMATION_WILL_BE_SHOWN -->
+    <string name="setting_stationid_summary">Joy haqidagi ma’lumot ko‘rsatiladi.</string>
+    <!-- IDS_FM_BODY_TURN_ON_OFF_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af_summary">Muqobil chastotani yoqish/o‘chirish.</string>
+    <!-- IDS_FM_OPT_NEVER -->
+    <string name="setting_never">Hech qachon</string>
+    <!-- IDS_FM_BODY_AFTER_15_MINS_ABB -->
+    <string name="setting_15min">15 daqi-dan so‘ng</string>
+    <!-- IDS_FM_BODY_ST_AFTER_30_MIN -->
+    <string name="setting_30min">30 daqiqadan keyin</string>
+    <!-- IDS_TDMB_BODY_AFTER_1_HOUR -->
+    <string name="setting_hour">1 soatdan keyin</string>
+    <!-- IDS_TDMB_BODY_AFTER_2_HOURS -->
+    <string name="setting_2hour">2 soatdan keyin</string>
+    <!-- IDS_MT_BUTTON_SAVE -->
+    <string name="save">Saqlash</string>
+    <!-- IDS_FM_BODY_NO_STATIONS -->
+    <string name="toast_channel_empty">Stansiyalar yo‘q</string>
+    <!-- IDS_FM_NPBODY_NO_FAVOURITE_STATIONS_ABB -->
+    <string name="toast_favourite_empty">Sevimli stansiyalar yo‘q</string>
+    <!-- IDS_FM_TPOP_EARPHONES_NOT_CONNECTED_EARPHONES_FUNCTION_AS_RADIO_AERIAL_CONNECT_EARPHONES -->
+    <string name="toast_earphone_not_connected">Quloqlik ulanmagan. Quloqlik radio antenna sifatida ishlaydi. Quloqlikni ulang.</string>
+    <!-- IDS_FM_OPT_AUTO_SCAN -->
+    <string name="dialog_autoscan">Avtomatik skanerlash</string>
+    <!-- IDS_FM_POP_STARTING_AUTO_SCAN_ING -->
+    <string name="toast_initial_access">Avtomatik skanerlash boshlanmoqda\u2026</string>
+    <!-- IDS_FM_HEADER_SCAN_RESULT -->
+    <string name="scan_result">Skanerlash natijasi</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename_channel">Nom o‘zgartirish</string>
+    <!-- IDS_KA_HEADER_ALERT -->
+    <string name="alert">Signal</string>
+    <!-- IDS_PB_OPT_FAVOURITES -->
+    <string name="fav_channel">Tanlanganlar</string>
+    <!-- IDS_FM_OPT_ALL_STATIONS -->
+    <string name="menu_refersh_all">Barcha stansiyalar</string>
+    <!-- IDS_FM_OPT_RETAINING_FAVOURITES -->
+    <string name="menu_refresh">Qolgan tanlanganlar</string>
+    <!-- IDS_FM_DROP_30 -->
+    <string name="number_30">30</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_1 -->
+    <string name="number_1">1</string>
+    <!-- IDS_CCD_BODY_TIMERDIGIT_2 -->
+    <string name="number_2">2</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_15_min_past">Radio avtomatik ravishda o‘chirildi. %d daqiqa o‘tdi.</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_30_min_past">Radio avtomatik ravishda o‘chirildi. %d daqiqa o‘tdi.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_1_HOUR_HAS_PASSED -->
+    <string name="alrm_1_hr_past">%s avtomatik ravishda o‘chirildi. 1 soat o‘tdi.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_PD_HOURS_HAVE_PASSED -->
+    <string name="alrm_2_hrs_past">%1$s avtomatik ravishda o‘chirildi. %2$d soat o‘tdi.</string>
+    <!-- IDS_FM_SK3_SCAN_FOR_STATIONS -->
+    <string name="scan_channels">Stansiya qidirish</string>
+    <!-- IDS_CAST_MBODY_SELECT_ALL -->
+    <string name="selectall">Hammasini belgilash</string>
+    <!-- IDS_VIDEO_HEADER_PD_SELECTED -->
+    <string name="selected_item">%d tanlangan</string>
+    <!-- IDS_VVM_POP_SELECT_AT_LEAST_ONE_ITEM -->
+    <string name="no_channel_selected">Kamida bir element tanlang.</string>
+    <!-- IDS_FM_POP_UNABLE_TO_USE_PS_IN_FLIGHT_MODE -->
+    <string name="toast_airplane_mode">Parvoz rejimida %sdan foydalanib bo‘lmaydi.</string>
+    <!-- IDS_ST_BODY_INSTALL_VOICE_DATA_REQUIRED_FOR_SPEECH_SYNTHESIS -->
+    <string name="dialog_tts_confirm">Nutq sintezi uchun talab qilinadigan ovoz ma\'lumotlarini o‘rnatish.</string>
+    <!-- IDS_FM_BODY_MODE_SPEAKER -->
+    <string name="speaker">Dinamik</string>
+    <!-- IDS_FM_POP_AF_SWITCHING -->
+    <string name="af_switching">Muqobil chastotaga (AF) o‘tish</string>
+    <!-- IDS_FM_POP_AF_SWITCHING_IS_IN_PROGRESS_PRESS_BACK_TO_CANCEL -->
+    <string name="af_switching_msg">Muqobil chastotaga (AF) o‘tish bajarilmoqda. Bekor qilish uchun “Orqaga” tugmasini bosing.</string>
+    <!-- IDS_COM_POP_UNABLE_TO_LAUNCH_APPLICATION_LOW_BATTERY -->
+    <string name="toast_battery_low">Ilovani ishga tushirib bo‘lmaydi. Batareya quvvati kam.</string>
+    <!-- IDS_FM_POP_AF_NOT_FOUND -->
+    <string name="toast_af_fail">Muqobil chastota topilmadi.</string>
+    <!-- IDS_ST_BODY_PS_DISABLED -->
+    <string name="toast_disabled">%s o‘chirilgan.</string>
+    <!-- IDS_FM_POP_NO_STATIONS_FOUND -->
+    <string name="toast_no_channel_found">Stansiyalar topilmadi.</string>
+    <!-- IDS_CCD_POP_UNAVAILABLE_IN_TV_OUT_MODE -->
+    <string name="toast_unavailable_in_tvout_mode">TV chiqarish rejimida foydalanib bo‘lmaydi.</string>
+    <!-- IDS_COM_POP_MESSAGETONE_MUTE -->
+    <string name="mute">Ovozsiz</string>
+    <!-- IDS_COM_POP_SEARCHING -->
+    <string name="seeking">Qidirilmoqda\u2026</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_EARPHONES_ABB -->
+    <string name="via_earphone">Quloqliklar orq. ijro</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_SPEAKER_ABB -->
+    <string name="via_speaker">Dinamik orqali ijro</string>
+    <!-- IDS_COM_MBODY_NORMAL_FREQUENCY -->
+    <string name="normal_frequency">Normal chastota</string>
+    <!-- IDS_COM_BODY_END -->
+    <string name="end">Tugatish</string>
+    <!-- IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED -->
+    <string name="toast_maximum_file_name">Belgilar soni ruxsat etilgan maksimal miqdorga (%d) yetdi.</string>
+    <!-- IDS_FM_BODY_TURN_ON_THE_PS -->
+    <string name="turn_on_radio">%sni yoqing.</string>
+    <!-- IDS_PB_BODY_ENTERTEL -->
+    <string name="enter_number">Raqam kiriting.</string>
+    <!-- IDS_NFC_BUTTON_TAG -->
+    <string name="tag">Teg</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="stop">To‘xtatish</string>
+    <!-- IDS_FM_BODY_RECORDING_M_RECORDING_VOICE -->
+    <string name="recording">Yozib olish</string>
+    <!-- IDS_DAV_BODY_MEMORY_FULL -->
+    <string name="memory_full">Xotira to‘la.</string>
+    <!-- IDS_VR_POP_CANCEL_RECORDING_Q -->
+    <string name="cancel_recording">Yozib olish bekor qilinsinmi?</string>
+    <!-- IDS_FM_HEADER_CHANGE_FREQUENCY -->
+    <string name="change_frequency">Chastotani o‘zgartirish</string>
+    <!-- IDS_FM_BODY_ENTER_FREQUENCY -->
+    <string name="enter_frequency">Chastota kiriting.</string>
+    <!-- IDS_FM_POP_SAVED_IN_PS_GO_TO_RECORDED_FILES_TO_PLAY_PLAY_NOW_Q -->
+    <string name="saved_go_to_myfiles">%sda saqlandi. O‘ynatish uchun Yozib olingan fayllarga o‘ting. Hozir o‘ynatilsinmi?</string>
+    <!-- IDS_FM_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="dont_show_again">Boshqa ko‘rsatilmasin</string>
+    <string name="toast_max_favorite">Tanlangan stansiyalar soni (12) ruxsat etilgan maksimal miqdorga yetdi. Ba\'zi tanlangan stansiyalarni olib tashlang</string>
+    <!-- IDS_MUSIC_POP_LOUD_MUSIC_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_TO_IT_FOR_A_LONG_TIME -->
+    <string name="audio_shock_warning">Musiqani baland ovozda va uzoq vaqt davomida tinglash eshitish a’zolaringizga zarar yetkazishi mumkin.</string>
+    <!-- IDS_IV_POP_RECORDING_ERROR -->
+    <string name="recording_error">Yozish xatosi</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="desc_record">Yoz/olish</string>
+    <!-- IDS_FM_BODY_VOLUME -->
+    <string name="desc_volume">Ovoz balandligi</string>
+    <!-- IDS_FM_OPT_POWER -->
+    <string name="desc_power">Quvvat</string>
+    <!-- IDS_FM_BODY_PREVIOUS_STATION -->
+    <string name="desc_prev">Avvalgi stansiya</string>
+    <!-- IDS_FM_BODY_NEXT_STATION -->
+    <string name="desc_next">Keyingi stansiya</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_1_T_TTS -->
+    <string name="desc_fav1">Tanlangan stansiya 1,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_2_T_TTS -->
+    <string name="desc_fav2">Tanlangan stansiya 2,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_3_T_TTS -->
+    <string name="desc_fav3">Tanlangan stansiya 3,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_4_T_TTS -->
+    <string name="desc_fav4">Tanlangan stansiya 4,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_5_T_TTS -->
+    <string name="desc_fav5">Tanlangan stansiya 5,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_6_T_TTS -->
+    <string name="desc_fav6">Tanlangan stansiya 6,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_7_T_TTS -->
+    <string name="desc_fav7">Tanlangan stansiya 7,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_8_T_TTS -->
+    <string name="desc_fav8">Tanlangan stansiya 8,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_9_T_TTS -->
+    <string name="desc_fav9">Tanlangan stansiya 9,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_10_T_TTS -->
+    <string name="desc_fav10">Tanlangan stansiya 10,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_11_T_TTS -->
+    <string name="desc_fav11">Tanlangan stansiya 11,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_12_T_TTS -->
+    <string name="desc_fav12">Tanlangan stansiya 12,</string>
+    <!-- IDS_ACCS_OPT_PS_TAB_OPT_TTS -->
+    <string name="desc_tab">%s, panel</string>
+    <!-- IDS_NFC_HEADER_ADD_FAVOURITE -->
+    <string name="desc_add_favorite">Tanlangan qo‘shish</string>
+    <!-- IDS_FM_POP_REMOVE_FAVOURITES_Q -->
+    <string name="desc_rem_favorite">Tanlanganlar olib tashlansinmi?</string>
+    <!-- IDS_FM_HEADER_MENU -->
+    <string name="desc_menu">Menyu</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="desc_stop">To‘xtatish</string>
+    <!-- IDS_MSGC_SK_RESUME_LITE -->
+    <string name="desc_resume">Dav/et.</string>
+    <!-- IDS_MK_SK3_PAUSE -->
+    <string name="desc_pause">Pauza</string>
+    <!-- IDS_CALL_BUTTON_CANCEL -->
+    <string name="desc_cancel">Bekor qilish</string>
+    <!-- IDS_FM_BODY_FREQUENCY -->
+    <string name="desc_frequency">Chastota</string>
+    <!-- IDS_RADIO_BODY_FREQUENCY_CONTROL_SLIDER_TTS -->
+    <string name="desc_frequency_slider">Chastota kengligi slayderi</string>
+    <!-- IDS_COM_BUTTON_CLOSE -->
+    <string name="desc_close">Yopish</string>
+    <!-- IDS_COM_BODY_HOUR -->
+    <string name="desc_hour">Soat</string>
+    <!-- IDS_CLD_OPT_HOURS -->
+    <string name="desc_hours">soat</string>
+    <!-- IDS_COM_BODY_MINUTE -->
+    <string name="desc_minute">Daqiqa</string>
+    <!-- IDS_COM_BODY_MINUTES -->
+    <string name="desc_minutes">Daqiqa</string>
+    <!-- IDS_ST_POP_SECOND -->
+    <string name="desc_second">Soniya</string>
+    <!-- IDS_COM_BODY_SECONDS -->
+    <string name="desc_seconds">soniya</string>
+    <!-- IDS_GP_SHEADER_FAVOURITE_STATIONS -->
+    <string name="desc_fav_station">SEVIMLI STANSIYALAR</string>
+    <!-- IDS_FM_BODY_VIEW_VISUAL_INFORMATION -->
+    <string name="desc_switch_btn_view_information">Vizual ma’lumotni ko‘rish.</string>
+    <!-- IDS_FM_OPT_RESUME_TTS -->
+    <string name="desc_resume_extended">Davom ettirish</string>
+    <!-- IDS_FM_OPT_MORE_OPTIONS -->
+    <string name="desc_more">Ko‘proq opsiyalar</string>
+    <!-- WDS_TTS_TBBODY_DOUBLE_TAP_TO_SELECT_ALL -->
+    <string name="desc_double_tap_to_select_all">Barchasini tanlash uchun ikki marta teging.</string>
+    <!-- IDS_BR_BODY_DOUBLE_TAP_TO_DESELECT_T_TTS -->
+    <string name="desc_double_tap_to_deselect_all">Tanlovni olish tashlash uchun ikki marta teging.</string>
+    <!-- IDS_FM_POP_NOTHINGSELECTED -->
+    <string name="desc_nothing_selected">Hech narsa tanlanmagan.</string>
+    <!-- IDS_COM_BODY_PD_SELECTED -->
+    <string name="desc_n_selected">%d tanlangan</string>
+    <!-- IDS_COM_BUTTON_NOT_CHECKED -->
+    <string name="desc_not_ticked_t_tts">Tek-rilmadi</string>
+    <!-- IDS_VPL_BODY_TICK_BOX -->
+    <string name="desc_tick_box_t_tts">Belgilash katakchasi</string>
+    <!-- IDS_COM_BODY_FAVOURITE -->
+    <string name="desc_favorite_button">Tanlangan</string>
+    <!-- IDS_COM_BODY_SELECTED -->
+    <string name="desc_selected">Tanlangan</string>
+    <!-- IDS_ACCS_BODY_NOT_SELECTED_T_TTS -->
+    <string name="desc_not_selected">Tanlanmagan</string>
+    <!-- IDS_HEALTH_TBBODY_PS_ADDED_TO_FAVOURITES -->
+    <string name="desc_frequency_added_to_favourites">%s Tanlanganlarga qo‘shildi.</string>
+    <!-- IDS_HEALTH_TBBODY_PS_REMOVED_FROM_FAVOURITES -->
+    <string name="desc_frequency_removed_from_favourites">%s Tanlanganlardan olib tashlandi.</string>
+    <!-- IDS_FM_POP_VOLUME_CONTROL_NOT_AVAILABLE_WHILE_RECORDING -->
+    <string name="recording_volume_control">Ovozni boshqarish funksiyasidan yozish vaqtida foydalanib bo‘lmaydi.</string>
+    <string name="deleted">O\'chirildi.</string>
+    <!-- IDS_MS_OPT_START -->
+    <string name="test_start">Boshlash</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="test_stop">To‘xtatish</string>
+    <!-- IDS_KA_BODY_TITLE -->
+    <string name="tags_music_title">Sarlavha</string>
+    <!-- IDS_MUSIC_BUTTON2_ALBUM -->
+    <string name="tags_music_album">Albom</string>
+    <!-- IDS_KA_BODY_ARTIST -->
+    <string name="tags_music_artist">Ijrochi</string>
+    <!-- IDS_FM_BODY_BAND_M_MUSIC -->
+    <string name="tags_music_band">Tasma</string>
+    <!-- IDS_KA_BODY_URL -->
+    <string name="tags_information_url">URL-manzil</string>
+    <!-- IDS_SIDL_SK3_HOME_URL -->
+    <string name="tags_programme_homepage">Asosiy sahifa</string>
+    <!-- IDS_FM_BODY_HOTLINE -->
+    <string name="tags_interact_hotline">Aloqa uchun telefon</string>
+    <!-- IDS_VDOE_HEADER_STUDIO -->
+    <string name="tags_interact_studio">Studiya</string>
+    <!-- IDS_KA_BODY_OTHER -->
+    <string name="tags_interact_other">Boshqa</string>
+    <!-- IDS_MSGC_BODY_TEXTSTYLE_ALIGNMENTCENTER -->
+    <string name="tags_interact_centre">Markaz</string>
+    <!-- IDS_FM_POP_UNABLE_TO_SCAN_WHILE_RECORDING_M_AUDIO -->
+    <string name="toast_unable_scan">Yozib olish vaqtida qidirib bo‘lmaydi.</string>
+    <!-- IDS_FM_BODY_STATION_NAME -->
+    <string name="dialog_station_name">Stansiya nomi</string>
+    <!-- IDS_FM_SK_DELETE -->
+    <string name="delete">O\'chirish</string>
+    <string name="select">Tanlash</string>
+    <!-- IDS_KC_MBODY_STORAGE -->
+    <string name="setting_storage">Xotira</string>
+    <!-- IDS_MS_HEADER_MY_FILES -->
+    <string name="setting_myfiles">Fayllarim</string>
+    <!-- IDS_MK_MBODY_MEMORY_CARD -->
+    <string name="setting_memory_card">Xotira kartasi</string>
+    <!-- IDS_ST_BODY_DEVICE -->
+    <string name="setting_phone">Qurilma</string>
+    <!-- IDS_FM_BODY_EARPHONE_SETTINGS -->
+    <string name="setting_sound_settings">Quloqlik parametrlari</string>
+    <!-- IDS_MUSIC_BODY_STEREO -->
+    <string name="setting_stereo">Stereo</string>
+    <!-- IDS_MP_BODY_MONO_M_SOUND_TYPE -->
+    <string name="setting_mono">Mono</string>
+    <!-- IDS_FM_BODY_TAP_SCAN_AT_THE_TOP_OF_THE_SCREEN_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations_tap_button_to_scan">Stansiyalarni qidirish uchun ekran yuqorisida joylashgan Skanerlashga teging.</string>
+    <!-- IDS_FM_TPOP_PS_SAVED -->
+    <string name="toast_saved">%s saqlandi.</string>
+    <!-- IDS_COM_BODY_SELECT_ALL -->
+    <string name="select_all">Barchasini tanlash</string>
+    <!-- IDS_IME_HEADER_DESELECT_ALL -->
+    <string name="deselect_all">Barchasidan tanlovni olib tashlash</string>
+    <!-- IDS_FM_OPT_ALL -->
+    <string name="select_checkbox_all">Barchasi</string>
+    <!-- IDS_MSG_MBODY_SELECT_CHANNELS -->
+    <string name="select_channels">Kanallarni tanlash</string>
+    <!-- IDS_FM_HEADER_SELECT_RECORDINGS_ABB -->
+    <string name="select_recordings">Yozuvlarni tanlash</string>
+    <!-- IDS_VR_HEADER_RECORDED_FILES -->
+    <string name="recorded_files">Yozilgan fayllar</string>
+    <!-- IDS_VR_HEADER_RECORDINGS_M_VOICE_ABB -->
+    <string name="recordings">Yozuvlar</string>
+    <!-- IDS_FM_BODY_AFTER_YOU_RECORD_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files_guide">Radioni yozib olgandan so‘ng, yozib olingan fayllar ko‘rsatiladi.</string>
+    <!-- IDS_VR_BODY_NO_RECORDED_FILES -->
+    <string name="no_recorded_files_msg">Yozib olingan fayllar yo‘q</string>
+    <!-- IDS_FM_BODY_NO_RECORDED_FILES_N_AFTER_RECORDING_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files">Yozib olingan fayllar yo‘q.\nRadio qayd qilingandan so‘ng, qayd qilingan fayllar ko‘rsatiladi.</string>
+    <!-- IDS_MK_BODY_PROCESSING_ING -->
+    <string name="dialog_processing">Bajarilmoqda\u2026</string>
+    <!-- IDS_TASK_POP_UP_TO_PD_CHARACTERS_AVAILABLE -->
+    <string name="toast_up_to_n_characters">%d belgigacha foydalanish mumkin.</string>
+    <!-- IDS_MUSIC_POP_INVALID_CHARACTER -->
+    <string name="toast_invalid_character">Noto‘g‘ri belgi.</string>
+    <!-- IDS_IV_BODY_NEW_FILE_NAME -->
+    <string name="dialog_new_file_name">Yangi fayl nomi</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILE_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_file_deleted">Tanlangan yozib olingan fayl o\'chiriladi.</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILES_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_files_deleted">Tanlangan yozib olingan fayllar o\'chiriladi.</string>
+    <!-- IDS_MH_POP_FILE_DOES_NOT_EXIST -->
+    <string name="file_does_not_exist">Fayl mavjud emas.</string>
+    <!-- IDS_FM_POP_ALREADY_EXISTS -->
+    <string name="toast_already_exist">Avvaldan mavjud.</string>
+    <!-- IDS_BR_POP_RENAME_EMPTY -->
+    <string name="toast_name_empty">Nom bo‘sh.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_EARPHONES -->
+    <string name="sound_path_earphone_mode">Radio quloqliklar orqali o‘ynamoqda.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_SPEAKER -->
+    <string name="sound_path_speaker_mode">Radio karnaylar orqali o‘ynamoqda.</string>
+    <!-- IDS_FM_POP_NOW_LISTENING_VIA_BT_HEADSET -->
+    <string name="sound_path_bt_headset_mode">Hozirda BT quloqlik orqali tinglanmoqda.</string>
+    <!-- IDS_ST_BODY_YOU_CAN_CONTROL_THE_RADIO_WITH_VOICE_COMMANDS_LIKE_NEXT_PREVIOUS_STOP_AND_PLAY -->
+    <string name="notification_barge_in">\'Keyingi\', \'\'Avvalgi\', \'\'To‘xtat\' va \'\'O‘ynat\' kabi ovozli buyruqlar orqali radioni boshqarishingiz mumkin.</string>
+    <!-- IDS_VC_BODY_YOU_CAN_CONTROL_THE_FM_RADIO_WITH_THE_VOICE_COMMANDS_PS_PS_PS_PS_PS_AND_PS -->
+    <string name="notification_barge_in_args">FM radioni %1$s, %2$s, %3$s, %4$s, %5$s va %6$s ovozli buyruqlari yordamida to‘xtatishingiz va pauza qilishingiz mumkin.</string>
+    <!-- IDS_VR_POP_RECORDING_WILL_BE_CANCELLED_AND_FILE_WILL_NOT_BE_SAVED -->
+    <string name="recording_will_be_cancelled">Yozib olish bekor qilindi va fayl saqlanmaydi.</string>
+    <!-- IDS_FM_POP_UNABLE_TO_PLAY_RADIO_DURING_CALL -->
+    <string name="unable_to_play_radio_during_call">Qo‘ng‘iroq mobaynida radioni o‘ynatib bo‘lmaydi.</string>
+    <!-- IDS_FM_BODY_THIS_ITEM_WILL_BE_DELETED -->
+    <string name="dialog_one_item_deleted">Ushbu element yo‘q qilinadi.</string>
+    <!-- IDS_FM_BODY_PD_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_items_deleted">%d element o\'chirib tashlanadi.</string>
+    <!-- IDS_FM_BODY_ALL_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_all_items_deleted">Barcha elementlar o\'chirib tashlanadi.</string>
+    <!-- IDS_RADIO_POP_1_STATION_WILL_BE_DELETED -->
+    <string name="dialog_one_station_will_be_deleted">1 ta stansiya yo‘q qilinadi.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_stations_will_be_deleted">%d ta stansiya yo‘q qilinadi.</string>
+    <!-- IDS_VR_POP_1_RECORDING_WILL_BE_DELETED -->
+    <string name="dialog_one_recording_will_be_deleted">1 ta yozuv yo‘q qilinadi.</string>
+    <!-- IDS_VR_POP_PD_RECORDINGS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_recordings_will_be_deleted">%d ta yozuv yo‘q qilinadi.</string>
+    <!-- IDS_FM_BODY_TURNING_ON_ING -->
+    <string name="turning_on">Yoqilmoqda\u2026</string>
+    <!-- IDS_COM_POP_NOT_ENOUGH_MEMORY_RECORDING_WILL_STOP_IN_PD_SECONDS -->
+    <string name="not_enough_memory_recording_will_stop">Xotira yetarli emas. Yozish %d soniyada to‘xtatiladi.</string>
+    <!-- IDS_ST_BODY_LEDOT_LOW_BATTERY -->
+    <string name="low_batt_msg">Batareya quvvati kam</string>
+    <!-- IDS_MSG_POP_UNABLE_TO_PLAY_DURING_CALL -->
+    <string name="no_play_during_call">Qo‘ng‘iroq mobaynida o‘ynatib bo‘lmaydi.</string>
+    <!-- IDS_DTV_POP_UNABLE_TO_DELETE -->
+    <string name="unable_delete">Yo‘q qilib bo‘lmaydi.</string>
+    <!-- IDS_MUSIC_BODY_PLAYING_ING_ABB -->
+    <string name="playing">O\'ynamoqda</string>
+    <!-- IDS_CALL_SK3_PLAY -->
+    <string name="tts_play_button">O‘ynatish</string>
+    <!-- IDS_COM_BODY_PREVIOUS -->
+    <string name="tts_previous_button">Avvalgi</string>
+    <!-- IDS_COM_BODY_NEXT -->
+    <string name="tts_Next_button">Keyingi</string>
+    <!-- IDS_COM_POP_CONNECT -->
+    <string name="connect">Ulanish</string>
+    <!-- IDS_IM_BODY_TOPIC -->
+    <string name="topic">Mavzu</string>
+    <!-- IDS_MUSIC_HEADER_SUBSCRIBE -->
+    <string name="subscribe">Obuna bo‘lish</string>
+    <!-- IDS_MSGF_BODY_NO_TEXT -->
+    <string name="no_text">Matn yo‘q</string>
+    <!-- IDS_KA_BODY_MORE_INFORMATION -->
+    <string name="for_more_info">Boshqa ma’lumotlar</string>
+    <!-- IDS_FM_BUTTON_VIEW_VISUAL_INFO_ABB -->
+    <string name="switch_btn_view_information">Vizual ma’l. ko‘rish</string>
+    <!-- IDS_FM_BUTTON_VIEW_TUNER -->
+    <string name="switch_btn_view_tuner">Tyunerni ko‘rib chiq</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_VIEW_THIS_INFORMATION_FOR_THIS_STATION -->
+    <string name="switch_btn_disable">Bu stansiya uchun ushbu ma’lumotni ko‘rib chiqib bo‘lmaydi.</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_LISTEN_TO_THIS_STATION_VIA_INTERNET_RADIO -->
+    <string name="menu_internetradio_disable">Internet radio orqali ushbu stansiyani tinglab bo‘lmaydi.</string>
+    <!-- IDS_FM_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN -->
+    <string name="wifi_warning">Wi-Fidan foydalanib bo‘lmaydi. Mobil tarmoqlarga ulanish uchun, to‘lov rejangiz asosida, qo‘shimcha to‘lov olinishi mumkin</string>
+    <!-- IDS_POPSYNC_BODY_CONNECT_VIA_MOBILE_NETWORK -->
+    <string name="connect_mobile_network">Mobil tarmoq orqali ulanish</string>
+    <!-- IDS_WGT_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="do_not_show_again">Boshqa ko‘rsatilmasin</string>
+    <!-- IDS_COM_POP_SERVER_RESPONSE_ERROR -->
+    <string name="server_response_error">Server javobi xatosi</string>
+    <!-- IDS_SYS_BODY_CODE_GENERATION_VER -->
+    <string name="stms_version">ANDROID_P4_20150420_0216</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_INTERNET_RADIO -->
+    <string name="switch_to_internet_radio">Internet radioga o‘tish</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_FM_RADIO -->
+    <string name="switch_to_fm_radio">FM Radioga o‘tish</string>
+    <!-- IDS_SOCIALMAG_POP_PLEASE_WAIT_ING -->
+    <string name="dialog_popup_wait">Iltimos, kuting\u2026</string>
+    <!-- IDS_FM_BODY_AUTOMATICALLY_SWITCHES_TO_INTERNET_RADIO_MSG -->
+    <string name="auto_switch_to_internet_radio">FM signali kuchsiz bo‘lganda va muqobil chastotalar mavjud bo‘lmaganda, Internet radioga avtomatik ravishda o‘tiladi.</string>
+    <!-- IDS_RADIO_POP_THE_CURRENT_RECORDING_WILL_STOP_M_VOICE -->
+    <string name="record_suspended_continue">Joriy yozuv to‘xtatiladi.</string>
+    <!-- IDS_FM_BUTTON_LISTEN_NOW -->
+    <string name="listen_to_radio">Hozir tinglash</string>
+    <!-- IDS_FM_BODY_NOW_LISTENING_ABB -->
+    <string name="now_listening">Hozirda tinglanmoqda</string>
+    <!-- IDS_COM_BODY_BUTTON_T_TTS -->
+    <string name="button">Tugma</string>
+    <!-- IDS_FM_BODY_TAP_HERE_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations">Stansiyalarni qidirish uchun bu yerga teging.</string>
+    <!-- IDS_CALL_BODY_THE_RECORDING_WILL_BE_SAVED_AUTOMATICALLY_WHEN_YOU_ACCEPT_THE_CALL -->
+    <string name="recording_save_during_call">Qo‘ng‘iroqni qabul qilganingizda yozib olish avtomatik ravishda saqlanadi.</string>
+    <!-- IDS_ST_BODY_START -->
+    <string name="test_noise_start">Boshlash</string>
+    <!-- IDS_COM_BODY_STOP -->
+    <string name="test_noise_stop">To‘xtat</string>
+    <!-- IDS_BR_POP_READY -->
+    <string name="test_nosise_current_status">Tayyor.</string>
+    <!-- IDS_FM_BUTTON_EARPHONE -->
+    <string name="test_noise_earphone">Quloqlik</string>
+    <!-- IDS_VOLTE_BUTTON_SPEAKER -->
+    <string name="test_noise_speaker">Dinamik</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="menu_more">Yana</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="menu_scan">Qidirish</string>
+    <!-- IDS_FM_OPT_EDIT -->
+    <string name="menu_edit">Tahrirlash</string>
+    <!-- IDS_RADIO_SBODY_CONTENT_HIDDEN -->
+    <string name="content_hidden">Tarkib yashirilgan</string>
+    <!-- IDS_FM_TPOP_UNABLE_TO_RECORD_RADIO_DISABLE_TURN_OFF_ALL_SOUNDS_AND_TRY_AGAIN -->
+    <string name="unable_record_turn_off_all_sound">Radioni yozib olib bo‘lmaydi. Barcha ovozlarni o‘chirish funksiyasini o‘chiring va qayta urinib ko‘ring.</string>
+</resources>

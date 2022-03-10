@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dialog_input_area_padding_bottom"
+    android:paddingStart="@dimen/dialog_input_area_padding_start"
+    android:paddingEnd="@dimen/dialog_input_area_padding_end"
+    android:paddingTop="@dimen/dialog_input_area_padding_top" >
+
+    <android.support.design.widget.TextInputLayout
+        android:id="@+id/input_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical" >
+ 
+        <android.support.v7.widget.AppCompatEditText
+            android:id="@+id/edit_text"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:imeOptions="flagNoExtractUi"
+            android:inputType="numberDecimal"
+            android:maxLength="6"
+            android:textSize="18dp" />
+    </android.support.design.widget.TextInputLayout>
+
+</LinearLayout>

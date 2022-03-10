@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:touchwiz="http://schemas.android.com/apk/res/touchwiz"
+    android:id="@+id/voice_clip_list_base_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <!-- record list view -->
+
+        <ListView
+            android:id="@id/android:list"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_player_listview_height"
+            android:layout_weight="1" />
+
+        <FrameLayout
+            android:id="@android:id/empty"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:layout_weight="1" />
+
+        <!-- Player -->
+
+        <RelativeLayout
+            android:id="@+id/voice_list_clip_panel_layout"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/list_player_controller_height"
+            android:background="@color/recodings_controller_bg"
+            android:visibility="gone" >
+
+            <!-- progress bar  in player -->
+
+            <RelativeLayout
+                android:id="@+id/player_panel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:visibility="gone" >
+
+                <!-- seekbar -->
+
+                <RelativeLayout
+                    android:id="@+id/progress_group"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingEnd="@dimen/list_player_progrssbar_padding"
+                    android:paddingStart="@dimen/list_player_progrssbar_padding" >
+
+                    <SeekBar
+                        android:id="@+id/progressbar"
+                        style="@style/player_seekbar"
+                        android:layout_width="match_parent"
+                        android:layout_height="@dimen/list_player_progressbar_layout_height"
+                        android:layout_marginTop="@dimen/list_player_progrssbar_margin_top"
+                        android:focusable="true" />
+                </RelativeLayout>
+            </RelativeLayout>
+
+            <!-- Time , Player State Control Buttons in player -->
+
+            <RelativeLayout
+                android:id="@+id/idle_playerController"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/list_player_controller_button_margin_top"
+                android:orientation="horizontal" >
+
+                <!-- Current Played Time -->
+
+                <TextView
+                    android:id="@+id/PlayerPlayTimeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/list_player_PlayerPlayTimeTextView_height"
+                    android:layout_alignParentStart="true"
+                    android:layout_marginStart="@dimen/list_player_PlayerPlayTimeTextView_margin_start"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDy="2"
+                    android:textColor="@color/recodings_controller_play_time"
+                    android:textSize="@dimen/list_player_PlayerPlayTimeTextView_size" />
+
+                <RelativeLayout
+                    android:id="@+id/relative_play_pause_btn"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/list_player_controller_play_pause_btn_margin_top"
+                    android:gravity="center" >
+
+                    <ImageButton
+                        android:id="@+id/play_pause_btn"
+                        android:layout_width="@dimen/list_player_controller_play_pause_btn_height"
+                        android:layout_height="@dimen/list_player_controller_play_pause_btn_width"
+                        android:layout_centerInParent="true"
+                        android:layout_marginLeft="@dimen/list_player_controller_play_pause_btn_margin_left"
+                        android:layout_marginRight="@dimen/list_player_controller_play_pause_btn_margin_right"
+                        android:layout_weight="1"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:contentDescription="@string/tts_play_button"
+                        android:focusable="true"
+                        android:src="@drawable/listplayer_control_play_btn"
+                        android:tint="@color/white_tint_color"
+                        android:visibility="visible" />
+
+                    <ImageButton
+                        android:id="@+id/prev_btn"
+                        android:layout_width="@dimen/list_player_controller_prev_next_btn_height"
+                        android:layout_height="@dimen/list_player_controller_prev_next_btn_width"
+                        android:layout_centerVertical="true"
+                        android:layout_toLeftOf="@id/play_pause_btn"
+                        android:layout_weight="1"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:contentDescription="@string/tts_previous_button"
+                        android:focusable="true"
+                        android:src="@drawable/listplayer_control_prev_btn"
+                        android:tint="@color/white_tint_color"
+                        android:visibility="gone" />
+
+                    <ImageButton
+                        android:id="@+id/next_btn"
+                        android:layout_width="@dimen/list_player_controller_prev_next_btn_height"
+                        android:layout_height="@dimen/list_player_controller_prev_next_btn_width"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@id/play_pause_btn"
+                        android:layout_weight="1"
+                        android:background="?android:attr/selectableItemBackgroundBorderless"
+                        android:clickable="true"
+                        android:contentDescription="@string/tts_Next_button"
+                        android:focusable="true"
+                        android:src="@drawable/listplayer_control_ff_btn"
+                        android:tint="@color/white_tint_color"
+                        android:visibility="gone" />
+                </RelativeLayout>
+
+                <!-- Full Time -->
+
+                <TextView
+                    android:id="@+id/PlayerFullTimeTextView"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/list_player_PlayerPlayTimeTextView_height"
+                    android:layout_alignParentEnd="true"
+                    android:layout_marginEnd="@dimen/list_player_PlayerPlayTimeTextView_margin_end"
+                    android:shadowDy="2"
+                    android:textColor="@color/recodings_controller_full_time"
+                    android:textSize="@dimen/list_player_PlayerPlayTimeTextView_size" />
+            </RelativeLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

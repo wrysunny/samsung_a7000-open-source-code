@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+**
+** Created with XMLCompiler2
+*/ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IDS_FM_POP_UNABLE_TO_TURN_ON_PS -->
+    <string name="toast_fm_not_played">Niy idzie załōnczyć %s.</string>
+    <!-- IDS_FM_POP_EARPHONE_REMOVED_RADIO_TURNED_OFF -->
+    <string name="headset_disconnect">Ôdłōnczōnŏ suchawka. Radyjŏk bydzie wyłōnczōny.</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_RENAME -->
+    <string name="toast_tap_to_rename">Tyknij czynstotliwość, coby zmiynić miano.</string>
+    <!-- IDS_FM_POP_INVALID_FREQUENCY -->
+    <string name="toast_channel_invalid">Felernŏ czynstotliwość</string>
+    <!-- IDS_FM_POP_TUNING_TO_P1SDP2SD_MHZ_ING -->
+    <string name="toast_tune">Dosztalowywanie do %1$d.%2$d MHz…</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_REMOVE -->
+    <string name="toast_tap_to_remove">Tyknij czynstotliwość, coby wyciepać.</string>
+    <!-- IDS_FM_POP_BUSY_TUNING_IN_ING -->
+    <string name="toast_busy_tunning">Zajynty. Strojenie…</string>
+    <!-- IDS_FM_POP_ALREADY_SCANNING_ING -->
+    <string name="toast_already_scan">Trwŏ już skanowanie…</string>
+    <!-- IDS_IM_POP_UNABLE_TO_RENAME -->
+    <string name="toast_rename_error">Niy idzie zmiynić miana</string>
+    <!-- IDS_WIFI_POP_PROFILECONNECTION_CANCELLING -->
+    <string name="dialog_cancel_scan">Wyciepowaniy…</string>
+    <!-- IDS_AV_POP_SCANNING_ING -->
+    <string name="dialog_scan">Skanōwanie..</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_MINUTES -->
+    <string name="alarm_text1">Radio FM bydzie wyłōnczōne po %d minutach.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_1_HOUR -->
+    <string name="alarm_text2">Radio FM bydzie wyłōnczōne po 1 godzinie.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_HOURS -->
+    <string name="alarm_text3">Radio FM bydzie wyłōnczōne po %d godzinach.</string>
+    <!-- IDS_FM_POP_STATION_ALREADY_EXISTS_ADD_ANOTHER_STATION -->
+    <string name="toast_already_added">Stacja już je. Dodej inkszŏ stacyjŏ.</string>
+    <!-- IDS_FM_POP_P1SDP2SD_MHZ_STATION_FOUND_TOTAL_NUMBER_OF_STATIONS_FOUND_C_P3SD -->
+    <string name="dialog_channel_found">Znŏd żech radyjŏk %1$d,%2$d MHz. Wysznupanych radyjŏkōw: %3$d.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found">Znaleziono stację na częstotliwości %1$s MHz. Łącznie znaleziono stacji: 1.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_P2SD_STATIONS_HAVE_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_found_south_region">Wysznupanŏ stacyjŏ na czynstotliwości %1$s MHz. Cuzamyn wysznupanŏ stacyji: %2$d.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found_south_region">Znaleziono stację na częstotliwości %1$s MHz. Łącznie znaleziono stacji: 1.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_FOUND_WHILE_SCANNING -->
+    <string name="toast_channel_found">Liczba sztacyji znŏlezionych przi skanowaniu: %d.</string>
+    <!-- IDS_FM_POP_1_STATION_FOUND_WHILE_SCANNING -->
+    <string name="toast_one_channel_found">Liczba znŏlezionych sztacyji:  1</string>
+    <!-- IDS_FM_POP_TURN_FM_RADIO_ON -->
+    <string name="toast_on_alert">Załōncz radyjŏk FM</string>
+    <!-- IDS_RADIO_BODY_RADIO_M_APPLIACTION_NAME -->
+    <string name="app_name">Radyjŏk</string>
+    <!-- IDS_LA_HEADER_ALL_CHANNELS -->
+    <string name="channels">All channels</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="record">Nagrej</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="scan">Przebiyrej</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="more">Wiyncy</string>
+    <!-- IDS_MEDIABR_OPT_REMOVE -->
+    <string name="remove">Skasuj</string>
+    <!-- IDS_FM_OPT_SETTINGS -->
+    <string name="settings">Nasztalowania</string>
+    <!-- IDS_FM_HEADER_STATIONS -->
+    <string name="allchannels">Sztacyje</string>
+    <!-- IDS_COM_OPT_INFORMATION -->
+    <string name="information">Info</string>
+    <!-- IDS_LP_SK3_OK -->
+    <string name="ok">OK</string>
+    <!-- IDS_KC_OPT_CANCEL -->
+    <string name="cancel">Pociep</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename">Zmiyń miano</string>
+    <!-- IDS_BR_HEADER_ENTER_NAME -->
+    <string name="rename_text">Podej mianŏ</string>
+    <!-- IDS_KA_BUTTON_DONE -->
+    <string name="done">Fertich</string>
+    <!-- IDS_FM_OPT_REPLACE -->
+    <string name="replace">Pomiyń</string>
+    <!-- IDS_FM_BODY_MHZ -->
+    <string name="mhz">MHz</string>
+    <!-- IDS_FM_BODY_SETTINGS_RADIO_TEXT -->
+    <string name="setting_sationid">RDS informacyje</string>
+    <!-- IDS_FM_BODY_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af">Czynstotliwość alternatywnŏ</string>
+    <!-- IDS_FM_MBODY_AUTO_OFF -->
+    <string name="setting_autooff">Autōm. WYŁ.</string>
+    <!-- IDS_FM_BODY_STATION_INFORMATION_WILL_BE_SHOWN -->
+    <string name="setting_stationid_summary">Bydōm pokŏzywane informacyje ô sztacyji</string>
+    <!-- IDS_FM_BODY_TURN_ON_OFF_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af_summary">Załōncz/wyłōncz czynstotliwość alernatywnŏ</string>
+    <!-- IDS_FM_OPT_NEVER -->
+    <string name="setting_never">Nikej</string>
+    <!-- IDS_FM_BODY_AFTER_15_MINS_ABB -->
+    <string name="setting_15min">Po 15 min</string>
+    <!-- IDS_FM_BODY_ST_AFTER_30_MIN -->
+    <string name="setting_30min">Po 30 min</string>
+    <!-- IDS_TDMB_BODY_AFTER_1_HOUR -->
+    <string name="setting_hour">Po 1 godz.</string>
+    <!-- IDS_TDMB_BODY_AFTER_2_HOURS -->
+    <string name="setting_2hour">Po 2 godz.</string>
+    <!-- IDS_MT_BUTTON_SAVE -->
+    <string name="save">Zachowej</string>
+    <!-- IDS_FM_BODY_NO_STATIONS -->
+    <string name="toast_channel_empty">Niy ma sztacyji</string>
+    <!-- IDS_FM_NPBODY_NO_FAVOURITE_STATIONS_ABB -->
+    <string name="toast_favourite_empty">Brak ulubionych stacji</string>
+    <!-- IDS_FM_TPOP_EARPHONES_NOT_CONNECTED_EARPHONES_FUNCTION_AS_RADIO_AERIAL_CONNECT_EARPHONES -->
+    <string name="toast_earphone_not_connected">Suchawki niy sōm spŏrowane. Ône prŏcujōm jako antyna radiowŏ. Spŏruj słuchawki.</string>
+    <!-- IDS_FM_OPT_AUTO_SCAN -->
+    <string name="dialog_autoscan">Autōmacyczne skanowaniy</string>
+    <!-- IDS_FM_POP_STARTING_AUTO_SCAN_ING -->
+    <string name="toast_initial_access">Napōczynanie autom.skanowaniŏ….</string>
+    <!-- IDS_FM_HEADER_SCAN_RESULT -->
+    <string name="scan_result">Wynik skanowaniŏ</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename_channel">Zmiyń miano</string>
+    <!-- IDS_KA_HEADER_ALERT -->
+    <string name="alert">Alarm</string>
+    <!-- IDS_PB_OPT_FAVOURITES -->
+    <string name="fav_channel">Nojrŏdsze</string>
+    <!-- IDS_FM_OPT_ALL_STATIONS -->
+    <string name="menu_refersh_all">Wszyjskie sztacyje</string>
+    <!-- IDS_FM_OPT_RETAINING_FAVOURITES -->
+    <string name="menu_refresh">Zachōwywanie nŏjrŏdszych</string>
+    <!-- IDS_FM_DROP_30 -->
+    <string name="number_30">30</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_1 -->
+    <string name="number_1">1</string>
+    <!-- IDS_CCD_BODY_TIMERDIGIT_2 -->
+    <string name="number_2">2</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_15_min_past">Radio było wyłōnczōne autōmatycznie. Minyło %d min.</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_30_min_past">Radio było wyłōnczōne autōmatycznie. Minyło %d min.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_1_HOUR_HAS_PASSED -->
+    <string name="alrm_1_hr_past">Aplikacyjŏ %s wyłōnczyła sie autōmatycznie. Minyła 1 godz.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_PD_HOURS_HAVE_PASSED -->
+    <string name="alrm_2_hrs_past">Aplikacyjŏ %1$s wyłōnczyła sie autōmatycznie. Minyło %2$d godz.</string>
+    <!-- IDS_FM_SK3_SCAN_FOR_STATIONS -->
+    <string name="scan_channels">Skanuj stacje</string>
+    <!-- IDS_CAST_MBODY_SELECT_ALL -->
+    <string name="selectall">Zaznŏcz wszyjsko</string>
+    <!-- IDS_VIDEO_HEADER_PD_SELECTED -->
+    <string name="selected_item">Ôbrano %d</string>
+    <!-- IDS_VVM_POP_SELECT_AT_LEAST_ONE_ITEM -->
+    <string name="no_channel_selected">Wybier co nojmynij jedyn elymynt.</string>
+    <!-- IDS_FM_POP_UNABLE_TO_USE_PS_IN_FLIGHT_MODE -->
+    <string name="toast_airplane_mode">Niy idzie używać aplikacji %s w trybie offline.</string>
+    <!-- IDS_ST_BODY_INSTALL_VOICE_DATA_REQUIRED_FOR_SPEECH_SYNTHESIS -->
+    <string name="dialog_tts_confirm">Zainsztaluj dane głosu, kere trza do syntezy gŏdki</string>
+    <!-- IDS_FM_BODY_MODE_SPEAKER -->
+    <string name="speaker">Głośnik</string>
+    <!-- IDS_FM_POP_AF_SWITCHING -->
+    <string name="af_switching">Przełōnczanie AF</string>
+    <!-- IDS_FM_POP_AF_SWITCHING_IS_IN_PROGRESS_PRESS_BACK_TO_CANCEL -->
+    <string name="af_switching_msg">Przełōnczŏ na AF. Naciś knefel Nazŏd, coby pociepnōńć.</string>
+    <!-- IDS_COM_POP_UNABLE_TO_LAUNCH_APPLICATION_LOW_BATTERY -->
+    <string name="toast_battery_low">Aplikacyjŏ niy śmiy być uruchomionŏ. Bateriŏ je prōznŏ.</string>
+    <!-- IDS_FM_POP_AF_NOT_FOUND -->
+    <string name="toast_af_fail">Niy znŏd żech czynstotliwości alternatywnyj</string>
+    <!-- IDS_ST_BODY_PS_DISABLED -->
+    <string name="toast_disabled">Wyłōnczono %s</string>
+    <!-- IDS_FM_POP_NO_STATIONS_FOUND -->
+    <string name="toast_no_channel_found">Niy znŏdłŏ żŏdnyj sztacyji</string>
+    <!-- IDS_CCD_POP_UNAVAILABLE_IN_TV_OUT_MODE -->
+    <string name="toast_unavailable_in_tvout_mode">Fōnkcyjŏ niy je dostympnŏ we trybie wyńścia TV.</string>
+    <!-- IDS_COM_POP_MESSAGETONE_MUTE -->
+    <string name="mute">Przicisz</string>
+    <!-- IDS_COM_POP_SEARCHING -->
+    <string name="seeking">Sznupaniy…</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_EARPHONES_ABB -->
+    <string name="via_earphone">Ôdtwōrz bez suchawki</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_SPEAKER_ABB -->
+    <string name="via_speaker">Ôdtw. Bez głośnik</string>
+    <!-- IDS_COM_MBODY_NORMAL_FREQUENCY -->
+    <string name="normal_frequency">Normalnŏ czynstotliwość</string>
+    <!-- IDS_COM_BODY_END -->
+    <string name="end">Szlus</string>
+    <!-- IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED -->
+    <string name="toast_maximum_file_name">Mŏsz maksymalnŏ liczba znakōw (%d).</string>
+    <!-- IDS_FM_BODY_TURN_ON_THE_PS -->
+    <string name="turn_on_radio">Włōncz %s.</string>
+    <!-- IDS_PB_BODY_ENTERTEL -->
+    <string name="enter_number">Wpisz nōmer.</string>
+    <!-- IDS_NFC_BUTTON_TAG -->
+    <string name="tag">Tag</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="stop">Sztop</string>
+    <!-- IDS_FM_BODY_RECORDING_M_RECORDING_VOICE -->
+    <string name="recording">Nŏgrywaniy</string>
+    <!-- IDS_DAV_BODY_MEMORY_FULL -->
+    <string name="memory_full">Pamiyńć pełno.</string>
+    <!-- IDS_VR_POP_CANCEL_RECORDING_Q -->
+    <string name="cancel_recording">Ôdciepać nagrōnie?</string>
+    <!-- IDS_FM_HEADER_CHANGE_FREQUENCY -->
+    <string name="change_frequency">Zmiyń frekwyncyjo</string>
+    <!-- IDS_FM_BODY_ENTER_FREQUENCY -->
+    <string name="enter_frequency">Podej czynstliwoś</string>
+    <!-- IDS_FM_POP_SAVED_IN_PS_GO_TO_RECORDED_FILES_TO_PLAY_PLAY_NOW_Q -->
+    <string name="saved_go_to_myfiles">Zachōwano w %s. Coby puścić, przelyź do Nagranych plikōw. Puścić terŏzki?</string>
+    <!-- IDS_FM_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="dont_show_again">Już niy pokŏzuj</string>
+    <!-- IDS_MUSIC_POP_LOUD_MUSIC_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_TO_IT_FOR_A_LONG_TIME -->
+    <string name="audio_shock_warning">Słuchaniy głośnyj muzyki bez dugszy czas może popsuć słuch.</string>
+    <!-- IDS_IV_POP_RECORDING_ERROR -->
+    <string name="recording_error">Feler nagrywaniŏ</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="desc_record">Nagrej</string>
+    <!-- IDS_FM_BODY_VOLUME -->
+    <string name="desc_volume">Głośność</string>
+    <!-- IDS_FM_OPT_POWER -->
+    <string name="desc_power">ZAŁ/WYŁ</string>
+    <!-- IDS_FM_BODY_PREVIOUS_STATION -->
+    <string name="desc_prev">Łōńskŏ sztacyjŏ</string>
+    <!-- IDS_FM_BODY_NEXT_STATION -->
+    <string name="desc_next">Drugŏ stacja</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_1_T_TTS -->
+    <string name="desc_fav1">Nojrodszŏ stacjŏ 1,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_2_T_TTS -->
+    <string name="desc_fav2">Nojrodszŏ stacjŏ 2,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_3_T_TTS -->
+    <string name="desc_fav3">Nojrodszŏ stacjŏ 3,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_4_T_TTS -->
+    <string name="desc_fav4">Nojrodszŏ stacjŏ 4,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_5_T_TTS -->
+    <string name="desc_fav5">Nŏjrŏdszy radyjŏk 5</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_6_T_TTS -->
+    <string name="desc_fav6">Nŏjrŏdszy radyjŏk 6</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_7_T_TTS -->
+    <string name="desc_fav7">Nŏjrŏdszy radyjŏk 7</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_8_T_TTS -->
+    <string name="desc_fav8">Nŏjrŏdszy radyjŏk 8</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_9_T_TTS -->
+    <string name="desc_fav9">Nŏjrŏdszy radyjŏk 9</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_10_T_TTS -->
+    <string name="desc_fav10">Nŏjrŏdszy radyjŏk 10</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_11_T_TTS -->
+    <string name="desc_fav11">Nŏjrŏdszy radyjŏk 11</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_12_T_TTS -->
+    <string name="desc_fav12">Nŏjrŏdszy radyjŏk 12</string>
+    <!-- IDS_ACCS_OPT_PS_TAB_OPT_TTS -->
+    <string name="desc_tab">%s, karta</string>
+    <!-- IDS_NFC_HEADER_ADD_FAVOURITE -->
+    <string name="desc_add_favorite">Przidej nŏjrŏdsze</string>
+    <!-- IDS_FM_POP_REMOVE_FAVOURITES_Q -->
+    <string name="desc_rem_favorite">Wyciepnōńć nŏjrŏdsze</string>
+    <!-- IDS_FM_HEADER_MENU -->
+    <string name="desc_menu">Menu</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="desc_stop">Sztop</string>
+    <!-- IDS_MSGC_SK_RESUME_LITE -->
+    <string name="desc_resume">Idziesz dalij?</string>
+    <!-- IDS_MK_SK3_PAUSE -->
+    <string name="desc_pause">Pauza</string>
+    <!-- IDS_CALL_BUTTON_CANCEL -->
+    <string name="desc_cancel">Pociep</string>
+    <!-- IDS_FM_BODY_FREQUENCY -->
+    <string name="desc_frequency">Czynstotliwość</string>
+    <!-- IDS_RADIO_BODY_FREQUENCY_CONTROL_SLIDER_TTS -->
+    <string name="desc_frequency_slider">Suwak nastawianiŏ czynstotliwości</string>
+    <!-- IDS_COM_BUTTON_CLOSE -->
+    <string name="desc_close">Zawrzij</string>
+    <!-- IDS_COM_BODY_HOUR -->
+    <string name="desc_hour">Godzina</string>
+    <!-- IDS_CLD_OPT_HOURS -->
+    <string name="desc_hours">Godz.</string>
+    <!-- IDS_COM_BODY_MINUTE -->
+    <string name="desc_minute">Min.</string>
+    <!-- IDS_COM_BODY_MINUTES -->
+    <string name="desc_minutes">Min.</string>
+    <!-- IDS_ST_POP_SECOND -->
+    <string name="desc_second">Sek.</string>
+    <!-- IDS_COM_BODY_SECONDS -->
+    <string name="desc_seconds">Sek.</string>
+    <!-- IDS_GP_SHEADER_FAVOURITE_STATIONS -->
+    <string name="desc_fav_station">NŎJRŎDSZE STACYJE</string>
+    <!-- IDS_FM_BODY_VIEW_VISUAL_INFORMATION -->
+    <string name="desc_switch_btn_view_information">Wyświytl Informacyje wizualne.</string>
+    <!-- IDS_FM_OPT_RESUME_TTS -->
+    <string name="desc_resume_extended">Rōb dalij</string>
+    <!-- IDS_FM_OPT_MORE_OPTIONS -->
+    <string name="desc_more">Wiyncyj ôpcyj</string>
+    <!-- WDS_TTS_TBBODY_DOUBLE_TAP_TO_SELECT_ALL -->
+    <string name="desc_double_tap_to_select_all">Tyknij 2 razy coby ôbrać wszyjsko.</string>
+    <!-- IDS_BR_BODY_DOUBLE_TAP_TO_DESELECT_T_TTS -->
+    <string name="desc_double_tap_to_deselect_all">Tyknij dwa razy coby ôdznaczyć</string>
+    <!-- IDS_FM_POP_NOTHINGSELECTED -->
+    <string name="desc_nothing_selected">Nic niyma ôbrane.</string>
+    <!-- IDS_COM_BODY_PD_SELECTED -->
+    <string name="desc_n_selected">Ôbrano %d</string>
+    <!-- IDS_COM_BUTTON_NOT_CHECKED -->
+    <string name="desc_not_ticked_t_tts">Niyznan.</string>
+    <!-- IDS_VPL_BODY_TICK_BOX -->
+    <string name="desc_tick_box_t_tts">Pole zaznaczyniŏ</string>
+    <!-- IDS_COM_BODY_FAVOURITE -->
+    <string name="desc_favorite_button">Nojrŏdsze</string>
+    <!-- IDS_COM_BODY_SELECTED -->
+    <string name="desc_selected">Ôbrany</string>
+    <!-- IDS_ACCS_BODY_NOT_SELECTED_T_TTS -->
+    <string name="desc_not_selected">Niyzawelōwany</string>
+    <!-- IDS_HEALTH_TBBODY_PS_ADDED_TO_FAVOURITES -->
+    <string name="desc_frequency_added_to_favourites">%s dodane do Nŏjrŏdszych.</string>
+    <!-- IDS_HEALTH_TBBODY_PS_REMOVED_FROM_FAVOURITES -->
+    <string name="desc_frequency_removed_from_favourites">%s wyciepniynte ze Nŏjrŏdszych.</string>
+    <!-- IDS_FM_POP_VOLUME_CONTROL_NOT_AVAILABLE_WHILE_RECORDING -->
+    <string name="recording_volume_control">Kej nagrywŏsz niy dŏ sie zmynić głośności</string>
+    <!-- IDS_MS_OPT_START -->
+    <string name="test_start">Sztart</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="test_stop">Sztop</string>
+    <!-- IDS_KA_BODY_TITLE -->
+    <string name="tags_music_title">Titel</string>
+    <!-- IDS_MUSIC_BUTTON2_ALBUM -->
+    <string name="tags_music_album">Albōm</string>
+    <!-- IDS_KA_BODY_ARTIST -->
+    <string name="tags_music_artist">Wykōnawca</string>
+    <!-- IDS_FM_BODY_BAND_M_MUSIC -->
+    <string name="tags_music_band">Zespōł</string>
+    <!-- IDS_KA_BODY_URL -->
+    <string name="tags_information_url">Adresa URL</string>
+    <!-- IDS_SIDL_SK3_HOME_URL -->
+    <string name="tags_programme_homepage">Dōmowŏ zajta</string>
+    <!-- IDS_FM_BODY_HOTLINE -->
+    <string name="tags_interact_hotline">Hotline</string>
+    <!-- IDS_VDOE_HEADER_STUDIO -->
+    <string name="tags_interact_studio">Sztudio</string>
+    <!-- IDS_KA_BODY_OTHER -->
+    <string name="tags_interact_other">Inksze</string>
+    <!-- IDS_MSGC_BODY_TEXTSTYLE_ALIGNMENTCENTER -->
+    <string name="tags_interact_centre">Postrzodek</string>
+    <!-- IDS_FM_POP_UNABLE_TO_SCAN_WHILE_RECORDING_M_AUDIO -->
+    <string name="toast_unable_scan">Niy dŏ sie skanować, kej nagrywŏsz</string>
+    <!-- IDS_FM_BODY_STATION_NAME -->
+    <string name="dialog_station_name">Miano sztacyji</string>
+    <!-- IDS_FM_SK_DELETE -->
+    <string name="delete">Wyciep</string>
+    <!-- IDS_KC_MBODY_STORAGE -->
+    <string name="setting_storage">Pamiyńć</string>
+    <!-- IDS_MS_HEADER_MY_FILES -->
+    <string name="setting_myfiles">Moje pliki</string>
+    <!-- IDS_MK_MBODY_MEMORY_CARD -->
+    <string name="setting_memory_card">Karta pamiyńci</string>
+    <!-- IDS_ST_BODY_DEVICE -->
+    <string name="setting_phone">Maszina</string>
+    <!-- IDS_FM_BODY_EARPHONE_SETTINGS -->
+    <string name="setting_sound_settings">Nasztalowania suchawek.</string>
+    <!-- IDS_MUSIC_BODY_STEREO -->
+    <string name="setting_stereo">Stereo</string>
+    <!-- IDS_MP_BODY_MONO_M_SOUND_TYPE -->
+    <string name="setting_mono">Mono</string>
+    <!-- IDS_FM_BODY_TAP_SCAN_AT_THE_TOP_OF_THE_SCREEN_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations_tap_button_to_scan">Tyknij Szukej za na wiyrchu ôd ekrōnu, coby szukać za stacyjami.</string>
+    <!-- IDS_FM_TPOP_PS_SAVED -->
+    <string name="toast_saved">Zachōwano plik %s</string>
+    <!-- IDS_COM_BODY_SELECT_ALL -->
+    <string name="select_all">Ôbier wszyjsko</string>
+    <!-- IDS_IME_HEADER_DESELECT_ALL -->
+    <string name="deselect_all">Ôdznŏcz wszyjsko</string>
+    <!-- IDS_FM_OPT_ALL -->
+    <string name="select_checkbox_all">Wszyjske</string>
+    <!-- IDS_MSG_MBODY_SELECT_CHANNELS -->
+    <string name="select_channels">Ôbier kanały</string>
+    <!-- IDS_FM_HEADER_SELECT_RECORDINGS_ABB -->
+    <string name="select_recordings">Wybieranie nagrań</string>
+    <!-- IDS_VR_HEADER_RECORDED_FILES -->
+    <string name="recorded_files">Pliki z nagraniami</string>
+    <!-- IDS_VR_HEADER_RECORDINGS_M_VOICE_ABB -->
+    <string name="recordings">Nagrania</string>
+    <!-- IDS_FM_BODY_AFTER_YOU_RECORD_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files_guide">Po nagraniu z radyja pokŏża nagrōne pliki.</string>
+    <!-- IDS_VR_BODY_NO_RECORDED_FILES -->
+    <string name="no_recorded_files_msg">Niy ma nagranych plikōw</string>
+    <!-- IDS_FM_BODY_NO_RECORDED_FILES_N_AFTER_RECORDING_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files">Niy ma nagranych plikōw.\nNagrane pliki bydōm pokŏzane po nagraniy z radijŏka.</string>
+    <!-- IDS_MK_BODY_PROCESSING_ING -->
+    <string name="dialog_processing">Przerobiōm\u2026</string>
+    <!-- IDS_TASK_POP_UP_TO_PD_CHARACTERS_AVAILABLE -->
+    <string name="toast_up_to_n_characters">Maksymalnŏ liczba przizwolōnych znŏkōw %d.</string>
+    <!-- IDS_MUSIC_POP_INVALID_CHARACTER -->
+    <string name="toast_invalid_character">Felerny znak</string>
+    <!-- IDS_IV_BODY_NEW_FILE_NAME -->
+    <string name="dialog_new_file_name">Nowe miano pliku</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILE_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_file_deleted">Ôbrany nagrany plik bydzie wyciepniynty</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILES_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_files_deleted">Ôbrane nagrane pliki bydōm wyciepniynte</string>
+    <!-- IDS_MH_POP_FILE_DOES_NOT_EXIST -->
+    <string name="file_does_not_exist">Plik już je</string>
+    <!-- IDS_FM_POP_ALREADY_EXISTS -->
+    <string name="toast_already_exist">Już sam je.</string>
+    <!-- IDS_BR_POP_RENAME_EMPTY -->
+    <string name="toast_name_empty">Miano je prōzne.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_EARPHONES -->
+    <string name="sound_path_earphone_mode">Puszczanie radyjŏka bez suchawki.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_SPEAKER -->
+    <string name="sound_path_speaker_mode">Puszczanie radyjŏka bez głośnik.</string>
+    <!-- IDS_FM_POP_NOW_LISTENING_VIA_BT_HEADSET -->
+    <string name="sound_path_bt_headset_mode">Trwŏ suchanie bez suchawki BT.</string>
+    <!-- IDS_ST_BODY_YOU_CAN_CONTROL_THE_RADIO_WITH_VOICE_COMMANDS_LIKE_NEXT_PREVIOUS_STOP_AND_PLAY -->
+    <string name="notification_barge_in">Poradzisz regiyrować radijŏkiym bez kōmyndy głosowe, np.. „Dalszy”, „Ôstatni”, „Sztopnij” abo „Puszczej”</string>
+    <!-- IDS_VC_BODY_YOU_CAN_CONTROL_THE_FM_RADIO_WITH_THE_VOICE_COMMANDS_PS_PS_PS_PS_PS_AND_PS -->
+    <string name="notification_barge_in_args">Możesz reskiyrować radyjym FM głosowymi nakŏzaniami %1$s, %2$s, %3$s, %4$s, %5$s abo %6$s.</string>
+    <!-- IDS_VR_POP_RECORDING_WILL_BE_CANCELLED_AND_FILE_WILL_NOT_BE_SAVED -->
+    <string name="recording_will_be_cancelled">Prawidła zabezpiyczyń ȏgraniczajōm zabiyraniy MMS.</string>
+    <!-- IDS_FM_POP_UNABLE_TO_PLAY_RADIO_DURING_CALL -->
+    <string name="unable_to_play_radio_during_call">Radyjŏk niy śmiy grać, kej żeś je połōnczōny</string>
+    <!-- IDS_FM_BODY_THIS_ITEM_WILL_BE_DELETED -->
+    <string name="dialog_one_item_deleted">Wyciepnyć tyn elymynt</string>
+    <!-- IDS_FM_BODY_PD_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_items_deleted">Liczba elymyntōw, kere bydōm wyciepniynte: %d.</string>
+    <!-- IDS_FM_BODY_ALL_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_all_items_deleted">Wszyjskie elymynty bydōm wyciepniynte.</string>
+    <!-- IDS_RADIO_POP_1_STATION_WILL_BE_DELETED -->
+    <string name="dialog_one_station_will_be_deleted">Zostanie usuniętych stacji: 1.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_stations_will_be_deleted">Zostanie usuniętych stacji: %d.</string>
+    <!-- IDS_VR_POP_1_RECORDING_WILL_BE_DELETED -->
+    <string name="dialog_one_recording_will_be_deleted">1 nagranie ôstanie wyciepniynte.</string>
+    <!-- IDS_VR_POP_PD_RECORDINGS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_recordings_will_be_deleted">Nagrań, kere ôstanōm wyciepniynte: %d.</string>
+    <!-- IDS_FM_BODY_TURNING_ON_ING -->
+    <string name="turning_on">Załōnczaniy…</string>
+    <!-- IDS_COM_POP_NOT_ENOUGH_MEMORY_RECORDING_WILL_STOP_IN_PD_SECONDS -->
+    <string name="not_enough_memory_recording_will_stop">Niy ma tela pamiyńci. Nagrywanie bydzie sztopniynte za %d s.</string>
+    <!-- IDS_ST_BODY_LEDOT_LOW_BATTERY -->
+    <string name="low_batt_msg">Bateriŏ prōzno</string>
+    <!-- IDS_MSG_POP_UNABLE_TO_PLAY_DURING_CALL -->
+    <string name="no_play_during_call">Niy idzie puścić przi gŏdce.</string>
+    <!-- IDS_DTV_POP_UNABLE_TO_DELETE -->
+    <string name="unable_delete">Niy idzie wyciepać.</string>
+    <!-- IDS_MUSIC_BODY_PLAYING_ING_ABB -->
+    <string name="playing">Ôdtwarz….</string>
+    <!-- IDS_CALL_SK3_PLAY -->
+    <string name="tts_play_button">Pujś</string>
+    <!-- IDS_COM_BODY_PREVIOUS -->
+    <string name="tts_previous_button">Piyrwyjszy</string>
+    <!-- IDS_COM_BODY_NEXT -->
+    <string name="tts_Next_button">Nŏstympny</string>
+    <!-- IDS_COM_POP_CONNECT -->
+    <string name="connect">Połōncz</string>
+    <!-- IDS_IM_BODY_TOPIC -->
+    <string name="topic">Tymat</string>
+    <!-- IDS_MUSIC_HEADER_SUBSCRIBE -->
+    <string name="subscribe">Aboniyruj</string>
+    <!-- IDS_MSGF_BODY_NO_TEXT -->
+    <string name="no_text">Niy ma tekstu</string>
+    <!-- IDS_KA_BODY_MORE_INFORMATION -->
+    <string name="for_more_info">Wiyncy info</string>
+    <!-- IDS_FM_BUTTON_VIEW_VISUAL_INFO_ABB -->
+    <string name="switch_btn_view_information">Pokŏz.inf.wizualne</string>
+    <!-- IDS_FM_BUTTON_VIEW_TUNER -->
+    <string name="switch_btn_view_tuner">Pokŏż tuner</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_VIEW_THIS_INFORMATION_FOR_THIS_STATION -->
+    <string name="switch_btn_disable">Niy idzie pokŏzać tego info z tyj stacji.</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_LISTEN_TO_THIS_STATION_VIA_INTERNET_RADIO -->
+    <string name="menu_internetradio_disable">Niy idzie słuchać tyj stacji bez internecowy radyjŏk.</string>
+    <!-- IDS_FM_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN -->
+    <string name="wifi_warning">Nec Wi-Fi niyma dostympny. Połōnczynie z necami mobilniŏkowymi może spowodować narachowanie dodatkowego płatu zależnie ôd planu taryfowego.</string>
+    <!-- IDS_POPSYNC_BODY_CONNECT_VIA_MOBILE_NETWORK -->
+    <string name="connect_mobile_network">Połōncz bez nec mobilniŏkowy</string>
+    <!-- IDS_WGT_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="do_not_show_again">Już niy pokŏzuj</string>
+    <!-- IDS_COM_POP_SERVER_RESPONSE_ERROR -->
+    <string name="server_response_error">Feler ôdpowiedzi serwera</string>
+    <!-- IDS_SYS_BODY_CODE_GENERATION_VER -->
+    <string name="stms_version">ANDROID_P4_20150420_0216</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_INTERNET_RADIO -->
+    <string name="switch_to_internet_radio">Przełōncz na radijŏk internecowy</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_FM_RADIO -->
+    <string name="switch_to_fm_radio">Przełōncz na radijŏk FM</string>
+    <!-- IDS_SOCIALMAG_POP_PLEASE_WAIT_ING -->
+    <string name="dialog_popup_wait">Czekejcie…</string>
+    <!-- IDS_FM_BODY_AUTOMATICALLY_SWITCHES_TO_INTERNET_RADIO_MSG -->
+    <string name="auto_switch_to_internet_radio">Autōmatyczne przełōnczanie na radio internecowe, kej sygnŏł FM je za leki, a niy ma czynstotliwości alternatywnych.</string>
+    <!-- IDS_RADIO_POP_THE_CURRENT_RECORDING_WILL_STOP_M_VOICE -->
+    <string name="record_suspended_continue">Terŏźne nagranie bydzie zasztopowane.</string>
+    <!-- IDS_FM_BUTTON_LISTEN_NOW -->
+    <string name="listen_to_radio">Posuchej terŏzki</string>
+    <!-- IDS_FM_BODY_NOW_LISTENING_ABB -->
+    <string name="now_listening">Terŏzki suchosz</string>
+    <!-- IDS_COM_BODY_BUTTON_T_TTS -->
+    <string name="button">Knefel</string>
+    <!-- IDS_FM_BODY_TAP_HERE_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations">Tyknij sam, coby wysznupać stacyje.</string>
+    <!-- IDS_CALL_BODY_THE_RECORDING_WILL_BE_SAVED_AUTOMATICALLY_WHEN_YOU_ACCEPT_THE_CALL -->
+    <string name="recording_save_during_call">Nagranie ôstanie zachowane autōmatycznie po ôdebraniu gŏdki do sia.</string>
+    <!-- IDS_ST_BODY_START -->
+    <string name="test_noise_start">Sztart</string>
+    <!-- IDS_COM_BODY_STOP -->
+    <string name="test_noise_stop">Sztopnij</string>
+    <!-- IDS_BR_POP_READY -->
+    <string name="test_nosise_current_status">Fertich.</string>
+    <!-- IDS_FM_BUTTON_EARPHONE -->
+    <string name="test_noise_earphone">Suchŏwka</string>
+    <!-- IDS_VOLTE_BUTTON_SPEAKER -->
+    <string name="test_noise_speaker">Wł. głośnik</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="menu_more">Wiyncy</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="menu_scan">Przebiyrej</string>
+    <!-- IDS_FM_OPT_EDIT -->
+    <string name="menu_edit">Poprŏw</string>
+    <!-- IDS_RADIO_SBODY_CONTENT_HIDDEN -->
+    <string name="content_hidden">Zawartość ukryta</string>
+    <!-- IDS_FM_TPOP_UNABLE_TO_RECORD_RADIO_DISABLE_TURN_OFF_ALL_SOUNDS_AND_TRY_AGAIN -->
+    <string name="unable_record_turn_off_all_sound">Nie można nagrać radia. Wyłącz funkcję Wyłącz wszystkie dźwięki i spróbuj ponownie.</string>
+</resources>

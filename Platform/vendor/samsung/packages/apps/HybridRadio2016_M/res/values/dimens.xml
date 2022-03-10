@@ -1,0 +1,429 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="toplabel_textsize">16sp</dimen>
+    <dimen name="bottomlabel_textsize">12sp</dimen>
+    <dimen name="bottomrightlabel_textsize">12sp</dimen>
+    <dimen name="top_bar_power_btn_size">32dp</dimen>
+    <dimen name="top_bar_power_btn_margin_start">12dp</dimen>
+    <dimen name="top_bar_record_btn_size">32dp</dimen>
+    <dimen name="top_bar_record_btn_margin_start">24dp</dimen>
+    <dimen name="top_bar_recording_controller_width">165dp</dimen>
+    <dimen name="top_bar_recording_controller_height">32dp</dimen>
+    <dimen name="top_bar_recording_controller_margin_start">12dp</dimen>
+    <dimen name="top_bar_recording_controller_button_width">55dp</dimen>
+
+    <dimen name="main_total_height">640dp</dimen>
+    <dimen name="main_top_body_height">515dp</dimen>
+    <dimen name="main_topbar_height">30dp</dimen>
+    <dimen name="main_topbar_btn_width">53dp</dimen>
+    <dimen name="main_topbar_line_width">2dp</dimen>
+    <dimen name="topbar_searching_text_size">19dp</dimen>
+    <dimen name="topbar_ps_text_size">17dp</dimen>
+    <dimen name="topbar_rt_text_size">13dp</dimen>
+    <dimen name="main_body_height">462dp</dimen>
+    <dimen name="body_dns_top_margin">11dp</dimen>
+    <dimen name="body_dns_image_width">331dp</dimen>
+    <dimen name="body_dns_image_height">248dp</dimen>
+    <dimen name="body_dns_image_top_margin">8dp</dimen>
+    <dimen name="body_dns_text_side_margin">14dp</dimen>
+    <dimen name="body_dns_text_margin_top">8dp</dimen>
+    <dimen name="body_dns_text_size">15dp</dimen>
+    <dimen name="main_frequency_view_height">127dp</dimen>
+    <dimen name="main_frequency_padding_top">11dp</dimen>
+    <dimen name="frequency_digit_margin_left">-8dp</dimen>
+    <dimen name="frequency_mhz_margin_top">30dp</dimen>
+    <dimen name="body_dial_view_height">324dp</dimen>
+    <dimen name="body_dial_view_padding_top">44dp</dimen>
+    <dimen name="body_dial_view_padding_bottom">44dp</dimen>
+    <dimen name="body_dial_margin">-3dp</dimen>
+    <dimen name="main_bottombar_height">54dp</dimen>
+    <dimen name="bottombar_side_btn_width">93dp</dimen>
+    <dimen name="bottombar_btn_height">54dp</dimen>
+    <dimen name="bottombar_btn_width">25dp</dimen>
+    <dimen name="bottombar_padding_bottom">2dp</dimen>
+    <dimen name="bottombar_frame_margin">2dp</dimen>
+    <dimen name="bottombar_btn_margin">19dp</dimen>
+    <dimen name="bottombar_btn_margin_right">19dp</dimen>
+    <dimen name="bottombar_btn_margin_left">27dp</dimen>
+    <dimen name="bottombar_frame_width">26dp</dimen>
+    <dimen name="bottombar_switch_btn_width">240dp</dimen>
+    <dimen name="bottombar_switch_btn_text_size">15dp</dimen>
+    <dimen name="bottombar_switch_btn_text_maring_left">4dp</dimen>
+    <dimen name="main_favorite_height">68dp</dimen>
+    <dimen name="main_favorite_width">89dp</dimen>
+    <dimen name="favorite_freq_text_size">19dp</dimen>
+    <dimen name="favorite_station_text_size">12dp</dimen>
+    <dimen name="favorite_padding_top">16dp</dimen>
+    <dimen name="favorite_padding_bottom">15dp</dimen>
+    <dimen name="normal_text_min_width">122dp</dimen>
+    <dimen name="huge_text_min_width">138dp</dimen>
+    <dimen name="horizontalList_height">87dp</dimen>
+
+    <!-- network dialog -->
+    <dimen name="wifi_warning_msg_margin_top">23dp</dimen>
+    <dimen name="wifi_warning_msg_margin_left">17dp</dimen>
+    <dimen name="wifi_warning_msg_margin_right">17dp</dimen>
+    <dimen name="wifi_warning_checkbox_margin_top">17dp</dimen>
+    <dimen name="wifi_warning_checkbox_margin_bottom">18dp</dimen>
+    <dimen name="wifi_warning_checkbox_margin_left">13dp</dimen>
+    <dimen name="wifi_warning_checkbox_margin_right">8dp</dimen>
+    <dimen name="wifi_warning_text_size">19sp</dimen>
+    <dimen name="wifi_warning_checkbox_padding_left">8dp</dimen>
+
+    <!-- play seekbar -->
+    <dimen name="play_seekbar_thumb_offset">10dp</dimen>
+    <dimen name="play_seekbar_padding_left">15dp</dimen>
+    <dimen name="play_seekbar_padding_right">15dp</dimen>
+    <dimen name="play_seekbar_max_height">4dp</dimen>
+
+    <!-- frequency dialer -->
+    <dimen name="frequency_dialer_circle_radius_offset">8dp</dimen>
+    <dimen name="frequency_dialer_center_offset_x">0dp</dimen>
+    <dimen name="frequency_dialer_center_offset_y">0dp</dimen>
+    <dimen name="frequency_dialer_focused_radius">34dp</dimen>
+
+    <!-- frequency display bar -->
+    <dimen name="frequency_displaybar_circle_radius_offset">90.5dp</dimen>
+    <dimen name="frequency_displaybar_center_offset_x">0dp</dimen>
+    <dimen name="frequency_displaybar_center_offset_y">-1.5dp</dimen>
+    <dimen name="frerquency_bar_left_space">0dp</dimen>
+    <dimen name="frequency_background_height">64dp</dimen>
+    <dimen name="frequency_background_width">320dp</dimen>
+    <dimen name="frequency_bar_height">53dp</dimen>
+    <dimen name="frequency_bar_width">15dp</dimen>
+
+    <!-- Dialog -->
+    <dimen name="dialog_input_area_padding_top">16dp</dimen>
+    <dimen name="dialog_input_area_padding_bottom">16dp</dimen>
+    <dimen name="dialog_input_area_padding_start">18dp</dimen>
+    <dimen name="dialog_input_area_padding_end">24dp</dimen>
+
+    <!-- Notification bar View -->
+    <dimen name="quick_panel_controlbar_height">72dp</dimen>
+    <dimen name="quick_panel_controlbar_radio_launch_width">44dp</dimen>
+    <dimen name="quick_panel_controlbar_radio_launch_height">44dp</dimen>
+    <dimen name="quick_panel_quickpanel_radio_launch_margin_start">14dp</dimen>
+    <dimen name="quick_panel_quickpanel_radio_launch_padding">16dp</dimen>
+    <dimen name="quick_panel_controlbar_radio_text_layout_marginStart">12dp</dimen>
+    <dimen name="quick_panel_controlbar_radio_text_layout_paddingEnd">323dp</dimen>
+    <dimen name="quick_panel_controlbar_radio_description_height">24dp</dimen>
+    <dimen name="quick_panel_controlbar_radio_description_text_size">18dp</dimen>
+    <dimen name="quick_panel_controlbar_radio_description_below_height">18dp</dimen>
+    <dimen name="quick_panel_controlbar_radio_description_below_text_size">14dp</dimen>
+    <dimen name="quick_panel_controlbar_radio_voice_time_height">18dp</dimen>
+    <dimen name="quick_panel_controlbar_radio_voice_time_text_size">14dp</dimen>
+    <dimen name="quick_panel_controlbar_radio_recording_time_margineStart">5dp</dimen>
+    <dimen name="quick_panel_controlbar_radio_recording_time_text_size">14dp</dimen>
+    <dimen name="quick_panel_controlbar_radio_button_layout_width">323dp</dimen>
+    <dimen name="quick_panel_controlbar_button_radio_play_pause_marginLeft">35dp</dimen>
+    <dimen name="quick_panel_controlbar_button_radio_play_pause_marginRight">35dp</dimen>
+    <dimen name="quick_panel_controlbar_button_radio_close_margineStart">62dp</dimen>
+
+    <!-- Widget portrait -->
+    <dimen name="widget_app_provider_minwidth">296dp</dimen>
+    <dimen name="widget_app_provider_minhight">50dp</dimen>
+    <dimen name="widget_controller_width">349dp</dimen>
+    <dimen name="widget_controller_left_margin">20dp</dimen>
+    <dimen name="widget_controller_poweronoff_width">113dp</dimen>
+    <dimen name="widget_favorite_firstline_hight">129dp</dimen>
+    <dimen name="widget_favorite_secondline_hight">130dp</dimen>
+    <dimen name="widget_favorite_firstlastcolumn_width">75dp</dimen>
+    <dimen name="widget_favorite_otherscolumn_width">74dp</dimen>
+    <dimen name="widget_frequency_text_size">33sp</dimen>
+    <dimen name="widget_mhz_text_size">16sp</dimen>
+    <dimen name="widget_channelname_text_size">16sp</dimen>
+    <dimen name="widget_controller_hight">120dp</dimen>
+    <dimen name="widget_controller_frequency_name_hight">52dp</dimen>
+    <dimen name="widget_controller_frequency_hight">34dp</dimen>
+    <dimen name="widget_controller_name_hight">18dp</dimen>
+    <dimen name="widget_fav_FreqMHz_textsize">19sp</dimen>
+    <dimen name="widget_controller_onoff_margin">26dp</dimen>
+    <dimen name="widget_horizontal_line_height">1dp</dimen>
+    <dimen name="widget_vertical_line_width">1dp</dimen>
+
+    <!-- Widget Landscape -->
+    <dimen name="widget_controller_landscape_hight">74dp</dimen>
+    <dimen name="widget_favorite_landscape_firstline_hight">81dp</dimen>
+    <dimen name="widget_favorite_landscape_secondline_hight">82dp</dimen>
+    <dimen name="widget_controller_landscape_poweronoff_width">91dp</dimen>
+    <dimen name="widget_controller_landscape_poweronoff_button_width_hight">42dp</dimen>
+    <dimen name="widget_controller_landscape_controller_width">611dp</dimen>
+    <dimen name="widget_controller_landscape_controller_rds_width">239dp</dimen>
+    <dimen name="widget_controller_landscape_frequency_hight">34dp</dimen>
+    <dimen name="widget_controller_landscape_frequencyname_hight">18dp</dimen>
+    <dimen name="widget_controller_landscape_frequency_text_size">33sp</dimen>
+    <dimen name="widget_controller_landscape_mhz_text_size">16sp</dimen>
+    <dimen name="widget_controller_landscape_frequencyname_text_size">16sp</dimen>
+    <dimen name="widget_controller_landscape_favoritefrequency_text_size">19sp</dimen>
+
+    <!-- Widget portrait -->
+    <!-- Modified by seong-ho.kim at 2014/04/30 -->
+    <dimen name="widget_controller_height">110dp</dimen>
+    <dimen name="widget_ic_arrow_left_marginleft">8dp</dimen>
+    <dimen name="widget_ic_arrow_left_marginright">8dp</dimen>
+    <dimen name="widget_txt_frequency_margintop">22dp</dimen>
+    <dimen name="widget_layout_frequency_marginbottom">4dp</dimen>
+    <dimen name="widget_txt_frequency_marginright">8dp</dimen>
+    <dimen name="widget_txt_frequency_textsize">54dp</dimen>
+    <dimen name="widget_txt_frequency_5x5_textsize">60dp</dimen>
+    <dimen name="widget_txt_mhz_textsize">12dp</dimen>
+    <dimen name="widget_widget_star_marginleft">3dp</dimen>
+    <dimen name="widget_widget_star_marginBottom">6dp</dimen>
+    <dimen name="widget_radio_info_width">182dp</dimen>
+    <dimen name="widget_txt_turn_on_textsize">14dp</dimen>
+    <dimen name="widget_txt_freq_name_textsize">14dp</dimen>
+    <dimen name="widget_txt_freq_divider_height">16dp</dimen>
+    <dimen name="widget_txt_freq_divider_marginleft">5dp</dimen>
+    <dimen name="widget_txt_freq_divider_marginright">4dp</dimen>
+    <dimen name="widget_txt_freq_rt_textsize">14dp</dimen>
+    <dimen name="widget_ic_arrow_right_marginleft">8dp</dimen>
+    <dimen name="widget_ic_arrow_right_marginright">0dp</dimen>
+    <dimen name="widget_power_marginright">10dp</dimen>
+    <dimen name="widget_favorite_list_height">114dp</dimen>
+    <dimen name="widget_favorite_other_column_width">88dp</dimen>
+    <dimen name="widget_favorite_multipleoffour_column_width">87dp</dimen>
+    <dimen name="widget_favorite_freqmhz_textsize">20dp</dimen>
+    <dimen name="widget_favorite_freqname_textsize">12dp</dimen>
+    <dimen name="widget_power_button_margin_end">22dp</dimen>
+    <dimen name="widget_favorite_freqname_margin_top">4dp</dimen>
+    <dimen name="widget_favorite_radio_icon_size">30dp</dimen>
+    <dimen name="widget_txt_freq_layout_height">51dp</dimen>
+    <dimen name="widget_fav_linear_margin_top">34dp</dimen>
+    <dimen name="widget_fav_FreqMhz_text_size">24dp</dimen>
+    <dimen name="widget_fav_margin_start">3dp</dimen>
+    <dimen name="widget_span_margin_top">3dp</dimen>
+    
+    <!-- VIS View -->
+    <dimen name="more_info_icon_width">20dp</dimen>
+    <dimen name="more_info_icon_height">20dp</dimen>
+    <dimen name="more_info_button_text_size">15dp</dimen>
+    <dimen name="visimage_marginLeft">0dp</dimen>
+    <dimen name="visimage_marginRight">0dp</dimen>
+    <dimen name="visimage_marginTop">0dp</dimen>
+
+    <!-- EPG display view -->
+    <dimen name="epg_bottom_btn_width">48dp</dimen>
+    <dimen name="epg_bottom_btn_height">48dp</dimen>
+    <dimen name="epg_bottom_btn_side_margin">36dp</dimen>
+    <dimen name="epg_bottom_btn_side_padding">10dp</dimen>
+    <dimen name="epg_detail_text_left_margin">16dp</dimen>
+    <dimen name="epg_detail_text_right_margin">16dp</dimen>
+    <dimen name="epg_detail_text_top_margin">8dp</dimen>
+    <dimen name="epg_detail_text_bottom_margin">8dp</dimen>
+    <dimen name="epg_detail_image_width">272dp</dimen>
+    <dimen name="epg_detail_image_height">206dp</dimen>
+    <dimen name="epg_detail_image_top_margin">6dp</dimen>
+    <dimen name="epg_detail_image_bottom_margin">12dp</dimen>
+    <dimen name="epg_detail_image_side_margin">6dp</dimen>
+    <dimen name="epg_detail_listen_btn_side_margin">9dp</dimen>
+    <dimen name="epg_detail_listen_btn_bottom_margin">8dp</dimen>
+    <dimen name="epg_detail_listen_panel_height">49dp</dimen>
+    <dimen name="epg_detail_listen_btn_height">41dp</dimen>
+    <dimen name="epg_detail_listening_text_top_margin">9dp</dimen>
+    <dimen name="epg_detail_listening_text_side_margin">15dp</dimen>
+    <dimen name="epg_detail_listening_ani_height">21dp</dimen>
+    <dimen name="epg_detail_listening_ani_width">21dp</dimen>
+    <dimen name="epg_detail_page_bottom_padding">8dp</dimen>
+    <dimen name="epg_detail_page_top_padding">8dp</dimen>
+    <dimen name="epg_detail_page_left_padding">38dp</dimen>
+    <dimen name="epg_detail_page_right_padding">38dp</dimen>
+    <dimen name="epg_detail_title_text_size">21sp</dimen>
+    <dimen name="epg_detail_body_text_size">15sp</dimen>
+    <dimen name="epg_detail_listen_now_text_size">15dp</dimen>
+    <dimen name="epg_playtime_text_size">19dp</dimen>
+    <dimen name="progressbar_width">34dp</dimen>
+    <dimen name="progressbar_margin">6dp</dimen>
+    <dimen name="progressbar_text_size">19sp</dimen>
+    <dimen name="epg_detail_listen_btn_top_margin">21dp</dimen>
+    <dimen name="epg_detail_layout_height">391dp</dimen>
+    <dimen name="epg_detail_title_height">23dp</dimen>
+    <dimen name="epg_detail_freq_height">30dp</dimen>
+    <dimen name="epg_detail_channel_desc_height">64dp</dimen>
+    <dimen name="epg_bottom_layout_height">48dp</dimen>
+    <dimen name="epg_detail_channel_top_margin">15dp</dimen>
+
+    <!-- Stations -->
+    <dimen name="stations_fav_left_margin">11dp</dimen>
+    <dimen name="stations_channel_left_margin">10dp</dimen>
+    <dimen name="stations_channel_freq_text">19sp</dimen>
+    <dimen name="stations_vis_left_margin">3dp</dimen>
+    <dimen name="stations_channel_name_text">14sp</dimen>
+    <dimen name="stations_playing_width">21dp</dimen>
+    <dimen name="stations_playing_right_margin">11dp</dimen>
+    <dimen name="stations_detail_width">61dp</dimen>
+    <dimen name="stations_detail_right_margin">12dp</dimen>
+    <dimen name="stations_txtChanFreq_text_size">16dp</dimen>
+    <dimen name="stations_txtChanName_text_size">12dp</dimen>
+    <dimen name="stations_imgFavIcon_layout_dimention">46dp</dimen>
+    <dimen name="stations_imgFavIcon_layout_margin_right">5dp</dimen>
+    <dimen name="stations_imgFavIcon_layout_margin_end_for_dns">13dp</dimen>
+    <dimen name="stations_imgFavIcon_dimention">30dp</dimen>
+    <dimen name="stations_imgFavIcon_margin_right">8dp</dimen>
+    <dimen name="stations_list_row_min_height">62dp</dimen>
+    <dimen name="stations_visicon_margin_left">2dp</dimen>
+    <dimen name="stations_visicon_size">13dp</dimen>
+    <dimen name="stations_epgDetailIcon_widht">48dp</dimen>
+    <dimen name="stations_epgDetailIcon_height">30dp</dimen>
+    <dimen name="stations_epgDetailIcon_margin_right">3dp</dimen>
+    <dimen name="stations_epgDetailIcon_text_size">13dp</dimen>
+    <dimen name="stations_list_controller_height">92dp</dimen>
+    <dimen name="stations_list_controller_power_button_dimen">60dp</dimen>
+    <dimen name="stations_list_controller_power_button_margin_left">14dp</dimen>
+    <dimen name="stations_list_controller_power_button_margin_right">14dp</dimen>
+    <dimen name="stations_list_controller_power_button_margin_top">16dp</dimen>
+    <dimen name="stations_list_controller_next_prev_button_dimen">44dp</dimen>
+    <dimen name="stations_list_controller_next_prev_button_margin_top">24dp</dimen>
+    <dimen name="stations_list_controller_freq_display_view_width">64dp</dimen>
+    <dimen name="stations_list_controller_freq_display_view_height">34dp</dimen>
+    <dimen name="stations_list_controller_freq_display_view_margin_left">10dp</dimen>
+    <dimen name="stations_list_controller_freq_display_view_margin_right">18dp</dimen>
+    <dimen name="stations_list_controller_freq_value_height">22dp</dimen>
+    <dimen name="stations_list_controller_freq_value_margin_top">30dp</dimen>
+    <dimen name="stations_list_controller_freq_value_text_size">16dp</dimen>
+    <dimen name="stations_list_controller_station_name_height">13dp</dimen>
+    <dimen name="stations_list_controller_station_text_size">11dp</dimen>
+    <dimen name="stations_list_delete_icon_size">32dp</dimen>
+    <dimen name="stations_list_delete_icon_margin_top">4dp</dimen>
+    <dimen name="stations_list_delete_text_height">16dp</dimen>
+    <dimen name="stations_list_delete_text_size">14dp</dimen>
+    <dimen name="vis_width">93dp</dimen>
+    <dimen name="vis_start_margin">48dp</dimen>
+    <dimen name="vis_top_margin">26dp</dimen>
+    <dimen name="vis_bottom_margin">26dp</dimen>
+    <dimen name="vis_btn_text_height">17dp</dimen>
+    <dimen name="station_width">93dp</dimen>
+    <dimen name="station_end_margin">48dp</dimen>
+    <dimen name="station_top_margin">26dp</dimen>
+    <dimen name="station_bottom_margin">26dp</dimen>
+    <dimen name="station_btn_text_height">17dp</dimen>
+    <dimen name="station_text_overlapped_margin">-5dp</dimen>
+    <dimen name="info_text_size">12dp</dimen>
+    <dimen name="bottom_line_offset">27dp</dimen>
+    <dimen name="stations_recording_icon_width">14dp</dimen>
+    <dimen name="stations_recording_icon_height">14dp</dimen>
+    <dimen name="textsize_scan_btn">16dp</dimen>
+
+    <!-- dropdown list -->
+    <dimen name="actionbar_title_dropdown_y_offset">-6dp</dimen>
+    
+    <!-- list player screen -->
+    <dimen name="list_player_controller_height">136dp</dimen>
+    <dimen name="list_player_panel_height">62dp</dimen>
+    <dimen name="list_player_min_height">62dp</dimen>
+    <dimen name="list_player_top_label_height">23dp</dimen>
+    <dimen name="list_player_bottom_label_height">18dp</dimen>
+    <dimen name="list_player_bottom_label_top_margin">2dp</dimen>
+    <dimen name="list_player_imgspk_icon_margin_right">16dp</dimen>
+     <dimen name="list_player_imgspk_icon_margin_left">5dp</dimen>
+    <dimen name="list_player_progrssbar_margin_top">6dp</dimen>
+    <dimen name="list_player_PlayerPlayTimeTextView_size">12dp</dimen>
+    <dimen name="list_player_PlayerPlayTimeTextView_height">16dp</dimen>
+    <dimen name="list_player_PlayerPlayTimeTextView_margine_top">4dp</dimen>
+    <dimen name="list_player_PlayerPlayTimeTextView_margin_bottom">8dp</dimen>
+    <dimen name="list_player_PlayerPlayTimeTextView_margin_start">28dp</dimen>
+    <dimen name="list_player_PlayerPlayTimeTextView_margin_end">28dp</dimen>
+    <dimen name="list_player_controller_button_layout_height">80dp</dimen>
+    <dimen name="list_player_controller_button_margin_top">38dp</dimen>
+    <dimen name="list_player_controller_button_layout_padding_bottom">18dp</dimen>
+    <dimen name="list_player_controller_button_padding_left">96dp</dimen>
+    <dimen name="list_player_controller_button_padding_right">96dp</dimen>
+    <dimen name="list_player_controller_play_pause_btn_height">56dp</dimen>
+    <dimen name="list_player_controller_play_pause_btn_width">56dp</dimen>
+    <dimen name="list_player_controller_play_pause_btn_margin_top">24dp</dimen>
+    <dimen name="list_player_controller_play_pause_btn_margin_left">16dp</dimen>
+    <dimen name="list_player_controller_play_pause_btn_margin_right">16dp</dimen>
+    <dimen name="list_player_controller_prev_next_btn_height">40dp</dimen>
+    <dimen name="list_player_controller_prev_next_btn_width">40dp</dimen>
+    <dimen name="list_player_progrssbar_padding">13dp</dimen>
+    <dimen name="listplayer_margin_start">24dp</dimen>
+    <dimen name="recorded_file_select_item_checkbox_margin_end">16dp</dimen>
+    <dimen name="recorded_file_topLabel_margin_start">0dp</dimen>
+    <dimen name="recorded_file_topLabel_padding_end">20dp</dimen>
+    <dimen name="recorded_file_bottomRightLabel_margin_start">20dp</dimen>
+    <dimen name="recorded_file_playLabel_margin_end">20dp</dimen>
+        <dimen name="imgspkicon_width">25dp</dimen>
+    <dimen name="imgspkicon_height">25dp</dimen>
+
+    <!-- frequency bar -->
+    <dimen name="frequency_max">312.1dp</dimen>
+    <dimen name="frequency_min">21.3dp</dimen>
+    <dimen name="frequencybar_top_offset">44dp</dimen>
+
+    <!-- station favorite -->
+    <dimen name="station_favorite_icon_list_padding">16dp</dimen>
+    <dimen name="station_favorite_icon_size">70dp</dimen>
+    <dimen name="station_favorite_icon_top_margin">8dp</dimen>
+    <dimen name="station_favorite_icon_left_margin">8dp</dimen>
+    <dimen name="station_favorite_icon_bottom_margin">9dp</dimen>
+    <dimen name="station_favorite_controller_height">92dp</dimen>
+    <dimen name="station_favorite_divider_height">2px</dimen>
+    <dimen name="horizantal_spacing_fav_channel">54dp</dimen>
+    <dimen name="station_delete_mode_favorite_icon_top_margin">8dp</dimen>
+
+    <!-- action mode-->
+    <dimen name="selectall_checkbox_margintop">6dp</dimen>
+    <dimen name="selectall_checkbox_marginend">16dp</dimen>
+    <dimen name="selectall_textview_marginbottom">2dp</dimen>
+    <dimen name="selectall_textview_height">14dp</dimen>
+
+    <!-- Tabs  -->
+    <dimen name="fmradio_tab_height">64dp</dimen>
+    <dimen name="fmradio_tab_text_size">14dp</dimen>
+    <dimen name="fmradio_tab_top_divider_height">1px</dimen>
+    <dimen name="fmradio_tab_bottom_divider_height">1px</dimen>
+
+    <!-- Channel screen list  -->
+    <dimen name="all_channellist_fragment_height">392dp</dimen>
+    <dimen name="stations_list_padding_start">0dp</dimen>
+    <dimen name="stations_list_padding_end">0dp</dimen>
+    <dimen name="stations_list_checkbox_margin_start">16dp</dimen>
+    <dimen name="stations_list_checkbox_margin_end">11dp</dimen>
+    <dimen name="stations_list_channel_freq_text_margin_start">5dp</dimen>
+    <dimen name="stations_list_channel_name_margin_top">4dp</dimen>
+
+        <!-- Fav Button  -->
+    <dimen name="favorite_more_than_4_freq_text_size">22dp</dimen>
+    <dimen name="favorite_less_than_4_freq_text_size">27dp</dimen>
+    <dimen name="station_name_text_size">13dp</dimen>
+
+    <dimen name="station_favorite_icon_size_5">83dp</dimen>
+    <dimen name="station_favorite_icon_size_4">126dp</dimen>
+    <dimen name="station_favorite_text_view_width">80dp</dimen>
+    <dimen name="horizantal_spacing_fav_channel_5">0dp</dimen>
+    <dimen name="vertical_spacing_fav_channel_5">8dp</dimen>
+    <dimen name="horizantal_spacing_fav_channel_4">2dp</dimen>
+    <dimen name="vertical_spacing_fav_channel_4">0dp</dimen>
+    <dimen name="fav_channels_gridview_columnwidth_5">98dp</dimen>
+    <dimen name="fav_channels_gridview_columnwidth_4">141dp</dimen>
+    <dimen name="fav_channel_margin_start">15dp</dimen>
+    <dimen name="fav_channel_margin_top">15dp</dimen>
+    <dimen name="fav_channel_gridview_padding_top_5">24dp</dimen>
+    <dimen name="fav_channel_gridview_padding_top_4">85dp</dimen>
+    <dimen name="fav_channel_gridview_padding_top_2">85dp</dimen>
+    <dimen name="fav_channel_gridview_padding_top_1">156dp</dimen>
+    <dimen name="fav_channel_gridview_width_5">294dp</dimen>
+    <dimen name="fav_channel_gridview_height_5">440dp</dimen>
+    <dimen name="fav_channel_gridview_width_4">284dp</dimen>
+    <dimen name="fav_channel_gridview_height_4">366dp</dimen>
+    <dimen name="fav_channel_gridview_width_2">141dp</dimen>
+    <dimen name="fav_channel_gridview_height_2">366dp</dimen>
+    <dimen name="fav_channel_gridview_width_1">141dp</dimen>
+    <dimen name="fav_channel_gridview_height_1">297dp</dimen>
+
+    <!--Content Hidden-->
+    <dimen name="content_hidden_title_height">24dp</dimen>
+    <dimen name="content_hidden_text_height">20dp</dimen>
+    <dimen name="content_hidden_title_size">16dp</dimen>
+    <dimen name="content_hidden_text_size">13dp</dimen>
+    <dimen name="content_hidden_icon_size">48dp</dimen>
+    <dimen name="content_hidden_icon_margin">8dp</dimen>
+
+    <!-- Vis Screen -->
+    <dimen name="vis_screen_layout_width">302dp</dimen>
+    <dimen name="vis_screen_layout_height">302dp</dimen>
+    <dimen name="vis_image_height">170dp</dimen>
+    <dimen name="vis_text_height">132dp</dimen>
+    <dimen name="vis_text_padding_start">24dp</dimen>
+    <dimen name="vis_text_padding_end">24dp</dimen>
+    <dimen name="vis_text_padding_bottom">64dp</dimen>
+</resources>

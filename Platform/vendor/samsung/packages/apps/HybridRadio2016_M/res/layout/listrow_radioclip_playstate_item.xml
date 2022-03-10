@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:minHeight="62dp"
+    android:gravity="center_vertical"
+    android:paddingStart="@dimen/listplayer_margin_start"
+    android:orientation="horizontal" >
+
+    <CheckBox
+        android:id="@+id/recorded_file_select_item_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/recorded_file_select_item_checkbox_margin_end"
+        android:adjustViewBounds="true"
+        android:clickable="false"
+        android:focusable="false"
+        android:scaleType="centerInside"
+        android:background="@null"
+        android:visibility="gone" />
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginStart="16dp"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/topLabel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:paddingStart="@dimen/recorded_file_topLabel_margin_start"
+            android:paddingEnd="@dimen/recorded_file_topLabel_padding_end"
+            android:fontFamily="roboto-regular"
+            android:textSize="@dimen/toplabel_textsize" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:gravity="top"
+            android:orientation="horizontal" >
+
+            <TextView
+                android:id="@+id/bottomLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="roboto-regular"
+                android:singleLine="true"
+                android:textSize="@dimen/bottomlabel_textsize" />
+
+            <TextView
+                android:id="@+id/bottomRightLabel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="roboto-regular"
+                android:layout_marginStart="@dimen/recorded_file_bottomRightLabel_margin_start"
+                android:singleLine="true"
+                android:textSize="@dimen/bottomrightlabel_textsize" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/playLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="@dimen/recorded_file_playLabel_margin_end"
+        android:drawablePadding="2dp"
+        android:textColor="@color/listview_item_state_color"
+        android:textSize="12sp"
+        android:visibility="gone" />
+
+</LinearLayout>

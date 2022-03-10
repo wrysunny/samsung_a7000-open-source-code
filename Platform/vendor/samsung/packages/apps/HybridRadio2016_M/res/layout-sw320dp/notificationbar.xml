@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="64dp"
+    android:orientation="horizontal"
+    android:focusable="true">
+
+    <ImageView
+        android:id="@+id/quickpanel_radio_launch"
+        android:layout_width="@dimen/quick_panel_controlbar_radio_launch_width"
+        android:layout_height="@dimen/quick_panel_controlbar_radio_launch_height"
+        android:background="@drawable/quickpanel_btn_radio_bg"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/quick_panel_quickpanel_radio_launch_margin_start"
+        android:focusable="true"
+        android:padding="@dimen/quick_panel_quickpanel_radio_launch_padding"
+        android:scaleType="center"
+        android:src="@drawable/quick_panel_icon_mini_radio" />
+
+    <ImageView
+        android:id="@+id/quickpanel_radio_recording_launch"
+        android:layout_width="@dimen/quick_panel_controlbar_radio_launch_width"
+        android:layout_height="@dimen/quick_panel_controlbar_radio_launch_height"
+        android:background="@drawable/quickpanel_btn_radio_recording_bg"
+        android:layout_alignParentStart="true"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/quick_panel_quickpanel_radio_launch_margin_start"
+        android:focusable="true"
+        android:padding="@dimen/quick_panel_quickpanel_radio_launch_padding"
+        android:scaleType="center"
+        android:src="@drawable/quick_panel_icon_mini_radio" />
+
+    <RelativeLayout
+        android:id="@+id/quickpanel_radio_text_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_toEndOf="@+id/quickpanel_radio_launch"
+        android:layout_toStartOf="@+id/quickpanel_radio_controller"
+        android:layout_marginStart="@dimen/quick_panel_controlbar_radio_text_layout_marginStart"
+        android:paddingEnd="@dimen/quick_panel_controlbar_radio_text_layout_paddingEnd"
+        android:gravity="center_vertical"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/quickpanel_radio_description"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/quick_panel_controlbar_radio_description_height"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:fontFamily="sans-serif"
+            android:gravity="start|center_vertical"
+            android:textColor="@color/quick_panel_title_color"
+            android:textSize="@dimen/quick_panel_controlbar_radio_description_text_size"/>
+
+       <TextView
+            android:id="@+id/quickpanel_radio_description_below"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/quick_panel_controlbar_radio_description_below_height"
+            android:layout_below="@+id/quickpanel_radio_description"
+            android:ellipsize="marquee"
+            android:singleLine="true"
+            android:textColor="@color/quick_panel_text_color"
+            android:gravity="start|center_vertical"
+            android:alpha=".7"
+            android:fontFamily="sec-roboto-regular"
+            android:textSize="@dimen/quick_panel_controlbar_radio_description_below_text_size"
+            android:visibility="gone" />
+       
+       <TextView
+            android:id="@+id/quickpanel_voice_time"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/quick_panel_controlbar_radio_voice_time_height"
+            android:layout_below="@+id/quickpanel_radio_description"
+            android:ellipsize="marquee"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:includeFontPadding="false"
+            android:marqueeRepeatLimit="marquee_forever"
+            android:singleLine="true"
+            android:gravity="start|center_vertical"
+            android:alpha=".7"
+            android:fontFamily="sec-roboto-light"
+            android:textColor="@color/quick_panel_text_color"
+            android:textSize="@dimen/quick_panel_controlbar_radio_voice_time_text_size"
+            android:visibility="gone" />
+       
+        <LinearLayout
+            android:id="@+id/quickpanel_rec_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/quickpanel_radio_description"
+            android:orientation="horizontal"
+            android:gravity="start|center_vertical"
+            android:visibility="gone" >
+
+            <ImageView
+                android:id="@+id/quickpanel_recording_image"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/quick_panel_icon_rec" />
+
+            <TextView
+                android:id="@+id/quickpanel_recording_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/quick_panel_controlbar_radio_recording_time_margineStart"
+                android:singleLine="true"
+                android:gravity="center_vertical"
+                android:fontFamily="sec-roboto-light"
+                android:text="@string/default_time"
+                android:textColor="@color/quick_panel_text_color"
+                android:textSize="@dimen/quick_panel_controlbar_radio_recording_time_text_size" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/quickpanel_radio_controller"
+        android:layout_width="@dimen/quick_panel_controlbar_radio_button_layout_width"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_alignParentEnd="true"
+        android:orientation="horizontal" >
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layoutDirection="ltr">
+
+            <ImageView
+                android:id="@+id/quickpanel_radio_rew"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:contentDescription="@string/desc_prev"
+                android:focusable="true"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/quickpanel_btn_ripple"
+                android:src="@drawable/quickpanel_btn_rew" />
+
+             <ImageView
+                android:id="@+id/quickpanel_radio_play_pause"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/quick_panel_controlbar_button_radio_play_pause_marginLeft"
+                android:layout_marginRight="@dimen/quick_panel_controlbar_button_radio_play_pause_marginRight"
+                android:focusable="true"
+                android:background="@drawable/quickpanel_btn_ripple"
+                android:src="@drawable/quickpanel_btn_pause" />
+
+            <ImageView
+                android:id="@+id/quickpanel_radio_ff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:focusable="true"
+                android:layout_gravity="center_vertical"
+                android:background="@drawable/quickpanel_btn_ripple"
+                android:src="@drawable/quickpanel_btn_ff" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/quickpanel_player_close"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/quick_panel_controlbar_button_radio_close_margineStart"
+            android:background="@drawable/quickpanel_btn_ripple"
+            android:focusable="true"
+            android:src="@drawable/quickpanel_btn_close" />
+    </LinearLayout>
+</RelativeLayout>

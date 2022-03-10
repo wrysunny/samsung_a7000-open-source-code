@@ -1,0 +1,396 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+        Copyright (C) 2006 The Android Open Source Project Licensed under the
+        Apache License, Version 2.0 (the "License"); you may not use this file
+        except in compliance with the License. You may obtain a copy of the
+        License at http://www.apache.org/licenses/LICENSE-2.0 Unless required
+        by applicable law or agreed to in writing, software distributed under
+        the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR
+        CONDITIONS OF ANY KIND, either express or implied. See the License for
+        the specific language governing permissions and limitations under the
+        License.
+
+-->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+
+    <string name="toast_fm_not_played">Unable to turn on %s</string>
+    <string name="headset_disconnect">Earphone removed. Radio will be turned off.</string>
+    <string name="toast_tap_to_rename">Tap frequency to rename</string>
+    <string name="toast_channel_invalid">Invalid frequency</string>
+    <string name="toast_tune">Tuning to %1$d.%2$d MHz...</string>
+    <string name="toast_tap_to_remove">Tap frequency to remove</string>
+    <string name="toast_busy_tunning">Busy. Tuning in...</string>
+    <string name="toast_already_scan">Already scanning...</string>
+    <string name="toast_rename_error">Unable to rename</string>
+    <string name="dialog_cancel_scan">Cancelling...</string>
+    <string name="dialog_scan">Scanning...</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_MINUTES -->
+    <string name="alarm_text1">FM Radio will be off after %d minutes.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_1_HOUR -->
+    <string name="alarm_text2">FM Radio will be off after 1 hour.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_HOURS -->
+    <string name="alarm_text3">FM Radio will be off after %d hours.</string>
+    <string name="toast_already_added">Station already exists. Add another station.</string>
+    <string name="dialog_channel_found">%1$d.%2$d MHz station found. Total %3$d stations are found.</string>
+    <string name="dialog_channel_one_found" did="IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL">A station has been found at %1$s MHz. 1 station has been found in total.</string>
+    <string name="dialog_channel_found_south_region" did="IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_P2SD_STATIONS_HAVE_BEEN_FOUND_IN_TOTAL">A station has been found at %1$s MHz. %2$d stations have been found in total.</string>
+    <string name="dialog_channel_one_found_south_region">%1$s MHz station found. Total 1 station is found.</string>
+    <string name="toast_channel_found">%1$d stations found while scanning.</string>
+    <string name="toast_one_channel_found">1 station found while scanning.</string>
+    <string name="toast_on_alert">Turn Radio on</string>
+    <string name="app_name">Radio</string>
+    <string name="channels">All channels</string>
+    <string name="record">Record</string>
+    <string name="scan">Scan</string>
+    <string name="more">More</string>
+    <string name="remove">Remove</string>
+    <string name="settings">Settings</string>
+    <string name="allchannels">Stations</string>
+    <string name="information">Information</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="rename">Rename</string>
+    <string name="rename_text">Enter name</string>
+    <string name="done">Done</string>
+    <string name="replace">Replace</string>
+    <string name="mhz">MHz</string>
+    <string name="mhz_content_des">Megahertz</string>
+    <string name="setting_sationid">Radio text</string>
+    <string name="setting_af">Alternative frequency</string>
+    <string name="setting_autooff">Auto off</string>
+    <string name="setting_stationid_summary">Station information will be shown</string>
+    <string name="setting_af_summary">Turn on/off alternative frequency</string>
+    <string name="setting_never" did="IDS_FM_OPT_NEVER">Never</string>
+    <string name="setting_15min">After 15 mins</string>
+    <string name="setting_30min">After 30 mins</string>
+    <string name="setting_hour">After 1 hour</string>
+    <string name="setting_2hour">After 2 hours</string>
+    <string name="save">Save</string>
+    <string name="toast_channel_empty">No stations</string>
+    <string name="toast_favourite_empty" did="IDS_FM_NPBODY_NO_FAVOURITE_STATIONS_ABB">No favourite stations</string>
+    <string name="toast_earphone_not_connected">Earphones not connected. Earphones work as the radio antenna. Connect earphones.</string>
+    <string name="dialog_autoscan">Auto scan</string>
+    <string name="toast_initial_access">Starting auto scan...</string>
+    <string name="scan_result">Scan result</string>
+    <string name="rename_channel">Rename</string>
+    <string name="alert">Alerts</string>
+    <string name="fav_channel">Favourites</string>
+    <string name="menu_refersh_all">All stations</string>
+    <string name="menu_refresh">Retaining favourites</string>
+    <string name="number_15">15</string>
+    <string name="number_30">30</string>
+    <string name="number_1">1</string>
+    <string name="number_2">2</string>
+    <string name="alrm_15_min_past">Radio turned off automatically. %1$d minutes have passed.</string>
+    <string name="alrm_30_min_past">Radio turned off automatically. %1$d minutes have passed.</string>
+    <string name="alrm_1_hr_past">%s turned off automatically. 1 hour has passed.</string>
+    <string name="alrm_2_hrs_past">%1$s turned off automatically. %2$d hours have passed.</string>
+    <string name="scan_channels">Scan channels</string>
+    <string name="selectall">Select all</string>
+    <string name="selected_item">%d selected</string>
+    <string name="no_channel_selected">Select at least one item</string>
+    <string name="toast_airplane_mode">Unable to use %s in Flight mode.</string>
+    <string name="dialog_tts_confirm">Install voice data required for speech synthesis</string>
+    <string name="RSSI">Set Seek RSSI (int)</string>
+    <string name="SNR">Set Seek SNR (int)</string>
+    <string name="CNT">Set Seek CNT (int)</string>
+    <string name="AF_Threshold">Set AF Threshold (int)</string>
+    <string name="AF_Valid_Threshold">Set AF Valid Threshold (int)</string>
+    <string name="Current_Threshold">Get Current Threshold (int)</string>
+    <string name="speaker">Speaker</string>
+    <string name="af_switching">AF switching</string>
+    <string name="af_switching_msg">AF switching is in progress. Press Back to cancel</string>
+    <string name="toast_battery_low">Unable to launch application. Low battery</string>
+    <string name="toast_af_success">AF switched and found %1$d.%2$d MHz frequency</string>
+    <string name="toast_af_fail">AF not found</string>
+    <string name="toast_disabled">%1$s disabled.</string>
+    <string name="toast_no_channel_found">No stations found.</string>
+    <string name="toast_unavailable_in_tvout_mode">Unavailable in TV-out mode</string>
+    <string name="mute">Mute</string>
+    <string name="seeking">Searching...</string>
+    <string name="via_earphone">Play via earphones</string>
+    <string name="via_speaker">Play via speaker</string>
+    <string name="normal_frequency">Normal frequency</string>
+    <string name="end">End</string>
+    <string name="toast_maximum_file_name" did="IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED">Maximum number of characters (%d) reached.</string>
+    <string name="turn_on_radio">Turn on the %s.</string>
+    <string name="freq_dot">.</string>
+    <string name="enter_number">Enter number.</string>
+
+    <!-- Below strings are not translated. -->
+    <string name="tag">Tag</string>
+    <string name="stop">Stop</string>
+    <string name="recording">Recording</string>
+    <string name="memory_full">Memory full</string>
+    <string name="cancel_recording">Cancel recording?</string>
+
+    <!-- 2011.08.17 TOD_AHS : UX feedback -->
+    <string name="change_frequency">Change frequency</string>
+    <string name="enter_frequency">Enter frequency</string>
+    <string name="saved_go_to_myfiles">Saved in %s. Go to Recorded files to play. Do you want to play now?</string>
+    <string name="dont_show_again">Don\u0027t show again</string>
+    <string name="toast_max_favorite">Maximum number of favorite station reached (12). Remove some favorite stations</string>
+    <string name="audio_shock_warning">Loud music may harm your hearing if you listen to it for a long time</string>
+
+    <!-- 2011.09.01 TOD_hskim : MediaStore insert error -->
+    <string name="recording_error">Recording error</string>
+
+    <!-- 2011.09.02 TOD_AHS : Descriptions for TalkBack -->
+    <string name="desc_record">Record</string>
+    <string name="desc_volume">Volume</string>
+    <string name="desc_power">Power</string>
+    <string name="desc_quick_pannel_power">Radio on, off</string>
+    <string name="desc_prev">Previous station</string>
+    <string name="desc_next">Next station</string>
+    <string name="desc_fav1">Favorite channel 1\u002c</string>
+    <string name="desc_fav2">Favorite channel 2\u002c</string>
+    <string name="desc_fav3">Favorite channel 3\u002c</string>
+    <string name="desc_fav4">Favorite channel 4\u002c</string>
+    <string name="desc_fav5">Favorite channel 5\u002c</string>
+    <string name="desc_fav6">Favorite channel 6\u002c</string>
+    <string name="desc_fav7">Favorite channel 7\u002c</string>
+    <string name="desc_fav8">Favorite channel 8\u002c</string>
+    <string name="desc_fav9">Favorite channel 9\u002c</string>
+    <string name="desc_fav10">Favorite channel 10\u002c</string>
+    <string name="desc_fav11">Favorite channel 11\u002c</string>
+    <string name="desc_fav12">Favorite channel 12\u002c</string>
+    <string name="desc_button">%s, Button</string>
+    <string name="desc_tab" did="IDS_ACCS_OPT_PS_TAB_OPT_TTS">%s, Tab</string>
+    <string name="desc_add_favorite">Add favorite</string>
+    <string name="desc_rem_favorite">Remove favourites?</string>
+    <string name="desc_favorite">%s, favorite stations</string>
+    <string name="desc_menu">Menu</string>
+    <string name="desc_stop">Stop</string>
+    <string name="desc_resume">Resume</string>
+    <string name="desc_pause">Pause</string>
+    <string name="desc_cancel">Cancel</string>
+    <string name="desc_frequency">Frequency</string>
+    <string name="desc_frequency_slider" did="IDS_RADIO_BODY_FREQUENCY_CONTROL_SLIDER_TTS">Frequency control slider</string>
+    <string name="desc_close">Close</string>
+    <string name="desc_hour">Hour</string>
+    <string name="desc_hours">Hours</string>
+    <string name="desc_minute">Minute</string>
+    <string name="desc_minutes">Minutes</string>
+    <string name="desc_second">Second</string>
+    <string name="desc_seconds">Seconds</string>
+    <string name="desc_fav_station">FAVOURITE STATIONS</string>
+    <string name="desc_switch_btn_view_information">View visual information.</string>
+    <string name="desc_resume_extended">Resume</string>
+    <string name="desc_more">More options</string>
+    <string name="desc_double_tap_to_select_all" did="WDS_TTS_TBBODY_DOUBLE_TAP_TO_SELECT_ALL">Double tap to select all.</string>
+    <string name="desc_double_tap_to_deselect_all" did="IDS_BR_BODY_DOUBLE_TAP_TO_DESELECT_T_TTS">Double tap to deselect.</string>
+    <string name="desc_nothing_selected" did="IDS_FM_POP_NOTHINGSELECTED">Nothing selected.</string>
+    <string name="desc_n_selected" did="IDS_COM_BODY_PD_SELECTED">%d selected.</string>
+    <string name="desc_ticked_t_tts">Checked</string>
+    <string name="desc_not_ticked_t_tts" did="IDS_COM_BUTTON_NOT_CHECKED">Not checked</string>
+	<string name="desc_tick_box_t_tts" did="IDS_VPL_BODY_TICK_BOX">Check box</string>
+	<string name="desc_favorite_button" did="IDS_COM_BODY_FAVOURITE">Favourite</string>
+	<string name="desc_selected" did="IDS_COM_BODY_SELECTED">Selected</string>
+	<string name="desc_not_selected" did="IDS_ACCS_BODY_NOT_SELECTED_T_TTS">Not selected</string>
+	<string name="desc_frequency_added_to_favourites" did="IDS_HEALTH_TBBODY_PS_ADDED_TO_FAVOURITES">%s added to Favourites.</string>
+	<string name="desc_frequency_removed_from_favourites" did="IDS_HEALTH_TBBODY_PS_REMOVED_FROM_FAVOURITES">%s removed from Favourites.</string>
+
+    <!-- 2011.09.07 TOD_AHS : Fixed recording volume. -->
+    <string name="recording_volume_control">Volume control is not available while recording</string>
+    <string name="deleted">Deleted</string>
+
+    <!-- 2011.10.04 TM_KTMIN : Fixed recording file name. -->
+    <string name="record_filename">fmrecord</string>
+
+    <!-- 2011.10.18 TOD_AHS : RSSI test. -->
+    <string name="test_rssi">RSSI : </string>
+    <string name="test_start_freq">Start frequency : </string>
+    <string name="test_end_freq">End frequency : </string>
+    <string name="test_start">Start</string>
+    <string name="test_stop">Stop</string>
+    <string name="test_lcd_on">LCD on</string>
+    <string name="tags_interactivity">INTERACTIVITY</string>
+    <string name="tags_music_title">Title</string>
+    <string name="tags_music_album">Album</string>
+    <string name="tags_music_artist">Artist</string>
+    <string name="tags_music_band">Band</string>
+    <string name="tags_information_url">Url</string>
+    <string name="tags_programme_homepage">Homepage</string>
+    <string name="tags_interact_hotline">Hotline</string>
+    <string name="tags_interact_studio">Studio</string>
+    <string name="tags_interact_other">Other</string>
+    <string name="tags_interact_centre">Centre</string>
+
+    <!-- New string -->
+    <string name="toast_unable_scan">Unable to scan during recording</string>
+    <string name="dialog_station_name">Station name</string>
+    <string name="delete">Delete</string>
+    <string name="select">Select</string>
+    <string name="setting_storage">Storage</string>
+    <string name="setting_myfiles">My files</string>
+    <string name="setting_memory_card">Memory card</string>
+    <string name="setting_phone">Device</string>
+    <string name="setting_sound_settings">Earphone settings</string>
+    <string name="setting_stereo">Stereo</string>
+    <string name="setting_mono">Mono</string>
+    <string name="no_stations_tap_button_to_scan">Tap the button at the top of the screen to scan stations</string>
+    <string name="toast_saved" did="IDS_FM_TPOP_PS_SAVED">%s saved.</string>
+    <string name="select_all">Select all</string>
+    <string name="deselect_all">Deselect all</string>
+    <string name="select_checkbox_all">All</string>
+    <string name="select_channels">Select channels</string>
+    <string name="select_recordings">Select recordings</string>
+
+    <!-- 2012.02.24 TOD : Recorded files list. -->
+    <string name="recorded_filelist_text_divider">|</string>
+    <string name="recorded_files">Recorded files</string>
+    <string name="recordings">Recordings</string>
+    <string name="no_recorded_files_guide">After recording radio, recorded files will be displayed.</string>
+    <string name="no_recorded_files_msg">No recorded files</string>
+    <string name="no_recorded_files">No recorded files.\nAfter recording radio, recorded files will be displayed.</string>
+    <string name="dialog_processing">Processing...</string>
+    <string name="toast_up_to_n_characters">Up to %d characters available</string>
+    <string name="toast_invalid_character">Invalid character</string>
+    <string name="dialog_new_file_name">New file name</string>
+    <string name="dialog_selected_recorded_file_deleted">Selected recorded file will be deleted</string>
+    <string name="dialog_selected_recorded_files_deleted">Selected recorded files will be deleted</string>
+    <string name="n_items">%1$d</string>
+
+    <!-- IDS_MH_POP_FILE_DOES_NOT_EXIST -->
+    <string name="file_does_not_exist">File does not exist.</string>
+    <string name="toast_already_exist">Already exists</string>
+    <string name="toast_name_empty">Name is empty</string>
+    <string name="sound_path_earphone_mode" did="IDS_RADIO_TPOP_RADIO_PLAYING_VIA_EARPHONES">Radio playing via earphones.</string>
+    <string name="sound_path_speaker_mode" did="IDS_RADIO_TPOP_RADIO_PLAYING_VIA_SPEAKER">Radio playing via speaker.</string>
+    <string name="sound_path_bt_headset_mode">BT headset mode has been set on</string>
+    <string name="notification_barge_in">You can control the radio with voice commands like \'Next\', \'Previous\', \'Stop\' and \'Play\'</string>
+    <string name="notification_barge_in_args">You can control the Radio with the voice commands %1$s, %2$s, %3$s, %4$s, %5$s, and %6$s</string>
+    <string name="recording_will_be_cancelled">Recording will be cancelled and file will not be saved</string>
+    <string name="unable_to_play_radio_during_call">Unable to play radio during call</string>
+    <string name="dialog_one_item_deleted">This item will be deleted</string>
+    <string name="dialog_multiple_items_deleted">%1$d items will be deleted</string>
+    <string name="dialog_all_items_deleted">All items will be deleted</string>
+    <string name="dialog_one_station_will_be_deleted">1 station will be deleted.</string>
+    <string name="dialog_multiple_stations_will_be_deleted">%d stations will be deleted.</string>
+    <string name="dialog_one_recording_will_be_deleted">1 recording will be deleted.</string>
+    <string name="dialog_multiple_recordings_will_be_deleted">%d recordings will be deleted.</string>
+    <string name="turning_on">Turning on...</string>
+    <string name="not_enough_memory_recording_will_stop">Not enough memory. Recording will stop in %d seconds</string>
+    <string name="low_batt_msg">Low battery</string>
+    <string name="no_play_during_call">Unable to play during call</string>
+    <string name="unable_delete">Unable to delete</string>
+    <string name="playing">Playing...</string>
+    <string name="tts_play_button">Play</string>
+    <string name="tts_previous_button">Previous</string>
+    <string name="tts_Next_button">Next</string>
+
+    <!-- RadioVIS -->
+    <string name="connect">Connect</string>
+    <string name="topic">Topic</string>
+    <string name="subscribe">Subscribe</string>
+    <string name="no_text">No Text</string>
+    <string name="no_link">No Link</string>
+    <string name="for_more_info">More Information</string>
+
+    <!-- RadioDNS -->
+    <string name="radiodns">RadioDNS</string>
+    <string name="radiodns_summary">Extended hybrid radio</string>
+    <string name="radiovis">RadioVIS</string>
+    <string name="radiovis_summary">Visualization</string>
+    <string name="radioepg">RadioEPG</string>
+    <string name="epg">EPG</string>
+ <!-- do not translate, please -->
+    <string name="radioepg_summary">Schedule, switching</string>
+    <string name="switch_btn_view_information">View visual info</string>
+    <string name="switch_btn_view_tuner">View tuner</string>
+    <string name="switch_btn_disable">Cannot view this information for this station.</string>
+    <string name="menu_internetradio_disable">Cannot listen to this station via Internet radio.</string>
+    <string name="wifi_warning">Wi-Fi is not available. Connecting to mobile networks may result in additional charges depending on your payment plan.</string>
+    <string name="connect_mobile_network">Connect via mobile network</string>
+    <string name="do_not_show_again">Do not show again</string>
+    <string name="server_response_error">Server response error</string>
+    <string name="stms_version"></string>
+
+    <!-- RadioDNS Test -->
+    <string name="test_visual_info">Visual Information</string>
+    <string name="test_mhz_pi">Mhz - pi(</string>
+    <string name="test_country">)/country(</string>
+    <string name="test_vis">)/VIS(</string>
+    <string name="test_epg">)/EPG(</string>
+    <string name="test_ecc">ECC -</string>
+    <string name="test_vis_info">VIS Info -</string>
+    <string name="test_now_playing">Now Playing -</string>
+    <string name="test_buffering_time">Buffering time -</string>
+    <string name="test_epg_host">EPG Host -</string>
+    <string name="test_epg_xsi">EPG XSI -</string>
+    <string name="test_epg_pi">EPG PI -</string>
+    <string name="test_epg_stream">EPG Stream -</string>
+    <string name="test_now_prog_info">Now Program Info -</string>
+    <string name="test_now_rssi">Now RSSI :</string>
+    <string name="test_rssi_to_fm">RSSI To FM</string>
+    <string name="test_rssi_to_stream">   RSSI To Stream</string>
+    <string name="test_polling_count">Polling Count</string>
+    <string name="test_normal_delay">Normal delay</string>
+    <string name="test_to_stream_delay">To stream delay</string>
+    <string name="test_to_fm_delay">   To FM radio delay</string>
+    <string name="test_apply_epg_setting">Apply EPG setting</string>
+    <string name="test_1006">100.6</string>
+    <string name="test_1009">100.9</string>
+    <string name="title_activity_dnstest">DNSTestActivity</string>
+    <string name="switch_to_internet_radio">Switch to Internet radio</string>
+    <string name="switch_to_fm_radio">Switch to FM Radio</string>
+    <string name="dialog_popup_wait">Please wait...</string>
+    <string name="toast_network_unavailable_switch_fmradio">Network is unavailable. Switch to FM Radio</string>
+    <string name="auto_switch_to_internet_radio">Automatically switches to Internet radio when the FM signal is weak and alternative frequencies are not available</string>
+    <string name="unable_record_internet_radio">Unable to record internet radio</string>
+    <string name="record_suspended_continue">The current recording will stop</string>
+    <string name="listen_to_radio">Listen now</string>
+    <string name="now_listening">Now listening</string>
+    <string name="button">Button</string>
+    <string name="filename_sd">%s_sd</string>
+
+    <!-- No stations -->
+    <string name="no_stations">Tap here to scan for stations</string>
+    
+    <string name="recording_save_during_call">The recording will be saved automatically when you accept the call</string>
+
+    <!-- hw tunning -->
+    <string name="title_cur_channel">Current Frequency (MHz)</string>
+    <string name="title_scan_algorithm_type">Scan Algorithm Type</string>
+    <string name="title_cur_rssi">Current RSSI</string>
+    <string name="title_cur_del">Current Delta</string>
+    <string name="title_on_ch_th">Current On Channel Threshold</string>
+    <string name="title_off_ch_th">Current Off Channel Threshold</string>
+    <string name="title_sinr_th">Current SINR Threshold</string>
+    <string name="title_sinr_samples">Current SINR Samples</string>
+    <string name="title_cf0th12">Current CF0TH12</string>
+    <string name="title_rmssi_first_stage">Current RMSSI First Stage</string>
+    <string name="title_sinr_first_stage">Current SINR First Stage</string>
+    <string name="title_sinr_final_stage">Current SINR Final Stage</string>
+    <string name="title_sinr_samples_cnt">Current SINR Samples Cnt</string>
+    <string name="title_af_jump_rmssi_threshold">AF jump RMSSI Threshold</string>
+    <string name="title_af_jump_rmssi_samples">AF jump RMSSI Samples</string>
+    <string name="title_good_channel_rmssi_threshold">Good channel RMSSI Threshold</string>
+    <string name="title_hybrid_search">Hybrid Search(no blank)</string>
+    <string name="apply">Apply(RSSI/SNR)</string>
+    <string name="renewal">Renewal</string>
+    <string name="set_type">Set type</string>
+
+    <!-- Noise test -->
+    <string name="test_noise_start_freq">Start frequency</string>
+    <string name="test_noise_end_freq">End frequency</string>
+    <string name="test_noise_delay">Delay(ms)</string>
+    <string name="test_noise_start">Start</string>
+    <string name="test_noise_stop">Stop</string>
+    <string name="test_nosise_current_status">Ready</string>
+    <string name="test_noise_earphone">EARPHONE</string>
+    <string name="test_noise_speaker">SPEAKER</string>
+
+    <string name="default_time">00:00:00</string>
+
+    <string name="stms_appgroup">L_DEV_Sinabro_HybridRadio_L</string>
+    
+    <string name="menu_more">More</string>
+    <string name="menu_scan">Scan</string>
+    <string name="menu_edit">Edit</string>
+
+    <string name="widget_text_frequency_divider">/</string>
+    <string name="content_hidden">Content hidden</string>
+    <string name="unable_record_turn_off_all_sound">Unable to record radio. Disable Turn off all sounds and try again.</string>
+
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+    android:gravity="start"
+    android:orientation="horizontal" >
+
+    <LinearLayout
+        android:id="@+id/selectall_checkbox_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingStart="@dimen/listplayer_margin_start"
+        android:paddingEnd="@dimen/selectall_checkbox_marginend"
+        android:orientation="vertical" >
+
+        <CheckBox
+            android:id="@+id/selectall_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/selectall_checkbox_margintop"
+            android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/selectall_textview_height"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="@dimen/selectall_textview_marginbottom"
+            android:layout_marginTop="-5dp"
+            android:paddingLeft="1dp"
+            android:paddingRight="1dp"
+            android:includeFontPadding="false"
+            android:gravity="center_horizontal"
+            android:importantForAccessibility="no"
+            android:text="@string/select_checkbox_all"
+            android:textColor="@color/black"
+            android:textSize="11dp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/actionbar_title_dropdown"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:focusable="false"
+        android:clickable="false"
+        android:focusableInTouchMode="false"
+        android:gravity="center_vertical"
+        android:paddingEnd="4dp"
+        android:singleLine="true"
+        android:fontFamily="sans-serif"
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+</LinearLayout>

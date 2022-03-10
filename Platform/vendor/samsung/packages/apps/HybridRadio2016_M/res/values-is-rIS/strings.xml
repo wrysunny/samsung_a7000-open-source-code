@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+**
+** Created with XMLCompiler2
+*/ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IDS_FM_POP_UNABLE_TO_TURN_ON_PS -->
+    <string name="toast_fm_not_played">Ekki er hægt að kveikja á %s.</string>
+    <!-- IDS_FM_POP_EARPHONE_REMOVED_RADIO_TURNED_OFF -->
+    <string name="headset_disconnect">Heyrnartól fjarlægt. Slökkt verður á útvarpi.</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_RENAME -->
+    <string name="toast_tap_to_rename">Pikkaðu á tíðni til að endurnefna.</string>
+    <!-- IDS_FM_POP_INVALID_FREQUENCY -->
+    <string name="toast_channel_invalid">Ógild tíðni.</string>
+    <!-- IDS_FM_POP_TUNING_TO_P1SDP2SD_MHZ_ING -->
+    <string name="toast_tune">Stilli á %1$d.%2$d MHz\u2026</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_REMOVE -->
+    <string name="toast_tap_to_remove">Pikkaðu á tíðni til að fjarlægja.</string>
+    <!-- IDS_FM_POP_BUSY_TUNING_IN_ING -->
+    <string name="toast_busy_tunning">Upptekið. Stilli á\u2026</string>
+    <!-- IDS_FM_POP_ALREADY_SCANNING_ING -->
+    <string name="toast_already_scan">Skönnun er í gangi\u2026</string>
+    <!-- IDS_IM_POP_UNABLE_TO_RENAME -->
+    <string name="toast_rename_error">Mistókst að breyta heiti.</string>
+    <!-- IDS_WIFI_POP_PROFILECONNECTION_CANCELLING -->
+    <string name="dialog_cancel_scan">Hætt við\u2026</string>
+    <!-- IDS_AV_POP_SCANNING_ING -->
+    <string name="dialog_scan">Verið er að skrá\u2026</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_MINUTES -->
+    <string name="alarm_text1">Það verður slökkt á FM-útvarpinu eftir %d mínútur.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_1_HOUR -->
+    <string name="alarm_text2">Það verður slökkt á FM-útvarpinu eftir klukkustund.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_HOURS -->
+    <string name="alarm_text3">Það verður slökkt á FM-útvarpinu eftir %d klukkustundir.</string>
+    <!-- IDS_FM_POP_STATION_ALREADY_EXISTS_ADD_ANOTHER_STATION -->
+    <string name="toast_already_added">Þessi stöð er til staðar. Bættu annarri stöð við.</string>
+    <!-- IDS_FM_POP_P1SDP2SD_MHZ_STATION_FOUND_TOTAL_NUMBER_OF_STATIONS_FOUND_C_P3SD -->
+    <string name="dialog_channel_found">%1$d.%2$d MHz stöð fannst. Heildarfjöldi fundinna stöðva: %3$d.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found">Stöð fannst á %1$s MHz. Alls hefur fundist 1 stöð.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_P2SD_STATIONS_HAVE_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_found_south_region">Stöð fannst á %1$s MHz. Alls hafa fundist %2$d stöðvar.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found_south_region">Stöð fannst á %1$s MHz. Alls hefur fundist 1 stöð.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_FOUND_WHILE_SCANNING -->
+    <string name="toast_channel_found">%d stöðvar fundust við skönnun.</string>
+    <!-- IDS_FM_POP_1_STATION_FOUND_WHILE_SCANNING -->
+    <string name="toast_one_channel_found">1 stöð fannst við skönnun.</string>
+    <!-- IDS_FM_POP_TURN_FM_RADIO_ON -->
+    <string name="toast_on_alert">Kveikja á FM-útvarpi.</string>
+    <!-- IDS_RADIO_BODY_RADIO_M_APPLIACTION_NAME -->
+    <string name="app_name">Útvarp</string>
+    <!-- IDS_LA_HEADER_ALL_CHANNELS -->
+    <string name="channels">All channels</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="record">Taka upp</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="scan">Skanna</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="more">Meira</string>
+    <!-- IDS_MEDIABR_OPT_REMOVE -->
+    <string name="remove">Fjarlægja</string>
+    <!-- IDS_FM_OPT_SETTINGS -->
+    <string name="settings">Stillingar</string>
+    <!-- IDS_FM_HEADER_STATIONS -->
+    <string name="allchannels">Stöðvar</string>
+    <!-- IDS_COM_OPT_INFORMATION -->
+    <string name="information">Upplýsingar</string>
+    <!-- IDS_LP_SK3_OK -->
+    <string name="ok">Í lagi</string>
+    <!-- IDS_KC_OPT_CANCEL -->
+    <string name="cancel">Hætta við</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename">Endurnefna</string>
+    <!-- IDS_BR_HEADER_ENTER_NAME -->
+    <string name="rename_text">Rita nafn</string>
+    <!-- IDS_KA_BUTTON_DONE -->
+    <string name="done">Lokið</string>
+    <!-- IDS_FM_OPT_REPLACE -->
+    <string name="replace">Skipta út</string>
+    <!-- IDS_FM_BODY_MHZ -->
+    <string name="mhz">MHz</string>
+    <!-- IDS_FM_BODY_SETTINGS_RADIO_TEXT -->
+    <string name="setting_sationid">Útvarpstexti</string>
+    <!-- IDS_FM_BODY_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af">Önnur tíðni</string>
+    <!-- IDS_FM_MBODY_AUTO_OFF -->
+    <string name="setting_autooff">Sjálfvirk lokun</string>
+    <!-- IDS_FM_BODY_STATION_INFORMATION_WILL_BE_SHOWN -->
+    <string name="setting_stationid_summary">Upplýsingar um útvarpsstöðvar verða sýndar.</string>
+    <!-- IDS_FM_BODY_TURN_ON_OFF_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af_summary">Kveikja/slökkva á AF-tíðni.</string>
+    <!-- IDS_FM_OPT_NEVER -->
+    <string name="setting_never">Aldrei</string>
+    <!-- IDS_FM_BODY_AFTER_15_MINS_ABB -->
+    <string name="setting_15min">Eftir 15 mín.</string>
+    <!-- IDS_FM_BODY_ST_AFTER_30_MIN -->
+    <string name="setting_30min">Eftir 30 mín.</string>
+    <!-- IDS_TDMB_BODY_AFTER_1_HOUR -->
+    <string name="setting_hour">Eftir 1 klst.</string>
+    <!-- IDS_TDMB_BODY_AFTER_2_HOURS -->
+    <string name="setting_2hour">Eftir 2 klukkustundir</string>
+    <!-- IDS_MT_BUTTON_SAVE -->
+    <string name="save">Vista</string>
+    <!-- IDS_FM_BODY_NO_STATIONS -->
+    <string name="toast_channel_empty">Engar stöðvar</string>
+    <!-- IDS_FM_NPBODY_NO_FAVOURITE_STATIONS_ABB -->
+    <string name="toast_favourite_empty">Engar uppáhaldsstöðvar</string>
+    <!-- IDS_FM_TPOP_EARPHONES_NOT_CONNECTED_EARPHONES_FUNCTION_AS_RADIO_AERIAL_CONNECT_EARPHONES -->
+    <string name="toast_earphone_not_connected">Heyrnartól eru ekki tengd. Heyrnartólin gegna hlutverki útvarpsloftnets. Tengdu heyrnartól.</string>
+    <!-- IDS_FM_OPT_AUTO_SCAN -->
+    <string name="dialog_autoscan">Sjálfvirk leit</string>
+    <!-- IDS_FM_POP_STARTING_AUTO_SCAN_ING -->
+    <string name="toast_initial_access">Byrja sjálfvirka leit\u2026</string>
+    <!-- IDS_FM_HEADER_SCAN_RESULT -->
+    <string name="scan_result">Leita í niðurstöðum</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename_channel">Endurnefna</string>
+    <!-- IDS_KA_HEADER_ALERT -->
+    <string name="alert">Áminning</string>
+    <!-- IDS_PB_OPT_FAVOURITES -->
+    <string name="fav_channel">Eftirlæti</string>
+    <!-- IDS_FM_OPT_ALL_STATIONS -->
+    <string name="menu_refersh_all">Allar stöðvar</string>
+    <!-- IDS_FM_OPT_RETAINING_FAVOURITES -->
+    <string name="menu_refresh">Halda uppáhalds</string>
+    <!-- IDS_FM_DROP_30 -->
+    <string name="number_30">30</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_1 -->
+    <string name="number_1">1</string>
+    <!-- IDS_CCD_BODY_TIMERDIGIT_2 -->
+    <string name="number_2">2</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_15_min_past">Slökkt var sjálfkrafa á útvarpinu. %d mínútur eru liðnar.</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_30_min_past">Slökkt var sjálfkrafa á útvarpinu. %d mínútur eru liðnar.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_1_HOUR_HAS_PASSED -->
+    <string name="alrm_1_hr_past">Slökkt var á %s sjálfkrafa. Ein klukkustund er liðin.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_PD_HOURS_HAVE_PASSED -->
+    <string name="alrm_2_hrs_past">Slökkt var á %1$s sjálfkrafa. %2$d klukkustundir eru liðnar.</string>
+    <!-- IDS_FM_SK3_SCAN_FOR_STATIONS -->
+    <string name="scan_channels">Leita að rásum</string>
+    <!-- IDS_CAST_MBODY_SELECT_ALL -->
+    <string name="selectall">Velja allt</string>
+    <!-- IDS_VIDEO_HEADER_PD_SELECTED -->
+    <string name="selected_item">%d valið</string>
+    <!-- IDS_VVM_POP_SELECT_AT_LEAST_ONE_ITEM -->
+    <string name="no_channel_selected">Veldu minnst einn hlut.</string>
+    <!-- IDS_FM_POP_UNABLE_TO_USE_PS_IN_FLIGHT_MODE -->
+    <string name="toast_airplane_mode">Ekki er hægt að nota %s í flugstillingu.</string>
+    <!-- IDS_ST_BODY_INSTALL_VOICE_DATA_REQUIRED_FOR_SPEECH_SYNTHESIS -->
+    <string name="dialog_tts_confirm">Settu upp nauðsynleg raddgögn fyrir talhermi.</string>
+    <string name="RSSI">Set Seek RSSI (long)</string>
+    <string name="SNR">Set Seek SNR(long)</string>
+    <string name="CNT">Set Seek CNT (int)</string>
+    <string name="AF_Threshold">Set AF Threshold (int)</string>
+    <string name="AF_Valid_Threshold">Set AF Valid Threshold (int)</string>
+    <string name="Current_Threshold">Get Current Threshold (int)</string>
+    <!-- IDS_FM_BODY_MODE_SPEAKER -->
+    <string name="speaker">Hátalari</string>
+    <!-- IDS_FM_POP_AF_SWITCHING -->
+    <string name="af_switching">Leitað að annarri tíðni</string>
+    <!-- IDS_FM_POP_AF_SWITCHING_IS_IN_PROGRESS_PRESS_BACK_TO_CANCEL -->
+    <string name="af_switching_msg">Leitað að annarri tíðni. Ýttu á Til baka til að hætta við.</string>
+    <!-- IDS_COM_POP_UNABLE_TO_LAUNCH_APPLICATION_LOW_BATTERY -->
+    <string name="toast_battery_low">Það er ekki hægt að ræsa forrit. Rafhlaðan er að tæmast.</string>
+    <string name="toast_af_success">Við tíðnileit fannst tíðnin %1$d.%2$d MHz tíðni</string>
+    <!-- IDS_FM_POP_AF_NOT_FOUND -->
+    <string name="toast_af_fail">Tíðni fannst ekki.</string>
+    <!-- IDS_ST_BODY_PS_DISABLED -->
+    <string name="toast_disabled">%s óvirkt.</string>
+    <!-- IDS_FM_POP_NO_STATIONS_FOUND -->
+    <string name="toast_no_channel_found">Engar stöðvar fundust.</string>
+    <!-- IDS_CCD_POP_UNAVAILABLE_IN_TV_OUT_MODE -->
+    <string name="toast_unavailable_in_tvout_mode">Ekki tiltækt í sjónvarpsham út.</string>
+    <!-- IDS_COM_POP_MESSAGETONE_MUTE -->
+    <string name="mute">Þögn</string>
+    <!-- IDS_COM_POP_SEARCHING -->
+    <string name="seeking">Verið er að leita\u2026</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_EARPHONES_ABB -->
+    <string name="via_earphone">Spila í heyrnartólum</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_SPEAKER_ABB -->
+    <string name="via_speaker">Spila í hátalara</string>
+    <!-- IDS_COM_MBODY_NORMAL_FREQUENCY -->
+    <string name="normal_frequency">Venjuleg tíðni</string>
+    <!-- IDS_COM_BODY_END -->
+    <string name="end">Ljúka</string>
+    <!-- IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED -->
+    <string name="toast_maximum_file_name">Hámarkfjölda stafa (%d) hefur verið náð.</string>
+    <!-- IDS_FM_BODY_TURN_ON_THE_PS -->
+    <string name="turn_on_radio">Kveiktu á %s.</string>
+    <!-- IDS_PB_BODY_ENTERTEL -->
+    <string name="enter_number">Tilgreina númer.</string>
+    <!-- IDS_NFC_BUTTON_TAG -->
+    <string name="tag">Merki</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="stop">Stöðva</string>
+    <!-- IDS_FM_BODY_RECORDING_M_RECORDING_VOICE -->
+    <string name="recording">Upptaka</string>
+    <!-- IDS_DAV_BODY_MEMORY_FULL -->
+    <string name="memory_full">Minni er fullt.</string>
+    <!-- IDS_VR_POP_CANCEL_RECORDING_Q -->
+    <string name="cancel_recording">Hætta við upptöku?</string>
+    <!-- IDS_FM_HEADER_CHANGE_FREQUENCY -->
+    <string name="change_frequency">Breyta tíðni</string>
+    <!-- IDS_FM_BODY_ENTER_FREQUENCY -->
+    <string name="enter_frequency">Slá inn tíðni.</string>
+    <!-- IDS_FM_POP_SAVED_IN_PS_GO_TO_RECORDED_FILES_TO_PLAY_PLAY_NOW_Q -->
+    <string name="saved_go_to_myfiles">Vistað í %s. Farðu í Upptökuskrár til að spila. Spila núna?</string>
+    <!-- IDS_FM_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="dont_show_again">Ekki birta aftur</string>
+    <string name="toast_max_favorite">Hámarksfjölda uppáhaldsstöðva (12) er náð. Fjarlægðu einhverjar uppáhaldsstöðvar</string>
+    <!-- IDS_MUSIC_POP_LOUD_MUSIC_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_TO_IT_FOR_A_LONG_TIME -->
+    <string name="audio_shock_warning">Hátt spiluð tónlist getur skaðað heyrn þína ef hlustað er í langan tíma í einu.</string>
+    <!-- IDS_IV_POP_RECORDING_ERROR -->
+    <string name="recording_error">Upptökuvilla</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="desc_record">Taka upp</string>
+    <!-- IDS_FM_BODY_VOLUME -->
+    <string name="desc_volume">Styrkur</string>
+    <!-- IDS_FM_OPT_POWER -->
+    <string name="desc_power">Rofi</string>
+    <!-- IDS_FM_BODY_PREVIOUS_STATION -->
+    <string name="desc_prev">Fyrri stöð</string>
+    <!-- IDS_FM_BODY_NEXT_STATION -->
+    <string name="desc_next">Næsta stöð</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_1_T_TTS -->
+    <string name="desc_fav1">Uppáhaldsstöð 1,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_2_T_TTS -->
+    <string name="desc_fav2">Uppáhaldsstöð 2,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_3_T_TTS -->
+    <string name="desc_fav3">Uppáhaldsstöð 3,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_4_T_TTS -->
+    <string name="desc_fav4">Uppáhaldsstöð 4,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_5_T_TTS -->
+    <string name="desc_fav5">Uppáhaldsstöð 5,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_6_T_TTS -->
+    <string name="desc_fav6">Uppáhaldsstöð 6,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_7_T_TTS -->
+    <string name="desc_fav7">Uppáhaldsstöð 7,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_8_T_TTS -->
+    <string name="desc_fav8">Uppáhaldsstöð 8,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_9_T_TTS -->
+    <string name="desc_fav9">Uppáhaldsstöð 9,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_10_T_TTS -->
+    <string name="desc_fav10">Uppáhaldsstöð 10,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_11_T_TTS -->
+    <string name="desc_fav11">Uppáhaldsstöð 11,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_12_T_TTS -->
+    <string name="desc_fav12">Uppáhaldsstöð 12,</string>
+    <!-- IDS_ACCS_OPT_PS_TAB_OPT_TTS -->
+    <string name="desc_tab">%s, flipi</string>
+    <!-- IDS_NFC_HEADER_ADD_FAVOURITE -->
+    <string name="desc_add_favorite">Bæta við uppáhaldi</string>
+    <!-- IDS_FM_POP_REMOVE_FAVOURITES_Q -->
+    <string name="desc_rem_favorite">Viltu fjarlægja uppáhalds?</string>
+    <!-- IDS_FM_HEADER_MENU -->
+    <string name="desc_menu">Valmynd</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="desc_stop">Stöðva</string>
+    <!-- IDS_MSGC_SK_RESUME_LITE -->
+    <string name="desc_resume">Áfram</string>
+    <!-- IDS_MK_SK3_PAUSE -->
+    <string name="desc_pause">Hlé</string>
+    <!-- IDS_CALL_BUTTON_CANCEL -->
+    <string name="desc_cancel">Hætta v.</string>
+    <!-- IDS_FM_BODY_FREQUENCY -->
+    <string name="desc_frequency">Tíðni</string>
+    <!-- IDS_RADIO_BODY_FREQUENCY_CONTROL_SLIDER_TTS -->
+    <string name="desc_frequency_slider">Tíðnivalssleði</string>
+    <!-- IDS_COM_BUTTON_CLOSE -->
+    <string name="desc_close">Loka</string>
+    <!-- IDS_COM_BODY_HOUR -->
+    <string name="desc_hour">Klst.</string>
+    <!-- IDS_CLD_OPT_HOURS -->
+    <string name="desc_hours">Klukkustundir</string>
+    <!-- IDS_COM_BODY_MINUTE -->
+    <string name="desc_minute">Mínúta</string>
+    <!-- IDS_COM_BODY_MINUTES -->
+    <string name="desc_minutes">Mínútur</string>
+    <!-- IDS_ST_POP_SECOND -->
+    <string name="desc_second">Sekúnda</string>
+    <!-- IDS_COM_BODY_SECONDS -->
+    <string name="desc_seconds">Sekúndur</string>
+    <!-- IDS_GP_SHEADER_FAVOURITE_STATIONS -->
+    <string name="desc_fav_station">UPPÁHALDSSTÖÐVAR</string>
+    <!-- IDS_FM_BODY_VIEW_VISUAL_INFORMATION -->
+    <string name="desc_switch_btn_view_information">Skoða myndrænar upplýsingar.</string>
+    <!-- IDS_FM_OPT_RESUME_TTS -->
+    <string name="desc_resume_extended">Halda áfram</string>
+    <!-- IDS_FM_OPT_MORE_OPTIONS -->
+    <string name="desc_more">Fleiri kostir</string>
+    <!-- WDS_TTS_TBBODY_DOUBLE_TAP_TO_SELECT_ALL -->
+    <string name="desc_double_tap_to_select_all">Pikkaðu tvisvar til að velja allt.</string>
+    <!-- IDS_BR_BODY_DOUBLE_TAP_TO_DESELECT_T_TTS -->
+    <string name="desc_double_tap_to_deselect_all">Pikkaðu tvisvar til að hætta við val.</string>
+    <!-- IDS_FM_POP_NOTHINGSELECTED -->
+    <string name="desc_nothing_selected">Ekkert er valið.</string>
+    <!-- IDS_COM_BODY_PD_SELECTED -->
+    <string name="desc_n_selected">%d valið</string>
+    <!-- IDS_COM_BUTTON_NOT_CHECKED -->
+    <string name="desc_not_ticked_t_tts">Ekki kannað</string>
+    <!-- IDS_VPL_BODY_TICK_BOX -->
+    <string name="desc_tick_box_t_tts">Gátreitur</string>
+    <!-- IDS_COM_BODY_FAVOURITE -->
+    <string name="desc_favorite_button">Uppáhald</string>
+    <!-- IDS_COM_BODY_SELECTED -->
+    <string name="desc_selected">Valið</string>
+    <!-- IDS_ACCS_BODY_NOT_SELECTED_T_TTS -->
+    <string name="desc_not_selected">Ekki valið</string>
+    <!-- IDS_HEALTH_TBBODY_PS_ADDED_TO_FAVOURITES -->
+    <string name="desc_frequency_added_to_favourites">%s bætt við uppáhald.</string>
+    <!-- IDS_HEALTH_TBBODY_PS_REMOVED_FROM_FAVOURITES -->
+    <string name="desc_frequency_removed_from_favourites">%s fjarlægt úr uppáhaldi.</string>
+    <!-- IDS_FM_POP_VOLUME_CONTROL_NOT_AVAILABLE_WHILE_RECORDING -->
+    <string name="recording_volume_control">Hljóðstjórnun er ekki til staðar meðan á upptöku stendur.</string>
+    <string name="deleted">Eytt.</string>
+    <!-- IDS_MS_OPT_START -->
+    <string name="test_start">Ræsa</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="test_stop">Stöðva</string>
+    <!-- IDS_KA_BODY_TITLE -->
+    <string name="tags_music_title">Titill</string>
+    <!-- IDS_MUSIC_BUTTON2_ALBUM -->
+    <string name="tags_music_album">Albúm</string>
+    <!-- IDS_KA_BODY_ARTIST -->
+    <string name="tags_music_artist">Listamaður</string>
+    <!-- IDS_FM_BODY_BAND_M_MUSIC -->
+    <string name="tags_music_band">Hljómsveit</string>
+    <!-- IDS_KA_BODY_URL -->
+    <string name="tags_information_url">Vefslóð</string>
+    <!-- IDS_SIDL_SK3_HOME_URL -->
+    <string name="tags_programme_homepage">Heimasíða</string>
+    <!-- IDS_FM_BODY_HOTLINE -->
+    <string name="tags_interact_hotline">Símalína</string>
+    <!-- IDS_VDOE_HEADER_STUDIO -->
+    <string name="tags_interact_studio">Stúdíó</string>
+    <!-- IDS_KA_BODY_OTHER -->
+    <string name="tags_interact_other">Annað</string>
+    <!-- IDS_MSGC_BODY_TEXTSTYLE_ALIGNMENTCENTER -->
+    <string name="tags_interact_centre">Miðja</string>
+    <!-- IDS_FM_POP_UNABLE_TO_SCAN_WHILE_RECORDING_M_AUDIO -->
+    <string name="toast_unable_scan">Ekki er hægt að skanna meðan á upptöku stendur.</string>
+    <!-- IDS_FM_BODY_STATION_NAME -->
+    <string name="dialog_station_name">Stöðvarheiti</string>
+    <!-- IDS_FM_SK_DELETE -->
+    <string name="delete">Eyða</string>
+    <string name="select">Velja</string>
+    <!-- IDS_KC_MBODY_STORAGE -->
+    <string name="setting_storage">Geymsla</string>
+    <!-- IDS_MS_HEADER_MY_FILES -->
+    <string name="setting_myfiles">Skrárnar mínar</string>
+    <!-- IDS_MK_MBODY_MEMORY_CARD -->
+    <string name="setting_memory_card">Minniskort</string>
+    <!-- IDS_ST_BODY_DEVICE -->
+    <string name="setting_phone">Tæki</string>
+    <!-- IDS_FM_BODY_EARPHONE_SETTINGS -->
+    <string name="setting_sound_settings">Stillingar heyrnartóla</string>
+    <!-- IDS_MUSIC_BODY_STEREO -->
+    <string name="setting_stereo">Steríó</string>
+    <!-- IDS_MP_BODY_MONO_M_SOUND_TYPE -->
+    <string name="setting_mono">Mónó</string>
+    <!-- IDS_FM_BODY_TAP_SCAN_AT_THE_TOP_OF_THE_SCREEN_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations_tap_button_to_scan">Pikkaðu á Leita efst á skjánum til að leita að stöðvum.</string>
+    <!-- IDS_FM_TPOP_PS_SAVED -->
+    <string name="toast_saved">%s vistað.</string>
+    <!-- IDS_COM_BODY_SELECT_ALL -->
+    <string name="select_all">Velja allt</string>
+    <!-- IDS_IME_HEADER_DESELECT_ALL -->
+    <string name="deselect_all">Velja ekkert</string>
+    <!-- IDS_FM_OPT_ALL -->
+    <string name="select_checkbox_all">Allt</string>
+    <!-- IDS_MSG_MBODY_SELECT_CHANNELS -->
+    <string name="select_channels">Velja rásir</string>
+    <!-- IDS_FM_HEADER_SELECT_RECORDINGS_ABB -->
+    <string name="select_recordings">Velja upptökur</string>
+    <!-- IDS_VR_HEADER_RECORDED_FILES -->
+    <string name="recorded_files">Skráðar skrár</string>
+    <!-- IDS_VR_HEADER_RECORDINGS_M_VOICE_ABB -->
+    <string name="recordings">Upptökur</string>
+    <!-- IDS_FM_BODY_AFTER_YOU_RECORD_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files_guide">Eftir að tekið hefur verið upp úr útvarpi birtast skrárnar.</string>
+    <!-- IDS_VR_BODY_NO_RECORDED_FILES -->
+    <string name="no_recorded_files_msg">Engar upptökuskrár</string>
+    <!-- IDS_FM_BODY_NO_RECORDED_FILES_N_AFTER_RECORDING_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files">Engar upptökur.\nEftir að tekið hefur verið upp úr útvarpi birtast skrárnar.</string>
+    <!-- IDS_MK_BODY_PROCESSING_ING -->
+    <string name="dialog_processing">Vinnsla í gangi\u2026</string>
+    <!-- IDS_TASK_POP_UP_TO_PD_CHARACTERS_AVAILABLE -->
+    <string name="toast_up_to_n_characters">Allt að %d tákn í boði.</string>
+    <!-- IDS_MUSIC_POP_INVALID_CHARACTER -->
+    <string name="toast_invalid_character">Ógildur stafur.</string>
+    <!-- IDS_IV_BODY_NEW_FILE_NAME -->
+    <string name="dialog_new_file_name">Nýtt skráarheiti</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILE_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_file_deleted">Valinni upptökuskrá verður eytt.</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILES_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_files_deleted">Völdum upptökuskrám verður eytt.</string>
+    <!-- IDS_MH_POP_FILE_DOES_NOT_EXIST -->
+    <string name="file_does_not_exist">Skráin er ekki til.</string>
+    <!-- IDS_FM_POP_ALREADY_EXISTS -->
+    <string name="toast_already_exist">Er þegar til.</string>
+    <!-- IDS_BR_POP_RENAME_EMPTY -->
+    <string name="toast_name_empty">Nafn er tómt.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_EARPHONES -->
+    <string name="sound_path_earphone_mode">Útvarp er í gangi í heyrnartólum.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_SPEAKER -->
+    <string name="sound_path_speaker_mode">Útvarp er í gangi í hátalara.</string>
+    <!-- IDS_FM_POP_NOW_LISTENING_VIA_BT_HEADSET -->
+    <string name="sound_path_bt_headset_mode">Hlustað í gegnum BT-höfuðtól.</string>
+    <!-- IDS_ST_BODY_YOU_CAN_CONTROL_THE_RADIO_WITH_VOICE_COMMANDS_LIKE_NEXT_PREVIOUS_STOP_AND_PLAY -->
+    <string name="notification_barge_in">Þú getur stjórnað útvarpinu með raddskipunum eins og „Næsti“, „Fyrri“, „Hætta“ og „Spila“.</string>
+    <!-- IDS_VC_BODY_YOU_CAN_CONTROL_THE_FM_RADIO_WITH_THE_VOICE_COMMANDS_PS_PS_PS_PS_PS_AND_PS -->
+    <string name="notification_barge_in_args">Þú getur stjórnað FM útvarpinu með raddskipununum %1$s, %2$s, %3$s, %4$s, %5$s og %6$s.</string>
+    <!-- IDS_VR_POP_RECORDING_WILL_BE_CANCELLED_AND_FILE_WILL_NOT_BE_SAVED -->
+    <string name="recording_will_be_cancelled">Hætt verður við upptöku og skráin ekki vistuð.</string>
+    <!-- IDS_FM_POP_UNABLE_TO_PLAY_RADIO_DURING_CALL -->
+    <string name="unable_to_play_radio_during_call">Ekki er hægt að spila útvarp meðan á símtali stendur.</string>
+    <!-- IDS_FM_BODY_THIS_ITEM_WILL_BE_DELETED -->
+    <string name="dialog_one_item_deleted">Þessum hlut verður eytt.</string>
+    <!-- IDS_FM_BODY_PD_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_items_deleted">%d hlutum verður eytt.</string>
+    <!-- IDS_FM_BODY_ALL_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_all_items_deleted">Öllum hlutum verður eytt.</string>
+    <!-- IDS_RADIO_POP_1_STATION_WILL_BE_DELETED -->
+    <string name="dialog_one_station_will_be_deleted">1 stöð verður eytt.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_stations_will_be_deleted">%d stöðvum verður eytt.</string>
+    <!-- IDS_VR_POP_1_RECORDING_WILL_BE_DELETED -->
+    <string name="dialog_one_recording_will_be_deleted">1 upptöku verður eytt.</string>
+    <!-- IDS_VR_POP_PD_RECORDINGS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_recordings_will_be_deleted">%d upptökum verður eytt.</string>
+    <!-- IDS_FM_BODY_TURNING_ON_ING -->
+    <string name="turning_on">Ræsi\u2026</string>
+    <!-- IDS_COM_POP_NOT_ENOUGH_MEMORY_RECORDING_WILL_STOP_IN_PD_SECONDS -->
+    <string name="not_enough_memory_recording_will_stop">Of lítið minni. Upptaka stöðvast eftir %d sekúndur.</string>
+    <!-- IDS_ST_BODY_LEDOT_LOW_BATTERY -->
+    <string name="low_batt_msg">Rafhlaðan er að tæmast</string>
+    <!-- IDS_MSG_POP_UNABLE_TO_PLAY_DURING_CALL -->
+    <string name="no_play_during_call">Ekki er hægt að spila á meðan símtal stendur yfir.</string>
+    <!-- IDS_DTV_POP_UNABLE_TO_DELETE -->
+    <string name="unable_delete">Það er ekki hægt að eyða.</string>
+    <!-- IDS_MUSIC_BODY_PLAYING_ING_ABB -->
+    <string name="playing">Spila\u2026</string>
+    <!-- IDS_CALL_SK3_PLAY -->
+    <string name="tts_play_button">Spila</string>
+    <!-- IDS_COM_BODY_PREVIOUS -->
+    <string name="tts_previous_button">Fyrri</string>
+    <!-- IDS_COM_BODY_NEXT -->
+    <string name="tts_Next_button">Næsta</string>
+    <!-- IDS_COM_POP_CONNECT -->
+    <string name="connect">Tengjast</string>
+    <!-- IDS_IM_BODY_TOPIC -->
+    <string name="topic">Efni</string>
+    <!-- IDS_MUSIC_HEADER_SUBSCRIBE -->
+    <string name="subscribe">Gerast áskrifandi</string>
+    <!-- IDS_MSGF_BODY_NO_TEXT -->
+    <string name="no_text">Enginn texti</string>
+    <!-- IDS_KA_BODY_MORE_INFORMATION -->
+    <string name="for_more_info">Frekari upplýsingar</string>
+    <!-- IDS_FM_BUTTON_VIEW_VISUAL_INFO_ABB -->
+    <string name="switch_btn_view_information">Skoða myndrænt</string>
+    <!-- IDS_FM_BUTTON_VIEW_TUNER -->
+    <string name="switch_btn_view_tuner">Skoða rásaval</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_VIEW_THIS_INFORMATION_FOR_THIS_STATION -->
+    <string name="switch_btn_disable">Ekki er hægt að skoða upplýsingar um þessa stöð.</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_LISTEN_TO_THIS_STATION_VIA_INTERNET_RADIO -->
+    <string name="menu_internetradio_disable">Ekki er hægt að hlusta á þessa stöð í gegnum netútvarp.</string>
+    <!-- IDS_FM_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN -->
+    <string name="wifi_warning">Wi-Fi er ekki í boði. Ef tengst er í gegnum farsímakerfi kann það að hafa viðbótarkostnað í för með sér, allt eftir áskrift.</string>
+    <!-- IDS_POPSYNC_BODY_CONNECT_VIA_MOBILE_NETWORK -->
+    <string name="connect_mobile_network">Tengjast um farsímakerfi</string>
+    <!-- IDS_WGT_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="do_not_show_again">Ekki birta aftur</string>
+    <!-- IDS_COM_POP_SERVER_RESPONSE_ERROR -->
+    <string name="server_response_error">Svarvilla hjá þjóni</string>
+    <!-- IDS_SYS_BODY_CODE_GENERATION_VER -->
+    <string name="stms_version">ANDROID_P4_20150420_0216</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_INTERNET_RADIO -->
+    <string name="switch_to_internet_radio">Skipta yfir í netútvarp</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_FM_RADIO -->
+    <string name="switch_to_fm_radio">Skipta yfir í FM-útvarp</string>
+    <!-- IDS_SOCIALMAG_POP_PLEASE_WAIT_ING -->
+    <string name="dialog_popup_wait">Augnablik\u2026</string>
+    <!-- IDS_FM_BODY_AUTOMATICALLY_SWITCHES_TO_INTERNET_RADIO_MSG -->
+    <string name="auto_switch_to_internet_radio">Skiptir sjálfkrafa yfir í netútvarp þegar FM-móttökuskilyrðin eru slæm og önnur tíðni er ekki í boði.</string>
+    <!-- IDS_RADIO_POP_THE_CURRENT_RECORDING_WILL_STOP_M_VOICE -->
+    <string name="record_suspended_continue">Upptakan verður stöðvuð.</string>
+    <!-- IDS_FM_BUTTON_LISTEN_NOW -->
+    <string name="listen_to_radio">Hlusta núna</string>
+    <!-- IDS_FM_BODY_NOW_LISTENING_ABB -->
+    <string name="now_listening">Í hlustun</string>
+    <!-- IDS_COM_BODY_BUTTON_T_TTS -->
+    <string name="button">Hnappur</string>
+    <!-- IDS_FM_BODY_TAP_HERE_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations">Pikkaðu hér til að leita að stöðvum.</string>
+    <!-- IDS_CALL_BODY_THE_RECORDING_WILL_BE_SAVED_AUTOMATICALLY_WHEN_YOU_ACCEPT_THE_CALL -->
+    <string name="recording_save_during_call">Upptakan verður vistuð sjálfkrafa þegar þú svarar símtalinu.</string>
+    <!-- IDS_ST_BODY_START -->
+    <string name="test_noise_start">Ræsa</string>
+    <!-- IDS_COM_BODY_STOP -->
+    <string name="test_noise_stop">Stöðva</string>
+    <!-- IDS_BR_POP_READY -->
+    <string name="test_nosise_current_status">Tilbúið.</string>
+    <!-- IDS_FM_BUTTON_EARPHONE -->
+    <string name="test_noise_earphone">Heyrnartól</string>
+    <!-- IDS_VOLTE_BUTTON_SPEAKER -->
+    <string name="test_noise_speaker">Hátalari</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="menu_more">Meira</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="menu_scan">Skanna</string>
+    <!-- IDS_FM_OPT_EDIT -->
+    <string name="menu_edit">Breyta</string>
+    <!-- IDS_RADIO_SBODY_CONTENT_HIDDEN -->
+    <string name="content_hidden">Efni falið</string>
+    <!-- IDS_FM_TPOP_UNABLE_TO_RECORD_RADIO_DISABLE_TURN_OFF_ALL_SOUNDS_AND_TRY_AGAIN -->
+    <string name="unable_record_turn_off_all_sound">Ekki er hægt að taka upp úr útvarpi. Slökktu á öllum hljóðum og reyndu aftur.</string>
+</resources>

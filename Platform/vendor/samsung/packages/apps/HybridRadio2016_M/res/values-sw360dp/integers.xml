@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="favorite_frequency_padding_bottom">26</integer>
+    <integer name="favorite_station_padding_top">-1</integer>
+    <integer name="epg_pager_margin">-100</integer>
+    <integer name="widget_cell_height">94</integer>
+
+</resources>

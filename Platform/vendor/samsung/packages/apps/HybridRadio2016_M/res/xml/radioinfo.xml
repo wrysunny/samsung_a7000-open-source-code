@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<appwidget-provider xmlns:android="http://schemas.android.com/apk/res/android"
+    android:initialKeyguardLayout="@layout/lockscreen_widget"
+    android:minWidth="@dimen/widget_app_provider_minwidth"
+    android:minHeight="@dimen/widget_app_provider_minhight"
+    android:minResizeWidth="@dimen/widget_app_provider_minwidth"
+    android:minResizeHeight="@dimen/widget_app_provider_minhight"
+    android:initialLayout="@layout/widget"
+    android:previewImage="@drawable/radio_preview"
+    android:resizeMode="vertical|horizontal"
+    android:widgetCategory="home_screen|keyguard"/>

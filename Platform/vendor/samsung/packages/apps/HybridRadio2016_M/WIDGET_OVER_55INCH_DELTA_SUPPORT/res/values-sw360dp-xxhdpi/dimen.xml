@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Widget portrait -->
+    <dimen name="widget_app_provider_minwidth">343dp</dimen>
+    <dimen name="widget_txt_frequency_textsize">54dp</dimen>
+    <dimen name="widget_txt_frequency_5x5_textsize">67.5dp</dimen>
+    <dimen name="widget_txt_turn_on_paddingleft">14dp</dimen>
+    <dimen name="widget_txt_turn_on_paddingright">14dp</dimen>
+</resources>

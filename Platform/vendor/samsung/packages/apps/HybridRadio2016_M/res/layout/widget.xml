@@ -1,0 +1,697 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/widget_bg"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/controller"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:background="@drawable/radio_bg"
+        android:orientation="horizontal" >
+
+        <RelativeLayout
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:orientation="vertical"
+            android:paddingLeft="8dp"
+            android:paddingRight="6dp" >
+
+            <ImageView
+                android:id="@+id/ic_arrow_left"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:scaleType="center"
+                android:src="@drawable/widget_arrow_btn_prev" />
+
+            <LinearLayout
+                android:id="@+id/layout_frequency"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:orientation="horizontal" >
+
+                <TextView
+                    android:id="@+id/txt_frequency"
+                    android:layout_width="0dip"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:ellipsize="none"
+                    android:includeFontPadding="false"
+                    android:paddingRight="6dp"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDy="-1"
+                    android:singleLine="true"
+                    android:textColor="@android:color/white"
+                    android:textSize="39dp" />
+
+                <TextView
+                    android:id="@+id/txt_mhz"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="top"
+                    android:shadowColor="@android:color/black"
+                    android:shadowDy="-1"
+                    android:text="@string/mhz"
+                    android:textColor="@android:color/white"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/txt_freq_name"
+                android:layout_width="match_parent"
+                android:layout_height="39dp"
+                android:layout_below="@id/layout_frequency"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="-10dp"
+                android:gravity="center"
+                android:shadowColor="@color/widget_freq_name_text_shadow"
+                android:shadowDy="-1"
+                android:textColor="@color/widget_sub_text_freq_normal"
+                android:textSize="15dp" />
+
+            <ImageView
+                android:id="@+id/ic_arrow_right"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:clickable="true"
+                android:scaleType="center"
+                android:src="@drawable/widget_arrow_btn_next" />
+        </RelativeLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" >
+
+            <ImageView
+                android:id="@+id/ic_power_off"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/widget_power_off_btn"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/ic_power_on"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:clickable="true"
+                android:scaleType="fitXY"
+                android:src="@drawable/widget_power_on_btn"
+                android:visibility="gone" />
+        </FrameLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/controller"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:id="@+id/widget_fav01"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/favchannel_btn" >
+
+                <ImageView
+                    android:id="@+id/widget_fav01_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/fm_widget_bottom_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav01_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/widget_fav01_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/widget_fav01_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <include layout="@layout/widget_vertical_line" />
+
+            <FrameLayout
+                android:id="@+id/widget_fav02"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/favchannel_btn" >
+
+                <ImageView
+                    android:id="@+id/widget_fav02_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/fm_widget_bottom_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav02_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/widget_fav02_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/widget_fav02_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <include layout="@layout/widget_vertical_line" />
+
+            <FrameLayout
+                android:id="@+id/widget_fav03"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/favchannel_btn" >
+
+                <ImageView
+                    android:id="@+id/widget_fav03_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/fm_widget_bottom_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav03_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/widget_fav03_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/widget_fav03_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <include layout="@layout/widget_vertical_line" />
+
+            <FrameLayout
+                android:id="@+id/widget_fav04"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/favchannel_btn" >
+
+                <ImageView
+                    android:id="@+id/widget_fav04_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/fm_widget_bottom_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav04_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/widget_fav04_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/widget_fav04_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <include layout="@layout/widget_horizontal_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="109dp"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:id="@+id/widget_fav05"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/favchannel_btn" >
+
+                <ImageView
+                    android:id="@+id/widget_fav05_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/fm_widget_bottom_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav05_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/widget_fav05_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/widget_fav05_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <include layout="@layout/widget_vertical_line" />
+
+            <FrameLayout
+                android:id="@+id/widget_fav06"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/favchannel_btn" >
+
+                <ImageView
+                    android:id="@+id/widget_fav06_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/fm_widget_bottom_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav06_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/widget_fav06_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/widget_fav06_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <include layout="@layout/widget_vertical_line" />
+
+            <FrameLayout
+                android:id="@+id/widget_fav07"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/favchannel_btn" >
+
+                <ImageView
+                    android:id="@+id/widget_fav07_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/fm_widget_bottom_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav07_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/widget_fav07_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/widget_fav07_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <include layout="@layout/widget_vertical_line" />
+
+            <FrameLayout
+                android:id="@+id/widget_fav08"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/favchannel_btn" >
+
+                <ImageView
+                    android:id="@+id/widget_fav08_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/fm_widget_bottom_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav08_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/widget_fav08_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/widget_fav08_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+
+        <include layout="@layout/widget_horizontal_line" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="108dp"
+            android:orientation="horizontal" >
+
+            <FrameLayout
+                android:id="@+id/widget_fav09"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/favchannel_btn" >
+
+                <ImageView
+                    android:id="@+id/widget_fav09_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/fm_widget_bottom_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav09_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/widget_fav09_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/widget_fav09_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <include layout="@layout/widget_vertical_line" />
+
+            <FrameLayout
+                android:id="@+id/widget_fav10"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/favchannel_btn" >
+
+                <ImageView
+                    android:id="@+id/widget_fav10_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/fm_widget_bottom_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav10_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/widget_fav10_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/widget_fav10_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <include layout="@layout/widget_vertical_line" />
+
+            <FrameLayout
+                android:id="@+id/widget_fav11"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/favchannel_btn" >
+
+                <ImageView
+                    android:id="@+id/widget_fav11_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/fm_widget_bottom_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav11_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/widget_fav11_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/widget_fav11_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </FrameLayout>
+
+            <include layout="@layout/widget_vertical_line" />
+
+            <FrameLayout
+                android:id="@+id/widget_fav12"
+                android:layout_width="86dp"
+                android:layout_height="match_parent"
+                android:background="@drawable/favchannel_btn" >
+
+                <ImageView
+                    android:id="@+id/widget_fav12_add"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:duplicateParentState="true"
+                    android:src="@drawable/fm_widget_bottom_add_btn" />
+
+                <LinearLayout
+                    android:id="@+id/widget_fav12_linear"
+                    android:layout_width="match_parent"
+                    android:layout_height="75dp"
+                    android:layout_gravity="center"
+                    android:gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/widget_fav12_FreqMHz"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="24dp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/widget_fav12_FreqName"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_horizontal"
+                        android:shadowColor="@color/widget_favorite_text_shadow"
+                        android:shadowDy="1"
+                        android:textColor="@color/widget_text_freq_normal"
+                        android:textSize="12dp" />
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+</RelativeLayout>

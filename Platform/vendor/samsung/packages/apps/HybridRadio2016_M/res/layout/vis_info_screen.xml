@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/vis_info"
+    android:layout_width="@dimen/vis_screen_layout_width"
+    android:layout_height="@dimen/vis_screen_layout_height"
+    android:background="@color/white"
+    android:clickable="true"
+    android:elevation="3dp"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <FrameLayout
+        android:layout_width="@dimen/vis_screen_layout_width"
+        android:layout_height="@dimen/vis_image_height" >
+
+        <ImageView
+            android:id="@+id/dns_vis_default_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/hybrid_radio_info_no_image" />
+
+        <ImageView
+            android:id="@+id/dns_vis_image"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/dns_vis_text"
+        android:layout_width="@dimen/vis_screen_layout_width"
+        android:layout_height="@dimen/vis_text_height"
+        android:fontFamily="sans-serif"
+        android:gravity="start|center_vertical"
+        android:maxLines="2"
+        android:paddingBottom="@dimen/vis_text_padding_bottom"
+        android:paddingEnd="@dimen/vis_text_padding_end"
+        android:paddingStart="@dimen/vis_text_padding_start"
+        android:textColor="@color/vis_text_color"
+        android:textSize="17dp" />
+
+</LinearLayout>

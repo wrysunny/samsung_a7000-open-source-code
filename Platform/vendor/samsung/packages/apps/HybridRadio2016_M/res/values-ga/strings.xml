@@ -1,0 +1,533 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+**
+** Created with XMLCompiler2
+*/ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IDS_FM_POP_UNABLE_TO_TURN_ON_PS -->
+    <string name="toast_fm_not_played">Ní féidir %s a chasadh air.</string>
+    <!-- IDS_FM_POP_EARPHONE_REMOVED_RADIO_TURNED_OFF -->
+    <string name="headset_disconnect">Cluasán bainte. Casfar Raidió as.</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_RENAME -->
+    <string name="toast_tap_to_rename">Tapáil an mhinicíocht le hathainmniú</string>
+    <!-- IDS_FM_POP_INVALID_FREQUENCY -->
+    <string name="toast_channel_invalid">Minicíocht neamhbhailí.</string>
+    <!-- IDS_FM_POP_TUNING_TO_P1SDP2SD_MHZ_ING -->
+    <string name="toast_tune">Ag tiúnadh chuig %1$d.%2$d MHz\u2026</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_REMOVE -->
+    <string name="toast_tap_to_remove">Tapáil minicíocht lena baint</string>
+    <!-- IDS_FM_POP_BUSY_TUNING_IN_ING -->
+    <string name="toast_busy_tunning">Gnóthach. Ag aimsiú\u2026</string>
+    <!-- IDS_FM_POP_ALREADY_SCANNING_ING -->
+    <string name="toast_already_scan">Ag scanadh cheana féin\u2026</string>
+    <!-- IDS_IM_POP_UNABLE_TO_RENAME -->
+    <string name="toast_rename_error">Ní féidir athainmniú.</string>
+    <!-- IDS_WIFI_POP_PROFILECONNECTION_CANCELLING -->
+    <string name="dialog_cancel_scan">Ag cur ar ceal\u2026</string>
+    <!-- IDS_AV_POP_SCANNING_ING -->
+    <string name="dialog_scan">Ag scanadh\u2026</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_MINUTES -->
+    <string name="alarm_text1">Casfar Raidió FM as tar éis %d nóiméad</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_1_HOUR -->
+    <string name="alarm_text2">Casfar Raidió FM as tar éis 1 uair an chloig</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_HOURS -->
+    <string name="alarm_text3">Casfar an Raidió FM as tar éis %d uair an chloig</string>
+    <!-- IDS_FM_POP_STATION_ALREADY_EXISTS_ADD_ANOTHER_STATION -->
+    <string name="toast_already_added">Tá stáisiún ann cheana féin. Cuir stáisiún eile leis.</string>
+    <!-- IDS_FM_POP_P1SDP2SD_MHZ_STATION_FOUND_TOTAL_NUMBER_OF_STATIONS_FOUND_C_P3SD -->
+    <string name="dialog_channel_found">%1$d.%2$d MHz stáisiún aimsithe. Líon iomlán na stáisiún a aimsíodh: %3$d.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found">Stáisiún aimsithe ag %1$s MHz. 1 stáisiún aimsithe san iomlán.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_P2SD_STATIONS_HAVE_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_found_south_region">Aimsíodh stáisiún ag %1$s MHz. Aimsíodh %2$d stáisiún san iomlán.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found_south_region">Stáisiún aimsithe ag %1$s MHz. 1 stáisiún aimsithe san iomlán.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_FOUND_WHILE_SCANNING -->
+    <string name="toast_channel_found">Aimsíodh %d stáisiún le linn scanadh.</string>
+    <!-- IDS_FM_POP_1_STATION_FOUND_WHILE_SCANNING -->
+    <string name="toast_one_channel_found">Aimsíodh stáisiún amháin le linn scanadh.</string>
+    <!-- IDS_FM_POP_TURN_FM_RADIO_ON -->
+    <string name="toast_on_alert">Cas Raidió FM air</string>
+    <!-- IDS_RADIO_BODY_RADIO_M_APPLIACTION_NAME -->
+    <string name="app_name">Raidió</string>
+    <!-- IDS_LA_HEADER_ALL_CHANNELS -->
+    <string name="channels">All channels</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="record">Taifead</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="scan">Scan</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="more">Tuilleadh</string>
+    <!-- IDS_MEDIABR_OPT_REMOVE -->
+    <string name="remove">Bain</string>
+    <!-- IDS_FM_OPT_SETTINGS -->
+    <string name="settings">Socruithe</string>
+    <!-- IDS_FM_HEADER_STATIONS -->
+    <string name="allchannels">Stáisiúin</string>
+    <!-- IDS_COM_OPT_INFORMATION -->
+    <string name="information">Faisnéis</string>
+    <!-- IDS_LP_SK3_OK -->
+    <string name="ok">OK</string>
+    <!-- IDS_KC_OPT_CANCEL -->
+    <string name="cancel">Cuir ar ceal</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename">Athainmnigh</string>
+    <!-- IDS_BR_HEADER_ENTER_NAME -->
+    <string name="rename_text">Iontráil ainm</string>
+    <!-- IDS_KA_BUTTON_DONE -->
+    <string name="done">Déanta</string>
+    <!-- IDS_FM_OPT_REPLACE -->
+    <string name="replace">Ionadaigh</string>
+    <!-- IDS_FM_BODY_MHZ -->
+    <string name="mhz">MHz</string>
+    <!-- IDS_FM_BODY_SETTINGS_RADIO_TEXT -->
+    <string name="setting_sationid">Téacs raidió</string>
+    <!-- IDS_FM_BODY_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af">Minicíocht mhalartach</string>
+    <!-- IDS_FM_MBODY_AUTO_OFF -->
+    <string name="setting_autooff">Uath as</string>
+    <!-- IDS_FM_BODY_STATION_INFORMATION_WILL_BE_SHOWN -->
+    <string name="setting_stationid_summary">Taispeánfar faisnéis faoin stáisiún</string>
+    <!-- IDS_FM_BODY_TURN_ON_OFF_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af_summary">Cas minicíocht mhalartach air/as</string>
+    <!-- IDS_FM_OPT_NEVER -->
+    <string name="setting_never">Choíche</string>
+    <!-- IDS_FM_BODY_AFTER_15_MINS_ABB -->
+    <string name="setting_15min">Tar éis 15 nóim</string>
+    <!-- IDS_FM_BODY_ST_AFTER_30_MIN -->
+    <string name="setting_30min">I ndiaidh 30 nóim</string>
+    <!-- IDS_TDMB_BODY_AFTER_1_HOUR -->
+    <string name="setting_hour">I ndiaidh 1 uair an chloig</string>
+    <!-- IDS_TDMB_BODY_AFTER_2_HOURS -->
+    <string name="setting_2hour">I ndiaidh 2 uair an chloig</string>
+    <!-- IDS_MT_BUTTON_SAVE -->
+    <string name="save">Sábháil</string>
+    <!-- IDS_FM_BODY_NO_STATIONS -->
+    <string name="toast_channel_empty">Níl stáisiúin ann</string>
+    <!-- IDS_FM_NPBODY_NO_FAVOURITE_STATIONS_ABB -->
+    <string name="toast_favourite_empty">Níl stáisiúin cheanáin ann</string>
+    <!-- IDS_FM_TPOP_EARPHONES_NOT_CONNECTED_EARPHONES_FUNCTION_AS_RADIO_AERIAL_CONNECT_EARPHONES -->
+    <string name="toast_earphone_not_connected">Níl na cluasáin ceangailte. Oibríonn feidhm na gcluasán mar aeróg raidió. Ceangail na cluasáin.</string>
+    <!-- IDS_FM_OPT_AUTO_SCAN -->
+    <string name="dialog_autoscan">Uathscanadh</string>
+    <!-- IDS_FM_POP_STARTING_AUTO_SCAN_ING -->
+    <string name="toast_initial_access">Ag tosú ar uathscanadh\u2026</string>
+    <!-- IDS_FM_HEADER_SCAN_RESULT -->
+    <string name="scan_result">Toradh an scanta</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename_channel">Athainmnigh</string>
+    <!-- IDS_KA_HEADER_ALERT -->
+    <string name="alert">Foláireamh</string>
+    <!-- IDS_PB_OPT_FAVOURITES -->
+    <string name="fav_channel">Ceanáin</string>
+    <!-- IDS_FM_OPT_ALL_STATIONS -->
+    <string name="menu_refersh_all">Gach stáisiún</string>
+    <!-- IDS_FM_OPT_RETAINING_FAVOURITES -->
+    <string name="menu_refresh">Ag coimeád gach ceanán</string>
+    <!-- IDS_FM_DROP_30 -->
+    <string name="number_30">30</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_1 -->
+    <string name="number_1">1</string>
+    <!-- IDS_CCD_BODY_TIMERDIGIT_2 -->
+    <string name="number_2">2</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_15_min_past">Casadh an raidió as go huathoibríoch. Tá %d nóiméad caite.</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_30_min_past">Casadh an raidió as go huathoibríoch. Tá %d nóiméad caite.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_1_HOUR_HAS_PASSED -->
+    <string name="alrm_1_hr_past">Casadh %s as go huathoibríoch. Tá 1 uair a chloig caite.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_PD_HOURS_HAVE_PASSED -->
+    <string name="alrm_2_hrs_past">Casadh %1$s as go huathoibríoch. Tá %2$d uair a chloig caite.</string>
+    <!-- IDS_FM_SK3_SCAN_FOR_STATIONS -->
+    <string name="scan_channels">Scan le stáisiúin</string>
+    <!-- IDS_CAST_MBODY_SELECT_ALL -->
+    <string name="selectall">Roghnaigh gach</string>
+    <!-- IDS_VIDEO_HEADER_PD_SELECTED -->
+    <string name="selected_item">%d roghnaithe</string>
+    <!-- IDS_VVM_POP_SELECT_AT_LEAST_ONE_ITEM -->
+    <string name="no_channel_selected">Roghnaigh mír amháin ar a laghad</string>
+    <!-- IDS_FM_POP_UNABLE_TO_USE_PS_IN_FLIGHT_MODE -->
+    <string name="toast_airplane_mode">Ní féidir %s a úsáid sa Mhód eitilte.</string>
+    <!-- IDS_ST_BODY_INSTALL_VOICE_DATA_REQUIRED_FOR_SPEECH_SYNTHESIS -->
+    <string name="dialog_tts_confirm">Suiteáil sonraí gutha atá de dhíth ar shintéis cainte</string>
+    <string name="RSSI">Set Seek RSSI (long)</string>
+    <string name="SNR">Set Seek SNR(long)</string>
+    <string name="CNT">Set Seek CNT (int)</string>
+    <string name="AF_Threshold">Set AF Threshold (int)</string>
+    <string name="AF_Valid_Threshold">Set AF Valid Threshold (int)</string>
+    <string name="Current_Threshold">Get Current Threshold (int)</string>
+    <!-- IDS_FM_BODY_MODE_SPEAKER -->
+    <string name="speaker">Callaire</string>
+    <!-- IDS_FM_POP_AF_SWITCHING -->
+    <string name="af_switching">Ag aistriú AF</string>
+    <!-- IDS_FM_POP_AF_SWITCHING_IS_IN_PROGRESS_PRESS_BACK_TO_CANCEL -->
+    <string name="af_switching_msg">Aistriú AF ar bun. Brúigh Siar lena chur ar ceal.</string>
+    <!-- IDS_COM_POP_UNABLE_TO_LAUNCH_APPLICATION_LOW_BATTERY -->
+    <string name="toast_battery_low">Ní féidir feidhmchlár a lainseáil. Ceallra lag.</string>
+    <string name="toast_af_success">Athraíodh AF agus aimsíodh minicíocht %1$d.%2$d MHz</string>
+    <!-- IDS_FM_POP_AF_NOT_FOUND -->
+    <string name="toast_af_fail">Níor aimsíodh AF.</string>
+    <!-- IDS_ST_BODY_PS_DISABLED -->
+    <string name="toast_disabled">%s díchumasaithe.</string>
+    <!-- IDS_FM_POP_NO_STATIONS_FOUND -->
+    <string name="toast_no_channel_found">Níor aimsíodh stáisiún.</string>
+    <!-- IDS_CCD_POP_UNAVAILABLE_IN_TV_OUT_MODE -->
+    <string name="toast_unavailable_in_tvout_mode">Níl sé ar fáil i mód TF-amach.</string>
+    <!-- IDS_COM_POP_MESSAGETONE_MUTE -->
+    <string name="mute">Balbh</string>
+    <!-- IDS_COM_POP_SEARCHING -->
+    <string name="seeking">Ag cuardach\u2026</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_EARPHONES_ABB -->
+    <string name="via_earphone">Seinn trí chluasáin</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_SPEAKER_ABB -->
+    <string name="via_speaker">Seinn trí challaire</string>
+    <!-- IDS_COM_MBODY_NORMAL_FREQUENCY -->
+    <string name="normal_frequency">Gnáthmhinicíocht</string>
+    <!-- IDS_COM_BODY_END -->
+    <string name="end">Scoir</string>
+    <!-- IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED -->
+    <string name="toast_maximum_file_name">Uaslíon na gcarachtar (%d) bainte amach.</string>
+    <!-- IDS_FM_BODY_TURN_ON_THE_PS -->
+    <string name="turn_on_radio">Cas an %s air.</string>
+    <!-- IDS_PB_BODY_ENTERTEL -->
+    <string name="enter_number">Iontráil uimhir</string>
+    <!-- IDS_NFC_BUTTON_TAG -->
+    <string name="tag">Clib</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="stop">Stop</string>
+    <!-- IDS_FM_BODY_RECORDING_M_RECORDING_VOICE -->
+    <string name="recording">Taifeadadh</string>
+    <!-- IDS_DAV_BODY_MEMORY_FULL -->
+    <string name="memory_full">Cuimhne lán.</string>
+    <!-- IDS_VR_POP_CANCEL_RECORDING_Q -->
+    <string name="cancel_recording">Cuir taifeadadh ar ceal?</string>
+    <!-- IDS_FM_HEADER_CHANGE_FREQUENCY -->
+    <string name="change_frequency">Athraigh minicíocht</string>
+    <!-- IDS_FM_BODY_ENTER_FREQUENCY -->
+    <string name="enter_frequency">Iontráil minicíocht</string>
+    <!-- IDS_FM_POP_SAVED_IN_PS_GO_TO_RECORDED_FILES_TO_PLAY_PLAY_NOW_Q -->
+    <string name="saved_go_to_myfiles">Sábháilte in %s. Gabh chuig Comhaid thaifeadta le seinm. Seinn anois?</string>
+    <!-- IDS_FM_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="dont_show_again">Ná taispeáin arís</string>
+    <string name="toast_max_favorite">Uaslíon na stáisiún ceanáin (12) bainte amach. Bain roinnt stáisiún ceanáin</string>
+    <!-- IDS_MUSIC_POP_LOUD_MUSIC_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_TO_IT_FOR_A_LONG_TIME -->
+    <string name="audio_shock_warning">Is féidir le ceol callánach dochar a dhéanamh do do chluasa má bhíonn tú ag éisteacht leis ar feadh tamaill</string>
+    <!-- IDS_IV_POP_RECORDING_ERROR -->
+    <string name="recording_error">Earráid taifeadta</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="desc_record">Taifead</string>
+    <!-- IDS_FM_BODY_VOLUME -->
+    <string name="desc_volume">Airde</string>
+    <!-- IDS_FM_OPT_POWER -->
+    <string name="desc_power">Cumhacht</string>
+    <!-- IDS_FM_BODY_PREVIOUS_STATION -->
+    <string name="desc_prev">Stáisiún roimhe</string>
+    <!-- IDS_FM_BODY_NEXT_STATION -->
+    <string name="desc_next">An chéad stáisiún eile</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_1_T_TTS -->
+    <string name="desc_fav1">Stáisiún ceanáin 1,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_2_T_TTS -->
+    <string name="desc_fav2">Stáisiún ceanáin 2,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_3_T_TTS -->
+    <string name="desc_fav3">Stáisiún ceanáin 3,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_4_T_TTS -->
+    <string name="desc_fav4">Stáisiún ceanáin 4,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_5_T_TTS -->
+    <string name="desc_fav5">Stáisiún ceanáin 5,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_6_T_TTS -->
+    <string name="desc_fav6">Stáisiún ceanáin 6,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_7_T_TTS -->
+    <string name="desc_fav7">Stáisiún ceanáin 7,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_8_T_TTS -->
+    <string name="desc_fav8">Stáisiún ceanáin 8,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_9_T_TTS -->
+    <string name="desc_fav9">Stáisiún ceanáin 9,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_10_T_TTS -->
+    <string name="desc_fav10">Stáisiún ceanáin 10,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_11_T_TTS -->
+    <string name="desc_fav11">Stáisiún ceanáin 11,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_12_T_TTS -->
+    <string name="desc_fav12">Stáisiún ceanáin 12,</string>
+    <!-- IDS_ACCS_OPT_PS_TAB_OPT_TTS -->
+    <string name="desc_tab">%s, táb</string>
+    <!-- IDS_NFC_HEADER_ADD_FAVOURITE -->
+    <string name="desc_add_favorite">Cuir ceanán leis</string>
+    <!-- IDS_FM_POP_REMOVE_FAVOURITES_Q -->
+    <string name="desc_rem_favorite">Bain ceanáin?</string>
+    <!-- IDS_FM_HEADER_MENU -->
+    <string name="desc_menu">Roghchlár</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="desc_stop">Stop</string>
+    <!-- IDS_MSGC_SK_RESUME_LITE -->
+    <string name="desc_resume">Atosaigh</string>
+    <!-- IDS_MK_SK3_PAUSE -->
+    <string name="desc_pause">Cuir ar sos</string>
+    <!-- IDS_CALL_BUTTON_CANCEL -->
+    <string name="desc_cancel">Cealaigh</string>
+    <!-- IDS_FM_BODY_FREQUENCY -->
+    <string name="desc_frequency">Minicíocht</string>
+    <!-- IDS_RADIO_BODY_FREQUENCY_CONTROL_SLIDER_TTS -->
+    <string name="desc_frequency_slider">Sleamhnán rialaithe minicíochta</string>
+    <!-- IDS_COM_BUTTON_CLOSE -->
+    <string name="desc_close">Dún</string>
+    <!-- IDS_COM_BODY_HOUR -->
+    <string name="desc_hour">Uair an chloig</string>
+    <!-- IDS_CLD_OPT_HOURS -->
+    <string name="desc_hours">Uaireanta an chloig</string>
+    <!-- IDS_COM_BODY_MINUTE -->
+    <string name="desc_minute">Nóiméad</string>
+    <!-- IDS_COM_BODY_MINUTES -->
+    <string name="desc_minutes">Nóiméid</string>
+    <!-- IDS_ST_POP_SECOND -->
+    <string name="desc_second">Soicind</string>
+    <!-- IDS_COM_BODY_SECONDS -->
+    <string name="desc_seconds">Soicindí</string>
+    <!-- IDS_GP_SHEADER_FAVOURITE_STATIONS -->
+    <string name="desc_fav_station">STÁISIÚIN CHEANÁIN</string>
+    <!-- IDS_FM_BODY_VIEW_VISUAL_INFORMATION -->
+    <string name="desc_switch_btn_view_information">Amharc ar fhaisnéis amhairc.</string>
+    <!-- IDS_FM_OPT_RESUME_TTS -->
+    <string name="desc_resume_extended">Atosaigh</string>
+    <!-- IDS_FM_OPT_MORE_OPTIONS -->
+    <string name="desc_more">Tuilleadh roghanna</string>
+    <!-- WDS_TTS_TBBODY_DOUBLE_TAP_TO_SELECT_ALL -->
+    <string name="desc_double_tap_to_select_all">Déthapáil le gach a roghnú.</string>
+    <!-- IDS_BR_BODY_DOUBLE_TAP_TO_DESELECT_T_TTS -->
+    <string name="desc_double_tap_to_deselect_all">Déthapáil le díroghnú.</string>
+    <!-- IDS_FM_POP_NOTHINGSELECTED -->
+    <string name="desc_nothing_selected">Dada roghnaithe.</string>
+    <!-- IDS_COM_BODY_PD_SELECTED -->
+    <string name="desc_n_selected">%d roghnaithe</string>
+    <!-- IDS_COM_BUTTON_NOT_CHECKED -->
+    <string name="desc_not_ticked_t_tts">Gan seiceáil</string>
+    <!-- IDS_VPL_BODY_TICK_BOX -->
+    <string name="desc_tick_box_t_tts">Ticbhosca</string>
+    <!-- IDS_COM_BODY_FAVOURITE -->
+    <string name="desc_favorite_button">Ceanán</string>
+    <!-- IDS_COM_BODY_SELECTED -->
+    <string name="desc_selected">Roghnaithe</string>
+    <!-- IDS_ACCS_BODY_NOT_SELECTED_T_TTS -->
+    <string name="desc_not_selected">Gan roghnú</string>
+    <!-- IDS_HEALTH_TBBODY_PS_ADDED_TO_FAVOURITES -->
+    <string name="desc_frequency_added_to_favourites">%s curtha le Ceanáin.</string>
+    <!-- IDS_HEALTH_TBBODY_PS_REMOVED_FROM_FAVOURITES -->
+    <string name="desc_frequency_removed_from_favourites">%s bainte ó Cheanáin.</string>
+    <!-- IDS_FM_POP_VOLUME_CONTROL_NOT_AVAILABLE_WHILE_RECORDING -->
+    <string name="recording_volume_control">Níl rialú airde ar fáil le linn taifeadadh.</string>
+    <string name="deleted">Scriosta.</string>
+    <!-- IDS_MS_OPT_START -->
+    <string name="test_start">Tosaigh</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="test_stop">Stop</string>
+    <!-- IDS_KA_BODY_TITLE -->
+    <string name="tags_music_title">Teideal</string>
+    <!-- IDS_MUSIC_BUTTON2_ALBUM -->
+    <string name="tags_music_album">Albam</string>
+    <!-- IDS_KA_BODY_ARTIST -->
+    <string name="tags_music_artist">Ceoltóir</string>
+    <!-- IDS_FM_BODY_BAND_M_MUSIC -->
+    <string name="tags_music_band">Banna ceoil</string>
+    <!-- IDS_KA_BODY_URL -->
+    <string name="tags_information_url">URL</string>
+    <!-- IDS_SIDL_SK3_HOME_URL -->
+    <string name="tags_programme_homepage">Lch baile</string>
+    <!-- IDS_FM_BODY_HOTLINE -->
+    <string name="tags_interact_hotline">Beolíne</string>
+    <!-- IDS_VDOE_HEADER_STUDIO -->
+    <string name="tags_interact_studio">Stiúideo</string>
+    <!-- IDS_KA_BODY_OTHER -->
+    <string name="tags_interact_other">Eile</string>
+    <!-- IDS_MSGC_BODY_TEXTSTYLE_ALIGNMENTCENTER -->
+    <string name="tags_interact_centre">Ionad</string>
+    <!-- IDS_FM_POP_UNABLE_TO_SCAN_WHILE_RECORDING_M_AUDIO -->
+    <string name="toast_unable_scan">Ní féidir scanadh le linn taifeadadh.</string>
+    <!-- IDS_FM_BODY_STATION_NAME -->
+    <string name="dialog_station_name">Ainm an stáisiúin</string>
+    <!-- IDS_FM_SK_DELETE -->
+    <string name="delete">Scrios</string>
+    <string name="select">Roghnaigh</string>
+    <!-- IDS_KC_MBODY_STORAGE -->
+    <string name="setting_storage">Stóras</string>
+    <!-- IDS_MS_HEADER_MY_FILES -->
+    <string name="setting_myfiles">Mo Chomhaid</string>
+    <!-- IDS_MK_MBODY_MEMORY_CARD -->
+    <string name="setting_memory_card">Cárta cuimhne</string>
+    <!-- IDS_ST_BODY_DEVICE -->
+    <string name="setting_phone">Gléas</string>
+    <!-- IDS_FM_BODY_EARPHONE_SETTINGS -->
+    <string name="setting_sound_settings">Socruithe cluasáin</string>
+    <!-- IDS_MUSIC_BODY_STEREO -->
+    <string name="setting_stereo">Steirió</string>
+    <!-- IDS_MP_BODY_MONO_M_SOUND_TYPE -->
+    <string name="setting_mono">Mona</string>
+    <!-- IDS_FM_BODY_TAP_SCAN_AT_THE_TOP_OF_THE_SCREEN_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations_tap_button_to_scan">Tapáil Scan ar bharr an scáileáin le scanadh le haghaidh stáisiún</string>
+    <!-- IDS_FM_TPOP_PS_SAVED -->
+    <string name="toast_saved">%s sábháilte.</string>
+    <!-- IDS_COM_BODY_SELECT_ALL -->
+    <string name="select_all">Roghnaigh gach</string>
+    <!-- IDS_IME_HEADER_DESELECT_ALL -->
+    <string name="deselect_all">Díroghnaigh gach</string>
+    <!-- IDS_FM_OPT_ALL -->
+    <string name="select_checkbox_all">Gach</string>
+    <!-- IDS_MSG_MBODY_SELECT_CHANNELS -->
+    <string name="select_channels">Roghnaigh cainéil</string>
+    <!-- IDS_FM_HEADER_SELECT_RECORDINGS_ABB -->
+    <string name="select_recordings">Roghnaigh taifeadtaí</string>
+    <!-- IDS_VR_HEADER_RECORDED_FILES -->
+    <string name="recorded_files">Comhaid thaifeadta</string>
+    <!-- IDS_VR_HEADER_RECORDINGS_M_VOICE_ABB -->
+    <string name="recordings">Taifeadtaí</string>
+    <!-- IDS_FM_BODY_AFTER_YOU_RECORD_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files_guide">Tar éis duit raidió a thaifeadadh, taispeánfar comhaid thaifeadta</string>
+    <!-- IDS_VR_BODY_NO_RECORDED_FILES -->
+    <string name="no_recorded_files_msg">Níl comhad taifeadta ann</string>
+    <!-- IDS_FM_BODY_NO_RECORDED_FILES_N_AFTER_RECORDING_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files">Níl comhaid thaifeadta ann.\nTar éis raidió a thaifeadadh, taispeánfar comhaid thaifeadta.</string>
+    <!-- IDS_MK_BODY_PROCESSING_ING -->
+    <string name="dialog_processing">Ag próiseáil\u2026</string>
+    <!-- IDS_TASK_POP_UP_TO_PD_CHARACTERS_AVAILABLE -->
+    <string name="toast_up_to_n_characters">Suas le %d carachtar ar fáil.</string>
+    <!-- IDS_MUSIC_POP_INVALID_CHARACTER -->
+    <string name="toast_invalid_character">Carachtar neamhbhailí.</string>
+    <!-- IDS_IV_BODY_NEW_FILE_NAME -->
+    <string name="dialog_new_file_name">Comhadainm nua</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILE_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_file_deleted">Scriosfar an comhad taifeadta roghnaithe</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILES_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_files_deleted">Scriosfar na comhaid thaifeadta roghnaithe</string>
+    <!-- IDS_MH_POP_FILE_DOES_NOT_EXIST -->
+    <string name="file_does_not_exist">Níl an comhad ann</string>
+    <!-- IDS_FM_POP_ALREADY_EXISTS -->
+    <string name="toast_already_exist">Ann cheana.</string>
+    <!-- IDS_BR_POP_RENAME_EMPTY -->
+    <string name="toast_name_empty">Ainm folamh.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_EARPHONES -->
+    <string name="sound_path_earphone_mode">Raidió á sheinm trí chluasáin.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_SPEAKER -->
+    <string name="sound_path_speaker_mode">Raidió á sheinm trí challaire.</string>
+    <!-- IDS_FM_POP_NOW_LISTENING_VIA_BT_HEADSET -->
+    <string name="sound_path_bt_headset_mode">Ag éisteacht trí ghléas cinn BT faoi láthair.</string>
+    <!-- IDS_ST_BODY_YOU_CAN_CONTROL_THE_RADIO_WITH_VOICE_COMMANDS_LIKE_NEXT_PREVIOUS_STOP_AND_PLAY -->
+    <string name="notification_barge_in">Is féidir leat an raidió a rialú le horduithe gutha amhail ‘Ar aghaidh’, ‘Roimhe’, ‘Stop’, agus ‘Seinn’</string>
+    <!-- IDS_VC_BODY_YOU_CAN_CONTROL_THE_FM_RADIO_WITH_THE_VOICE_COMMANDS_PS_PS_PS_PS_PS_AND_PS -->
+    <string name="notification_barge_in_args">Is féidir leat an raidió FM a rialú le horduithe gutha amhail %1$s, %2$s, %3$s, %4$s, %5$s, agus %6$s</string>
+    <!-- IDS_VR_POP_RECORDING_WILL_BE_CANCELLED_AND_FILE_WILL_NOT_BE_SAVED -->
+    <string name="recording_will_be_cancelled">Cuirfear taifeadadh ar ceal agus ní shábhálfar an comhad</string>
+    <!-- IDS_FM_POP_UNABLE_TO_PLAY_RADIO_DURING_CALL -->
+    <string name="unable_to_play_radio_during_call">Ní féidir an raidió a sheinm le linn glao.</string>
+    <!-- IDS_FM_BODY_THIS_ITEM_WILL_BE_DELETED -->
+    <string name="dialog_one_item_deleted">Scriosfar an mhír seo</string>
+    <!-- IDS_FM_BODY_PD_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_items_deleted">Scriosfar %d mír</string>
+    <!-- IDS_FM_BODY_ALL_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_all_items_deleted">Scriosfar gach mír</string>
+    <!-- IDS_RADIO_POP_1_STATION_WILL_BE_DELETED -->
+    <string name="dialog_one_station_will_be_deleted">Scriosfar 1 stáisiún.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_stations_will_be_deleted">Scriosfar %d stáisiún.</string>
+    <!-- IDS_VR_POP_1_RECORDING_WILL_BE_DELETED -->
+    <string name="dialog_one_recording_will_be_deleted">Scriosfar 1 taifeadadh.</string>
+    <!-- IDS_VR_POP_PD_RECORDINGS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_recordings_will_be_deleted">Scriosfar %d taifeadadh.</string>
+    <!-- IDS_FM_BODY_TURNING_ON_ING -->
+    <string name="turning_on">Ag casadh air\u2026</string>
+    <!-- IDS_COM_POP_NOT_ENOUGH_MEMORY_RECORDING_WILL_STOP_IN_PD_SECONDS -->
+    <string name="not_enough_memory_recording_will_stop">Easpa cuimhne. Stopfar an taifead i gceann %d soicind.</string>
+    <!-- IDS_ST_BODY_LEDOT_LOW_BATTERY -->
+    <string name="low_batt_msg">Ceallra lag</string>
+    <!-- IDS_MSG_POP_UNABLE_TO_PLAY_DURING_CALL -->
+    <string name="no_play_during_call">Ní féidir seinm le linn glao.</string>
+    <!-- IDS_DTV_POP_UNABLE_TO_DELETE -->
+    <string name="unable_delete">Ní féidir scriosadh.</string>
+    <!-- IDS_MUSIC_BODY_PLAYING_ING_ABB -->
+    <string name="playing">Ag seinm\u2026</string>
+    <!-- IDS_CALL_SK3_PLAY -->
+    <string name="tts_play_button">Seinn</string>
+    <!-- IDS_COM_BODY_PREVIOUS -->
+    <string name="tts_previous_button">Roimhe</string>
+    <!-- IDS_COM_BODY_NEXT -->
+    <string name="tts_Next_button">Ar aghaidh</string>
+    <!-- IDS_COM_POP_CONNECT -->
+    <string name="connect">Nasc</string>
+    <!-- IDS_IM_BODY_TOPIC -->
+    <string name="topic">Topaic</string>
+    <!-- IDS_MUSIC_HEADER_SUBSCRIBE -->
+    <string name="subscribe">Liostáil</string>
+    <!-- IDS_MSGF_BODY_NO_TEXT -->
+    <string name="no_text">Níl téacs ann</string>
+    <!-- IDS_KA_BODY_MORE_INFORMATION -->
+    <string name="for_more_info">Tuilleadh eolais</string>
+    <!-- IDS_FM_BUTTON_VIEW_VISUAL_INFO_ABB -->
+    <string name="switch_btn_view_information">Amharc ar fhais. amhairc</string>
+    <!-- IDS_FM_BUTTON_VIEW_TUNER -->
+    <string name="switch_btn_view_tuner">Amharc ar thiúnóir</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_VIEW_THIS_INFORMATION_FOR_THIS_STATION -->
+    <string name="switch_btn_disable">Amharc ar an bhfaisnéis seo faoin stáisiún seo dodhéanta.</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_LISTEN_TO_THIS_STATION_VIA_INTERNET_RADIO -->
+    <string name="menu_internetradio_disable">Éisteacht leis an stáisiún seo dodhéanta le Raidió Idirlín.</string>
+    <!-- IDS_FM_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN -->
+    <string name="wifi_warning">Níl Wi-Fi ar fáil. Is féidir go ngearrfar táillí breise ar nascadh le líonraí móibíleacha ag brath ar do phlean íocaíochta.</string>
+    <!-- IDS_POPSYNC_BODY_CONNECT_VIA_MOBILE_NETWORK -->
+    <string name="connect_mobile_network">Nasc trí líonra móibíleach</string>
+    <!-- IDS_WGT_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="do_not_show_again">Ná taispeáin arís</string>
+    <!-- IDS_COM_POP_SERVER_RESPONSE_ERROR -->
+    <string name="server_response_error">Earráid le freagairt an fhreastalaí</string>
+    <!-- IDS_SYS_BODY_CODE_GENERATION_VER -->
+    <string name="stms_version">ANDROID_P4_20150420_0216</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_INTERNET_RADIO -->
+    <string name="switch_to_internet_radio">Aistrigh chuig raidió Idirlín</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_FM_RADIO -->
+    <string name="switch_to_fm_radio">Aistrigh chuig raidió FM</string>
+    <!-- IDS_SOCIALMAG_POP_PLEASE_WAIT_ING -->
+    <string name="dialog_popup_wait">Fan go fóill\u2026</string>
+    <!-- IDS_FM_BODY_AUTOMATICALLY_SWITCHES_TO_INTERNET_RADIO_MSG -->
+    <string name="auto_switch_to_internet_radio">Aistrítear chuig raidió Idirlín go huathoibríoch nuair atá an comhartha FM lag agus nach bhfuil minicíochtaí eile ar fáil.</string>
+    <!-- IDS_RADIO_POP_THE_CURRENT_RECORDING_WILL_STOP_M_VOICE -->
+    <string name="record_suspended_continue">Scoirfear an taifeadadh reatha</string>
+    <!-- IDS_FM_BUTTON_LISTEN_NOW -->
+    <string name="listen_to_radio">Éist anois</string>
+    <!-- IDS_FM_BODY_NOW_LISTENING_ABB -->
+    <string name="now_listening">Ag éisteacht anois</string>
+    <!-- IDS_COM_BODY_BUTTON_T_TTS -->
+    <string name="button">Cnaipe</string>
+    <!-- IDS_FM_BODY_TAP_HERE_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations">Tapáil anseo le scanadh le haghaidh stáisiún</string>
+    <!-- IDS_CALL_BODY_THE_RECORDING_WILL_BE_SAVED_AUTOMATICALLY_WHEN_YOU_ACCEPT_THE_CALL -->
+    <string name="recording_save_during_call">Sábhálfar an taifeadadh go huathoibríoch nuair a ghlacfaidh tú leis an nglao</string>
+    <!-- IDS_ST_BODY_START -->
+    <string name="test_noise_start">Tosaigh</string>
+    <!-- IDS_COM_BODY_STOP -->
+    <string name="test_noise_stop">Stop</string>
+    <!-- IDS_BR_POP_READY -->
+    <string name="test_nosise_current_status">Réidh.</string>
+    <!-- IDS_FM_BUTTON_EARPHONE -->
+    <string name="test_noise_earphone">Cluasán</string>
+    <!-- IDS_VOLTE_BUTTON_SPEAKER -->
+    <string name="test_noise_speaker">Callaire</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="menu_more">Tuilleadh</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="menu_scan">Scan</string>
+    <!-- IDS_FM_OPT_EDIT -->
+    <string name="menu_edit">Cuir in eagar</string>
+    <!-- IDS_RADIO_SBODY_CONTENT_HIDDEN -->
+    <string name="content_hidden">Inneachar folaithe</string>
+    <!-- IDS_FM_TPOP_UNABLE_TO_RECORD_RADIO_DISABLE_TURN_OFF_ALL_SOUNDS_AND_TRY_AGAIN -->
+    <string name="unable_record_turn_off_all_sound">Ní féidir raidió a thaifeadadh. Díchumasaigh Cas as gach fuaim agus triail arís.</string>
+</resources>

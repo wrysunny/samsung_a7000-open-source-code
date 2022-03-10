@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+	<TextView  xmlns:android="http://schemas.android.com/apk/res/android"
+		android:id="@+id/hover_window_textview"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:paddingTop="6dp"
+	    android:singleLine="true"
+	    android:ellipsize="end"
+	    android:textColor="#47d6ff"
+	    android:textSize="23sp"
+	    android:background="@drawable/hover_video_bg_c"
+   	/>

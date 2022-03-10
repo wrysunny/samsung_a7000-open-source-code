@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+**
+** Created with XMLCompiler2
+*/ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IDS_FM_POP_UNABLE_TO_TURN_ON_PS -->
+    <string name="toast_fm_not_played">មិន​អាច​បើក %s។</string>
+    <!-- IDS_FM_POP_EARPHONE_REMOVED_RADIO_TURNED_OFF -->
+    <string name="headset_disconnect">បាន​ដោះ​កាស​កាស​ត្រចៀក។ នឹង​បិទ​វិទ្យុ។</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_RENAME -->
+    <string name="toast_tap_to_rename">ប៉ះ​ប្រេកង់​ដើម្បី​ប្តូរ​ឈ្មោះ។</string>
+    <!-- IDS_FM_POP_INVALID_FREQUENCY -->
+    <string name="toast_channel_invalid">ប្រេកង់​អសុពលភាព។</string>
+    <!-- IDS_FM_POP_TUNING_TO_P1SDP2SD_MHZ_ING -->
+    <string name="toast_tune">កំពុង​បើក %1$d.%2$d MHz\u2026</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_REMOVE -->
+    <string name="toast_tap_to_remove">ប៉ះ​ប្រេកង់​ដើម្បី​លុប។</string>
+    <!-- IDS_FM_POP_BUSY_TUNING_IN_ING -->
+    <string name="toast_busy_tunning">រវល់។ កំពុង​រាវ​ប៉ុស្តិ៍\u2026</string>
+    <!-- IDS_FM_POP_ALREADY_SCANNING_ING -->
+    <string name="toast_already_scan">កំពុង​ស្កេន​ហើយ\u2026</string>
+    <!-- IDS_IM_POP_UNABLE_TO_RENAME -->
+    <string name="toast_rename_error">មិន​អាច​ប្តូរ​ឈ្មោះ។</string>
+    <!-- IDS_WIFI_POP_PROFILECONNECTION_CANCELLING -->
+    <string name="dialog_cancel_scan">កំពុង​បោះ​បង់\u2026</string>
+    <!-- IDS_AV_POP_SCANNING_ING -->
+    <string name="dialog_scan">កំពុង​ស្កេន\u2026</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_MINUTES -->
+    <string name="alarm_text1">វិទ្យុ FM នឹង​បិទ​បន្ទាប់​ពី %d នាទី។</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_1_HOUR -->
+    <string name="alarm_text2">វិទ្យុ FM នឹង​បិទ​បន្ទាប់​ពី 1 ម៉ោង។</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_HOURS -->
+    <string name="alarm_text3">វិទ្យុ FM នឹង​បិទ​បន្ទាប់​ពី %d ម៉ោង។</string>
+    <!-- IDS_FM_POP_STATION_ALREADY_EXISTS_ADD_ANOTHER_STATION -->
+    <string name="toast_already_added">ស្ថានីយ​មាន​ហើយ។ ថែម​ស្ថានីយ​ផ្សេង។</string>
+    <!-- IDS_FM_POP_P1SDP2SD_MHZ_STATION_FOUND_TOTAL_NUMBER_OF_STATIONS_FOUND_C_P3SD -->
+    <string name="dialog_channel_found">បាន​រក​ឃើញ​ស្ថានីយ %1$d.%2$d។ បាន​រក​ឃើញ​ចំនួន​ស្ថានីយ​សរុប៖ %3$d។</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found">បាន​រកឃើញ​ស្ថានីយ​មួយ​នៅ %1$s MHz។ បាន​រកឃើញ​ស្ថានីយ​សរុប 1។</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_P2SD_STATIONS_HAVE_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_found_south_region">បាន​រកឃើញ​ស្ថានីយ​មួយ​នៅ %1$s MHz។ បាន​រកឃើញ​ស្ថានីយ %2$d សរុប។</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found_south_region">បាន​រកឃើញ​ស្ថានីយ​មួយ​នៅ %1$s MHz។ បាន​រកឃើញ​ស្ថានីយ​សរុប 1។</string>
+    <!-- IDS_FM_POP_PD_STATIONS_FOUND_WHILE_SCANNING -->
+    <string name="toast_channel_found">បាន​រកឃើញ​ស្ថានីយ %d ខណៈពេល​ស្កេន។</string>
+    <!-- IDS_FM_POP_1_STATION_FOUND_WHILE_SCANNING -->
+    <string name="toast_one_channel_found">បាន​រកឃើញ​ស្ថានីយ 1 ខណៈពេល​ស្កេន។</string>
+    <!-- IDS_FM_POP_TURN_FM_RADIO_ON -->
+    <string name="toast_on_alert">បើក​វិទ្យុ FM។</string>
+    <!-- IDS_RADIO_BODY_RADIO_M_APPLIACTION_NAME -->
+    <string name="app_name">វិទ្យុ</string>
+    <!-- IDS_LA_HEADER_ALL_CHANNELS -->
+    <string name="channels">ប៉ុស្ដិ៍​ទាំងអស់</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="record">ថត</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="scan">ស្កេន</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="more">ទៀត</string>
+    <!-- IDS_MEDIABR_OPT_REMOVE -->
+    <string name="remove">លុប</string>
+    <!-- IDS_FM_OPT_SETTINGS -->
+    <string name="settings">ការកំណត់</string>
+    <!-- IDS_FM_HEADER_STATIONS -->
+    <string name="allchannels">ស្ថានីយ</string>
+    <!-- IDS_COM_OPT_INFORMATION -->
+    <string name="information">ព័ត៌មាន</string>
+    <!-- IDS_LP_SK3_OK -->
+    <string name="ok">ព្រម</string>
+    <!-- IDS_KC_OPT_CANCEL -->
+    <string name="cancel">បោះ​បង់</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename">ប្តូរ​ឈ្មោះ</string>
+    <!-- IDS_BR_HEADER_ENTER_NAME -->
+    <string name="rename_text">វាយបញ្ចូល​ឈ្មោះ</string>
+    <!-- IDS_KA_BUTTON_DONE -->
+    <string name="done">រួចរាល់</string>
+    <!-- IDS_FM_OPT_REPLACE -->
+    <string name="replace">ជំនួស</string>
+    <!-- IDS_FM_BODY_MHZ -->
+    <string name="mhz">MHz</string>
+    <!-- IDS_FM_BODY_SETTINGS_RADIO_TEXT -->
+    <string name="setting_sationid">អត្ថបទ​វិទ្យុ</string>
+    <!-- IDS_FM_BODY_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af">ប្រេកង់​ផ្សេង</string>
+    <!-- IDS_FM_MBODY_AUTO_OFF -->
+    <string name="setting_autooff">ស្វ័យ​បិទ</string>
+    <!-- IDS_FM_BODY_STATION_INFORMATION_WILL_BE_SHOWN -->
+    <string name="setting_stationid_summary">នឹង​បង្ហាញ​ព័ត៌មាន​ស្ថានីយ។</string>
+    <!-- IDS_FM_BODY_TURN_ON_OFF_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af_summary">បើកប្រើ/​បិទ​ប្រេកង់​ជំនួស។</string>
+    <!-- IDS_FM_OPT_NEVER -->
+    <string name="setting_never">កុំ​ឲ្យ​សោះ</string>
+    <!-- IDS_FM_BODY_AFTER_15_MINS_ABB -->
+    <string name="setting_15min">បន្ទាប់​ពី 15 នាទី</string>
+    <!-- IDS_FM_BODY_ST_AFTER_30_MIN -->
+    <string name="setting_30min">បន្ទាប់​ពី 30 នាទី</string>
+    <!-- IDS_TDMB_BODY_AFTER_1_HOUR -->
+    <string name="setting_hour">បន្ទាប់​ពី 1 ម៉ោង</string>
+    <!-- IDS_TDMB_BODY_AFTER_2_HOURS -->
+    <string name="setting_2hour">បន្ទាប់​ពី 2 ម៉ោង</string>
+    <!-- IDS_MT_BUTTON_SAVE -->
+    <string name="save">រក្សា​ទុក</string>
+    <!-- IDS_FM_BODY_NO_STATIONS -->
+    <string name="toast_channel_empty">គ្មាន​ស្ថានីយ</string>
+    <!-- IDS_FM_NPBODY_NO_FAVOURITE_STATIONS_ABB -->
+    <string name="toast_favourite_empty">គ្មាន​ស្ថានីយ​សំណព្វ</string>
+    <!-- IDS_FM_TPOP_EARPHONES_NOT_CONNECTED_EARPHONES_FUNCTION_AS_RADIO_AERIAL_CONNECT_EARPHONES -->
+    <string name="toast_earphone_not_connected">មិន​បាន​ភ្ជាប់​កាស។ កាស​ធ្វើ​មុខងារ​ជា​អង់តែន​វិទ្យុ។ ភ្ជាប់​កាស។</string>
+    <!-- IDS_FM_OPT_AUTO_SCAN -->
+    <string name="dialog_autoscan">ស្វ័យ​ស្កេន</string>
+    <!-- IDS_FM_POP_STARTING_AUTO_SCAN_ING -->
+    <string name="toast_initial_access">កំពុង​ចាប់ផ្ដើម​ស្វ័យ​ស្កេន\u2026</string>
+    <!-- IDS_FM_HEADER_SCAN_RESULT -->
+    <string name="scan_result">លទ្ធផល​ស្កេន</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename_channel">ប្តូរ​ឈ្មោះ</string>
+    <!-- IDS_KA_HEADER_ALERT -->
+    <string name="alert">ប្រាប់</string>
+    <!-- IDS_PB_OPT_FAVOURITES -->
+    <string name="fav_channel">សំណព្វ</string>
+    <!-- IDS_FM_OPT_ALL_STATIONS -->
+    <string name="menu_refersh_all">ស្ថានីយ​ទាំងអស់</string>
+    <!-- IDS_FM_OPT_RETAINING_FAVOURITES -->
+    <string name="menu_refresh">ការទុក​សំណព្វ</string>
+    <!-- IDS_FM_DROP_30 -->
+    <string name="number_30">30</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_1 -->
+    <string name="number_1">1</string>
+    <!-- IDS_CCD_BODY_TIMERDIGIT_2 -->
+    <string name="number_2">2</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_15_min_past">បាន​បិទ​វិទ្យុ​ដោយ​ស្វ័យប្រវត្តិ។ %d នាទី​បាន​កន្លង​ផុត។</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_30_min_past">បាន​បិទ​វិទ្យុ​ដោយ​ស្វ័យប្រវត្តិ។ %d នាទី​បាន​កន្លង​ផុត។</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_1_HOUR_HAS_PASSED -->
+    <string name="alrm_1_hr_past">បាន​បិទ %s ដោយ​ស្វ័យប្រវត្តិ។ 1 ម៉ោង​បាន​កន្លង​ផុត។</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_PD_HOURS_HAVE_PASSED -->
+    <string name="alrm_2_hrs_past">បាន​បិទ %1$s ដោយ​ស្វ័យប្រវត្តិ។ %2$d ម៉ោង​បាន​កន្លង​ផុត។</string>
+    <!-- IDS_FM_SK3_SCAN_FOR_STATIONS -->
+    <string name="scan_channels">ស្កេន​រក​មើល​ស្ថានីយ</string>
+    <!-- IDS_CAST_MBODY_SELECT_ALL -->
+    <string name="selectall">ជ្រើស​ទាំងអស់</string>
+    <!-- IDS_VIDEO_HEADER_PD_SELECTED -->
+    <string name="selected_item">បាន​ជ្រើស %d</string>
+    <!-- IDS_VVM_POP_SELECT_AT_LEAST_ONE_ITEM -->
+    <string name="no_channel_selected">ជ្រើស​យ៉ាង​តិច​ធាតុ​មួយ។</string>
+    <!-- IDS_FM_POP_UNABLE_TO_USE_PS_IN_FLIGHT_MODE -->
+    <string name="toast_airplane_mode">មិន​អាច​ប្រើ %s ក្នុង​ទម្រង់​យន្តហោះ។</string>
+    <!-- IDS_ST_BODY_INSTALL_VOICE_DATA_REQUIRED_FOR_SPEECH_SYNTHESIS -->
+    <string name="dialog_tts_confirm">ដំឡើង​ទិន្នន័យ​សំឡេង​ដែល​ត្រូវការ​សម្រាប់​សម្តី​សំយោគ។</string>
+    <!-- IDS_FM_BODY_MODE_SPEAKER -->
+    <string name="speaker">ឧបល័រ</string>
+    <!-- IDS_FM_POP_AF_SWITCHING -->
+    <string name="af_switching">ការប្តូរ AF</string>
+    <!-- IDS_FM_POP_AF_SWITCHING_IS_IN_PROGRESS_PRESS_BACK_TO_CANCEL -->
+    <string name="af_switching_msg">ការប្តូរ AF កំពុង​ដំណើរការ។ ចុច ថយ ដើម្បី​បោះបង់។</string>
+    <!-- IDS_COM_POP_UNABLE_TO_LAUNCH_APPLICATION_LOW_BATTERY -->
+    <string name="toast_battery_low">មិន​អាច​ចាប់ផ្ដើម​កម្មវិធី។ ថ្ម​ខ្សោយ។</string>
+    <!-- IDS_FM_POP_AF_NOT_FOUND -->
+    <string name="toast_af_fail">រក​មិន​ឃើញ AF។</string>
+    <!-- IDS_ST_BODY_PS_DISABLED -->
+    <string name="toast_disabled">បាន​បិទ %s។</string>
+    <!-- IDS_FM_POP_NO_STATIONS_FOUND -->
+    <string name="toast_no_channel_found">រក​មិន​ឃើញ​ស្ថានីយ។</string>
+    <!-- IDS_CCD_POP_UNAVAILABLE_IN_TV_OUT_MODE -->
+    <string name="toast_unavailable_in_tvout_mode">មិន​អាច​ប្រើ​បាន​ក្នុង​ទម្រង់ TV-ចេញ។</string>
+    <!-- IDS_COM_POP_MESSAGETONE_MUTE -->
+    <string name="mute">ស្ងាត់</string>
+    <!-- IDS_COM_POP_SEARCHING -->
+    <string name="seeking">កំពុង​ស្វែង​រក\u2026</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_EARPHONES_ABB -->
+    <string name="via_earphone">ចាក់​តាម​កាស</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_SPEAKER_ABB -->
+    <string name="via_speaker">ចាក់​តាម​ឧបល័រ</string>
+    <!-- IDS_COM_MBODY_NORMAL_FREQUENCY -->
+    <string name="normal_frequency">ប្រេកង់​ធម្មតា</string>
+    <!-- IDS_COM_BODY_END -->
+    <string name="end">បញ្ចប់</string>
+    <!-- IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED -->
+    <string name="toast_maximum_file_name">បាន​ដល់​ចំនួន​តួអក្សរ​អតិបរមា (%d)។</string>
+    <!-- IDS_FM_BODY_TURN_ON_THE_PS -->
+    <string name="turn_on_radio">បើក %s។</string>
+    <!-- IDS_PB_BODY_ENTERTEL -->
+    <string name="enter_number">វាយបញ្ចូល​លេខ។</string>
+    <!-- IDS_NFC_BUTTON_TAG -->
+    <string name="tag">ស្ល</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="stop">ឈប់</string>
+    <!-- IDS_FM_BODY_RECORDING_M_RECORDING_VOICE -->
+    <string name="recording">កំពុង​ថត\u2026</string>
+    <!-- IDS_DAV_BODY_MEMORY_FULL -->
+    <string name="memory_full">មេម៉ូរី​ពេញ។</string>
+    <!-- IDS_VR_POP_CANCEL_RECORDING_Q -->
+    <string name="cancel_recording">បោះបង់​ការថត?</string>
+    <!-- IDS_FM_HEADER_CHANGE_FREQUENCY -->
+    <string name="change_frequency">ប្ដូរ​ប្រេកង់</string>
+    <!-- IDS_FM_BODY_ENTER_FREQUENCY -->
+    <string name="enter_frequency">វាយបញ្ចូល​ប្រេកង់។</string>
+    <!-- IDS_FM_POP_SAVED_IN_PS_GO_TO_RECORDED_FILES_TO_PLAY_PLAY_NOW_Q -->
+    <string name="saved_go_to_myfiles">បាន​រក្សា​ទុក​ក្នុង %s។ ចូល​ទៅ​បណ្ដាឯកសារ​ដែល​បាន​ថត​ទុក​ដើម្បី​ចាក់​។ ចាក់ឥឡូវ?</string>
+    <!-- IDS_FM_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="dont_show_again">កុំ​បង្ហាញ​ម្តង​ទៀត</string>
+    <string name="toast_max_favorite">បាន​ដល់​ចំនួន​អតិបរមា​នៃ​ស្ថានីយ​សំណព្វ (12)។ លុប​ស្ថានីយ​សំណព្វ​ខ្លះ</string>
+    <!-- IDS_MUSIC_POP_LOUD_MUSIC_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_TO_IT_FOR_A_LONG_TIME -->
+    <string name="audio_shock_warning">តន្ត្រី​ឮ​ពេក​អាច​ប៉ះពាល់​ដល់​ត្រចៀក​របស់​អ្នក បើ​អ្នក​ស្តាប់​វា​ក្នុង​រយៈពេល​យូរ។</string>
+    <!-- IDS_IV_POP_RECORDING_ERROR -->
+    <string name="recording_error">កំហុស​ថត</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="desc_record">ថត</string>
+    <!-- IDS_FM_BODY_VOLUME -->
+    <string name="desc_volume">កម្រិត​សំឡេង</string>
+    <!-- IDS_FM_OPT_POWER -->
+    <string name="desc_power">ថាមពល</string>
+    <!-- IDS_FM_BODY_PREVIOUS_STATION -->
+    <string name="desc_prev">ស្ថានីយមុន</string>
+    <!-- IDS_FM_BODY_NEXT_STATION -->
+    <string name="desc_next">ស្ថានីយ​បន្ទាប់</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_1_T_TTS -->
+    <string name="desc_fav1">ស្ថានីយ​សំណព្វ​ទី 1</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_2_T_TTS -->
+    <string name="desc_fav2">ស្ថានីយ​សំណព្វ​ទី 2</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_3_T_TTS -->
+    <string name="desc_fav3">ស្ថានីយ​សំណព្វ​ទី 3</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_4_T_TTS -->
+    <string name="desc_fav4">ស្ថានីយ​សំណព្វ​ទី 4</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_5_T_TTS -->
+    <string name="desc_fav5">ស្ថានីយ​សំណព្វ 5,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_6_T_TTS -->
+    <string name="desc_fav6">ស្ថានីយ​សំណព្វ 6,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_7_T_TTS -->
+    <string name="desc_fav7">ស្ថានីយ​សំណព្វ 7,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_8_T_TTS -->
+    <string name="desc_fav8">ស្ថានីយ​សំណព្វ 8,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_9_T_TTS -->
+    <string name="desc_fav9">ស្ថានីយ​សំណព្វ 9,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_10_T_TTS -->
+    <string name="desc_fav10">ស្ថានីយ​សំណព្វ 10,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_11_T_TTS -->
+    <string name="desc_fav11">ស្ថានីយ​សំណព្វ 11,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_12_T_TTS -->
+    <string name="desc_fav12">ស្ថានីយ​សំណព្វ 12,</string>
+    <!-- IDS_ACCS_OPT_PS_TAB_OPT_TTS -->
+    <string name="desc_tab">%s, ថេប</string>
+    <!-- IDS_NFC_HEADER_ADD_FAVOURITE -->
+    <string name="desc_add_favorite">ថែម​សំណព្វ</string>
+    <!-- IDS_FM_POP_REMOVE_FAVOURITES_Q -->
+    <string name="desc_rem_favorite">លុប​សំណព្វ?</string>
+    <!-- IDS_FM_HEADER_MENU -->
+    <string name="desc_menu">ម៉ឺនុយ</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="desc_stop">ឈប់</string>
+    <!-- IDS_MSGC_SK_RESUME_LITE -->
+    <string name="desc_resume">ចា.​បន្ត</string>
+    <!-- IDS_MK_SK3_PAUSE -->
+    <string name="desc_pause">ផ្អាក</string>
+    <!-- IDS_CALL_BUTTON_CANCEL -->
+    <string name="desc_cancel">បោះបង់</string>
+    <!-- IDS_FM_BODY_FREQUENCY -->
+    <string name="desc_frequency">ប្រេកង់</string>
+    <!-- IDS_RADIO_BODY_FREQUENCY_CONTROL_SLIDER_TTS -->
+    <string name="desc_frequency_slider">របាររអិល​ត្រួតត្រា​ប្រេកង់</string>
+    <!-- IDS_COM_BUTTON_CLOSE -->
+    <string name="desc_close">បិទ</string>
+    <!-- IDS_COM_BODY_HOUR -->
+    <string name="desc_hour">ម៉ោង</string>
+    <!-- IDS_CLD_OPT_HOURS -->
+    <string name="desc_hours">ម៉ោង</string>
+    <!-- IDS_COM_BODY_MINUTE -->
+    <string name="desc_minute">នាទី</string>
+    <!-- IDS_COM_BODY_MINUTES -->
+    <string name="desc_minutes">នាទី</string>
+    <!-- IDS_ST_POP_SECOND -->
+    <string name="desc_second">វិនាទី</string>
+    <!-- IDS_COM_BODY_SECONDS -->
+    <string name="desc_seconds">វិនាទី</string>
+    <!-- IDS_GP_SHEADER_FAVOURITE_STATIONS -->
+    <string name="desc_fav_station">ស្ថានីយ​សំណព្វ</string>
+    <!-- IDS_FM_BODY_VIEW_VISUAL_INFORMATION -->
+    <string name="desc_switch_btn_view_information">បង្ហាញ​ព័ត៌មាន​រូប។</string>
+    <!-- IDS_FM_OPT_RESUME_TTS -->
+    <string name="desc_resume_extended">ចាប់ផ្ដើម​បន្ត</string>
+    <!-- IDS_FM_OPT_MORE_OPTIONS -->
+    <string name="desc_more">ជម្រើស​ច្រើន​ទៀត</string>
+    <!-- WDS_TTS_TBBODY_DOUBLE_TAP_TO_SELECT_ALL -->
+    <string name="desc_double_tap_to_select_all">ប៉ះ​ពីរដង ដើម្បី​ជ្រើស​ទាំងអស់។</string>
+    <!-- IDS_BR_BODY_DOUBLE_TAP_TO_DESELECT_T_TTS -->
+    <string name="desc_double_tap_to_deselect_all">ប៉ះ​ពីរដង​ដើម្បី​ឈប់ជ្រើស។</string>
+    <!-- IDS_FM_POP_NOTHINGSELECTED -->
+    <string name="desc_nothing_selected">មិន​បាន​ជ្រើស​អ្វី។</string>
+    <!-- IDS_COM_BODY_PD_SELECTED -->
+    <string name="desc_n_selected">បាន​ជ្រើស %d</string>
+    <!-- IDS_COM_BUTTON_NOT_CHECKED -->
+    <string name="desc_not_ticked_t_tts">មិន​បាន​ពិ.</string>
+    <!-- IDS_VPL_BODY_TICK_BOX -->
+    <string name="desc_tick_box_t_tts">ប្រអប់​ធីក</string>
+    <!-- IDS_COM_BODY_FAVOURITE -->
+    <string name="desc_favorite_button">សំណព្វ</string>
+    <!-- IDS_COM_BODY_SELECTED -->
+    <string name="desc_selected">បាន​ជ្រើស</string>
+    <!-- IDS_ACCS_BODY_NOT_SELECTED_T_TTS -->
+    <string name="desc_not_selected">មិន​បាន​ជ្រើស</string>
+    <!-- IDS_HEALTH_TBBODY_PS_ADDED_TO_FAVOURITES -->
+    <string name="desc_frequency_added_to_favourites">បាន​ថែម %s ទៅ​សំណព្វ។</string>
+    <!-- IDS_HEALTH_TBBODY_PS_REMOVED_FROM_FAVOURITES -->
+    <string name="desc_frequency_removed_from_favourites">បាន​លុប %s ពី​សំណព្វ។</string>
+    <!-- IDS_FM_POP_VOLUME_CONTROL_NOT_AVAILABLE_WHILE_RECORDING -->
+    <string name="recording_volume_control">មិន​អាច​ប្រើ​ការបញ្ជា​កម្រិត​សំឡេង​បាន​ពេល​កំពុង​ថត។</string>
+    <string name="deleted">បាន​លុប។</string>
+    <!-- IDS_MS_OPT_START -->
+    <string name="test_start">ចាប់​ផ្ដើម</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="test_stop">ឈប់</string>
+    <!-- IDS_KA_BODY_TITLE -->
+    <string name="tags_music_title">ចំណង​ជើង</string>
+    <!-- IDS_MUSIC_BUTTON2_ALBUM -->
+    <string name="tags_music_album">អាល់ប៊ុម</string>
+    <!-- IDS_KA_BODY_ARTIST -->
+    <string name="tags_music_artist">សិល្បករ</string>
+    <!-- IDS_FM_BODY_BAND_M_MUSIC -->
+    <string name="tags_music_band">ក្រុម</string>
+    <!-- IDS_KA_BODY_URL -->
+    <string name="tags_information_url">URL</string>
+    <!-- IDS_SIDL_SK3_HOME_URL -->
+    <string name="tags_programme_homepage">គេហ​ទំព័រ</string>
+    <!-- IDS_FM_BODY_HOTLINE -->
+    <string name="tags_interact_hotline">ខ្សែ​ហៅ​បន្ទាន់</string>
+    <!-- IDS_VDOE_HEADER_STUDIO -->
+    <string name="tags_interact_studio">ស្ទូឌីយ៉ូ</string>
+    <!-- IDS_KA_BODY_OTHER -->
+    <string name="tags_interact_other">ដទៃ</string>
+    <!-- IDS_MSGC_BODY_TEXTSTYLE_ALIGNMENTCENTER -->
+    <string name="tags_interact_centre">មណ្ឌល</string>
+    <!-- IDS_FM_POP_UNABLE_TO_SCAN_WHILE_RECORDING_M_AUDIO -->
+    <string name="toast_unable_scan">មិន​អាច​ស្កេន​ខណៈពេល​កំពុង​ថត។</string>
+    <!-- IDS_FM_BODY_STATION_NAME -->
+    <string name="dialog_station_name">ឈ្មោះ​ស្ថានីយ</string>
+    <!-- IDS_FM_SK_DELETE -->
+    <string name="delete">លុប</string>
+    <string name="select">ជ្រើស</string>
+    <!-- IDS_KC_MBODY_STORAGE -->
+    <string name="setting_storage">ឃ្លាំង​ផ្ទុក</string>
+    <!-- IDS_MS_HEADER_MY_FILES -->
+    <string name="setting_myfiles">ឯកសារ​ខ្ញុំ</string>
+    <!-- IDS_MK_MBODY_MEMORY_CARD -->
+    <string name="setting_memory_card">មេម៉ូរី</string>
+    <!-- IDS_ST_BODY_DEVICE -->
+    <string name="setting_phone">ឧបករណ៍</string>
+    <!-- IDS_FM_BODY_EARPHONE_SETTINGS -->
+    <string name="setting_sound_settings">ការ​កំណត់​កាស​ស្ដាប់</string>
+    <!-- IDS_MUSIC_BODY_STEREO -->
+    <string name="setting_stereo">ស្តេរេអូ</string>
+    <!-- IDS_MP_BODY_MONO_M_SOUND_TYPE -->
+    <string name="setting_mono">ទោល</string>
+    <!-- IDS_FM_BODY_TAP_SCAN_AT_THE_TOP_OF_THE_SCREEN_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations_tap_button_to_scan">ប៉ះ ស្កេន ដែល​នៅ​ផ្នែក​ខាង​លើ​បំផុត​នៃ​អេក្រង់ ដើម្បី​ស្កេន​រក​មើល​ស្ថានីយ។</string>
+    <!-- IDS_FM_TPOP_PS_SAVED -->
+    <string name="toast_saved">បាន​រក្សាទុក %s។</string>
+    <!-- IDS_COM_BODY_SELECT_ALL -->
+    <string name="select_all">ជ្រើស​ទាំង​អស់</string>
+    <!-- IDS_IME_HEADER_DESELECT_ALL -->
+    <string name="deselect_all">ឈប់ជ្រើស​ទាំងអស់</string>
+    <!-- IDS_FM_OPT_ALL -->
+    <string name="select_checkbox_all">ទាំង​អស់</string>
+    <!-- IDS_MSG_MBODY_SELECT_CHANNELS -->
+    <string name="select_channels">ជ្រើស​ប៉ុស្ដិ៍</string>
+    <!-- IDS_FM_HEADER_SELECT_RECORDINGS_ABB -->
+    <string name="select_recordings">ជ្រើស​ការថត</string>
+    <!-- IDS_VR_HEADER_RECORDED_FILES -->
+    <string name="recorded_files">ឯកសារ​ដែល​បាន​ថត</string>
+    <!-- IDS_VR_HEADER_RECORDINGS_M_VOICE_ABB -->
+    <string name="recordings">សំឡេងថត</string>
+    <!-- IDS_FM_BODY_AFTER_YOU_RECORD_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files_guide">បន្ទាប់​ពី​អ្នក​ថត​សំឡេង​វិទ្យុ​ហើយ ឯកសារ​ដែល​បាន​ថត នឹង​បង្ហាញ​ឲ្យ​ឃើញ។</string>
+    <!-- IDS_VR_BODY_NO_RECORDED_FILES -->
+    <string name="no_recorded_files_msg">គ្មាន​ឯកសារ​ដែល​បាន​ថត</string>
+    <!-- IDS_FM_BODY_NO_RECORDED_FILES_N_AFTER_RECORDING_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files">គ្មាន​ឯកសារ​ដែល​បាន​ថត។ \nបន្ទាប់​ពី​ថត​សំឡេង​វិទ្យុ ឯកសារ​ដែល​បាន​ថត នឹង​បង្ហាញ​ឡើង។</string>
+    <!-- IDS_MK_BODY_PROCESSING_ING -->
+    <string name="dialog_processing">កំពុង​ដំណើរការ\u2026</string>
+    <!-- IDS_TASK_POP_UP_TO_PD_CHARACTERS_AVAILABLE -->
+    <string name="toast_up_to_n_characters">មាន​ដល់​ទៅ %d តួអក្សរ។</string>
+    <!-- IDS_MUSIC_POP_INVALID_CHARACTER -->
+    <string name="toast_invalid_character">តួអក្សរ​អសុពលភាព។</string>
+    <!-- IDS_IV_BODY_NEW_FILE_NAME -->
+    <string name="dialog_new_file_name">ឈ្មោះ​ឯកសារ​ថ្មី</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILE_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_file_deleted">នឹង​លុប​ឯកសារ​ថត​ដែល​បាន​ជ្រើស។</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILES_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_files_deleted">នឹង​លុប​ឯកសារ​ថត​ដែល​បាន​ជ្រើស។</string>
+    <!-- IDS_MH_POP_FILE_DOES_NOT_EXIST -->
+    <string name="file_does_not_exist">មិន​មាន​ឯកសារ។</string>
+    <!-- IDS_FM_POP_ALREADY_EXISTS -->
+    <string name="toast_already_exist">មាន​ហើយ។</string>
+    <!-- IDS_BR_POP_RENAME_EMPTY -->
+    <string name="toast_name_empty">ឈ្មោះ​ទទេ។</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_EARPHONES -->
+    <string name="sound_path_earphone_mode">វិទ្យុ​នឹង​ចាក់​តាម​កាស។</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_SPEAKER -->
+    <string name="sound_path_speaker_mode">វិទ្យុ​នឹង​ចាក់​តាម​ឧបល័រ។</string>
+    <!-- IDS_FM_POP_NOW_LISTENING_VIA_BT_HEADSET -->
+    <string name="sound_path_bt_headset_mode">ឥឡូវនេះ កំពុងស្ដាប់តាមកាសស្ដាប់ BT។</string>
+    <!-- IDS_ST_BODY_YOU_CAN_CONTROL_THE_RADIO_WITH_VOICE_COMMANDS_LIKE_NEXT_PREVIOUS_STOP_AND_PLAY -->
+    <string name="notification_barge_in">អ្នក​អាច​បញ្ជា​វិទ្យុ​ជាមួយ​សំឡេង​បញ្ជា​ដូចជា \'Next\', \'Previous\', \'Stop\', និង \'Play\'។</string>
+    <!-- IDS_VC_BODY_YOU_CAN_CONTROL_THE_FM_RADIO_WITH_THE_VOICE_COMMANDS_PS_PS_PS_PS_PS_AND_PS -->
+    <string name="notification_barge_in_args">អ្នក​អាច​បញ្ជា​កម្មវិធី​ចាក់​វិទ្យុ FM បាន ដោយ​ប្រើ​សំឡេង​បញ្ជា ដែល​មាន​ដូចជា %1$s, %2$s, %3$s, %4$s, %5$s និង %6$s។</string>
+    <!-- IDS_VR_POP_RECORDING_WILL_BE_CANCELLED_AND_FILE_WILL_NOT_BE_SAVED -->
+    <string name="recording_will_be_cancelled">នឹង​បោះបង់​ចោល​ការថត ហើយ​នឹង​មិន​រក្សាទុក​ឯកសារ​ទេ។</string>
+    <!-- IDS_FM_POP_UNABLE_TO_PLAY_RADIO_DURING_CALL -->
+    <string name="unable_to_play_radio_during_call">មិន​អាច​ចាក់​វិទ្យុ FM ក្នុង​អំឡុងពេល​ហៅ​បាន​ទេ។</string>
+    <!-- IDS_FM_BODY_THIS_ITEM_WILL_BE_DELETED -->
+    <string name="dialog_one_item_deleted">នឹង​លុប​ធាតុ​នេះ។</string>
+    <!-- IDS_FM_BODY_PD_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_items_deleted">នឹង​លុប %d ធាតុ។</string>
+    <!-- IDS_FM_BODY_ALL_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_all_items_deleted">នឹង​លុប​ធាតុ​ទាំងអស់។</string>
+    <!-- IDS_RADIO_POP_1_STATION_WILL_BE_DELETED -->
+    <string name="dialog_one_station_will_be_deleted">នឹង​លុប​ស្ថានីយ 1។</string>
+    <!-- IDS_FM_POP_PD_STATIONS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_stations_will_be_deleted">នឹង​លុប​ស្ថានីយ %d។</string>
+    <!-- IDS_VR_POP_1_RECORDING_WILL_BE_DELETED -->
+    <string name="dialog_one_recording_will_be_deleted">នឹង​លុប​ការថត 1។</string>
+    <!-- IDS_VR_POP_PD_RECORDINGS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_recordings_will_be_deleted">នឹង​លុប​ការថត %d។</string>
+    <!-- IDS_FM_BODY_TURNING_ON_ING -->
+    <string name="turning_on">កំពុង​បើក\u2026</string>
+    <!-- IDS_COM_POP_NOT_ENOUGH_MEMORY_RECORDING_WILL_STOP_IN_PD_SECONDS -->
+    <string name="not_enough_memory_recording_will_stop">មេម៉ូរី​មិន​គ្រប់គ្រាន់។ ការថត​នឹង​បញ្ឈប់​ក្នុង​ពេល %d វិនាទី។</string>
+    <!-- IDS_ST_BODY_LEDOT_LOW_BATTERY -->
+    <string name="low_batt_msg">ថ្ម​ខ្សោយ</string>
+    <!-- IDS_MSG_POP_UNABLE_TO_PLAY_DURING_CALL -->
+    <string name="no_play_during_call">មិន​អាច​ចាក់​ក្នុង​អំឡុងពេល​ហៅ។</string>
+    <!-- IDS_DTV_POP_UNABLE_TO_DELETE -->
+    <string name="unable_delete">មិន​អាច​លុប។</string>
+    <!-- IDS_MUSIC_BODY_PLAYING_ING_ABB -->
+    <string name="playing">កំព.ចាក់\u2026</string>
+    <!-- IDS_CALL_SK3_PLAY -->
+    <string name="tts_play_button">ចាក់</string>
+    <!-- IDS_COM_BODY_PREVIOUS -->
+    <string name="tts_previous_button">ពី​មុន</string>
+    <!-- IDS_COM_BODY_NEXT -->
+    <string name="tts_Next_button">បន្ទាប់</string>
+    <!-- IDS_COM_POP_CONNECT -->
+    <string name="connect">ភ្ជាប់</string>
+    <!-- IDS_IM_BODY_TOPIC -->
+    <string name="topic">ប្រធាន​បទ</string>
+    <!-- IDS_MUSIC_HEADER_SUBSCRIBE -->
+    <string name="subscribe">ចុះ​ឈ្មោះ</string>
+    <!-- IDS_MSGF_BODY_NO_TEXT -->
+    <string name="no_text">គ្មាន​អត្ថបទ</string>
+    <!-- IDS_KA_BODY_MORE_INFORMATION -->
+    <string name="for_more_info">ព័ត៌មាន​បន្ថែម</string>
+    <!-- IDS_FM_BUTTON_VIEW_VISUAL_INFO_ABB -->
+    <string name="switch_btn_view_information">បង្ហាញ​ព័ត៌មាន​រូប</string>
+    <!-- IDS_FM_BUTTON_VIEW_TUNER -->
+    <string name="switch_btn_view_tuner">បង្ហាញ​ប្រដាប់រាវប៉ុស្តិ៍</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_VIEW_THIS_INFORMATION_FOR_THIS_STATION -->
+    <string name="switch_btn_disable">មិន​អាច​បង្ហាញ​ព័ត៌មាន​នេះ​សម្រាប់​ស្ថានីយ​នេះ។</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_LISTEN_TO_THIS_STATION_VIA_INTERNET_RADIO -->
+    <string name="menu_internetradio_disable">មិន​អាច​ស្ដាប់​ស្ថានីយ​នេះ​តាម​វិទ្យុ​អ៊ីនធឺណិត។</string>
+    <!-- IDS_FM_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN -->
+    <string name="wifi_warning">មិន​មាន​បណ្ដាញ Wi-Fi។ ការភ្ជាប់​ទៅ​បណ្តាញ​ចល័ត​អាច​គិត​ថ្លៃ​បន្ថែម អាស្រ័យ​លើ​គម្រោង​បង់ប្រាក់​របស់​អ្នក។</string>
+    <!-- IDS_POPSYNC_BODY_CONNECT_VIA_MOBILE_NETWORK -->
+    <string name="connect_mobile_network">ភ្ជាប់​តាម​បណ្តាញ​ចល័ត</string>
+    <!-- IDS_WGT_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="do_not_show_again">កុំ​បង្ហាញ​ម្តង​ទៀត</string>
+    <!-- IDS_COM_POP_SERVER_RESPONSE_ERROR -->
+    <string name="server_response_error">កំហុស​ឆ្លើយតប​នៃ​សឺវើ</string>
+    <!-- IDS_SYS_BODY_CODE_GENERATION_VER -->
+    <string name="stms_version">ANDROID_P4_20150420_0216</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_INTERNET_RADIO -->
+    <string name="switch_to_internet_radio">ប្ដូរ​ទៅ​វិទ្យុ​អ៊ីនធឺណិត</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_FM_RADIO -->
+    <string name="switch_to_fm_radio">ប្ដូរ​ទៅ​វិទ្យុ FM</string>
+    <!-- IDS_SOCIALMAG_POP_PLEASE_WAIT_ING -->
+    <string name="dialog_popup_wait">សូម​រង់​ចាំ</string>
+    <!-- IDS_FM_BODY_AUTOMATICALLY_SWITCHES_TO_INTERNET_RADIO_MSG -->
+    <string name="auto_switch_to_internet_radio">ប្ដូរ​ដោយ​ស្វ័យប្រវត្តិ​ទៅ​វិទ្យុ​អ៊ីនធឺណិត នៅពេល​សញ្ញា FM ខ្សោយ និង មិន​មាន​ប្រេកង់​ផ្សេង។</string>
+    <!-- IDS_RADIO_POP_THE_CURRENT_RECORDING_WILL_STOP_M_VOICE -->
+    <string name="record_suspended_continue">ការថត​បច្ចុប្បន្ន​នឹង​ឈប់។</string>
+    <!-- IDS_FM_BUTTON_LISTEN_NOW -->
+    <string name="listen_to_radio">ស្ដាប់​ឥឡូវ</string>
+    <!-- IDS_FM_BODY_NOW_LISTENING_ABB -->
+    <string name="now_listening">ឥឡូវ​កំពុង​ស្ដាប់</string>
+    <!-- IDS_COM_BODY_BUTTON_T_TTS -->
+    <string name="button">ប៊ូតុង</string>
+    <!-- IDS_FM_BODY_TAP_HERE_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations">ប៉ះ​ទីនេះ ដើម្បី​ស្កេន​រក​ស្ថានីយ។</string>
+    <!-- IDS_CALL_BODY_THE_RECORDING_WILL_BE_SAVED_AUTOMATICALLY_WHEN_YOU_ACCEPT_THE_CALL -->
+    <string name="recording_save_during_call">នឹង​រក្សាទុក​ការថត​ដោយ​ស្វ័យប្រវត្តិ នៅពេល​អ្នក​ព្រម​ទទួល​ការហៅ។</string>
+    <!-- IDS_ST_BODY_START -->
+    <string name="test_noise_start">ចាប់​ផ្ដើម</string>
+    <!-- IDS_COM_BODY_STOP -->
+    <string name="test_noise_stop">ឈប់</string>
+    <!-- IDS_BR_POP_READY -->
+    <string name="test_nosise_current_status">រួច​រាល់។</string>
+    <!-- IDS_FM_BUTTON_EARPHONE -->
+    <string name="test_noise_earphone">កាស</string>
+    <!-- IDS_VOLTE_BUTTON_SPEAKER -->
+    <string name="test_noise_speaker">ឧបល័រ</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="menu_more">ទៀត</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="menu_scan">ស្កេន</string>
+    <!-- IDS_FM_OPT_EDIT -->
+    <string name="menu_edit">កែ</string>
+    <!-- IDS_RADIO_SBODY_CONTENT_HIDDEN -->
+    <string name="content_hidden">បាន​លាក់​ខ្លឹមព័ត៌មាន</string>
+    <!-- IDS_FM_TPOP_UNABLE_TO_RECORD_RADIO_DISABLE_TURN_OFF_ALL_SOUNDS_AND_TRY_AGAIN -->
+    <string name="unable_record_turn_off_all_sound">មិន​អាច​ថត​វិទ្យុ។ បិទ បិទ​សំឡេង​ទាំងអស់ ហើយ​សាកល្បង​ម្ដងទៀត។</string>
+</resources>

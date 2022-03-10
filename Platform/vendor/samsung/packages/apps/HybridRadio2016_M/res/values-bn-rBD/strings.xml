@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+**
+** Created with XMLCompiler2
+*/ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IDS_FM_POP_UNABLE_TO_TURN_ON_PS -->
+    <string name="toast_fm_not_played">%s চালু করা সম্ভব নয়।</string>
+    <!-- IDS_FM_POP_EARPHONE_REMOVED_RADIO_TURNED_OFF -->
+    <string name="headset_disconnect">ইয়ারফোন অপসারিত হয়েছে। রেডিও বন্ধ হয়ে যাবে।</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_RENAME -->
+    <string name="toast_tap_to_rename">পুনঃনামকরণ করতে কম্পাঙ্ক ট্যাপ করুন।</string>
+    <!-- IDS_FM_POP_INVALID_FREQUENCY -->
+    <string name="toast_channel_invalid">অকার্যকর কম্পাঙ্ক।</string>
+    <!-- IDS_FM_POP_TUNING_TO_P1SDP2SD_MHZ_ING -->
+    <string name="toast_tune">%1$d.%2$d MHz টিউন করা হচ্ছে\u2026</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_REMOVE -->
+    <string name="toast_tap_to_remove">অপসারণ করতে কম্পাঙ্ক ট্যাপ করুন।</string>
+    <!-- IDS_FM_POP_BUSY_TUNING_IN_ING -->
+    <string name="toast_busy_tunning">ব্যস্ত। টিউন করা হচ্ছে\u2026</string>
+    <!-- IDS_FM_POP_ALREADY_SCANNING_ING -->
+    <string name="toast_already_scan">ইতোমধ্যে স্ক্যান করা হচ্ছে\u2026</string>
+    <!-- IDS_IM_POP_UNABLE_TO_RENAME -->
+    <string name="toast_rename_error">পুনঃনামকরণ করা যাচ্ছে না।</string>
+    <!-- IDS_WIFI_POP_PROFILECONNECTION_CANCELLING -->
+    <string name="dialog_cancel_scan">বাতিল হচ্ছে..</string>
+    <!-- IDS_AV_POP_SCANNING_ING -->
+    <string name="dialog_scan">স্ক্যান করা হচ্ছে\u2026</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_MINUTES -->
+    <string name="alarm_text1">FM রেডিও %d মিনিট পর বন্ধ হয়ে যাবে।</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_1_HOUR -->
+    <string name="alarm_text2">1 ঘণ্টা পর FM রেডিও বন্ধ হয়ে যাবে।</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_HOURS -->
+    <string name="alarm_text3">FM রেডিও %d ঘণ্টা পরে বন্ধ হয়ে যাবে।</string>
+    <!-- IDS_FM_POP_STATION_ALREADY_EXISTS_ADD_ANOTHER_STATION -->
+    <string name="toast_already_added">স্টেশন ইতোমধ্যেই বিদ্যমান। অন্য স্টেশন যোগ করুন।</string>
+    <!-- IDS_FM_POP_P1SDP2SD_MHZ_STATION_FOUND_TOTAL_NUMBER_OF_STATIONS_FOUND_C_P3SD -->
+    <string name="dialog_channel_found">%1$d.%2$d MHz স্টেশন খুঁজে পাওয়া গেছে। খুঁজে পাওয়া স্টেশনের সর্বমোট সংখ্যা: %3$d।</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found">%1$s MHz-এ একটি স্টেশন পাওয়া গেছে। মোট 1টি স্টেশন পাওয়া গেছে।</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_P2SD_STATIONS_HAVE_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_found_south_region">%1$s MHz-এ একটি স্টেশন খুঁজে পাওয়া গেছে। মোট %2$dটি স্টেশন খুঁজে পাওয়া গেছে।</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found_south_region">A station has been found at %1$s MHz. 1 station has been found in total.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_FOUND_WHILE_SCANNING -->
+    <string name="toast_channel_found">স্ক্যান করার সময় %dটি স্টেশন পাওয়া গেছে।</string>
+    <!-- IDS_FM_POP_1_STATION_FOUND_WHILE_SCANNING -->
+    <string name="toast_one_channel_found">স্ক্যান করার সময় একটি স্টেশন পাওয়া গেছে।</string>
+    <!-- IDS_FM_POP_TURN_FM_RADIO_ON -->
+    <string name="toast_on_alert">FM রেডিও চালু করুন।</string>
+    <!-- IDS_RADIO_BODY_RADIO_M_APPLIACTION_NAME -->
+    <string name="app_name">রেডিও</string>
+    <!-- IDS_LA_HEADER_ALL_CHANNELS -->
+    <string name="channels">All channels</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="record">রেকর্ড</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="scan">স্ক্যান করুন</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="more">আরও</string>
+    <!-- IDS_MEDIABR_OPT_REMOVE -->
+    <string name="remove">অপসারণ করুন</string>
+    <!-- IDS_FM_OPT_SETTINGS -->
+    <string name="settings">সেটিংস</string>
+    <!-- IDS_FM_HEADER_STATIONS -->
+    <string name="allchannels">স্টেশন</string>
+    <!-- IDS_COM_OPT_INFORMATION -->
+    <string name="information">তথ্য</string>
+    <!-- IDS_LP_SK3_OK -->
+    <string name="ok">ওকে</string>
+    <!-- IDS_KC_OPT_CANCEL -->
+    <string name="cancel">বাতিল</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename">পুনঃনামকরণ</string>
+    <!-- IDS_BR_HEADER_ENTER_NAME -->
+    <string name="rename_text">নাম লিখুন</string>
+    <!-- IDS_KA_BUTTON_DONE -->
+    <string name="done">সম্পন্ন</string>
+    <!-- IDS_FM_OPT_REPLACE -->
+    <string name="replace">প্রতিস্থাপন</string>
+    <!-- IDS_FM_BODY_MHZ -->
+    <string name="mhz">MHz</string>
+    <!-- IDS_FM_BODY_SETTINGS_RADIO_TEXT -->
+    <string name="setting_sationid">রেডিও লেখ্য</string>
+    <!-- IDS_FM_BODY_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af">বিকল্প ফ্রিকোয়েন্সি</string>
+    <!-- IDS_FM_MBODY_AUTO_OFF -->
+    <string name="setting_autooff">স্বয়ংক্রিয় বন্ধ</string>
+    <!-- IDS_FM_BODY_STATION_INFORMATION_WILL_BE_SHOWN -->
+    <string name="setting_stationid_summary">স্টেশন তথ্য দেখানো হবে।</string>
+    <!-- IDS_FM_BODY_TURN_ON_OFF_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af_summary">বিকল্প কম্পাঙ্ক সক্রিয়/নিষ্ক্রিয় করুন।</string>
+    <!-- IDS_FM_OPT_NEVER -->
+    <string name="setting_never">কখনো না</string>
+    <!-- IDS_FM_BODY_AFTER_15_MINS_ABB -->
+    <string name="setting_15min">15 মিনিট পরে</string>
+    <!-- IDS_FM_BODY_ST_AFTER_30_MIN -->
+    <string name="setting_30min">30 মিনিট পরে</string>
+    <!-- IDS_TDMB_BODY_AFTER_1_HOUR -->
+    <string name="setting_hour">1 ঘণ্টা পরে</string>
+    <!-- IDS_TDMB_BODY_AFTER_2_HOURS -->
+    <string name="setting_2hour">2 ঘণ্টা পরে</string>
+    <!-- IDS_MT_BUTTON_SAVE -->
+    <string name="save">সংরক্ষণ</string>
+    <!-- IDS_FM_BODY_NO_STATIONS -->
+    <string name="toast_channel_empty">কোনো স্টেশন নেই</string>
+    <!-- IDS_FM_NPBODY_NO_FAVOURITE_STATIONS_ABB -->
+    <string name="toast_favourite_empty">কোনো প্রিয় স্টেশন নেই</string>
+    <!-- IDS_FM_TPOP_EARPHONES_NOT_CONNECTED_EARPHONES_FUNCTION_AS_RADIO_AERIAL_CONNECT_EARPHONES -->
+    <string name="toast_earphone_not_connected">ইয়ারফোন সংযুক্ত করা নেই। ইয়ারফোন রেডিও এরিয়ালের মতো কাজ করে। ইয়ারফোন সংযুক্ত করুন।</string>
+    <!-- IDS_FM_OPT_AUTO_SCAN -->
+    <string name="dialog_autoscan">স্বতঃ স্ক্যান</string>
+    <!-- IDS_FM_POP_STARTING_AUTO_SCAN_ING -->
+    <string name="toast_initial_access">স্বয়ংক্রিয় স্ক্যান শুরু করা হচ্ছে\u2026</string>
+    <!-- IDS_FM_HEADER_SCAN_RESULT -->
+    <string name="scan_result">স্ক্যানের ফলাফল</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename_channel">পুনঃনামকরণ</string>
+    <!-- IDS_KA_HEADER_ALERT -->
+    <string name="alert">সতর্কতা</string>
+    <!-- IDS_PB_OPT_FAVOURITES -->
+    <string name="fav_channel">প্রিয়গুলো</string>
+    <!-- IDS_FM_OPT_ALL_STATIONS -->
+    <string name="menu_refersh_all">সকল স্টেশন</string>
+    <!-- IDS_FM_OPT_RETAINING_FAVOURITES -->
+    <string name="menu_refresh">প্রিয়গুলো রাখুন</string>
+    <!-- IDS_FM_DROP_30 -->
+    <string name="number_30">30</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_1 -->
+    <string name="number_1">1</string>
+    <!-- IDS_CCD_BODY_TIMERDIGIT_2 -->
+    <string name="number_2">2</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_15_min_past">স্বয়ংক্রিয়ভাবে রেডিও বন্ধ আছে। %d মিনিট অতিক্রান্ত হয়েছে।</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_30_min_past">স্বয়ংক্রিয়ভাবে রেডিও বন্ধ আছে। %d মিনিট অতিক্রান্ত হয়েছে।</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_1_HOUR_HAS_PASSED -->
+    <string name="alrm_1_hr_past">%s স্বয়ংক্রিয়ভাবে বন্ধ হয়েছে। 1 ঘণ্টা অতিক্রান্ত হয়েছে।</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_PD_HOURS_HAVE_PASSED -->
+    <string name="alrm_2_hrs_past">%1$s স্বয়ংক্রিয়ভাবে বন্ধ হয়েছে। %2$d ঘণ্টা অতিক্রান্ত হয়েছে।</string>
+    <!-- IDS_FM_SK3_SCAN_FOR_STATIONS -->
+    <string name="scan_channels">স্টেশনের জন্য স্ক্যান</string>
+    <!-- IDS_CAST_MBODY_SELECT_ALL -->
+    <string name="selectall">সব নির্বাচন করুন</string>
+    <!-- IDS_VIDEO_HEADER_PD_SELECTED -->
+    <string name="selected_item">%dটি নির্বাচিত</string>
+    <!-- IDS_VVM_POP_SELECT_AT_LEAST_ONE_ITEM -->
+    <string name="no_channel_selected">কমপক্ষে একটি আইটেম নির্বাচন করুন।</string>
+    <!-- IDS_FM_POP_UNABLE_TO_USE_PS_IN_FLIGHT_MODE -->
+    <string name="toast_airplane_mode">ফ্লাইট মোডে %s ব্যবহার করা সম্ভব নয়।</string>
+    <!-- IDS_ST_BODY_INSTALL_VOICE_DATA_REQUIRED_FOR_SPEECH_SYNTHESIS -->
+    <string name="dialog_tts_confirm">বক্তব্য সংশ্লেষণের জন্য প্রয়োজনীয় ভয়েস তথ্য ইনস্টল করুন।</string>
+    <!-- IDS_FM_BODY_MODE_SPEAKER -->
+    <string name="speaker">স্পিকার</string>
+    <!-- IDS_FM_POP_AF_SWITCHING -->
+    <string name="af_switching">AF পরিবর্তন</string>
+    <!-- IDS_FM_POP_AF_SWITCHING_IS_IN_PROGRESS_PRESS_BACK_TO_CANCEL -->
+    <string name="af_switching_msg">AF পরিবর্তন চালু আছে। বাতিল করতে ব্যাক চাপুন।</string>
+    <!-- IDS_COM_POP_UNABLE_TO_LAUNCH_APPLICATION_LOW_BATTERY -->
+    <string name="toast_battery_low">অ্যাপ্লিকেশন চালু করা সম্ভব নয়। ব্যাটারি কম।</string>
+    <!-- IDS_FM_POP_AF_NOT_FOUND -->
+    <string name="toast_af_fail">AF পাওয়া যায়নি।</string>
+    <!-- IDS_ST_BODY_PS_DISABLED -->
+    <string name="toast_disabled">%s নিষ্ক্রিয়।</string>
+    <!-- IDS_FM_POP_NO_STATIONS_FOUND -->
+    <string name="toast_no_channel_found">কোনো স্টেশন পাওয়া যায়নি।</string>
+    <!-- IDS_CCD_POP_UNAVAILABLE_IN_TV_OUT_MODE -->
+    <string name="toast_unavailable_in_tvout_mode">TV আউট মোডে ব্যবহারযোগ্য নয়।</string>
+    <!-- IDS_COM_POP_MESSAGETONE_MUTE -->
+    <string name="mute">শব্দহীন</string>
+    <!-- IDS_COM_POP_SEARCHING -->
+    <string name="seeking">অনুসন্ধান করা হচ্ছে\u2026</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_EARPHONES_ABB -->
+    <string name="via_earphone">ইয়ারফোনের মাধ্যমে প্লে করুন</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_SPEAKER_ABB -->
+    <string name="via_speaker">স্পীকার দিয়ে প্লে করুন</string>
+    <!-- IDS_COM_MBODY_NORMAL_FREQUENCY -->
+    <string name="normal_frequency">স্বাভাবিক কম্পাঙ্ক</string>
+    <!-- IDS_COM_BODY_END -->
+    <string name="end">সমাপ্ত</string>
+    <!-- IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED -->
+    <string name="toast_maximum_file_name">অক্ষরের সর্বাধিক সংখ্যায় (%dটি) পৌঁছেছে।</string>
+    <!-- IDS_FM_BODY_TURN_ON_THE_PS -->
+    <string name="turn_on_radio">%s চালু করুন।</string>
+    <!-- IDS_PB_BODY_ENTERTEL -->
+    <string name="enter_number">নম্বর লিখুন।</string>
+    <!-- IDS_NFC_BUTTON_TAG -->
+    <string name="tag">ট্যাগ</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="stop">থামুন</string>
+    <!-- IDS_FM_BODY_RECORDING_M_RECORDING_VOICE -->
+    <string name="recording">রেকর্ড করা হচ্ছে</string>
+    <!-- IDS_DAV_BODY_MEMORY_FULL -->
+    <string name="memory_full">মেমোরি পূর্ণ।</string>
+    <!-- IDS_VR_POP_CANCEL_RECORDING_Q -->
+    <string name="cancel_recording">রেকর্ডিং বাতিল করবেন?</string>
+    <!-- IDS_FM_HEADER_CHANGE_FREQUENCY -->
+    <string name="change_frequency">কম্পাঙ্ক পরিবর্তন করুন</string>
+    <!-- IDS_FM_BODY_ENTER_FREQUENCY -->
+    <string name="enter_frequency">কম্পাঙ্ক লিখুন।</string>
+    <!-- IDS_FM_POP_SAVED_IN_PS_GO_TO_RECORDED_FILES_TO_PLAY_PLAY_NOW_Q -->
+    <string name="saved_go_to_myfiles">%s-এ সংরক্ষিত হয়েছে। প্লে করতে রেকর্ডকৃত ফাইলে যান। এখন প্লে করবেন?</string>
+    <!-- IDS_FM_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="dont_show_again">আর দেখাবেন না।</string>
+    <!-- IDS_MUSIC_POP_LOUD_MUSIC_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_TO_IT_FOR_A_LONG_TIME -->
+    <string name="audio_shock_warning">দীর্ঘ সময় ধরে উচ্চ শব্দে সংগীত শোনার ফলে আপনার শ্রবণশক্তির ক্ষতি হতে পারে।</string>
+    <!-- IDS_IV_POP_RECORDING_ERROR -->
+    <string name="recording_error">রেকর্ডিং ত্রুটি</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="desc_record">রেকর্ড</string>
+    <!-- IDS_FM_BODY_VOLUME -->
+    <string name="desc_volume">শব্দমাত্রা</string>
+    <!-- IDS_FM_OPT_POWER -->
+    <string name="desc_power">ক্ষমতা</string>
+    <!-- IDS_FM_BODY_PREVIOUS_STATION -->
+    <string name="desc_prev">পূর্ববর্তী স্টেশন</string>
+    <!-- IDS_FM_BODY_NEXT_STATION -->
+    <string name="desc_next">পরের স্টেশন</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_1_T_TTS -->
+    <string name="desc_fav1">প্রিয় স্টেশন 1,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_2_T_TTS -->
+    <string name="desc_fav2">প্রিয় স্টেশন 2,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_3_T_TTS -->
+    <string name="desc_fav3">প্রিয় স্টেশন 3,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_4_T_TTS -->
+    <string name="desc_fav4">প্রিয় স্টেশন 4,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_5_T_TTS -->
+    <string name="desc_fav5">প্রিয় স্টেশন 5,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_6_T_TTS -->
+    <string name="desc_fav6">প্রিয় স্টেশন 6,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_7_T_TTS -->
+    <string name="desc_fav7">প্রিয় স্টেশন 7,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_8_T_TTS -->
+    <string name="desc_fav8">প্রিয় স্টেশন 8,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_9_T_TTS -->
+    <string name="desc_fav9">প্রিয় স্টেশন 9,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_10_T_TTS -->
+    <string name="desc_fav10">প্রিয় স্টেশন 10,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_11_T_TTS -->
+    <string name="desc_fav11">প্রিয় স্টেশন 11,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_12_T_TTS -->
+    <string name="desc_fav12">প্রিয় স্টেশন 12,</string>
+    <!-- IDS_ACCS_OPT_PS_TAB_OPT_TTS -->
+    <string name="desc_tab">%s, tab</string>
+    <!-- IDS_NFC_HEADER_ADD_FAVOURITE -->
+    <string name="desc_add_favorite">প্রিয় যোগ করুন</string>
+    <!-- IDS_FM_POP_REMOVE_FAVOURITES_Q -->
+    <string name="desc_rem_favorite">প্রিয় অপসারণ করবেন?</string>
+    <!-- IDS_FM_HEADER_MENU -->
+    <string name="desc_menu">মেনু</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="desc_stop">থামুন</string>
+    <!-- IDS_MSGC_SK_RESUME_LITE -->
+    <string name="desc_resume">পুনরায় শুরু</string>
+    <!-- IDS_MK_SK3_PAUSE -->
+    <string name="desc_pause">বিরতি</string>
+    <!-- IDS_CALL_BUTTON_CANCEL -->
+    <string name="desc_cancel">বাতিল</string>
+    <!-- IDS_FM_BODY_FREQUENCY -->
+    <string name="desc_frequency">কম্পাঙ্ক</string>
+    <!-- IDS_RADIO_BODY_FREQUENCY_CONTROL_SLIDER_TTS -->
+    <string name="desc_frequency_slider">Frequency control slider</string>
+    <!-- IDS_COM_BUTTON_CLOSE -->
+    <string name="desc_close">বন্ধ</string>
+    <!-- IDS_COM_BODY_HOUR -->
+    <string name="desc_hour">ঘণ্টা</string>
+    <!-- IDS_CLD_OPT_HOURS -->
+    <string name="desc_hours">ঘণ্টা</string>
+    <!-- IDS_COM_BODY_MINUTE -->
+    <string name="desc_minute">মিনিট</string>
+    <!-- IDS_COM_BODY_MINUTES -->
+    <string name="desc_minutes">মিনিট</string>
+    <!-- IDS_ST_POP_SECOND -->
+    <string name="desc_second">সেকেন্ড</string>
+    <!-- IDS_COM_BODY_SECONDS -->
+    <string name="desc_seconds">সেকেন্ড</string>
+    <!-- IDS_GP_SHEADER_FAVOURITE_STATIONS -->
+    <string name="desc_fav_station">প্রিয় স্টেশনগুলো</string>
+    <!-- IDS_FM_BODY_VIEW_VISUAL_INFORMATION -->
+    <string name="desc_switch_btn_view_information">ভিজ্যুয়াল তথ্য দেখুন।</string>
+    <!-- IDS_FM_OPT_RESUME_TTS -->
+    <string name="desc_resume_extended">পুনরারম্ভ</string>
+    <!-- IDS_FM_OPT_MORE_OPTIONS -->
+    <string name="desc_more">আরও বিকল্প</string>
+    <!-- WDS_TTS_TBBODY_DOUBLE_TAP_TO_SELECT_ALL -->
+    <string name="desc_double_tap_to_select_all">সব নির্বাচন করতে দু’বার ট্যাপ করুন।</string>
+    <!-- IDS_BR_BODY_DOUBLE_TAP_TO_DESELECT_T_TTS -->
+    <string name="desc_double_tap_to_deselect_all">নির্বাচন মুক্ত করার জন্য দুবার ট্যাপ করুন।</string>
+    <!-- IDS_FM_POP_NOTHINGSELECTED -->
+    <string name="desc_nothing_selected">কিছুই নির্বাচিত নেই।</string>
+    <!-- IDS_COM_BODY_PD_SELECTED -->
+    <string name="desc_n_selected">%dটি নির্বাচিত।</string>
+    <!-- IDS_COM_BUTTON_NOT_CHECKED -->
+    <string name="desc_not_ticked_t_tts">চিহ্নিত নয়</string>
+    <!-- IDS_VPL_BODY_TICK_BOX -->
+    <string name="desc_tick_box_t_tts">টিক বাক্স</string>
+    <!-- IDS_COM_BODY_FAVOURITE -->
+    <string name="desc_favorite_button">প্রিয় তালিকা</string>
+    <!-- IDS_COM_BODY_SELECTED -->
+    <string name="desc_selected">নির্বাচিত</string>
+    <!-- IDS_ACCS_BODY_NOT_SELECTED_T_TTS -->
+    <string name="desc_not_selected">অনির্বাচিত</string>
+    <!-- IDS_HEALTH_TBBODY_PS_ADDED_TO_FAVOURITES -->
+    <string name="desc_frequency_added_to_favourites">%s প্রিয়তে যোগ করা হয়েছে।</string>
+    <!-- IDS_HEALTH_TBBODY_PS_REMOVED_FROM_FAVOURITES -->
+    <string name="desc_frequency_removed_from_favourites">%s প্রিয় থেকে অপসারিত হয়েছে।</string>
+    <!-- IDS_FM_POP_VOLUME_CONTROL_NOT_AVAILABLE_WHILE_RECORDING -->
+    <string name="recording_volume_control">রেকর্ড করার সময় ভলিউম নিয়ন্ত্রণ করা সম্ভব নয়।</string>
+    <!-- IDS_MS_OPT_START -->
+    <string name="test_start">শুরু</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="test_stop">থামুন</string>
+    <!-- IDS_KA_BODY_TITLE -->
+    <string name="tags_music_title">শিরোনাম</string>
+    <!-- IDS_MUSIC_BUTTON2_ALBUM -->
+    <string name="tags_music_album">অ্যালবাম</string>
+    <!-- IDS_KA_BODY_ARTIST -->
+    <string name="tags_music_artist">শিল্পী</string>
+    <!-- IDS_FM_BODY_BAND_M_MUSIC -->
+    <string name="tags_music_band">ব্যান্ড</string>
+    <!-- IDS_KA_BODY_URL -->
+    <string name="tags_information_url">URL</string>
+    <!-- IDS_SIDL_SK3_HOME_URL -->
+    <string name="tags_programme_homepage">হোমপৃষ্ঠা</string>
+    <!-- IDS_FM_BODY_HOTLINE -->
+    <string name="tags_interact_hotline">হটলাইন</string>
+    <!-- IDS_VDOE_HEADER_STUDIO -->
+    <string name="tags_interact_studio">স্টুডিও</string>
+    <!-- IDS_KA_BODY_OTHER -->
+    <string name="tags_interact_other">অন্যান্য</string>
+    <!-- IDS_MSGC_BODY_TEXTSTYLE_ALIGNMENTCENTER -->
+    <string name="tags_interact_centre">কেন্দ্র</string>
+    <!-- IDS_FM_POP_UNABLE_TO_SCAN_WHILE_RECORDING_M_AUDIO -->
+    <string name="toast_unable_scan">রেকর্ড করার সময় স্ক্যান করা সম্ভব নয়।</string>
+    <!-- IDS_FM_BODY_STATION_NAME -->
+    <string name="dialog_station_name">স্টেশনের নাম</string>
+    <!-- IDS_FM_SK_DELETE -->
+    <string name="delete">মুছুন</string>
+    <!-- IDS_KC_MBODY_STORAGE -->
+    <string name="setting_storage">স্টোরেজ</string>
+    <!-- IDS_MS_HEADER_MY_FILES -->
+    <string name="setting_myfiles">আমার ফাইলসমূহ</string>
+    <!-- IDS_MK_MBODY_MEMORY_CARD -->
+    <string name="setting_memory_card">মেমোরি কার্ড</string>
+    <!-- IDS_ST_BODY_DEVICE -->
+    <string name="setting_phone">ডিভাইস</string>
+    <!-- IDS_FM_BODY_EARPHONE_SETTINGS -->
+    <string name="setting_sound_settings">ইয়ারফোন সেটিংস</string>
+    <!-- IDS_MUSIC_BODY_STEREO -->
+    <string name="setting_stereo">স্টেরিও</string>
+    <!-- IDS_MP_BODY_MONO_M_SOUND_TYPE -->
+    <string name="setting_mono">মনো</string>
+    <!-- IDS_FM_BODY_TAP_SCAN_AT_THE_TOP_OF_THE_SCREEN_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations_tap_button_to_scan">স্টেশন স্ক্যান করতে স্ক্রিনের শীর্ষে স্ক্যান ট্যাপ করুন।</string>
+    <!-- IDS_FM_TPOP_PS_SAVED -->
+    <string name="toast_saved">%s সংরক্ষিত।</string>
+    <!-- IDS_COM_BODY_SELECT_ALL -->
+    <string name="select_all">সব নির্বাচন করুন</string>
+    <!-- IDS_IME_HEADER_DESELECT_ALL -->
+    <string name="deselect_all">সব নির্বাচন বাতিল করুন</string>
+    <!-- IDS_FM_OPT_ALL -->
+    <string name="select_checkbox_all">সমস্ত</string>
+    <!-- IDS_MSG_MBODY_SELECT_CHANNELS -->
+    <string name="select_channels">চ্যানেলগুলো নির্বাচন করুন</string>
+    <!-- IDS_FM_HEADER_SELECT_RECORDINGS_ABB -->
+    <string name="select_recordings">রেকর্ডিংগুলো নির্বাচন করুন</string>
+    <!-- IDS_VR_HEADER_RECORDED_FILES -->
+    <string name="recorded_files">রেকর্ড করা ফাইল</string>
+    <!-- IDS_VR_HEADER_RECORDINGS_M_VOICE_ABB -->
+    <string name="recordings">রেকর্ডিংসমূহ</string>
+    <!-- IDS_FM_BODY_AFTER_YOU_RECORD_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files_guide">রেডিও রেকর্ড করার পরে, রেকর্ড করা ফাইলগুলো প্রদর্শিত হবে।</string>
+    <!-- IDS_VR_BODY_NO_RECORDED_FILES -->
+    <string name="no_recorded_files_msg">কোনো রেকর্ড করা ফাইল নেই</string>
+    <!-- IDS_FM_BODY_NO_RECORDED_FILES_N_AFTER_RECORDING_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files">কোনো রেকর্ড থাকা ফাইল নেই।\nরেডিও রেকর্ডের পর রেকর্ড করা ফাইলগুলো প্রদর্শিত হবে।</string>
+    <!-- IDS_MK_BODY_PROCESSING_ING -->
+    <string name="dialog_processing">প্রক্রিয়াকরণ চলছে\u2026</string>
+    <!-- IDS_TASK_POP_UP_TO_PD_CHARACTERS_AVAILABLE -->
+    <string name="toast_up_to_n_characters">অক্ষরের সর্বোচ্চ সংখ্যা (%d) অতিক্রান্ত</string>
+    <!-- IDS_MUSIC_POP_INVALID_CHARACTER -->
+    <string name="toast_invalid_character">অপ্রচলিত অক্ষর।</string>
+    <!-- IDS_IV_BODY_NEW_FILE_NAME -->
+    <string name="dialog_new_file_name">নতুন ফাইল নাম</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILE_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_file_deleted">নির্বাচিত রেকর্ডকৃত ফাইল মুছে ফেলা হবে।</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILES_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_files_deleted">নির্বাচিত রেকর্ডকৃত ফাইলগুলো মুছে ফেলা হবে।</string>
+    <!-- IDS_MH_POP_FILE_DOES_NOT_EXIST -->
+    <string name="file_does_not_exist">ফাইল বিদ্যমান নয়।</string>
+    <!-- IDS_FM_POP_ALREADY_EXISTS -->
+    <string name="toast_already_exist">ইতোমধ্যে বিদ্যমান।</string>
+    <!-- IDS_BR_POP_RENAME_EMPTY -->
+    <string name="toast_name_empty">নামটি ফাঁকা।</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_EARPHONES -->
+    <string name="sound_path_earphone_mode">ইয়ারফোনের মাধ্যমে রেডিও চলছে।</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_SPEAKER -->
+    <string name="sound_path_speaker_mode">স্পিকারের মাধ্যমে রেডিও চলছে।</string>
+    <!-- IDS_FM_POP_NOW_LISTENING_VIA_BT_HEADSET -->
+    <string name="sound_path_bt_headset_mode">ব্লুটুথ হেডসেটের মাধ্যমে এখন শোনা হচ্ছে।</string>
+    <!-- IDS_ST_BODY_YOU_CAN_CONTROL_THE_RADIO_WITH_VOICE_COMMANDS_LIKE_NEXT_PREVIOUS_STOP_AND_PLAY -->
+    <string name="notification_barge_in">Next\', \'Previous\', \'Stop\' এবং \'Play\'-এর মতো কণ্ঠনির্দেশের সাহায্যে আপনি রেডিও নিয়ন্ত্রণ করতে পারেন।</string>
+    <!-- IDS_VC_BODY_YOU_CAN_CONTROL_THE_FM_RADIO_WITH_THE_VOICE_COMMANDS_PS_PS_PS_PS_PS_AND_PS -->
+    <string name="notification_barge_in_args">আপনি ভয়েস আদেশ %1$s, %2$s, %3$s, %4$s, %5$s, এবং %6$s-এর মাধ্যমে FM রেডিওটি নিয়ন্ত্রণ করতে পারবেন।</string>
+    <!-- IDS_VR_POP_RECORDING_WILL_BE_CANCELLED_AND_FILE_WILL_NOT_BE_SAVED -->
+    <string name="recording_will_be_cancelled">রেকর্ডিং বাতিল হবে এবং ফাইল সংরক্ষণ করা হবে না।</string>
+    <!-- IDS_FM_POP_UNABLE_TO_PLAY_RADIO_DURING_CALL -->
+    <string name="unable_to_play_radio_during_call">কল চলাকালীন রেডিও চালানো সম্ভব নয়।</string>
+    <!-- IDS_FM_BODY_THIS_ITEM_WILL_BE_DELETED -->
+    <string name="dialog_one_item_deleted">এই আইটেমটি মোছা হবে।</string>
+    <!-- IDS_FM_BODY_PD_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_items_deleted">%dটি আইটেম মোছা হবে।</string>
+    <!-- IDS_FM_BODY_ALL_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_all_items_deleted">সমস্ত আইটেম মোছা হবে।</string>
+    <!-- IDS_RADIO_POP_1_STATION_WILL_BE_DELETED -->
+    <string name="dialog_one_station_will_be_deleted">একটি স্টেশন মুছে ফেলা হবে।</string>
+    <!-- IDS_FM_POP_PD_STATIONS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_stations_will_be_deleted">%dটি স্টেশন মুছে ফেলা হবে।</string>
+    <!-- IDS_VR_POP_1_RECORDING_WILL_BE_DELETED -->
+    <string name="dialog_one_recording_will_be_deleted">একটি রেকর্ডিং মুছে ফেলা হবে।</string>
+    <!-- IDS_VR_POP_PD_RECORDINGS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_recordings_will_be_deleted">%dটি রেকর্ডিং মুছে ফেলা হবে।</string>
+    <!-- IDS_FM_BODY_TURNING_ON_ING -->
+    <string name="turning_on">চালু হচ্ছে\u2026</string>
+    <!-- IDS_COM_POP_NOT_ENOUGH_MEMORY_RECORDING_WILL_STOP_IN_PD_SECONDS -->
+    <string name="not_enough_memory_recording_will_stop">পর্যাপ্ত মেমোরি নেই। রেকর্ডিং %d সেকেন্ডের মধ্যে থেমে যাবে।</string>
+    <!-- IDS_ST_BODY_LEDOT_LOW_BATTERY -->
+    <string name="low_batt_msg">কম ব্যাটারি</string>
+    <!-- IDS_MSG_POP_UNABLE_TO_PLAY_DURING_CALL -->
+    <string name="no_play_during_call">কল করার সময় প্লে করা সম্ভব নয়।</string>
+    <!-- IDS_DTV_POP_UNABLE_TO_DELETE -->
+    <string name="unable_delete">মুছে ফেলা সম্ভব নয়।</string>
+    <!-- IDS_MUSIC_BODY_PLAYING_ING_ABB -->
+    <string name="playing">প্লে হচ্ছে\u2026</string>
+    <!-- IDS_CALL_SK3_PLAY -->
+    <string name="tts_play_button">বাজান</string>
+    <!-- IDS_COM_BODY_PREVIOUS -->
+    <string name="tts_previous_button">পূর্ববর্তী</string>
+    <!-- IDS_COM_BODY_NEXT -->
+    <string name="tts_Next_button">পরবর্তী</string>
+    <!-- IDS_COM_POP_CONNECT -->
+    <string name="connect">সংযোগ করুন</string>
+    <!-- IDS_IM_BODY_TOPIC -->
+    <string name="topic">বিষয়</string>
+    <!-- IDS_MUSIC_HEADER_SUBSCRIBE -->
+    <string name="subscribe">গ্রাহক হোন</string>
+    <!-- IDS_MSGF_BODY_NO_TEXT -->
+    <string name="no_text">কোনো লেখা নেই</string>
+    <!-- IDS_KA_BODY_MORE_INFORMATION -->
+    <string name="for_more_info">আরও তথ্য</string>
+    <!-- IDS_FM_BUTTON_VIEW_VISUAL_INFO_ABB -->
+    <string name="switch_btn_view_information">দৃশ্যমান তথ্য দেখুন</string>
+    <!-- IDS_FM_BUTTON_VIEW_TUNER -->
+    <string name="switch_btn_view_tuner">টিউনার দেখুন</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_VIEW_THIS_INFORMATION_FOR_THIS_STATION -->
+    <string name="switch_btn_disable">এই স্টেশনটির জন্য এই তথ্যটি দেখতে পারে না।</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_LISTEN_TO_THIS_STATION_VIA_INTERNET_RADIO -->
+    <string name="menu_internetradio_disable">ইন্টারনেট রেডিওর মাধ্যমে এই স্টেশনটি শুনতে পারে না।</string>
+    <!-- IDS_FM_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN -->
+    <string name="wifi_warning">Wi-Fi পাওয়া যাচ্ছে না। মোবাইল নেটওয়ার্কের সাথে সংযোগ হতে হলে আপনার প্রদান পরিকল্পনার উপর নির্ভর করে অতিরিক্ত মূল্য ধার্য হতে পারে।</string>
+    <!-- IDS_POPSYNC_BODY_CONNECT_VIA_MOBILE_NETWORK -->
+    <string name="connect_mobile_network">মোবাইল নেটওয়ার্কের মাধ্যমে সংযোগ স্থাপন করুন</string>
+    <!-- IDS_WGT_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="do_not_show_again">আর দেখাবেন না।</string>
+    <!-- IDS_COM_POP_SERVER_RESPONSE_ERROR -->
+    <string name="server_response_error">সার্ভার প্রতিক্রিয়া ত্রুটি</string>
+    <!-- IDS_SYS_BODY_CODE_GENERATION_VER -->
+    <string name="stms_version">ANDROID_P4_20150420_0216</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_INTERNET_RADIO -->
+    <string name="switch_to_internet_radio">ইন্টারনেট রেডিওতে পরিবর্তন করুন</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_FM_RADIO -->
+    <string name="switch_to_fm_radio">FM রেডিওতে পরিবর্তন করুন</string>
+    <!-- IDS_SOCIALMAG_POP_PLEASE_WAIT_ING -->
+    <string name="dialog_popup_wait">অনুগ্রহ করে অপেক্ষা করুন…</string>
+    <!-- IDS_FM_BODY_AUTOMATICALLY_SWITCHES_TO_INTERNET_RADIO_MSG -->
+    <string name="auto_switch_to_internet_radio">FM সিগন্যাল দুর্বল থাকলে এবং বিকল্প কম্পাঙ্ক না পাওয়া গেলে স্বয়ংক্রিয়ভাবে ইন্টারনেট রেডিওতে পরিবর্তন করে।</string>
+    <!-- IDS_RADIO_POP_THE_CURRENT_RECORDING_WILL_STOP_M_VOICE -->
+    <string name="record_suspended_continue">বর্তমান রেকর্ডিং থেমে যাবে।</string>
+    <!-- IDS_FM_BUTTON_LISTEN_NOW -->
+    <string name="listen_to_radio">এখন শুনুন</string>
+    <!-- IDS_FM_BODY_NOW_LISTENING_ABB -->
+    <string name="now_listening">এখন শোনা হচ্ছে</string>
+    <!-- IDS_COM_BODY_BUTTON_T_TTS -->
+    <string name="button">বোতাম</string>
+    <!-- IDS_FM_BODY_TAP_HERE_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations">স্টেশন স্ক্যান করতে এখানে ট্যাপ করুন।</string>
+    <!-- IDS_CALL_BODY_THE_RECORDING_WILL_BE_SAVED_AUTOMATICALLY_WHEN_YOU_ACCEPT_THE_CALL -->
+    <string name="recording_save_during_call">আপনি কলটি গ্রহণ করলে রেকর্ডিংটি স্বয়ংক্রিয়ভাবে সংরক্ষিত হবে।</string>
+    <!-- IDS_ST_BODY_START -->
+    <string name="test_noise_start">শুরু</string>
+    <!-- IDS_COM_BODY_STOP -->
+    <string name="test_noise_stop">থামুন</string>
+    <!-- IDS_BR_POP_READY -->
+    <string name="test_nosise_current_status">প্রস্তুত</string>
+    <!-- IDS_FM_BUTTON_EARPHONE -->
+    <string name="test_noise_earphone">ইয়ারফোন</string>
+    <!-- IDS_VOLTE_BUTTON_SPEAKER -->
+    <string name="test_noise_speaker">স্পিকার</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="menu_more">আরও</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="menu_scan">স্ক্যান করুন</string>
+    <!-- IDS_FM_OPT_EDIT -->
+    <string name="menu_edit">সম্পাদনা করুন</string>
+    <!-- IDS_RADIO_SBODY_CONTENT_HIDDEN -->
+    <string name="content_hidden">কন্টেন্ট লুকানো আছে</string>
+    <!-- IDS_FM_TPOP_UNABLE_TO_RECORD_RADIO_DISABLE_TURN_OFF_ALL_SOUNDS_AND_TRY_AGAIN -->
+    <string name="unable_record_turn_off_all_sound">রেডিও রেকর্ড করতে অক্ষম৷ ‘সব শব্দ বন্ধ’ অপশনটি নিষ্ক্রিয় করে আবার চেষ্টা করুন৷</string>
+</resources>

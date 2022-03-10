@@ -1,0 +1,1 @@
+package com.sec.android.app.dns.radiovis;public interface RadioVISProtocol {    public void connectNetwork();    public void disconnectNetwork();}

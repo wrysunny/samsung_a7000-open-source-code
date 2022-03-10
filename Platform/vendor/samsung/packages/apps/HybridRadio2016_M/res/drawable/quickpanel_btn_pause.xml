@@ -1,0 +1,1 @@
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"    android:color="@color/center_default_ripple_color" >    <item android:drawable="@drawable/quick_panel_fmradio_on" /></ripple>

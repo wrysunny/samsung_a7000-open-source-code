@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Action mode-->
+    <dimen name="selectall_checkbox_margintop">2dp</dimen>
+
+    <!-- frequency bar -->
+    <dimen name="list_player_controller_height">114dp</dimen>
+    <dimen name="frequencybar_top_offset">0dp</dimen>
+    <dimen name="frerquency_bar_left_space">220.5dp</dimen>
+    <dimen name="bottom_line_offset">10dp</dimen>
+
+    <!-- Channel screen list  -->
+    <dimen name="all_channellist_fragment_height">400dp</dimen>
+    <dimen name="stations_list_padding_start">10dp</dimen>
+    <dimen name="stations_list_padding_end">10dp</dimen>
+    <dimen name="stations_list_checkbox_margin_start">16dp</dimen>
+    <dimen name="stations_list_checkbox_margin_end">16dp</dimen>
+    <dimen name="stations_list_channel_freq_text_margin_start">6dp</dimen>
+    <dimen name="stations_imgFavIcon_layout_margin_right">2dp</dimen>
+
+    <!-- Fav Button  -->
+    <dimen name="favorite_more_than_4_freq_text_size">13dp</dimen>
+    <dimen name="favorite_less_than_4_freq_text_size">16dp</dimen>
+    <dimen name="station_name_text_size">7dp</dimen>
+    <dimen name="station_favorite_icon_size_5">50dp</dimen>
+    <dimen name="station_favorite_icon_size_4">76dp</dimen>
+    <dimen name="station_favorite_text_view_width">70dp</dimen>
+    <dimen name="horizantal_spacing_fav_channel_5">-3dp</dimen>
+    <dimen name="vertical_spacing_fav_channel_5">-3dp</dimen>
+    <dimen name="horizantal_spacing_fav_channel_4">0dp</dimen>
+    <dimen name="vertical_spacing_fav_channel_4">0dp</dimen>
+    <dimen name="fav_channels_gridview_columnwidth_5">58dp</dimen>
+    <dimen name="fav_channels_gridview_columnwidth_4">84dp</dimen>
+    <dimen name="fav_channel_margin_start">8dp</dimen>
+    <dimen name="fav_channel_margin_top">8dp</dimen>
+    <dimen name="fav_channel_gridview_padding_top_5">0dp</dimen>
+    <dimen name="fav_channel_gridview_padding_top_4">27dp</dimen>
+    <dimen name="fav_channel_gridview_padding_top_2">27dp</dimen>
+    <dimen name="fav_channel_gridview_padding_top_1">67dp</dimen>
+    <dimen name="fav_channel_gridview_width_5">176dp</dimen>
+    <dimen name="fav_channel_gridview_height_5">227dp</dimen>
+    <dimen name="fav_channel_gridview_width_4">177dp</dimen>
+    <dimen name="fav_channel_gridview_height_4">203dp</dimen>
+    <dimen name="fav_channel_gridview_width_2">92dp</dimen>
+    <dimen name="fav_channel_gridview_height_2">203dp</dimen>
+    <dimen name="fav_channel_gridview_width_1">92dp</dimen>
+    <dimen name="fav_channel_gridview_height_1">159dp</dimen>
+
+    <!-- list player screen -->
+    <dimen name="list_player_progrssbar_padding">0dp</dimen>
+    <dimen name="list_player_controller_play_pause_btn_margin_top">12dp</dimen>
+    <dimen name="list_player_PlayerPlayTimeTextView_margin_start">14dp</dimen>
+    <dimen name="list_player_PlayerPlayTimeTextView_margin_end">14dp</dimen>
+
+    <!-- Tabs  -->
+    <dimen name="fmradio_tab_height">44dp</dimen>
+
+    <!-- No recorded file  screen -->
+    <dimen name="no_recorded_file_textview_padding">13dp</dimen>
+    <dimen name="no_recorded_file_textsize">19dp</dimen>
+
+    <!--  DNS dimensions -->
+    <dimen name="epg_detail_image_width">173dp</dimen>
+    <dimen name="epg_detail_image_height">187dp</dimen>
+    <dimen name="epg_bottom_btn_width">22dp</dimen>
+    <dimen name="epg_bottom_btn_height">22dp</dimen>
+    <dimen name="epg_bottom_btn_side_margin">24dp</dimen>
+    <dimen name="epg_playtime_text_size">17dp</dimen>
+    <dimen name="epg_detail_text_left_margin">16dp</dimen>
+    <dimen name="epg_detail_text_right_margin">16dp</dimen>
+    <dimen name="epg_detail_title_text_size">16dp</dimen>
+    <dimen name="epg_detail_channel_top_margin">15dp</dimen>
+    <dimen name="epg_detail_body_text_size">12dp</dimen>
+    <dimen name="epg_detail_text_top_margin">16dp</dimen>
+    <dimen name="epg_detail_listen_btn_side_margin">24dp</dimen>
+    <dimen name="epg_detail_listen_btn_height">15dp</dimen>
+    <dimen name="epg_detail_listen_btn_bottom_margin">15dp</dimen>
+    <dimen name="epg_detail_listen_btn_top_margin">21dp</dimen>
+    <dimen name="epg_detail_layout_height">391dp</dimen>
+    <dimen name="epg_detail_title_height">23dp</dimen>
+    <dimen name="epg_detail_freq_height">29dp</dimen>
+    <dimen name="epg_detail_channel_desc_height">64dp</dimen>
+    <dimen name="epg_bottom_layout_height">48dp</dimen>
+
+</resources>

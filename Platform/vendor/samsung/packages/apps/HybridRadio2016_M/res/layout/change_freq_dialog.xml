@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dialog_input_area_padding_bottom"
+    android:paddingStart="@dimen/dialog_input_area_padding_start"
+    android:paddingEnd="@dimen/dialog_input_area_padding_end"
+    android:paddingTop="@dimen/dialog_input_area_padding_top" >
+
+    <!--TextView
+        android:id="@+id/text_view"
+        android:layout_width="match_parent"
+        android:layout_height="25dp"
+        android:text="@string/enter_frequency"
+        android:fontFamily="sec-roboto-light"
+        android:textColor="@color/dialog_body_text"
+        android:textSize="17dp" /-->
+
+    <EditText
+        android:id="@+id/edit_text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="start|center_vertical"
+        android:imeOptions="flagNoExtractUi"
+        android:inputType="numberDecimal"
+        android:maxLength="6"
+        android:textSize="18dp" />
+
+</LinearLayout>

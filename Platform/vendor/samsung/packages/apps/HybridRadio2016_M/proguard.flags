@@ -1,0 +1,4 @@
+-dontwarn org.xbill.DNS.**
+-keep class org.xbill.DNS.** {
+*;
+}

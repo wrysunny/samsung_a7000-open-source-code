@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:gravity="center"
+    android:layout_height="match_parent" >
+
+    <GridView
+        android:id="@+id/fav_list_gridview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnWidth="@dimen/fav_channels_gridview_columnwidth_5"
+        android:layout_gravity="center_horizontal"
+        android:listSelector="@color/twtransparent"
+        android:horizontalSpacing="@dimen/horizantal_spacing_fav_channel_5"
+        android:verticalSpacing="@dimen/vertical_spacing_fav_channel_5"
+        android:paddingTop="@dimen/fav_channel_gridview_padding_top_5"
+        android:numColumns="@integer/fav_more_than_4_column_number"
+        android:paddingEnd="@dimen/fav_channel_margin_start"
+        android:stretchMode="none" />
+
+    <FrameLayout
+        android:id="@android:id/empty"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+    </FrameLayout>
+
+</LinearLayout>

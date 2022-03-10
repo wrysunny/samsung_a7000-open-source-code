@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <integer name="widget_cell_height">83</integer>
+    <integer name="epg_pager_margin">-200</integer>
+
+</resources>

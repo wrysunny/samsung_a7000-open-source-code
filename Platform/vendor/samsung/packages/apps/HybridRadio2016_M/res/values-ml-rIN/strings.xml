@@ -1,0 +1,526 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+/* 
+** Copyright 2006, The Android Open Source Project
+**
+** Licensed under the Apache License, Version 2.0 (the "License");
+** you may not use this file except in compliance with the License.
+** You may obtain a copy of the License at
+**
+**     http://www.apache.org/licenses/LICENSE-2.0
+**
+** Unless required by applicable law or agreed to in writing, software
+** distributed under the License is distributed on an "AS IS" BASIS,
+** WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+** See the License for the specific language governing permissions and
+** limitations under the License.
+**
+** Created with XMLCompiler2
+*/ -->
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <!-- IDS_FM_POP_UNABLE_TO_TURN_ON_PS -->
+    <string name="toast_fm_not_played">%s ഓണാക്കാനാകില്ല.</string>
+    <!-- IDS_FM_POP_EARPHONE_REMOVED_RADIO_TURNED_OFF -->
+    <string name="headset_disconnect">ഇയര്‍ഫോണ്‍ നീക്കം‌ചെയ്തു. റേഡിയോ ഓഫാക്കപ്പെടും.</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_RENAME -->
+    <string name="toast_tap_to_rename">പേര് മാറ്റുന്നതിന് ആവൃത്തി നീക്കുക.</string>
+    <!-- IDS_FM_POP_INVALID_FREQUENCY -->
+    <string name="toast_channel_invalid">അസാധുവായ ഫ്രീക്വന്‍സി.</string>
+    <!-- IDS_FM_POP_TUNING_TO_P1SDP2SD_MHZ_ING -->
+    <string name="toast_tune">%1$d.%2$d മെഗാഹേര്‍ട്സിലേക്ക് ട്യൂണ്‍ ചെയ്യുന്നു\u2026</string>
+    <!-- IDS_FM_POP_TAP_FREQUENCY_TO_REMOVE -->
+    <string name="toast_tap_to_remove">നീക്കം ചെയ്യുന്നതിന് ആവൃത്തി നീക്കുക.</string>
+    <!-- IDS_FM_POP_BUSY_TUNING_IN_ING -->
+    <string name="toast_busy_tunning">തിരക്കിലാണ് . ട്യൂണ്‍ ചെയ്യുന്നു\u2026</string>
+    <!-- IDS_FM_POP_ALREADY_SCANNING_ING -->
+    <string name="toast_already_scan">ഇതിനകം തന്നെ സ്കാന്‍ ചെയ്തുകൊണ്ടിരിക്കുന്നു\u2026</string>
+    <!-- IDS_IM_POP_UNABLE_TO_RENAME -->
+    <string name="toast_rename_error">പേരുമാറ്റാന്‍ ആവുന്നില്ല.</string>
+    <!-- IDS_WIFI_POP_PROFILECONNECTION_CANCELLING -->
+    <string name="dialog_cancel_scan">റദ്ദാക്കുന്നു\u2026</string>
+    <!-- IDS_AV_POP_SCANNING_ING -->
+    <string name="dialog_scan">സ്‌കാന്‍‌ ചെയ്യുന്നു\u2026</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_MINUTES -->
+    <string name="alarm_text1">%d മിനിറ്റിനുശേഷം FM റേഡിയോ ഓഫ് ആകും.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_1_HOUR -->
+    <string name="alarm_text2">1 മണിക്കൂറിന് ശേഷം FM റേഡിയോ ഓഫ് ചെയ്യപ്പെടും.</string>
+    <!-- IDS_FM_POP_FM_RADIO_WILL_BE_OFF_AFTER_PD_HOURS -->
+    <string name="alarm_text3">%d മണിക്കൂറിനുശേഷം FM റേഡിയോ ഓഫ് ആകും.</string>
+    <!-- IDS_FM_POP_STATION_ALREADY_EXISTS_ADD_ANOTHER_STATION -->
+    <string name="toast_already_added">സ്റ്റേഷന്‍ ഇതിനകം നിലവിലുണ്ട്. ഇതര സ്റ്റേഷന്‍ ചേര്‍ക്കുക.</string>
+    <!-- IDS_FM_POP_P1SDP2SD_MHZ_STATION_FOUND_TOTAL_NUMBER_OF_STATIONS_FOUND_C_P3SD -->
+    <string name="dialog_channel_found">%1$d.%2$d മെഗാഹേര്‍ട്സ് സ്റ്റേഷന്‍ കണ്ടെത്തി. കണ്ടെത്തിയ ആകെ സ്റ്റേഷനുകളുടെ എണ്ണം: %3$d</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found">%1$s MHz-ൽ ഒരു സ്റ്റേഷൻ കണ്ടെത്തി. മൊത്തം 1 സ്റ്റേഷൻ കണ്ടെത്തി.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_P2SD_STATIONS_HAVE_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_found_south_region">%1$s MHz-ൽ ഒരു സ്റ്റേഷൻ കണ്ടെത്തി. മൊത്തത്തിൽ %2$d സ്റ്റേഷനുകൾ കണ്ടെത്തി.</string>
+    <!-- IDS_FM_POP_A_STATION_HAS_BEEN_FOUND_AT_P1SS_MHZ_1_STATION_HAS_BEEN_FOUND_IN_TOTAL -->
+    <string name="dialog_channel_one_found_south_region">%1$s MHz-ൽ ഒരു സ്റ്റേഷൻ കണ്ടെത്തി. മൊത്തം 1 സ്റ്റേഷൻ കണ്ടെത്തി.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_FOUND_WHILE_SCANNING -->
+    <string name="toast_channel_found">സ്കാന്‍ ചെയ്യുമ്പോള്‍ %d സ്റ്റേഷനുകള്‍ കണ്ടെത്തി.</string>
+    <!-- IDS_FM_POP_1_STATION_FOUND_WHILE_SCANNING -->
+    <string name="toast_one_channel_found">സ്കാന്‍ ചെയ്യുമ്പോള്‍ 1 സ്റ്റേഷന്‍ കണ്ടെത്തി.</string>
+    <!-- IDS_FM_POP_TURN_FM_RADIO_ON -->
+    <string name="toast_on_alert">FM റേഡിയോ ഓണ്‍ ചെയ്യുക.</string>
+    <!-- IDS_RADIO_BODY_RADIO_M_APPLIACTION_NAME -->
+    <string name="app_name">റേഡിയോ</string>
+    <!-- IDS_LA_HEADER_ALL_CHANNELS -->
+    <string name="channels">All channels</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="record">റെക്കോ</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="scan">സ്കാന്‍</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="more">കൂടുതല്‍</string>
+    <!-- IDS_MEDIABR_OPT_REMOVE -->
+    <string name="remove">നീക്കം ചെയ്യുക</string>
+    <!-- IDS_FM_OPT_SETTINGS -->
+    <string name="settings">ക്രമീകരണങ്ങൾ</string>
+    <!-- IDS_FM_HEADER_STATIONS -->
+    <string name="allchannels">സ്റ്റേഷനുകള്‍</string>
+    <!-- IDS_COM_OPT_INFORMATION -->
+    <string name="information">വിവരം</string>
+    <!-- IDS_LP_SK3_OK -->
+    <string name="ok">ശരി</string>
+    <!-- IDS_KC_OPT_CANCEL -->
+    <string name="cancel">റദ്ദാക്കുക</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename">പേര് മാറ്റുക</string>
+    <!-- IDS_BR_HEADER_ENTER_NAME -->
+    <string name="rename_text">പേര് നല്‍കുക</string>
+    <!-- IDS_KA_BUTTON_DONE -->
+    <string name="done">ചെയ്തു</string>
+    <!-- IDS_FM_OPT_REPLACE -->
+    <string name="replace">പ്രതിസ്ഥാപിക്കുക</string>
+    <!-- IDS_FM_BODY_MHZ -->
+    <string name="mhz">MHz</string>
+    <!-- IDS_FM_BODY_SETTINGS_RADIO_TEXT -->
+    <string name="setting_sationid">റേഡിയോ ടെക്സ്റ്റ്‌</string>
+    <!-- IDS_FM_BODY_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af">പകരം ഫ്രീക്വന്‍സി</string>
+    <!-- IDS_FM_MBODY_AUTO_OFF -->
+    <string name="setting_autooff">ഓട്ടോ ഓഫ്</string>
+    <!-- IDS_FM_BODY_STATION_INFORMATION_WILL_BE_SHOWN -->
+    <string name="setting_stationid_summary">സ്റ്റേഷന്‍ വിവരം പ്രദര്‍ശിപ്പിക്കും.</string>
+    <!-- IDS_FM_BODY_TURN_ON_OFF_ALTERNATIVE_FREQUENCY -->
+    <string name="setting_af_summary">പകര ആവൃത്തി ഓണ്‍/ഓഫ് ചെയ്യുക.</string>
+    <!-- IDS_FM_OPT_NEVER -->
+    <string name="setting_never">ഒരിക്കലുമില്ല</string>
+    <!-- IDS_FM_BODY_AFTER_15_MINS_ABB -->
+    <string name="setting_15min">15 മിനിറ്റിന് ശേഷം</string>
+    <!-- IDS_FM_BODY_ST_AFTER_30_MIN -->
+    <string name="setting_30min">30 മിനിറ്റിന് ശേഷം</string>
+    <!-- IDS_TDMB_BODY_AFTER_1_HOUR -->
+    <string name="setting_hour">1 മണിക്കൂറിന് ശേഷം</string>
+    <!-- IDS_TDMB_BODY_AFTER_2_HOURS -->
+    <string name="setting_2hour">2 മണിക്കൂറിന് ശേഷം</string>
+    <!-- IDS_MT_BUTTON_SAVE -->
+    <string name="save">സംരക്ഷിക്കുക</string>
+    <!-- IDS_FM_BODY_NO_STATIONS -->
+    <string name="toast_channel_empty">സ്റ്റേഷനുകള്‍ ഒന്നും ഇല്ല</string>
+    <!-- IDS_FM_NPBODY_NO_FAVOURITE_STATIONS_ABB -->
+    <string name="toast_favourite_empty">പ്രിയപ്പെട്ട സ്റ്റേഷനുകൾ ഒന്നുമില്ല</string>
+    <!-- IDS_FM_TPOP_EARPHONES_NOT_CONNECTED_EARPHONES_FUNCTION_AS_RADIO_AERIAL_CONNECT_EARPHONES -->
+    <string name="toast_earphone_not_connected">ഇയർഫോണുകളെ ബന്ധിപ്പിച്ചിട്ടില്ല. ഇയർഫോണുകൾ റേഡിയോ ഏരിയലിനെപ്പോലെ പ്രവർത്തിക്കുന്നു. ഇയർഫോണുകൾ ബന്ധിപ്പിക്കുക.</string>
+    <!-- IDS_FM_OPT_AUTO_SCAN -->
+    <string name="dialog_autoscan">ഓട്ടോ സ്കാന്‍</string>
+    <!-- IDS_FM_POP_STARTING_AUTO_SCAN_ING -->
+    <string name="toast_initial_access">ഓട്ടോ സ്കാന്‍ ആരംഭിക്കുന്നു\u2026</string>
+    <!-- IDS_FM_HEADER_SCAN_RESULT -->
+    <string name="scan_result">സ്കാന്‍ ഫലം</string>
+    <!-- IDS_EMAIL_SK3_RENAME -->
+    <string name="rename_channel">പേര് മാറ്റുക</string>
+    <!-- IDS_KA_HEADER_ALERT -->
+    <string name="alert">മുന്നറിയിപ്പ്</string>
+    <!-- IDS_PB_OPT_FAVOURITES -->
+    <string name="fav_channel">പ്രിയപ്പെട്ടവ</string>
+    <!-- IDS_FM_OPT_ALL_STATIONS -->
+    <string name="menu_refersh_all">എല്ലാ സ്റ്റേഷനുകളും</string>
+    <!-- IDS_FM_OPT_RETAINING_FAVOURITES -->
+    <string name="menu_refresh">പ്രിയങ്കരമായവ നിലനിര്‍ത്തുന്നു</string>
+    <!-- IDS_FM_DROP_30 -->
+    <string name="number_30">30</string>
+    <!-- IDS_MUSIC_BODY_PLAYINGREPEAT_1 -->
+    <string name="number_1">1</string>
+    <!-- IDS_CCD_BODY_TIMERDIGIT_2 -->
+    <string name="number_2">2</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_15_min_past">യാന്ത്രികമായി റേഡിയോ ഓഫ് ആയി. %d മിനിറ്റ് കഴിഞ്ഞു.</string>
+    <!-- IDS_FM_POP_RADIO_TURNED_OFF_AUTOMATICALLY_PD_MINUTES_HAVE_PASSED -->
+    <string name="alrm_30_min_past">യാന്ത്രികമായി റേഡിയോ ഓഫ് ആയി. %d മിനിറ്റ് കഴിഞ്ഞു.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_1_HOUR_HAS_PASSED -->
+    <string name="alrm_1_hr_past">യാന്ത്രികമായി %s ഓഫായി. 1 മണിക്കൂർ കഴിഞ്ഞു.</string>
+    <!-- IDS_FM_POP_PS_TURNED_OFF_AUTOMATICALLY_PD_HOURS_HAVE_PASSED -->
+    <string name="alrm_2_hrs_past">യാന്ത്രികമായി %1$s ഓഫായി. %2$d മണിക്കൂർ കഴിഞ്ഞു.</string>
+    <!-- IDS_FM_SK3_SCAN_FOR_STATIONS -->
+    <string name="scan_channels">സ്റ്റേഷനുകള്‍ക്കായി സ്കാന്‍ ചെയ്യുക</string>
+    <!-- IDS_CAST_MBODY_SELECT_ALL -->
+    <string name="selectall">എല്ലാം തിരഞ്ഞെടുക്കുക</string>
+    <!-- IDS_VIDEO_HEADER_PD_SELECTED -->
+    <string name="selected_item">%d എണ്ണം തിരഞ്ഞെടുത്തു</string>
+    <!-- IDS_VVM_POP_SELECT_AT_LEAST_ONE_ITEM -->
+    <string name="no_channel_selected">കുറഞ്ഞത് ഒരു ഇനമെങ്കിലും തിരഞ്ഞെടുക്കുക.</string>
+    <!-- IDS_FM_POP_UNABLE_TO_USE_PS_IN_FLIGHT_MODE -->
+    <string name="toast_airplane_mode">ഫ്ലൈറ്റ് മോഡിൽ %s ഉപയോഗിക്കാനാകില്ല.</string>
+    <!-- IDS_ST_BODY_INSTALL_VOICE_DATA_REQUIRED_FOR_SPEECH_SYNTHESIS -->
+    <string name="dialog_tts_confirm">പ്രഭാഷണ സമന്വയത്തിന് ആവശ്യമായ വോയ്സ് ഡാറ്റ ഇന്‍സ്റ്റോള്‍ ചെയ്യുക.</string>
+    <!-- IDS_FM_BODY_MODE_SPEAKER -->
+    <string name="speaker">സ്‌പീക്കര്‍</string>
+    <!-- IDS_FM_POP_AF_SWITCHING -->
+    <string name="af_switching">AF സിച്ചിംഗ്</string>
+    <!-- IDS_FM_POP_AF_SWITCHING_IS_IN_PROGRESS_PRESS_BACK_TO_CANCEL -->
+    <string name="af_switching_msg">AF സ്വിച്ചിംഗ് പുരോഗമിക്കുന്നു. റദ്ദാക്കുന്നതിന് പിന്നോട്ട് അമര്‍ത്തുക</string>
+    <!-- IDS_COM_POP_UNABLE_TO_LAUNCH_APPLICATION_LOW_BATTERY -->
+    <string name="toast_battery_low">ആപ്ലിക്കേഷന്‍ ആരംഭിക്കാന്‍ ആവുന്നില്ല. താഴ്‌ന്ന ബാറ്ററി.</string>
+    <!-- IDS_FM_POP_AF_NOT_FOUND -->
+    <string name="toast_af_fail">AF കണ്ടെത്തിയില്ല.</string>
+    <!-- IDS_ST_BODY_PS_DISABLED -->
+    <string name="toast_disabled">%s നിഷ്ക്രിയമാക്കി.</string>
+    <!-- IDS_FM_POP_NO_STATIONS_FOUND -->
+    <string name="toast_no_channel_found">സ്റ്റേഷനുകള്‍ ഒന്നും കണ്ടെത്തിയില്ല.</string>
+    <!-- IDS_CCD_POP_UNAVAILABLE_IN_TV_OUT_MODE -->
+    <string name="toast_unavailable_in_tvout_mode">TV-ഔട്ട് മോഡില്‍ ലഭ്യമല്ല.</string>
+    <!-- IDS_COM_POP_MESSAGETONE_MUTE -->
+    <string name="mute">നിശബ്‌ദ‌മാക്കുക</string>
+    <!-- IDS_COM_POP_SEARCHING -->
+    <string name="seeking">തിരയുന്നു\u2026</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_EARPHONES_ABB -->
+    <string name="via_earphone">ഇയര്‍ഫോണുകള്‍ വഴി പ്ലേചെയ്യുക</string>
+    <!-- IDS_FM_OPT_PLAY_VIA_SPEAKER_ABB -->
+    <string name="via_speaker">സ്പീക്കര്‍ മുഖേന പ്ലേചെയ്യുക</string>
+    <!-- IDS_COM_MBODY_NORMAL_FREQUENCY -->
+    <string name="normal_frequency">സാധാരണ ആവൃത്തി</string>
+    <!-- IDS_COM_BODY_END -->
+    <string name="end">അവസാനിപ്പിക്കുക</string>
+    <!-- IDS_COM_POP_MAXIMUM_NUMBER_OF_CHARACTERS_HPD_REACHED -->
+    <string name="toast_maximum_file_name">അക്ഷരങ്ങളുടെ പരമാവധി എണ്ണം (%d) തികഞ്ഞു.</string>
+    <!-- IDS_FM_BODY_TURN_ON_THE_PS -->
+    <string name="turn_on_radio">%s ഓൺ ചെയ്യുക.</string>
+    <!-- IDS_PB_BODY_ENTERTEL -->
+    <string name="enter_number">നമ്പര്‍ നല്‍കുക.</string>
+    <!-- IDS_NFC_BUTTON_TAG -->
+    <string name="tag">ടാഗ്</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="stop">നിര്‍ത്തുക</string>
+    <!-- IDS_FM_BODY_RECORDING_M_RECORDING_VOICE -->
+    <string name="recording">റെക്കോര്‍ഡിംഗ്</string>
+    <!-- IDS_DAV_BODY_MEMORY_FULL -->
+    <string name="memory_full">മെമ്മറി നിറഞ്ഞു.</string>
+    <!-- IDS_VR_POP_CANCEL_RECORDING_Q -->
+    <string name="cancel_recording">റെക്കോര്‍ഡിംഗ് റദ്ദാക്കണമോ?</string>
+    <!-- IDS_FM_HEADER_CHANGE_FREQUENCY -->
+    <string name="change_frequency">ആവൃത്തി മാറ്റുക</string>
+    <!-- IDS_FM_BODY_ENTER_FREQUENCY -->
+    <string name="enter_frequency">ആവൃത്തി നല്‍കുക.</string>
+    <!-- IDS_FM_POP_SAVED_IN_PS_GO_TO_RECORDED_FILES_TO_PLAY_PLAY_NOW_Q -->
+    <string name="saved_go_to_myfiles">%s-ല്‍ സംരക്ഷിച്ചു. പ്ലേ ചെയ്യുന്നതിന് റെക്കോര്‍ഡുചെയ്ത ഫയലുകളിലേയ്ക്ക് പോകുക. ഇപ്പോള്‍ പ്ലേ ചെയ്യണോ?</string>
+    <!-- IDS_FM_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="dont_show_again">ഇത് വീണ്ടും കാണിക്കരുത്</string>
+    <string name="toast_max_favorite">ഫേവറൈറ്റ് സ്റ്റേഷനുകളുടെ പരമാവധി എണ്ണം (12) തികഞ്ഞു. ഏതാനും ഫേവറൈറ്റ് സ്റ്റേഷനുകള്‍ നീക്കം ചെയ്യുക</string>
+    <!-- IDS_MUSIC_POP_LOUD_MUSIC_MAY_HARM_YOUR_HEARING_IF_YOU_LISTEN_TO_IT_FOR_A_LONG_TIME -->
+    <string name="audio_shock_warning">ദീര്‍ഘനേരം ഇതിലൂടെ ഉച്ചത്തില്‍ മ്യൂസിക് ശ്രവിക്കുകയാണെങ്കില്‍ അത് നിങ്ങളുടെ കേള്‍വിയെ ഹനിച്ചേക്കാം.</string>
+    <!-- IDS_IV_POP_RECORDING_ERROR -->
+    <string name="recording_error">റെക്കോര്‍ഡിംഗ് പിശക്</string>
+    <!-- IDS_CALL_SK_RECORD -->
+    <string name="desc_record">റെക്കോ</string>
+    <!-- IDS_FM_BODY_VOLUME -->
+    <string name="desc_volume">വോളിയം</string>
+    <!-- IDS_FM_OPT_POWER -->
+    <string name="desc_power">പവര്‍</string>
+    <!-- IDS_FM_BODY_PREVIOUS_STATION -->
+    <string name="desc_prev">മുന്‍ സ്റ്റേഷന്‍</string>
+    <!-- IDS_FM_BODY_NEXT_STATION -->
+    <string name="desc_next">അടുത്ത സ്റ്റേഷന്‍</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_1_T_TTS -->
+    <string name="desc_fav1">ഫേവറൈറ്റ് സ്റ്റേഷന്‍ 1,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_2_T_TTS -->
+    <string name="desc_fav2">ഫേവറൈറ്റ് സ്റ്റേഷന്‍ 2,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_3_T_TTS -->
+    <string name="desc_fav3">ഫേവറൈറ്റ് സ്റ്റേഷന്‍ 3,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_4_T_TTS -->
+    <string name="desc_fav4">ഫേവറൈറ്റ് സ്റ്റേഷന്‍ 4,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_5_T_TTS -->
+    <string name="desc_fav5">ഫേവറൈറ്റ് സ്റ്റേഷന്‍ 5,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_6_T_TTS -->
+    <string name="desc_fav6">ഫേവറൈറ്റ് സ്റ്റേഷന്‍ 6,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_7_T_TTS -->
+    <string name="desc_fav7">ഫേവറൈറ്റ് സ്റ്റേഷന്‍ 7,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_8_T_TTS -->
+    <string name="desc_fav8">ഫേവറൈറ്റ് സ്റ്റേഷന്‍ 8,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_9_T_TTS -->
+    <string name="desc_fav9">ഫേവറൈറ്റ് സ്റ്റേഷന്‍ 9,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_10_T_TTS -->
+    <string name="desc_fav10">ഫേവറൈറ്റ് സ്റ്റേഷന്‍ 10,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_11_T_TTS -->
+    <string name="desc_fav11">ഫേവറൈറ്റ് സ്റ്റേഷന്‍ 11,</string>
+    <!-- IDS_FM_BODY_FAVOURITE_STATION_12_T_TTS -->
+    <string name="desc_fav12">ഫേവറൈറ്റ് സ്റ്റേഷന്‍ 12,</string>
+    <!-- IDS_ACCS_OPT_PS_TAB_OPT_TTS -->
+    <string name="desc_tab">ടാബ്, %s</string>
+    <!-- IDS_NFC_HEADER_ADD_FAVOURITE -->
+    <string name="desc_add_favorite">പ്രിയപ്പെട്ടവ ചേര്‍ക്കുക</string>
+    <!-- IDS_FM_POP_REMOVE_FAVOURITES_Q -->
+    <string name="desc_rem_favorite">പ്രിയപ്പെട്ടവ നീക്കം ചെയ്യണമോ?</string>
+    <!-- IDS_FM_HEADER_MENU -->
+    <string name="desc_menu">മെനു</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="desc_stop">നിര്‍ത്തുക</string>
+    <!-- IDS_MSGC_SK_RESUME_LITE -->
+    <string name="desc_resume">തുടരു.</string>
+    <!-- IDS_MK_SK3_PAUSE -->
+    <string name="desc_pause">പോസ്</string>
+    <!-- IDS_CALL_BUTTON_CANCEL -->
+    <string name="desc_cancel">റദ്ദാക്കുക</string>
+    <!-- IDS_FM_BODY_FREQUENCY -->
+    <string name="desc_frequency">ഫ്രീക്വന്‍സി</string>
+    <!-- IDS_RADIO_BODY_FREQUENCY_CONTROL_SLIDER_TTS -->
+    <string name="desc_frequency_slider">ആവൃത്തി നിയന്ത്രണ സ്ലൈഡർ</string>
+    <!-- IDS_COM_BUTTON_CLOSE -->
+    <string name="desc_close">അടയ്ക്കുക</string>
+    <!-- IDS_COM_BODY_HOUR -->
+    <string name="desc_hour">മണിക്കൂര്‍</string>
+    <!-- IDS_CLD_OPT_HOURS -->
+    <string name="desc_hours">മണിക്കൂറുകള്‍</string>
+    <!-- IDS_COM_BODY_MINUTE -->
+    <string name="desc_minute">മിനിറ്റ്</string>
+    <!-- IDS_COM_BODY_MINUTES -->
+    <string name="desc_minutes">മിനിറ്റുകള്‍‌</string>
+    <!-- IDS_ST_POP_SECOND -->
+    <string name="desc_second">സെക്കന്‍റ്</string>
+    <!-- IDS_COM_BODY_SECONDS -->
+    <string name="desc_seconds">സെക്കന്‍റുകള്‍</string>
+    <!-- IDS_GP_SHEADER_FAVOURITE_STATIONS -->
+    <string name="desc_fav_station">പ്രിയപ്പെട്ട സ്റ്റേഷനുകൾ</string>
+    <!-- IDS_FM_BODY_VIEW_VISUAL_INFORMATION -->
+    <string name="desc_switch_btn_view_information">ദൃശ്യ വിവരങ്ങൾ കാണുക.</string>
+    <!-- IDS_FM_OPT_RESUME_TTS -->
+    <string name="desc_resume_extended">പുനഃരാരംഭിക്കുക</string>
+    <!-- IDS_FM_OPT_MORE_OPTIONS -->
+    <string name="desc_more">കൂടുതല്‍ ഓപ്ഷനുകള്‍</string>
+    <!-- WDS_TTS_TBBODY_DOUBLE_TAP_TO_SELECT_ALL -->
+    <string name="desc_double_tap_to_select_all">എല്ലാം തിരഞ്ഞെടുക്കുന്നതിന് രണ്ടുതവണ സ്പർശിക്കുക.</string>
+    <!-- IDS_BR_BODY_DOUBLE_TAP_TO_DESELECT_T_TTS -->
+    <string name="desc_double_tap_to_deselect_all">തിരഞ്ഞെടുപ്പ് ഇല്ലാതാക്കുന്നതിന് രണ്ടുതവണ സ്പർശിക്കുക.</string>
+    <!-- IDS_FM_POP_NOTHINGSELECTED -->
+    <string name="desc_nothing_selected">ഒന്നും തിരഞ്ഞെടുത്തില്ല.</string>
+    <!-- IDS_COM_BODY_PD_SELECTED -->
+    <string name="desc_n_selected">%d തിരഞ്ഞെടുത്തു</string>
+    <!-- IDS_COM_BUTTON_NOT_CHECKED -->
+    <string name="desc_not_ticked_t_tts">പരിശോധിച്ചിട്ടില്ല</string>
+    <!-- IDS_VPL_BODY_TICK_BOX -->
+    <string name="desc_tick_box_t_tts">ടിക്ക് ബോക്സ്‌</string>
+    <!-- IDS_COM_BODY_FAVOURITE -->
+    <string name="desc_favorite_button">പ്രിയപ്പെട്ട</string>
+    <!-- IDS_COM_BODY_SELECTED -->
+    <string name="desc_selected">തിരഞ്ഞെടുത്തു</string>
+    <!-- IDS_ACCS_BODY_NOT_SELECTED_T_TTS -->
+    <string name="desc_not_selected">തിരഞ്ഞെടുത്തില്ല</string>
+    <!-- IDS_HEALTH_TBBODY_PS_ADDED_TO_FAVOURITES -->
+    <string name="desc_frequency_added_to_favourites">%s-നെ പ്രിയപ്പെട്ടവയിൽ ചേർത്തു.</string>
+    <!-- IDS_HEALTH_TBBODY_PS_REMOVED_FROM_FAVOURITES -->
+    <string name="desc_frequency_removed_from_favourites">%s-നെ പ്രിയപ്പെട്ടവയിൽ നിന്ന് നീക്കംചെയ്തു.</string>
+    <!-- IDS_FM_POP_VOLUME_CONTROL_NOT_AVAILABLE_WHILE_RECORDING -->
+    <string name="recording_volume_control">റെക്കോര്‍ഡ് ചെയ്യുമ്പോള്‍ വോളിയം കണ്ട്രോള്‍ ലഭ്യമല്ല.</string>
+    <string name="deleted">ഇല്ലാതാക്കി</string>
+    <!-- IDS_MS_OPT_START -->
+    <string name="test_start">ആരംഭിക്കുക</string>
+    <!-- IDS_MK_SK3_STOP -->
+    <string name="test_stop">നിര്‍ത്തുക</string>
+    <!-- IDS_KA_BODY_TITLE -->
+    <string name="tags_music_title">ശീര്‍ഷകം</string>
+    <!-- IDS_MUSIC_BUTTON2_ALBUM -->
+    <string name="tags_music_album">ആല്‍ബം</string>
+    <!-- IDS_KA_BODY_ARTIST -->
+    <string name="tags_music_artist">ആര്‍ട്ടിസ്റ്റ്</string>
+    <!-- IDS_FM_BODY_BAND_M_MUSIC -->
+    <string name="tags_music_band">ബാന്‍ഡ്</string>
+    <!-- IDS_KA_BODY_URL -->
+    <string name="tags_information_url">URL</string>
+    <!-- IDS_SIDL_SK3_HOME_URL -->
+    <string name="tags_programme_homepage">ഹോംപേജ്</string>
+    <!-- IDS_FM_BODY_HOTLINE -->
+    <string name="tags_interact_hotline">ഹോട്ട്‌ലൈന്‍</string>
+    <!-- IDS_VDOE_HEADER_STUDIO -->
+    <string name="tags_interact_studio">സ്റ്റുഡിയോ</string>
+    <!-- IDS_KA_BODY_OTHER -->
+    <string name="tags_interact_other">മറ്റ്</string>
+    <!-- IDS_MSGC_BODY_TEXTSTYLE_ALIGNMENTCENTER -->
+    <string name="tags_interact_centre">കേന്ദ്രം</string>
+    <!-- IDS_FM_POP_UNABLE_TO_SCAN_WHILE_RECORDING_M_AUDIO -->
+    <string name="toast_unable_scan">റെക്കോര്‍ഡ് ചെയ്യുന്നതിനിടെ പങ്കിടാനാവുന്നില്ല.</string>
+    <!-- IDS_FM_BODY_STATION_NAME -->
+    <string name="dialog_station_name">സ്റ്റേഷന്‍ പേര്</string>
+    <!-- IDS_FM_SK_DELETE -->
+    <string name="delete">ഇല്ലാതാ.</string>
+    <string name="select">തിരഞ്ഞെടുക്കുക</string>
+    <!-- IDS_KC_MBODY_STORAGE -->
+    <string name="setting_storage">സ്റ്റോറേജ്</string>
+    <!-- IDS_MS_HEADER_MY_FILES -->
+    <string name="setting_myfiles">എന്‍റെ ഫയലുകൾ</string>
+    <!-- IDS_MK_MBODY_MEMORY_CARD -->
+    <string name="setting_memory_card">മെമ്മറി കാര്‍‌ഡ്</string>
+    <!-- IDS_ST_BODY_DEVICE -->
+    <string name="setting_phone">ഉപകരണം</string>
+    <!-- IDS_FM_BODY_EARPHONE_SETTINGS -->
+    <string name="setting_sound_settings">ഇയര്‍ഫോണ്‍ ക്രമീകരണങ്ങള്‍</string>
+    <!-- IDS_MUSIC_BODY_STEREO -->
+    <string name="setting_stereo">സ്റ്റീരിയോ</string>
+    <!-- IDS_MP_BODY_MONO_M_SOUND_TYPE -->
+    <string name="setting_mono">മോണോ</string>
+    <!-- IDS_FM_BODY_TAP_SCAN_AT_THE_TOP_OF_THE_SCREEN_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations_tap_button_to_scan">സ്റ്റേഷനുകള്‍ സ്കാന്‍ ചെയ്യുന്നതിനായി സ്ക്രീനിന്‍റെ മുകളിലുള്ള സ്കാന്‍ ടാപ്പുചെയ്യുക.</string>
+    <!-- IDS_FM_TPOP_PS_SAVED -->
+    <string name="toast_saved">%s സംരക്ഷിച്ചു.</string>
+    <!-- IDS_COM_BODY_SELECT_ALL -->
+    <string name="select_all">എല്ലാം തിരഞ്ഞെടുക്കുക</string>
+    <!-- IDS_IME_HEADER_DESELECT_ALL -->
+    <string name="deselect_all">സകലതിന്‍റെയും തിരഞ്ഞെടുപ്പ് മാറ്റുക</string>
+    <!-- IDS_FM_OPT_ALL -->
+    <string name="select_checkbox_all">എല്ലാം</string>
+    <!-- IDS_MSG_MBODY_SELECT_CHANNELS -->
+    <string name="select_channels">ചാനലുകൾ തിരഞ്ഞെടുക്കുക</string>
+    <!-- IDS_FM_HEADER_SELECT_RECORDINGS_ABB -->
+    <string name="select_recordings">റെക്കോർഡിംഗുകൾ തിരഞ്ഞെടു.</string>
+    <!-- IDS_VR_HEADER_RECORDED_FILES -->
+    <string name="recorded_files">റെക്കോര്‍ഡ് ചെയ്ത ഫയലുകള്‍</string>
+    <!-- IDS_VR_HEADER_RECORDINGS_M_VOICE_ABB -->
+    <string name="recordings">റെക്കോഡിംഗുകള്‍</string>
+    <!-- IDS_FM_BODY_AFTER_YOU_RECORD_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files_guide">നിങ്ങള്‍ റേഡിയോ റെക്കോര്‍ഡുചെയ്തതിനുശേഷം, റെക്കോര്‍ഡുചെയ്ത ഫയലുകള്‍ പ്രദര്‍ശിപ്പിക്കപ്പെടും.</string>
+    <!-- IDS_VR_BODY_NO_RECORDED_FILES -->
+    <string name="no_recorded_files_msg">റെക്കോര്‍ഡ് ചെയ്ത ഫയലുകള്‍ ഒന്നും ഇല്ല</string>
+    <!-- IDS_FM_BODY_NO_RECORDED_FILES_N_AFTER_RECORDING_RADIO_RECORDED_FILES_WILL_BE_DISPLAYED -->
+    <string name="no_recorded_files">റെക്കോര്‍ഡുചെയ്ത ഫയലുകള്‍ ഇല്ല.\nറേഡിയോ റെക്കോര്‍ഡുചെയ്തതിനുശേഷം, റെക്കോര്‍ഡുചെയ്ത ഫയലുകള്‍ പ്രദര്‍ശിപ്പിക്കും.</string>
+    <!-- IDS_MK_BODY_PROCESSING_ING -->
+    <string name="dialog_processing">പ്രോസസ്സുചെയ്യുന്നു\u2026</string>
+    <!-- IDS_TASK_POP_UP_TO_PD_CHARACTERS_AVAILABLE -->
+    <string name="toast_up_to_n_characters">%d അക്ഷരങ്ങള്‍ വരെ ലഭ്യമാണ്.</string>
+    <!-- IDS_MUSIC_POP_INVALID_CHARACTER -->
+    <string name="toast_invalid_character">അസാധുവായ അക്ഷരം.</string>
+    <!-- IDS_IV_BODY_NEW_FILE_NAME -->
+    <string name="dialog_new_file_name">പുതിയ ഫയല്‍ നാമം</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILE_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_file_deleted">തെരഞ്ഞെടുത്ത റെക്കോഡുചെയ്ത ഫയലുകള്‍ ഇല്ലാതാക്കപ്പെടും.</string>
+    <!-- IDS_FM_POP_SELECTED_RECORDED_FILES_WILL_BE_DELETED -->
+    <string name="dialog_selected_recorded_files_deleted">തെരഞ്ഞെടുത്ത റെക്കോഡുചെയ്ത ഫയലുകള്‍ ഇല്ലാതാക്കപ്പെടും.</string>
+    <!-- IDS_MH_POP_FILE_DOES_NOT_EXIST -->
+    <string name="file_does_not_exist">ഫയല്‍ നിലവിലില്ല.</string>
+    <!-- IDS_FM_POP_ALREADY_EXISTS -->
+    <string name="toast_already_exist">ഇതിനകം നിലവിലുണ്ട്.</string>
+    <!-- IDS_BR_POP_RENAME_EMPTY -->
+    <string name="toast_name_empty">പേര് ശൂന്യമാണ്.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_EARPHONES -->
+    <string name="sound_path_earphone_mode">ഇയർഫോണുകൾ വഴി റേഡിയോ പ്ലേ ചെയ്യുന്നു.</string>
+    <!-- IDS_RADIO_TPOP_RADIO_PLAYING_VIA_SPEAKER -->
+    <string name="sound_path_speaker_mode">സ്പീക്കറുകൾ വഴി റേഡിയോ പ്ലേ ചെയ്യുന്നു.</string>
+    <!-- IDS_FM_POP_NOW_LISTENING_VIA_BT_HEADSET -->
+    <string name="sound_path_bt_headset_mode">ഇപ്പോള്‍ BT ഹെഡ്സെറ്റ് വഴി കേള്‍ക്കുന്നു.</string>
+    <!-- IDS_ST_BODY_YOU_CAN_CONTROL_THE_RADIO_WITH_VOICE_COMMANDS_LIKE_NEXT_PREVIOUS_STOP_AND_PLAY -->
+    <string name="notification_barge_in">Next\', \'Previous\', \'Stop\', \'Play\' എന്നിങ്ങനെയുള്ള വോയ്സ് കമാന്‍ഡുകള്‍ കൊണ്ട് റേഡിയോ നിങ്ങള്‍ക്ക് നിയന്ത്രിക്കാം.</string>
+    <!-- IDS_VC_BODY_YOU_CAN_CONTROL_THE_FM_RADIO_WITH_THE_VOICE_COMMANDS_PS_PS_PS_PS_PS_AND_PS -->
+    <string name="notification_barge_in_args">%1$s, %2$s, %3$s, %4$s, %5$s കൂടാതെ %6$s എന്നീ ശബ്ദ ആജ്ഞകള്‍ ഉപയോഗിച്ച് FM റേഡിയോ നിയന്ത്രിക്കാന്‍ നിങ്ങള്‍ക്ക് കഴിയും.</string>
+    <!-- IDS_VR_POP_RECORDING_WILL_BE_CANCELLED_AND_FILE_WILL_NOT_BE_SAVED -->
+    <string name="recording_will_be_cancelled">റെക്കോര്‍ഡിംഗ് റദ്ദാക്കപ്പെടും, ഫയല്‍ സംരക്ഷിക്കപ്പെടില്ല.</string>
+    <!-- IDS_FM_POP_UNABLE_TO_PLAY_RADIO_DURING_CALL -->
+    <string name="unable_to_play_radio_during_call">കോള്‍ സമയത്ത് റേഡിയോ പ്ലേ ചെയ്യാന്‍ കഴിയില്ല.</string>
+    <!-- IDS_FM_BODY_THIS_ITEM_WILL_BE_DELETED -->
+    <string name="dialog_one_item_deleted">ഈ ഇനം ഇല്ലാതാക്കപ്പെടും.</string>
+    <!-- IDS_FM_BODY_PD_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_items_deleted">%d ഇനം ഇല്ലാതാക്കപ്പെടും.</string>
+    <!-- IDS_FM_BODY_ALL_ITEMS_WILL_BE_DELETED -->
+    <string name="dialog_all_items_deleted">എല്ലാ ഇനങ്ങളും മായ്ക്കപെടും.</string>
+    <!-- IDS_RADIO_POP_1_STATION_WILL_BE_DELETED -->
+    <string name="dialog_one_station_will_be_deleted">1 സ്റ്റേഷൻ ഇല്ലാതാക്കപ്പെടും.</string>
+    <!-- IDS_FM_POP_PD_STATIONS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_stations_will_be_deleted">%d സ്റ്റേഷനുകൾ ഇല്ലാതാക്കപ്പെടും.</string>
+    <!-- IDS_VR_POP_1_RECORDING_WILL_BE_DELETED -->
+    <string name="dialog_one_recording_will_be_deleted">1 റെക്കോര്‍ഡിംഗ് ഇല്ലാതാക്കപ്പെടും.</string>
+    <!-- IDS_VR_POP_PD_RECORDINGS_WILL_BE_DELETED -->
+    <string name="dialog_multiple_recordings_will_be_deleted">%d റെക്കോഡിംഗുകള്‍ ഇല്ലാതാക്കപ്പെടും.</string>
+    <!-- IDS_FM_BODY_TURNING_ON_ING -->
+    <string name="turning_on">ഓണ്‍ ചെയ്യുന്നു\u2026</string>
+    <!-- IDS_COM_POP_NOT_ENOUGH_MEMORY_RECORDING_WILL_STOP_IN_PD_SECONDS -->
+    <string name="not_enough_memory_recording_will_stop">മതിയായ മെമ്മറി ഇല്ല. റെക്കോര്‍ഡിംഗ് %d സെക്കന്‍റിനുള്ളില്‍ നിര്‍ത്തും.</string>
+    <!-- IDS_ST_BODY_LEDOT_LOW_BATTERY -->
+    <string name="low_batt_msg">ലോ ബാറ്ററി</string>
+    <!-- IDS_MSG_POP_UNABLE_TO_PLAY_DURING_CALL -->
+    <string name="no_play_during_call">കോളിനിടെ പ്ലേചെയ്യാന്‍ ആവുന്നില്ല.</string>
+    <!-- IDS_DTV_POP_UNABLE_TO_DELETE -->
+    <string name="unable_delete">ഇല്ലാതാക്കാന്‍ സാധ്യമല്ല.</string>
+    <!-- IDS_MUSIC_BODY_PLAYING_ING_ABB -->
+    <string name="playing">പ്ലേ ചെയ്യുന്നു\u2026</string>
+    <!-- IDS_CALL_SK3_PLAY -->
+    <string name="tts_play_button">പ്ലേ ചെയ്യുക</string>
+    <!-- IDS_COM_BODY_PREVIOUS -->
+    <string name="tts_previous_button">മുമ്പത്തെ</string>
+    <!-- IDS_COM_BODY_NEXT -->
+    <string name="tts_Next_button">അടുത്തത്</string>
+    <!-- IDS_COM_POP_CONNECT -->
+    <string name="connect">ബന്ധിപ്പിക്കുക</string>
+    <!-- IDS_IM_BODY_TOPIC -->
+    <string name="topic">വിഷയം</string>
+    <!-- IDS_MUSIC_HEADER_SUBSCRIBE -->
+    <string name="subscribe">സബ്‌സ്ക്രൈബുചെയ്യുക</string>
+    <!-- IDS_MSGF_BODY_NO_TEXT -->
+    <string name="no_text">ടെക്സ്റ്റില്ല</string>
+    <!-- IDS_KA_BODY_MORE_INFORMATION -->
+    <string name="for_more_info">കൂടുതല്‍ വിവരങ്ങള്‍</string>
+    <!-- IDS_FM_BUTTON_VIEW_VISUAL_INFO_ABB -->
+    <string name="switch_btn_view_information">ദൃശ്യപര വിവരം കാണുക</string>
+    <!-- IDS_FM_BUTTON_VIEW_TUNER -->
+    <string name="switch_btn_view_tuner">ട്യൂണര്‍ കാണുക</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_VIEW_THIS_INFORMATION_FOR_THIS_STATION -->
+    <string name="switch_btn_disable">ഈ സ്റ്റേഷനായി ഈ വിവരങ്ങൾ കാണാനാകില്ല.</string>
+    <!-- IDS_RADIO_TPOP_CANNOT_LISTEN_TO_THIS_STATION_VIA_INTERNET_RADIO -->
+    <string name="menu_internetradio_disable">ഇന്‍റർനെറ്റ് റേഡിയോ വഴി ഈ സ്റ്റേഷൻ കേൾക്കാനാകില്ല.</string>
+    <!-- IDS_FM_POP_WI_FI_IS_NOT_AVAILABLE_CONNECTING_TO_MOBILE_NETWORKS_MAY_RESULT_IN_ADDITIONAL_CHARGES_DEPENDING_ON_YOUR_PAYMENT_PLAN -->
+    <string name="wifi_warning">Wi-Fi ലഭ്യമല്ല. മൊബൈല്‍ നെറ്റ്‌വര്‍ക്കുകളിലേയ്ക്ക് ബന്ധിപ്പിക്കുന്നത് നിങ്ങളുടെ പണമടയ്ക്കല്‍ പ്ലാനിനനുസരിച്ച് അധിക നിരക്കിന് ഇടയാക്കിയേക്കാം.</string>
+    <!-- IDS_POPSYNC_BODY_CONNECT_VIA_MOBILE_NETWORK -->
+    <string name="connect_mobile_network">മൊബൈല്‍ നെറ്റ്‌വര്‍ക്ക് വഴി ബന്ധിപ്പിക്കുക</string>
+    <!-- IDS_WGT_POP_DO_NOT_SHOW_AGAIN -->
+    <string name="do_not_show_again">ഇത് വീണ്ടും കാണിക്കരുത്</string>
+    <!-- IDS_COM_POP_SERVER_RESPONSE_ERROR -->
+    <string name="server_response_error">സെര്‍വര്‍ പ്രതികരണ തകരാര്‍</string>
+    <!-- IDS_SYS_BODY_CODE_GENERATION_VER -->
+    <string name="stms_version">ANDROID_P4_20150420_0216</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_INTERNET_RADIO -->
+    <string name="switch_to_internet_radio">ഇന്‍റര്‍നെറ്റ് റേഡിയോയിലേക്ക് മാറുക</string>
+    <!-- IDS_FM_OPT_SWITCH_TO_FM_RADIO -->
+    <string name="switch_to_fm_radio">FM റേഡിയോയിലേക്ക് മാറുക</string>
+    <!-- IDS_SOCIALMAG_POP_PLEASE_WAIT_ING -->
+    <string name="dialog_popup_wait">ദയവായി കാത്തിരിക്കുക\u2026</string>
+    <!-- IDS_FM_BODY_AUTOMATICALLY_SWITCHES_TO_INTERNET_RADIO_MSG -->
+    <string name="auto_switch_to_internet_radio">FM സിഗ്നല്‍ ദുര്‍ബലമായിരിക്കുമ്പോഴും ഇതര ഫ്രീക്വന്‍സികള്‍ ലഭ്യമല്ലാതിരിക്കുമ്പോഴും ഇന്‍റര്‍നെറ്റ് റേഡിയോയിലേക്ക് യാന്ത്രികമായി മാറുന്നു.</string>
+    <!-- IDS_RADIO_POP_THE_CURRENT_RECORDING_WILL_STOP_M_VOICE -->
+    <string name="record_suspended_continue">നിലവിലെ റെക്കോർഡിംഗ് നിർത്തും.</string>
+    <!-- IDS_FM_BUTTON_LISTEN_NOW -->
+    <string name="listen_to_radio">ഇപ്പോൾ ശ്രവിക്കുക</string>
+    <!-- IDS_FM_BODY_NOW_LISTENING_ABB -->
+    <string name="now_listening">ഇപ്പോൾ ശ്രവിക്കുന്നത്</string>
+    <!-- IDS_COM_BODY_BUTTON_T_TTS -->
+    <string name="button">ബട്ടണ്‍</string>
+    <!-- IDS_FM_BODY_TAP_HERE_TO_SCAN_FOR_STATIONS -->
+    <string name="no_stations">സ്റ്റേഷനുകള്‍ സ്കാന്‍ ചെയ്യുന്നതിന് ഇവിടെ ടാപ്പുചെയ്യുക.</string>
+    <!-- IDS_CALL_BODY_THE_RECORDING_WILL_BE_SAVED_AUTOMATICALLY_WHEN_YOU_ACCEPT_THE_CALL -->
+    <string name="recording_save_during_call">ഒരു കോള്‍ സ്വീകരിക്കുമ്പോള്‍ റെക്കോര്‍ഡിംഗ് യാന്ത്രികമായി സംരക്ഷിക്കപ്പെടും.</string>
+    <!-- IDS_ST_BODY_START -->
+    <string name="test_noise_start">ആരംഭിക്കുക</string>
+    <!-- IDS_COM_BODY_STOP -->
+    <string name="test_noise_stop">നിര്‍ത്തുക</string>
+    <!-- IDS_BR_POP_READY -->
+    <string name="test_nosise_current_status">തയ്യാറാണ്.</string>
+    <!-- IDS_FM_BUTTON_EARPHONE -->
+    <string name="test_noise_earphone">ഇയര്‍‌ഫോണ്‍</string>
+    <!-- IDS_VOLTE_BUTTON_SPEAKER -->
+    <string name="test_noise_speaker">സ്‌പീക്കര്‍</string>
+    <!-- IDS_LP_SK3_MORE -->
+    <string name="menu_more">കൂടുതല്‍</string>
+    <!-- IDS_FM_SK4_SCAN -->
+    <string name="menu_scan">സ്കാന്‍</string>
+    <!-- IDS_FM_OPT_EDIT -->
+    <string name="menu_edit">എഡിറ്റുചെയ്യുക</string>
+    <!-- IDS_RADIO_SBODY_CONTENT_HIDDEN -->
+    <string name="content_hidden">ഉള്ളടക്കം മറയ്ക്കപ്പെട്ടു</string>
+    <!-- IDS_FM_TPOP_UNABLE_TO_RECORD_RADIO_DISABLE_TURN_OFF_ALL_SOUNDS_AND_TRY_AGAIN -->
+    <string name="unable_record_turn_off_all_sound">റേഡിയോ റെക്കോർഡ് ചെയ്യാനാവില്ല. എല്ലാ ശബ്ദങ്ങളും ഓഫ് ചെയ്യുക എന്നത് അപ്രാപ്തമാക്കി വീണ്ടും ശ്രമിക്കുക.</string>
+</resources>

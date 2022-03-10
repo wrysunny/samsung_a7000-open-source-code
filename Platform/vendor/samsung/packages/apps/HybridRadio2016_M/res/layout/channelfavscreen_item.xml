@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:sandroid="http://schemas.android.com/apk/res/com.sec.android.app.fm"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <CheckBox
+        android:id="@+id/favchannel_select_item_checkbox"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:layout_gravity="start|top"
+        android:background="@drawable/background_favchannel_select_item_checkbox"
+        android:focusable="false"
+        android:scaleType="centerInside"
+        android:visibility="invisible" />
+
+    <com.sec.android.app.fm.ui.FavoriteButton
+        android:id="@+id/favchannel"
+        android:layout_width="@dimen/station_favorite_icon_size_5"
+        android:layout_height="@dimen/station_favorite_icon_size_5"
+        android:background="@android:color/transparent"
+        android:layout_marginTop="@dimen/fav_channel_margin_top"
+        android:layout_marginStart="@dimen/fav_channel_margin_start"
+        android:contentDescription="@string/desc_favorite"
+        sandroid:fav_more_than_4_frq_txt_size="@dimen/favorite_more_than_4_freq_text_size"
+        sandroid:fav_less_than_4_frq_txt_size="@dimen/favorite_less_than_4_freq_text_size"
+        sandroid:station_text_size="@dimen/station_name_text_size" />
+
+</FrameLayout>

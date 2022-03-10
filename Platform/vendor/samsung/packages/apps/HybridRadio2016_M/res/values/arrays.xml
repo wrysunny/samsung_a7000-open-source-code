@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="auto_off_option">
+	    <item>@string/setting_never</item>
+	    <item>@string/setting_15min</item>
+	    <item>@string/setting_30min</item>
+	    <item>@string/setting_hour</item>
+	    <item>@string/setting_2hour</item>
+	</string-array>
+
+    <string-array name="radiodns_option">
+	   	    <item>RadioVIS</item>
+	    <item>RadioEPG</item>
+	</string-array>
+	
+    <string-array name="sound_settings_option">
+	    <item>@string/setting_stereo</item>
+	    <item>@string/setting_mono</item>
+    </string-array>
+    
+    <string-array name="barge_in_commands">
+        <item>Next</item> <!-- Next -->
+        <item>Previous</item> <!-- Previous -->
+        <item>Stop</item> <!-- Pause -->
+        <item>Play</item> <!-- Play -->
+        <item>Volume Up</item> <!-- Volume Up -->
+        <item>Volume Down</item> <!-- Volume Down -->
+    </string-array>
+</resources>
